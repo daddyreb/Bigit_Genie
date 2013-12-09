@@ -1,0 +1,3 @@
+####2000###
+L_SMARTWIFI_BIGBT="SmartWiFi"
+L_ENABLE_LABEL="SmartWiFi 已经启用"

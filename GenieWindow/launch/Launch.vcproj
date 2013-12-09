@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Qt4VSv1.0" Name="NETGEARGenie" ProjectGUID="{047442D3-D57C-3B5C-9E31-C0B907F1C886}" ProjectType="Visual C++" Version="9,00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="debug\" Name="Debug|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;.&quot;,&quot;.\inc&quot;,&quot;.\inc\genie_interface&quot;,&quot;.\inc\launch_interface&quot;,&quot;.\inc\multilanguage_def&quot;,&quot;.\share&quot;,&quot;src&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;debug&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="debug\" BufferSecurityCheck="false" DebugInformationFormat="3" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="debug\" Optimization="4" PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,REDIRECT_DIR,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" ProgramDataBaseFileName=".\" RuntimeLibrary="3" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool AdditionalDependencies="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\qtmaind.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGuid4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCored4.lib" AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib,C:\OpenSSL-Win32_full\lib" AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;" GenerateDebugInformation="true" IgnoreImportLibrary="true" LinkTimeCodeGeneration="0" Name="VCLinkerTool" OutputFile="debug\NETGEARGenie.exe" ProgramDatabaseFile="" SubSystem="2" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,REDIRECT_DIR,QT_DLL,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="release\" Name="Release|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;.&quot;,&quot;.\inc&quot;,&quot;.\inc\genie_interface&quot;,&quot;.\inc\launch_interface&quot;,&quot;.\inc\multilanguage_def&quot;,&quot;.\share&quot;,&quot;src&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;release&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="release\" BufferSecurityCheck="false" DebugInformationFormat="0" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="release\" Optimization="2" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,REDIRECT_DIR,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG" ProgramDataBaseFileName=".\" RuntimeLibrary="2" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool AdditionalDependencies="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\qtmain.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGui4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCore4.lib" AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib,C:\OpenSSL-Win32_full\lib" AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;" GenerateDebugInformation="false" IgnoreImportLibrary="true" LinkIncremental="1" LinkTimeCodeGeneration="0" Name="VCLinkerTool" OutputFile="release\NETGEARGenie.exe" ProgramDatabaseFile="" SubSystem="2" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,REDIRECT_DIR,QT_DLL,QT_NO_DEBUG,QT_GUI_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="src\QGenieConfigFileMover.cpp" />
+			<File RelativePath="src\QLauncher.cpp" />
+			<File RelativePath="src\main.cpp" />
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="src\QGenieConfigFileMover.h" />
+			<File RelativePath="src\QLauncher.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\QLauncher.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DREDIRECT_DIR -DQT_DLL -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;.\inc&quot; -I&quot;.\inc\genie_interface&quot; -I&quot;.\inc\launch_interface&quot; -I&quot;.\inc\multilanguage_def&quot; -I&quot;.\share&quot; -I&quot;src&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\QLauncher.h -o debug\moc_QLauncher.cpp" Description="MOC src\QLauncher.h" Name="VCCustomBuildTool" Outputs="debug\moc_QLauncher.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\QLauncher.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DREDIRECT_DIR -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;.\inc&quot; -I&quot;.\inc\genie_interface&quot; -I&quot;.\inc\launch_interface&quot; -I&quot;.\inc\multilanguage_def&quot; -I&quot;.\share&quot; -I&quot;src&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\QLauncher.h -o release\moc_QLauncher.cpp" Description="MOC src\QLauncher.h" Name="VCCustomBuildTool" Outputs="release\moc_QLauncher.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter Filter="cpp;c;cxx;moc;h;def;odl;idl;res;" Name="Generated Files" UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File RelativePath="debug\ico.res">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\ico.res">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QLauncher.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QLauncher.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+		</Filter>
+		<File RelativePath="ico.rc" />
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

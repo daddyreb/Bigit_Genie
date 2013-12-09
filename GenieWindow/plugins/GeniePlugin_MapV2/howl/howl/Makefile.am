@@ -1,0 +1,11 @@
+SUBDIRS							=	$(HOWL_LIB_SUBDIRS)
+DIST_SUBDIRS					=	MacOSX Posix Win32 NotOSX
+sources_h						=	buffer_i.h channel_i.h interface_i.h ior.h message_i.h object_i.h orb_i.h profile.h discovery_i.h salt_i.h signal_i.h socket_i.h text_record_i.h time_i.h tlist.h mdns_stub.h
+sources_c						=	address.c buffer.c channel.c debug.c interface.c ior.c message.c object.c orb.c platform.c profile.c discovery.c salt.c signal.c socket.c text_record.c time.c
+INCLUDES							=	-I$(top_srcdir)/include/ -I../
+lib_LTLIBRARIES				=	libhowl.la
+libhowl_la_SOURCES			=	$(sources_h) $(sources_c)
+libhowl_la_LDFLAGS			=	-version-info $(HOWL_LIBRARY_VERSION)
+EXTRA_libhowl_la_SOURCES	=	MacOSX/macosx_salt.c MacOSX/macosx_socket.c MacOSX/macosx_time.c MacOSX/macosx_mdns_stub.c Posix/posix_salt.c Posix/posix_socket.c Posix/posix_time.c Posix/posix_signal.c Posix/posix_interface.c NotOSX/notosx_mdns_stub.c
+libhowl_la_LIBADD				=	@HOWL_LIB_OBJECTS@
+libhowl_la_DEPENDENCIES		=	@HOWL_LIB_OBJECTS@

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Win32Proj" Name="WSetupWin" ProjectGUID="{243B13BC-9D1C-47F0-86B9-FA8CFF73DEEC}" ProjectType="Visual C++" RootNamespace="WSetupWin" TargetFrameworkVersion="196613" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration CharacterSet="1" ConfigurationType="1" IntermediateDirectory="$(ConfigurationName)" Name="Debug|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../WSetupCoreImplSrc" BasicRuntimeChecks="3" DebugInformationFormat="4" MinimalRebuild="true" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS" RuntimeLibrary="1" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool GenerateDebugInformation="true" GenerateManifest="false" LinkIncremental="2" Name="VCLinkerTool" OutputFile="$(OutDir)\genieWirelessConfig.exe" SubSystem="2" TargetMachine="1" UACExecutionLevel="0" />
+			<Tool Name="VCALinkTool" />
+			<Tool EmbedManifest="false" Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+		<Configuration CharacterSet="1" ConfigurationType="1" IntermediateDirectory="$(ConfigurationName)" Name="Release|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)" WholeProgramOptimization="1">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../WSetupCoreImplSrc" DebugInformationFormat="3" EnableFunctionLevelLinking="true" EnableIntrinsicFunctions="true" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS" RuntimeLibrary="0" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool EnableCOMDATFolding="2" GenerateDebugInformation="true" GenerateManifest="false" LinkIncremental="1" Name="VCLinkerTool" OptimizeReferences="2" OutputFile="$(OutDir)\GenieWirelessConfig.exe" SubSystem="2" TargetMachine="1" UACExecutionLevel="0" />
+			<Tool Name="VCALinkTool" />
+			<Tool EmbedManifest="false" Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="..\WSetupCoreImplSrc\codec.cpp">
+			</File>
+			<File RelativePath="..\WSetupCoreImplSrc\CoreImpl.cpp">
+			</File>
+			<File RelativePath="..\WSetupCoreImplSrc\WlanSetProfile.cpp">
+			</File>
+			<File RelativePath=".\WSetupWin.cpp">
+			</File>
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="..\WSetupCoreImplSrc\codec.h">
+			</File>
+			<File RelativePath="..\WSetupCoreImplSrc\CoreImpl.h">
+			</File>
+			<File RelativePath=".\resource.h">
+			</File>
+		</Filter>
+		<Filter Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav" Name="Resource Files" UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+			<File RelativePath=".\wireless.ico">
+			</File>
+			<File RelativePath=".\WSetupWin.rc">
+			</File>
+		</Filter>
+		<File RelativePath=".\ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

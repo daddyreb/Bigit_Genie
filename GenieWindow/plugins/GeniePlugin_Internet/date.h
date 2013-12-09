@@ -1,0 +1,3 @@
+
+#define VERSTION_STR_DATE "2011-10-21"
+#define VERSTION_STR_TIME "14:35:07"

@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/ui">
+        <file>traymenu.xml</file>
+        <file>traymenu.qss</file>
+        <file>QGenieMainUi.qss</file>
+        <file>aboutdialog.ui</file>
+        <file>exitdialog.ui</file>
+        <file>gacc.ui</file>
+        <file>pluginshowdialog.ui</file>
+        <file>wirelesssetting.ui</file>
+        <file>framelessframe.qss</file>
+        <file>maplogin.ui</file>
+        <file>detailviewframe.qss</file>
+        <file>netcardspanel.qss</file>
+        <file>newdevicenotifywidget.qss</file>
+        <file>maplogin.qss</file>
+        <file>readysharebasic.ui</file>
+        <file>readysharemanager.ui</file>
+        <file>readyshareprint.ui</file>
+        <file>readyshareremote.ui</file>
+        <file>trafficmetter.ui</file>
+        <file>GenieUpdate.ui</file>
+        <file>firmwareupdate.ui</file>
+        <file>smlogin.ui</file>
+        <file>qrcode.ui</file>
+        <file>mapdbgW.ui</file>
+        <file>rctopology.ui</file>
+        <file>rccountdown.ui</file>
+        <file>rctopo_controlpan.ui</file>
+        <file>rctopo_controlpan.qss</file>
+        <file>rctopo_detail.ui</file>
+        <file>QosSetting.ui</file>
+        <file>reboot.ui</file>
+        <file>QGenieMainUi.ui</file>
+    </qresource>
+</RCC>

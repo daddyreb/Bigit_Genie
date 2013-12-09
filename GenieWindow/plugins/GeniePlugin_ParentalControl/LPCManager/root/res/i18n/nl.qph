@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="nl">
+<phrase>
+	<source>abort</source>
+	<target>Annuleren</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Terug naar de basisinstellingen</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Annuleren</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Beschikbaarheid controleren</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Beschikbaar!</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Niet beschikbaar</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>E-mail</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>E-mail bevestigen</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Ongeldige e-mail</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>E-mail reeds in gebruik</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Aanmelden</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>Fout bij het aanmaken van uw account. Probeer het opnieuw.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Uw account is aangemaakt, maar er is een probleem met de installatie van uw NETGEAR-router.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Het wachtwoord moet tussen de 6 en 20 tekens lang zijn.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>De gebruikersnaam moet met een letter of cijfer beginnen en eindigen en mag ook de tekens'.', '-' en '_' bevatten.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Wachtwoord</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Wachtwoord bevestigen</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Bezig met aanmaken van uw OpenDNS-account...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Maak een gratis OpenDNS-account aan</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Gebruikersnaam</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Beginnen met aanpassen</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Geavanceerde aanpassingsmogelijkheden</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Dankzij de aanpasbare opties kunt u de beveiligingsinstellingen voor bepaalde gebruikers of bepaalde momenten van de dag minder streng maken.  U kunt de aanpasbare opties op onze website aanpassen. Als u klaar bent met het installeren van uw router wordt u automatisch naar onze website doorgestuurd.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Als u verschillende instellingen voor verschillende gebruikers wilt gebruiken, wordt u gevraagd een klein programma te installeren zodat deze specifieke gebruikersnamen en wachtwoorden voor OpenDNS kunnen worden beheerd.  Vergeet niet om u af te melden als u klaar bent!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Bezig met registreren van uw router bij OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Bezig met controleren of uw router reeds bij OpenDNS is geregistreerd...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Er is gedetecteerd dat u nu verbinding met een andere router hebt. Start het beheerhulpprogramma opnieuw op om de nieuwe router te beheren.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Dit apparaat lijkt reeds door een andere OpenDNS-gebruiker te zijn geregistreerd.  Ga naar http://netgear.opendns.com/support/#faq15 en we lossen dit probleem zo spoedig mogelijk voor u op.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Het lijkt erop dat u niet via een ondersteunde NETGEAR-router verbinding met het internet maakt.  Controleer of uw computer draadloos of via een Ethernet-verbinding op uw NETGEAR-router is aangesloten en probeer het opnieuw.  Zet als dit probleem aanhoudt uw router uit en weer aan. Wacht tot alle lampjes branden en probeer het vervolgens opnieuw.  Ga voor meer informatie naar http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Bezig met controleren of uw router reeds is geïnstalleerd...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Bezig met identificeren van uw router...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Bezig met installeren van de router...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Live Parental Controls is een uitstekende manier om ervoor te zorgen dat uw gezin veilig op het internet kan surfen, maar net als alle andere programma's voor het blokkeren van websites is de oplossing niet perfect. NETGEAR wilt u er graag aan herinneren dat u om uw gezin optimaal te beschermen de computer het beste in het volle zicht in een gemeenschappelijke ruimte kunt zetten zodat u toezicht kunt houden op welke websites uw kinderen bezoeken. Ook dient u zeer voorzichtig te zijn als er op websites om persoonlijke of financiële informatie wordt gevraagd.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Opmerking</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Klaar!</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>controleren of Live Parental Controls is ingeschakeld</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>Live Parental Controls in- of uitschakelen</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>de basisinstellingen aanpassen</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>de aangepaste instellingen zoals Live Parental Controls voor verschillende gebruikers en verschillende momenten van de dag wijzigen</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Naar het statusscherm</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>NETGEAR Live Parental Controls Powered by OpenDNS is nu geïnstalleerd.  De volgende keer dat u het beheerhulpprogramma uitvoert, wordt het statusscherm weergegeven. Hier kunt u:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Installatie voltooid!</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Afsluiten</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Het lijkt erop dat u geen verbinding met het internet hebt.  Maak via uw NETGEAR-router verbinding met het internet en probeer het opnieuw.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Het lijkt erop dat u niet via een ondersteunde NETGEAR-router verbinding met het internet maakt.  Controleer of uw computer draadloos of via een Ethernet-verbinding op uw NETGEAR-router is aangesloten en probeer het opnieuw.  Zet als dit probleem aanhoudt uw router uit en weer aan. Wacht tot alle lampjes branden en probeer het vervolgens opnieuw.  Ga voor meer informatie naar http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>De huidige firmware van uw router ondersteunt Live Parental Controls niet.  Ga eerst naar http://www.netgear.com/ om de nieuwste firmware te downloaden of gebruik de functie Router Upgrade (Router-upgrade) in de webinterface van uw router op http://www.routerlogin.net/ om de firmware te updaten.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Er wordt gecontroleerd of de door u gebruikte firmware Live Parental Controls ondersteunt.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Bezig met controleren van firmware van de router</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>Powered by OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>U staat op het punt om NETGEAR Live Parental Controls Powered by OpenDNS op uw router te installeren zodat u kunt regelen welke websites er met uw computers en andere netwerkapparaten mogen worden bezocht.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Dankzij de aanpasbare instellingen kunt u de beveiligingsinstellingen voor bepaalde gebruikers of bepaalde momenten van de dag minder streng maken.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>Informatie over deze software</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>OpenDNS-account:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Basisinstellingen wijzigen</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>OpenDNS is niet ingeschakeld</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Kan de internetverbinding niet detecteren</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>uitgeschakeld</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>ingeschakeld</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Router instellen</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Routermodel:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Blokkeerniveau:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>U hebt uw voorkeursinstellingen op de website aangepast.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Aangepast</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Bescherming tegen alle sites met content die alleen geschikt is voor mensen van 18 jaar en ouder, illegale activiteiten, social networking-sites, sites voor het delen van video's, phishing-aanvallen en overige zaken die inbreuk maken op uw internetervaring.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Bescherming tegen pornografie en phishing-aanvallen.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Alleen bescherming tegen phishing-aanvallen.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Bescherming tegen alle sites met content die alleen geschikt is voor mensen van 18 jaar en ouder, illegale activiteiten en phishing-aanvallen.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Geen enkele website wordt geblokkeerd.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Aangepaste instellingen wijzigen</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Bezig met controleren of u OpenDNS gebruikt...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Bezig met controleren of Live Parental Controls is ingeschakeld...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Bezig met uitschakelen van Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Bezig met inschakelen van Live Parental Controls met uw standaard instellingen...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Status</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Live Parental Controls uitschakelen</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Live Parental Controls inschakelen</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Live Parental Controls uitschakelen</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Volgende</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Nee, ik moet eerst een gratis OpenDNS-account aanmaken.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Ja, gebruik mijn bestaande OpenDNS-account.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Welkom! Met deze installatiewizard kunt u NETGEAR Live Parental Controls Powered by OpenDNS snel en eenvoudig op uw NETGEAR-router configureren.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Om Live Parental Controls te gebruiken, hebt u een gratis OpenDNS-account nodig. Hebt u al een account?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Live Parental Controls installeren</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Vorige</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Vernieuwen</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Wachtwoord:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Voer de gebruikersnaam en het wachtwoord in die u gebruikt om uw NETGEAR-router te beheren.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Router aanmelden</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Gebruikersnaam:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Hoog</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Bescherming tegen alle sites met content die alleen geschikt is voor mensen van 18 jaar en ouder, illegale activiteiten, social networking-sites, sites voor het delen van video's, phishing-aanvallen en overige zaken die inbreuk maken op uw internetervaring.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Laag</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Bescherming tegen pornografie en phishing-aanvallen.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Minimaal</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Alleen bescherming tegen phishing-aanvallen.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Gemiddeld</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Bescherming tegen alle sites met content die alleen geschikt is voor mensen van 18 jaar en ouder, illegale activiteiten en phishing-aanvallen.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Geen</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Geen enkele website wordt geblokkeerd.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>Fout bij het opslaan van uw instellingen. Probeer het opnieuw.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Bezig met ophalen van uw instellingen van OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Bezig met verzenden van uw instellingen naar OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Alle op uw router aangesloten computers worden tegen de hieronder door u geselecteerde content beschermd.  U kunt Live Parental Controls in een later stadium naar wens aanpassen op onze website.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: selecteer een blokkeerniveau voor uw netwerk</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>Fout bij de aanmelding. Controleer of u verbinding met het internet hebt en probeer het opnieuw.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Gebruikersnaam en/of wachtwoord niet herkend.  Probeer het opnieuw of klik op Vorige als u geen OpenDNS-account hebt.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Wachtwoord vergeten</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Wachtwoord</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Bezig met aanmelden bij OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Voer hieronder uw gebruikersnaam en wachtwoord in.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Meld u bij uw OpenDNS-account aan</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Gebruikersnaam</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>Beheerhulpprogramma 2.0b44 voor NETGEAR Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Opnieuw proberen</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>Er is een noodzakelijke update van OpenDNS beschikbaar. Deze wordt in uw browser geopend.  Download en installeer deze nieuwe versie.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Noodzakelijke update</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>Er is een update van OpenDNS beschikbaar die u kunt downloaden en installeren.  Wilt u de update nu downloaden?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Nee</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Update</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Ja</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>U wordt nu doorgestuurd naar onze website zodat u Live Parental Controls naar wens kunt aanpassen.  Kopieer als uw browser niet automatisch wordt geopend de onderstaande koppeling en plak deze in de adresbalk van uw browser.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>U bent nu klaar met de installatiewizard.  Bedankt dat u OpenDNS gebruikt!</target>
+</phrase>
+</QPH>

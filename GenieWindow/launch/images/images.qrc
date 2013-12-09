@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bg_dialog.png</file>
+		<file>ico_update.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Annuller"
+L_MAIN_TRAY_AUTOSTART="Aktiver automatisk start"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Vis ændring af netværksforbindelse"
+L_MAIN_TITLE_ABOUT="Om"
+L_MAIN_CHECKFORUPDATES="Søg efter opdateringer"

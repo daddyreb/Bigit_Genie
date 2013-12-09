@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Nastav. smer."
+L_RTCF_BIGBT_CLICKHERE="Kliknite sem"
+
+L_RTCF_LOGIN_TITLE="Prihlasovacie meno smerovača"
+L_RTCF_LOGIN_USER="Meno používateľa:"
+L_RTCF_PASSWORD="Heslo:"
+L_RTCF_LOGIN_REMEMBER="Zapamätať si heslo"
+L_RTCF_LOGIN_BUT_LEFT="Prihlásenie"
+L_RTCF_CANCEL="Zrušiť"
+
+
+L_RTCF_SETTING_SSID="Názov bezdrôtovej siete (SSID):"
+L_RTCF_SETTING_CHANNEL="Výber kanálu:"
+L_RTCF_SETTING_MODE="Režim:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8 – 63 znakov alebo 64 hexadecimálnych číslic)"
+L_RTCF_SETTING_APPLY="Použiť"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Výber kanálu:"
+L_RTCF_INFO_CHOICE="Informácie o bezdrôtovej sieti"
+L_RTCF_INFO_PASSWOED="Kľúč siete (heslo):"
+L_RTCF_INFO_REFRESH="Obnoviť"
+L_RTCF_INFO_MODIFY="Upraviť"
+L_RTCF_INFO_LOGINOUT="Odhlásenie"
+L_RTCF_INFO_EXPORT="Exportovať"
+
+L_RTCF_TAB_TITLE="Nastav. bezdrôt. pripojenia"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Zmena nastavení môže narušiť aktívne prenosy v bezdrôtovej sieti. Chcete pokračovať?"
+L_RTCF_MSG_NOTNETGEAR="Prihlásenie zlyhalo! Skontrolujte, či je tento počítač pripojený k smerovaču NETGEAR."
+L_RTCF_MSG_PWDWRONG="Prihlásenie zlyhalo, skontrolujte heslo."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Prihlásenie zlyhalo. Časový limit na odpoveď smerovača uplynul."
+L_RTCT_MSG_PLEASEWAIT="Obnovuje sa, čakajte, prosím..."
+L_RTCT_MSG_COMMITWAIT="Prijímajú sa údaje odpovede zo smerovača. Počkajte %1 sek."
+L_RTCT_MSG_GACC="Používa sa hosťovský prístup. V prípade deaktivácie môže dôjsť k narušeniu aktívnych prenosov v bezdrôtovej sieti. Chcete pokračovať?"
+L_RTCT_MSG_SOAPERROR="Smerovač túto funkciu nepodporuje."
+L_RTCT_MSG_SOAPERROR_LOGIN="Smerovač túto funkciu nepodporuje. Aktualizujte firmvér smerovača."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Smerovač hosťovský prístup nepodporuje."
+L_RTCF_MSG_TIMEOUT="Časový limit operácie vypršal."
+
+
+
+L_GACC_BIGBT="Hosťovský prístup"
+L_GACC_ENABLEGUEST="Zapnúť hosťovský prístup"
+L_GACC_DISABLEGUEST="Vypnúť hosťovský prístup"
+L_GACC_ENABLE_TITLE="Aktuálne nastavenie:"
+L_GACC_ENABLED="Povolené"
+L_GACC_NOTENABLED="Zakázané"
+
+L_GACC_GUESTWIRELESS_SSID="Hosťovský prístup (SSID):"
+L_GACC_WORKTIME="Časové obdobie:"
+
+L_RTCF_DEFAULT="(predvolené je "password")"
+L_RTCF_LIST_TITLE="Na prístup k správe týchto nastavení smerovača je potrebné sa prihlásiť:"
+
+L_RTCF_TRAFFICMETTER="Merač prenosov"
+L_RTCF_FUPDATE="Inovácia smerovača"
+
+L_RTCF_ROUTETYPE="Model smerovača"
+L_RTCF_FIRMWARE_VERSION="Verzia firmvéru"
+
+L_RTCF_LOGIN_LIST=".Bezdrôtové nastavenia\n.ReadySHARE\n.Hosťovský prístup\n.Meradlo prenosov\n.Aktualizácia smerovača"
+
+L_GACC_ALWAYS="Vždy"
+L_GACC_1HOUR="1 hodina"
+L_GACC_5HOUR="5 hodín"
+L_GACC_10HOUR="10 hodín"
+L_GACC_1DAY="1 deň"
+L_GACC_1WEEK="1 týždeň"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Základné"
+L_READY_SHARE_FUN_TWO="Umožňuje vám pristupovať k úložisku ReadySHARE Storage z ľubovoľnej lokality"
+L_READY_SHARE_FUN_THREE="Tlač ReadySHARE"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Naspäť"
+L_READY_SHARE_CONTINUE="Pokračovať"
+L_READY_SHARE_NOT_SUPPORT="Smerovač túto funkciu nepodporuje."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Režim"
+L_READY_SHARE_NETWORK_NAME="Názov siete/zariadenia:"
+L_READY_SHARE_REGISTER="Registrovať"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="Funkcia ReadySHARE Cloud vám poskytuje diaľkový prístup cez internet k úložnému zariadeniu pripojenému k USB portu smerovača."
+L_READY_SHARE_REMOTE_HOW_WORKS="Ako nastaviť funkciu ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="Krok 1: Budete potrebovať konto ReadySHARE Cloud. Ak ste si ho ešte nemáte,<a   href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>kliknite sem</a> a vytvorte si ho."
+L_READY_SHARE_REMOTE_STEPS_TWO="Krok 2: Na tejto stránke zadaním používateľského mena a hesla k funkcii ReadySHARE Cloud zaregistrujte svoj smerovač a k nemu pripojené zariadenie USB do svojho konta."
+L_READY_SHARE_REMOTE_STEPS_THREE="Krok 3: Na stránke <a href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> sa prihláste zadaním údajov vášho konta. Mali by ste vidieť zariadenie USB pripojené k smerovaču."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Krok 4: Pri prvom použití budete vyzvaní k prevzatiu klienta pre systém Windows, ktorý sa bude používať na nadviazanie zabezpečeného spojenia medzi PC a USB zariadením pripojeným k smerovaču. Prihláste sa v tejto klientskej aplikácii a získajte prístup k zariadeniu USB z ľubovoľného miesta na svete."
+L_READY_SHARE_REMOTE_START_NOW="Hneď teraz si aktivujte ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="Používateľské meno:"
+L_READY_SHARE_REMOTE_PASSWORD="Heslo:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Ak nemáte vytvorené konto ReadySHARE Cloud, kliknite sem a založte si ho"
+L_READY_SHARE_PRINTING="Tlač ReadySHARE"
+L_READY_SHARE_PRINTING_DESC="Zdieľanie tlače pre počítače s operačným systémom Windows a počítače Mac s tlačiarňou USB"
+L_READY_SHARE_PRINTING_HOW_WORKS="Ako to funguje?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Krok 1: Tlačiareň USB pripojte k portu USB na smerovači pomocou kábla tlačiarne USB."
+L_READY_SHARE_PRINTING_STEPS_TWO="Krok 2: Softvér ovládača tlačiarne USB nainštalujte do každého počítača, ktorý bude tlačiareň zdieľať."
+L_READY_SHARE_PRINTING_STEPS_THREE="Krok 3: V každom počítači, ktorý bude tlačiareň zdieľať, prevezmite z adresy <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a> pomocný program NETGEAR USB Control Center. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Postupovaním podľa pokynov pomocného programu sa z vášho počítača pripojte k tlačiarni a tlačte."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Poznámka:</b> Bez tohto klienta môžete prehľadávať obsah na vašom zariadení USB, nemôžete však otvárať súbory ani ich meniť"
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Poznámka:</b> Internet zostane aktívny až do zrušenia registrácie."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud je zaregistrované s používateľom:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Ak chcete získať prístup k úložnej lokalite z ľubovoľného miesta, vykonajte kroky 2 až 4"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Ak chcete zaregistrovať ReadSHARE Remote s iným používateľom, kliknite na <B>Zrušiť registráciu</B> "
+L_READY_SHARE_UNREGISTER="Zrušiť registráciu"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

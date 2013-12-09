@@ -1,0 +1,347 @@
+#ifndef ECLASS
+#define ECLASS
+#include <QtCore>
+
+class EClass {
+  /**
+   * Returns the value of the '<em><b>Abstract</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents whether the class is abstract in the Java sense.
+   * For an abstract class,
+   * the generated implementation class will be abstract,
+   * and the generated factory will not provide support for creating an instance.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Abstract</em>' attribute.
+   * @see #setAbstract(boolean)
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_Abstract()
+   * @model
+   * @generated
+   */
+  bool isAbstract() = 0;
+
+  /**
+   * Sets the value of the '{@link org.eclipse.emf.ecore.EClass#isAbstract <em>Abstract</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Abstract</em>' attribute.
+   * @see #isAbstract()
+   * @generated
+   */
+  void setAbstract(bool value) = 0;
+
+  /**
+   * Returns the value of the '<em><b>Interface</b></em>' attribute.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents whether the class is an interface in the Java sense.
+   * For an interface class,
+   * there will be no generated implementation class.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>Interface</em>' attribute.
+   * @see #setInterface(boolean)
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_Interface()
+   * @model
+   * @generated
+   */
+  bool isInterface() = 0;
+
+  /**
+   * Sets the value of the '{@link org.eclipse.emf.ecore.EClass#isInterface <em>Interface</em>}' attribute.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @param value the new value of the '<em>Interface</em>' attribute.
+   * @see #isInterface()
+   * @generated
+   */
+  void setInterface(bool value) = 0;
+
+  /**
+   * Returns the value of the '<em><b>ESuper Types</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EClass}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the super types in the Java sense, i.e., the super class and the direct implemented interfaces,
+   * and is derived from the {@link #getEGenericSuperTypes() generic super types}.
+   * </p>
+   * @see #getEGenericSuperTypes()
+   * @see #getEAllSuperTypes()
+   * @ignore
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>ESuper Types</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_ESuperTypes()
+   * @model unsettable="true" suppressedIsSetVisibility="true" suppressedUnsetVisibility="true"
+   * @generated
+   */
+  QList<EClass*> getESuperTypes() = 0;
+
+  /**
+   * Returns the value of the '<em><b>EAll Super Types</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EClass}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all inherited {@link #getESuperTypes() super types}
+   * and is derived from the {@link #getEAllGenericSuperTypes() generic super types}.
+   * </p>
+   * @see #getESuperTypes()
+   * @see #getEAllGenericSuperTypes()
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll Super Types</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllSuperTypes()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  QList<EClass*> getEAllSuperTypes() = 0;
+
+  /**
+   * Returns the value of the '<em><b>EID Attribute</b></em>' reference.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the attribute that will be used as the ID of an instance.
+   * @see org.eclipse.emf.ecore.EAttribute#isID()
+   * @ignore
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EID Attribute</em>' reference.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EIDAttribute()
+   * @model resolveProxies="false" transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EAttribute getEIDAttribute();
+
+  /**
+   * Returns the value of the '<em><b>EStructural Features</b></em>' containment reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EStructuralFeature}.
+   * It is bidirectional and its opposite is '{@link org.eclipse.emf.ecore.EStructuralFeature#getEContainingClass <em>EContaining Class</em>}'.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the modeled features local to this class.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EStructural Features</em>' containment reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EStructuralFeatures()
+   * @see org.eclipse.emf.ecore.EStructuralFeature#getEContainingClass
+   * @model opposite="eContainingClass" containment="true"
+   * @generated
+   */
+  QList<EClass*> getEStructuralFeatures() = 0;
+
+  /**
+   * Returns the value of the '<em><b>EGeneric Super Types</b></em>' containment reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EGenericType}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the generic super types in the Java sense, i.e., the super class and the direct implemented interfaces.
+   * The {@link #getESuperTypes() super types} list is derived from this one, i.e., it represents the {@link EGenericType#getERawType() erasure} of each generic super type.
+   * </p>
+   * @see #getESuperTypes()
+   * @since 2.3
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EGeneric Super Types</em>' containment reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EGenericSuperTypes()
+   * @model containment="true" unsettable="true" suppressedIsSetVisibility="true" suppressedUnsetVisibility="true"
+   * @generated
+   */
+  //EList<EGenericType> getEGenericSuperTypes();
+
+  /**
+   * Returns the value of the '<em><b>EAll Generic Super Types</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EGenericType}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all inherited {@link #getEGenericSuperTypes() generic super types}.
+   * The {@link #getEAllSuperTypes() all super types} list is derived from this one, i.e., it represents the {@link EGenericType#getERawType() erasure} of each generic super type.
+   * </p>
+   * @see #getEGenericSuperTypes()
+   * @see #getEAllSuperTypes()
+   * @since 2.3
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll Generic Super Types</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllGenericSuperTypes()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EGenericType> getEAllGenericSuperTypes();
+
+  /**
+   * Returns the value of the '<em><b>EAttributes</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EAttribute}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the modeled attributes local to this class.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAttributes</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAttributes()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EAttribute> getEAttributes();
+
+  /**
+   * Returns the value of the '<em><b>EAll Attributes</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EAttribute}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all attributes, inherited and local.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll Attributes</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllAttributes()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EAttribute> getEAllAttributes();
+
+  /**
+   * Returns the value of the '<em><b>EReferences</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EReference}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the modeled references local to this class.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EReferences</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EReferences()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EReference> getEReferences();
+
+  /**
+   * Returns the value of the '<em><b>EAll References</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EReference}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all references, inherited and local.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll References</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllReferences()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EReference> getEAllReferences();
+
+  /**
+   * Returns the value of the '<em><b>EAll Containments</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EReference}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all references, inherited and local, 
+   * that are {@link EReference#isContainment containments}.
+   * These features will determine the {@link EObject#eContents} of an instance.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll Containments</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllContainments()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  EList<EReference> getEAllContainments();
+
+  /**
+   * Returns the value of the '<em><b>EAll Structural Features</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EStructuralFeature}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all attributes and references, inherited and local.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll Structural Features</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllStructuralFeatures()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EStructuralFeature> getEAllStructuralFeatures();
+
+  /**
+   * Returns the value of the '<em><b>EOperations</b></em>' containment reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EOperation}.
+   * It is bidirectional and its opposite is '{@link org.eclipse.emf.ecore.EOperation#getEContainingClass <em>EContaining Class</em>}'.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the modeled operations local to this class.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EOperations</em>' containment reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EOperations()
+   * @see org.eclipse.emf.ecore.EOperation#getEContainingClass
+   * @model opposite="eContainingClass" containment="true"
+   * @generated
+   */
+  EList<EOperation> getEOperations();
+
+  /**
+   * Returns the value of the '<em><b>EAll Operations</b></em>' reference list.
+   * The list contents are of type {@link org.eclipse.emf.ecore.EOperation}.
+   * <!-- begin-user-doc -->
+   * <p>
+   * It represents the closure of all operations, inherited and local.
+   * </p>
+   * <!-- end-user-doc -->
+   * @return the value of the '<em>EAll Operations</em>' reference list.
+   * @see org.eclipse.emf.ecore.EcorePackage#getEClass_EAllOperations()
+   * @model transient="true" changeable="false" volatile="true" derived="true"
+   * @generated
+   */
+  //EList<EOperation> getEAllOperations();
+
+  /**
+   * <!-- begin-user-doc -->
+   * Returns whether this class is the same as, or a super type of, some other class.
+   * @param someClass some other class.
+   * @return whether this class is the same as, or a super type of, some other class.
+   * @see Class#isAssignableFrom
+   * @ignore
+   * <!-- end-user-doc -->
+   * @model
+   * @generated
+   */
+  bool isSuperTypeOf(EClass* someClass) = 0;
+
+  /**
+   * <!-- begin-user-doc -->
+   * Returns the number of features.
+   * @return the number of features.
+   * <!-- end-user-doc -->
+   * @model kind="operation"
+   * @generated
+   */
+  int getFeatureCount() = 0;
+
+  /**
+   * <!-- begin-user-doc -->
+   * Returns the feature with this ID.
+   * @return the feature with this ID.
+   * <!-- end-user-doc -->
+   * @model
+   * @generated
+   */
+  //EStructuralFeature getEStructuralFeature(int featureID);
+
+  /**
+   * <!-- begin-user-doc -->
+   * Returns the feature with this name.
+   * @return the feature with this name.
+   * <!-- end-user-doc -->
+   * @model
+   * @generated
+   */
+ // EStructuralFeature getEStructuralFeature(String featureName);
+
+  /**
+   * <!-- begin-user-doc -->
+   * Returns the ID of the feature relative to this class, or -1 if the feature is not in this class.
+   * @return the ID of the feature relative to this class, or -1 if the feature is not in this class.
+   * <!-- end-user-doc -->
+   * @model
+   * @generated
+   */
+  //int getFeatureID(EStructuralFeature feature);
+
+};
+
+#endif

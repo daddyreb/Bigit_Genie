@@ -1,0 +1,2 @@
+g++ -mmacosx-version-min=10.1 -o NETGEARGenieDaemon -DGENIE_DAEMON_TEST_CONSOLE2 -DGEINE_DAEMON_ENABLE_LOGGER3 cap.cpp daemon.cpp ipc_unix.cpp ipc2_unix.cpp proto.cpp ps_darwin.cpp svc_darwin.cpp thread_posix.cpp util.cpp -lpcap
+

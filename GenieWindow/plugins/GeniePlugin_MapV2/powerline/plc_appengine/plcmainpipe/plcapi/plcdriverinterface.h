@@ -1,0 +1,4 @@
+#ifndef PLCDRIVERINTERFACE_H
+#define PLCDRIVERINTERFACE_H
+#include "brcm_ntgr.h"
+#endif // PLCDRIVERINTERFACE_H

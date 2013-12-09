@@ -1,0 +1,14 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource prefix="/LPCModule">
+	<file>images/icon_working.gif</file>
+	<file>images/LPCUserUtility.ico</file>
+	<file>default.css</file>
+	<file>ui/UserUtilityInfoNotice.ui</file>
+	<file>ui/UserUtilityMain.ui</file>
+	<file>ui/UserUtilityRouterPassword.ui</file>
+	<file>ui/UserUtilityStartup.ui</file>
+	<file>ui/UserUtilityStatus.ui</file>
+	<file>ui/UserUtilityStartupLongError.ui</file>
+</qresource>
+</RCC>

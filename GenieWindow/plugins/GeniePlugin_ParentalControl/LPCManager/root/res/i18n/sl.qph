@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="sl">
+<phrase>
+	<source>abort</source>
+	<target>Prekliči</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Nazaj na osnovne kontrolnike</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Prekliči</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Preveri razpoložljivost</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Na voljo</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Ni na voljo</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>E-pošta</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Potrditev e-pošte</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Neveljavna e-pošta</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>E-poštni naslov je zaseden</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Vpis</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>Pri ustvarjanju računa je prišlo do napake, poskusite znova.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Račun je bil uspešno ustvarjen, vendar je prišlo do napake pri nastavitvi usmerjevalnika NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Gesla morajo imeti od 6 do 20 znakov.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Uporabniška imena se morajo začeti in končati s črko ali številko in lahko vsebujejo znake ".", "-" ter "_".</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Geslo</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Potrditev gesla</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Ustvarjanje računa OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Ustvarjanje brezplačnega računa OpenDNS</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Uporabniško ime</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Začetek prilagajanja</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Dodatno prilagajanje</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Kontrolniki po meri omogočajo, da za nekatere uporabnike ali obdobja dneva zmanjšate strogost varnostnih nastavitev.  Nastavitve po meri se obdelajo na našem spletnem mestu, kamor boste preusmerjeni po nastavitvi usmerjevalnika.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Če se boste odločili za uporabo naših nastavitev za posameznega uporabnika, boste pozvani k namestitvi majhnega programa za upravljanje posebnih uporabniških imen in gesel za OpenDNS.  Po končanem postopku se ne pozabite odjaviti.</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Registracija usmerjevalnika v računu OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Preverjanje, ali je usmerjevalnik že registriran v računu OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Zaznali smo, da imate vzpostavljeno povezavo z drugim usmerjevalnikom. Za upravljanje novega usmerjevalnika morate znova zagnati pripomoček za upravljanje.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Videti je, da je naprava registrirana za drugega uporabnika računa OpenDNS.  Obiščite http://netgear.opendns.com/support/#faq15 in težavo bomo odpravili takoj, ko bo to mogoče.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Videti je, da povezave z internetom ne vzpostavljate prek podprtega usmerjevalnika NETGEAR.  Preverite, ali je računalnik z usmerjevalnikom NETGEAR povezan prek brezžične povezave ali povezave Ethernet in poskusite znova.  Če težave ni mogoče odpraviti, izklopite in znova vklopite usmerjevalnik, počakajte, da se prižgejo vse lučke LED in poskusite znova.  Za dodatno pomoč obiščite http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Preverjanje, ali je usmerjevalnik že nastavljen ...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Prepoznavanje usmerjevalnika ...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Nastavljanje usmerjevalnika ...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Live Parental Controls je odlična rešitev za varovanje družine, vendar podobno kot vsa orodja za filtriranje spletnih vsebin ni popolna. NETGEAR vas opominja, da pripomoček ne more nadomestiti postavitve računalnika na viden prostor, kjer lahko nadzorujete spletna mesta, ki jih obiskujejo otroci in pazljivega ravnanja, ko spletna mesta zahtevajo osebne ali finančne podatke.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Zapomnite si</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Končano.</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>preverite, ali je Live Parental Controls omogočen,</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>onemogočite ali omogočite Live Parental Controls,</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>spremenite osnovne nastavitve,</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>spremenite nastavitve pripomočka Live Parental Controls po meri, na primer za posameznega uporabnika ali obdobje dneva;</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Preusmeri me na zaslon s stanjem</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>Uspešno ste nastavili NETGEAR Live Parental Controls s tehnologijo OpenDNS.  Ko boste naslednjič zagnali pripomoček za upravljanje, boste preusmerjeni na zaslon s stanjem, kjer lahko:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Nastavitev je dokončana.</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Končaj</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Videti je, da nimate vzpostavljene povezave z internetom.  Povezavo z internetom vzpostavite prek usmerjevalnika NETGEAR in poskusite znova.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Videti je, da povezave z internetom ne vzpostavljate prek podprtega usmerjevalnika NETGEAR.  Preverite, ali je računalnik z usmerjevalnikom NETGEAR povezan prek brezžične povezave ali povezave Ethernet in poskusite znova.  Če težave ni mogoče odpraviti, izklopite in znova vklopite usmerjevalnik, počakajte, da se prižgejo vse lučke LED in poskusite znova.  Za dodatno pomoč obiščite http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Trenutna vgrajena programska oprema usmerjevalnika ne podpira pripomočka Live Parental Controls.  Za prenos najnovejše vgrajene programske opreme obiščite http://www.netgear.com/ ali pa za posodobitev vgrajene programske opreme najprej uporabite funkcijo "Nadgradnja usmerjevalnika" v grafičnem uporabniškem vmesniku usmerjevalnika na http://www.routerlogin.net/.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Želimo se prepričati, da imate vgrajeno programsko opremo, ki podpira Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Preverjanje vdelane programske opreme usmerjevalnika</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>S tehnologijo OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>V usmerjevalnik boste za filtriranje spletnih mest, ki jih obiščete z računalnika ali drugih omrežnih naprav, namestili NETGEAR Live Parental Controls s tehnologijo OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Nastavitve po meri omogočajo, da za nekatere uporabnike ali obdobja dneva zmanjšate strogost varnostnih nastavitev.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>Vizitka</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>Račun OpenDNS:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Spreminjanje osnovnih nastavitev</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>OpenDNS ni omogočen</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Internetne povezave ni mogoče zaznati</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>onemogočeno</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>omogočeno</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Nastavitev usmerjevalnika</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Model usmerjevalnika:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Raven filtriranja:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>Prilagodili ste nastavitve na spletnem mestu.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Po meri</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi, družabnimi omrežji, mesti za izmenjavo videoposnetkov, napadi z lažnim predstavljanjem in ostalimi mesti za zapravljanje časa.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Ščiti pred pornografijo in napadi z lažnim predstavljanjem.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Ščiti samo pred napadi z lažnim predstavljanjem.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi in napadi z lažnim predstavljanjem.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Nič ni blokirano.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Spreminjanje nastavitev po meri</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Preverjanje, ali uporabljate OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Preverjanje, ali je pripomoček Live Parental Controls omogočen ...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Omogočanje pripomočka Live Parental Controls ...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Omogočanje pripomočka Live Parental Controls s privzetimi nastavitvami ...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Stanje</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Onemogoči Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Omogoči Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Onemogoči Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Naprej</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>V redu</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Ne, ustvariti želim brezplačen račun OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Da, uporabi obstoječ račun OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Pozdravljeni, namestitveni čarovnik bo hitro konfiguriral NETGEAR Live Parental Controls s tehnologijo OpenDNS v usmerjevalniku NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Če želite uporabljati Live Parental Controls, potrebujete brezplačen račun OpenDNS. Ali ga že imate?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Nastavitev pripomočka Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Nazaj</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Osveži</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Geslo:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Vnesite uporabniško ime in geslo, ki ju uporabljate za upravljanje usmerjevalnika NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Prijavno ime za usmerjevalnik</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Uporabniško ime:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Visoka</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi, družabnimi omrežji, mesti za izmenjavo videoposnetkov, napadi z lažnim predstavljanjem in ostalimi mesti za zapravljanje časa.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Nizka</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Ščiti pred pornografijo in napadi z lažnim predstavljanjem.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Minimalna</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Ščiti samo pred napadi z lažnim predstavljanjem.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Zmerna</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Ščiti pred vsemi mesti z vsebino za odrasle, nezakonitimi dejavnostmi in napadi z lažnim predstavljanjem.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Brez</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Nič ni blokirano.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>Pri shranjevanju nastavitev je prišlo do napake, poskusite znova.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Pridobivanje nastavitev iz računa OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Pošiljanje nastavitev v račun OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Vsi računalniki, povezani z usmerjevalnikom, bodo zaščiteni pred spodaj izbrano vsebino.  Live Parental Controls lahko pozneje prilagodite na našem spletnem mestu.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: izberite raven filtriranja za omrežje</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>Prišlo je do težave pri vpisu, preverite, ali imate vzpostavljeno povezavo z internetom in poskusite znova.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Uporabniškega imena ali gesla ni mogoče prepoznati.  Poskusite znova ali izberite "Nazaj", če nimate odprtega računa OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Pozabil sem geslo</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Geslo</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Vpisovanje v OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Spodaj vnesite uporabniško ime in geslo.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Vpis v račun OpenDNS</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Uporabniško ime</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>Pripomoček za upravljanje NETGEAR Live Parental Controls 2.0b44</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Poskusite znova</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>Na voljo je pomembna posodobitev za OpenDNS, ki se bo odprl v brskalniku.  Prenesite in namestite najnovejšo različico.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>V redu</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Pomembna posodobitev</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>Na voljo je posodobitev za OpenDNS, ki jo lahko prenesete in namestite.  Ali želite prenesti posodobitev?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Ne</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Posodobi</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Da</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>Preusmerjamo vas na naše spletno mesto, kjer lahko prilagodite pripomoček Live Parental Controls.  Če se brskalnik ne odpre samodejno, kopirajte spodnjo povezavo v naslovno vrstico brskalnika.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>Dokončali ste delo s čarovnikom za nastavitev.  Zahvaljujemo se vam za uporabo tehnologije OpenDNS.</target>
+</phrase>
+</QPH>

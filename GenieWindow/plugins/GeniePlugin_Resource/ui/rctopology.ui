@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="topMargin">
+    <number>6</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>1</number>
+   </property>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="but_refresh">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#but_refresh
+{
+	border-image:url(:/map/others/Refresh.png);
+    width:27px; height:27px;
+	min-width:27px;	
+	border-width:0px;
+	border-radius: 0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+
+#but_refresh:hover
+{
+	border-image:url(:/map/others/RefreshHover.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#but_refresh:pressed
+{
+	border-image:url(:/map/others/RefreshSelected.png);
+		background-color:none;
+	border-width:0px;
+}
+#but_refresh:disabled
+{
+	border-image:url(:/map/others/RefreshDisabled.png);
+		background-color:none;
+	border-width:0px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QWidget" name="page">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="margin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGraphicsView" name="graphicsView">
+         <property name="styleSheet">
+          <string notr="true">QGraphicsView{background-color:transparent;border: 0px;}</string>
+         </property>
+         <property name="renderHints">
+          <set>QPainter::Antialiasing</set>
+         </property>
+         <property name="cacheMode">
+          <set>QGraphicsView::CacheBackground</set>
+         </property>
+         <property name="viewportUpdateMode">
+          <enum>QGraphicsView::FullViewportUpdate</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QWidget" name="pi" native="true">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>70</y>
+         <width>70</width>
+         <height>71</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

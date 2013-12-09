@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Родительск. контроль"
+L_PARENTAL_CONTROL_DESC="Решение NETGEAR Live Parental Controls, основанное на технологии OpenDNS, представляет собой решение web-фильтрации маршрутизатора, реализованное в маршрутизаторах NETGEAR Wireless-N и шлюзах."
+L_PARENTAL_CONTROL_MANAGER="Управление"
+L_PARENTAL_CONTROL_INSTALL="Установка"
+L_PARENTAL_CONTROL_ENABLE="Установлено"
+L_PARENTAL_CONTROL_NOT_ENABLE="Не установлено"
+L_PARENTAL_CONTROL_FUN_ONE=">Блокирует до 50 категорий интернет-контента"
+L_PARENTAL_CONTROL_FUN_TWO=">Защищает от хищения персональных данных и мошенничества"
+L_PARENTAL_CONTROL_FUN_THREE=">Является БЕСПЛАТНЫМ для пользователей NETGEAR!"
+L_PARENTAL_CONTROL_LIVE="Родительск. контроль"
+L_PARENTAL_CONTROL_CLICKHERE="Нажмите здесь"

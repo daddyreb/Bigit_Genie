@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="موافق"
+L_MAIN_CANCEL="إلغاء"
+L_MAIN_TRAY_AUTOSTART="تمكين بدء تلقائي"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="إظهار تغيير اتصال الشبكة"
+L_MAIN_TITLE_ABOUT="حول"
+L_MAIN_CHECKFORUPDATES="التحقق من التحديثات"

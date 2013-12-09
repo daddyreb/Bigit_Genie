@@ -1,0 +1,32 @@
+QLabel[group="account_information_img"]
+{
+    background-image: url(:/smartWiFi/img/account_imf_img.png);
+}
+
+QTextBrower/*[group="account_note"]*/
+{
+	border: 2px solid darkgray;
+	background-color: blue;
+}
+
+QPushButton[group="big_btn"]
+{
+    background-image: url(:/smartWiFi/img/button_bg.png);
+}
+
+QWidget#top_bar
+{
+    border-image: url(:/smartWiFi/img/top_bar.png);
+}
+
+QLabel#server_name
+{
+    background-color: blue;
+}
+
+QLabel[group="top"]
+{
+    border-image: transparent;
+}
+
+

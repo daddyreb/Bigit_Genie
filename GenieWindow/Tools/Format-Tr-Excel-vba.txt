@@ -1,0 +1,26 @@
+Dim r As Integer
+Dim c As Integer
+
+For r = 14 To 5603
+For c = 2 To 27
+
+Dim s As String
+s = Cells(r, c).Value
+s = Trim(s)
+
+If Right(s, 1) = ";" Or Right(s, 1) = "." Or Right(s, 1) = "," Then
+s = Left(s, (Len(s) - 1))
+Cells(r, c) = s
+End If
+If Right(s, 1) <> Chr(34) And Left(s, 1) <> Chr(34) And s <> "" Then
+Cells(r, c) = Chr(34) & s & Chr(34)
+End If
+If Right(s, 1) <> Chr(34) And Left(s, 1) = Chr(34) Then
+Cells(r, c) = s & Chr(34)
+End If
+If Right(s, 1) = Chr(34) And Left(s, 1) <> Chr(34) Then
+Cells(r, c) = Chr(34) & s
+End If
+
+Next
+Next

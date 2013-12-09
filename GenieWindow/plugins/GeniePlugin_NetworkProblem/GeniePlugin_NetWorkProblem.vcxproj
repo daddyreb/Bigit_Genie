@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C6AB7F5-5A7E-30B3-9697-AF8EC98F5261}</ProjectGuid>
+    <RootNamespace>GeniePlugin_NetworkProblem</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>GeniePlugin_NetworkProblem</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>GeniePlugin_NetworkProblem</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GeniePlugin_NetworkProblem</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GeniePlugin_NetworkProblem</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>".";"src";"..\genie_module\src\inc\genie_interface";"..\genie_module\src";"..\..\include\genie2_interface";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore";"release";..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_NO_DEBUG;QT_PLUGIN;QT_WIDGETS_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../../bin\DragonNetTool.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Network.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Core.lib;libEGL.lib;libGLESv2.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../bin;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\GeniePlugin_NetworkProblem.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_NO_DEBUG;QT_PLUGIN;QT_WIDGETS_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>".";"src";"..\genie_module\src\inc\genie_interface";"..\genie_module\src";"..\..\include\genie2_interface";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore";"debug";..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_PLUGIN;QT_WIDGETS_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../../bin\DragonNetTool.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Networkd.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Cored.lib;libEGLd.lib;libGLESv2d.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../bin;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\GeniePlugin_NetworkProblem.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;QT_PLUGIN;QT_WIDGETS_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Debug\moc_dnslookup.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_flex.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GeniePluginTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_label.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_line.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ping.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_profile.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_pushbutton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieIface2ShareObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QProgressIndicator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_support.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_tools.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_traceroute.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_twidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Images.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dnslookup.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_flex.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GeniePluginTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_label.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_line.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ping.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_profile.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_pushbutton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieIface2ShareObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QProgressIndicator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_support.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_tools.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_traceroute.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_twidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\GeniePluginTest.cpp" />
+    <ClCompile Include="..\..\include\genie2_interface\QGenieIface2ShareObject.cpp" />
+    <ClCompile Include="src\QProgressIndicator.cpp" />
+    <ClCompile Include="src\dnslookup.cpp" />
+    <ClCompile Include="src\faq.cpp" />
+    <ClCompile Include="src\flex.cpp" />
+    <ClCompile Include="src\label.cpp" />
+    <ClCompile Include="src\line.cpp" />
+    <ClCompile Include="src\mainwindow.cpp" />
+    <ClCompile Include="src\ping.cpp" />
+    <ClCompile Include="src\profile.cpp" />
+    <ClCompile Include="src\pushbutton.cpp" />
+    <ClCompile Include="src\support.cpp" />
+    <ClCompile Include="src\tools.cpp" />
+    <ClCompile Include="src\traceroute.cpp" />
+    <ClCompile Include="src\twidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\GeniePluginTest.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing GeniePluginTest.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing GeniePluginTest.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IHandlerInf.h" />
+    <ClInclude Include="..\..\include\genie2_interface\IPluginInf2.h" />
+    <CustomBuild Include="..\..\include\genie2_interface\QGenieIface2ShareObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieIface2ShareObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieIface2ShareObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QProgressIndicator.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QProgressIndicator.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QProgressIndicator.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\dnslookup.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing dnslookup.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing dnslookup.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="src\faq.h" />
+    <CustomBuild Include="src\flex.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing flex.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing flex.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\genie2_interface.h" />
+    <ClInclude Include="..\..\include\genie2_interface\genie2_plugincommunication.h" />
+    <ClInclude Include="..\..\include\genie2_interface\inner_macros.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_cmds.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_macros.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_settings.h" />
+    <CustomBuild Include="src\label.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing label.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing label.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\line.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing line.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing line.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\mainwindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing mainwindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing mainwindow.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\ping.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing ping.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing ping.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\profile.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing profile.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing profile.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\pushbutton.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing pushbutton.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing pushbutton.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\support.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing support.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing support.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\tools.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing tools.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing tools.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\traceroute.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing traceroute.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing traceroute.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\twidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing twidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DQT_PLUGIN -DQT_WIDGETS_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src" "-I.\..\genie_module\src\inc\genie_interface" "-I.\..\genie_module\src" "-I.\..\..\include\genie2_interface" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing twidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Images.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(FullPath);.\Images\xt1.png;.\Images\xt2.png;.\Images\xt3.png;.\Images\xt4.png;.\Images\datu.png;.\Images\xt5.png;.\Images\an2.png;.\Images\an1.png;.\Images\an3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);.\Images\xt1.png;.\Images\xt2.png;.\Images\xt3.png;.\Images\xt4.png;.\Images\datu.png;.\Images\xt5.png;.\Images\an2.png;.\Images\an1.png;.\Images\an3.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="Images\an1.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\an2.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\an3.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\datu.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\xt1.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\xt2.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\xt3.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\xt4.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Images\xt5.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.0.2" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

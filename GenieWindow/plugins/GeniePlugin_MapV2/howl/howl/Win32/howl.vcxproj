@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>howl dynamic library</ProjectName>
+    <ProjectGuid>{3A7BD031-3E83-4E86-A9EE-F202D0ADAC35}</ProjectGuid>
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>../../../../include; ../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;HOWL_EXPORTS;BUILD_HOWL_DLL;HAVE_WSA_ASYNC_SELECT;_WIN32_WINNT=0x0500;WIN32;_MBCS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/salt.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>iphlpapi.lib;version.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)howl.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>howl.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>.\Release/howl.lib</ImportLibrary>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/salt.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../include; ../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;HOWL_EXPORTS;HAVE_WSA_ASYNC_SELECT;WIN32;_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/salt.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>iphlpapi.lib;version.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)howld.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>howld.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/howl.pdb</ProgramDatabaseFile>
+      <ImportLibrary>.\Debug/howld.lib</ImportLibrary>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/salt.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\address.c" />
+    <ClCompile Include="..\buffer.c" />
+    <ClCompile Include="..\channel.c" />
+    <ClCompile Include="..\debug.c" />
+    <ClCompile Include="..\discovery.c" />
+    <ClCompile Include="..\interface.c" />
+    <ClCompile Include="..\ior.c" />
+    <ClCompile Include="..\message.c" />
+    <ClCompile Include="..\NotOSX\notosx_mdns_stub.c" />
+    <ClCompile Include="..\object.c" />
+    <ClCompile Include="..\orb.c" />
+    <ClCompile Include="..\platform.c" />
+    <ClCompile Include="..\profile.c" />
+    <ClCompile Include="..\salt.c" />
+    <ClCompile Include="..\signal.c" />
+    <ClCompile Include="..\socket.c" />
+    <ClCompile Include="..\text_record.c" />
+    <ClCompile Include="..\time.c" />
+    <ClCompile Include="win32_interface.c" />
+    <ClCompile Include="win32_salt.c" />
+    <ClCompile Include="win32_socket.c" />
+    <ClCompile Include="win32_time.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\salt\address.h" />
+    <ClInclude Include="..\..\..\..\include\salt\assert.h" />
+    <ClInclude Include="..\..\..\..\include\corby\buffer.h" />
+    <ClInclude Include="..\buffer_i.h" />
+    <ClInclude Include="..\..\..\..\include\corby\channel.h" />
+    <ClInclude Include="..\channel_i.h" />
+    <ClInclude Include="..\..\..\..\include\corby\corby.h" />
+    <ClInclude Include="..\..\..\..\include\salt\debug.h" />
+    <ClInclude Include="..\..\..\..\include\discovery\discovery.h" />
+    <ClInclude Include="..\discovery_i.h" />
+    <ClInclude Include="..\..\..\..\include\howl.h" />
+    <ClInclude Include="..\..\..\..\include\salt\interface.h" />
+    <ClInclude Include="..\interface_i.h" />
+    <ClInclude Include="..\ior.h" />
+    <ClInclude Include="..\..\..\..\include\salt\log.h" />
+    <ClInclude Include="..\mdns_stub.h" />
+    <ClInclude Include="..\..\..\..\include\corby\message.h" />
+    <ClInclude Include="..\message_i.h" />
+    <ClInclude Include="..\NotOSX\notosx_mdns_stub.h" />
+    <ClInclude Include="..\..\..\..\include\corby\object.h" />
+    <ClInclude Include="..\object_i.h" />
+    <ClInclude Include="..\..\..\..\include\corby\orb.h" />
+    <ClInclude Include="..\orb_i.h" />
+    <ClInclude Include="..\..\..\..\include\salt\platform.h" />
+    <ClInclude Include="..\profile.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\..\..\include\salt\salt.h" />
+    <ClInclude Include="..\salt_i.h" />
+    <ClInclude Include="..\..\..\..\include\salt\signal.h" />
+    <ClInclude Include="..\signal_i.h" />
+    <ClInclude Include="..\..\..\..\include\salt\socket.h" />
+    <ClInclude Include="..\socket_i.h" />
+    <ClInclude Include="..\..\..\..\include\discovery\text_record.h" />
+    <ClInclude Include="..\text_record_i.h" />
+    <ClInclude Include="..\..\..\..\include\salt\time.h" />
+    <ClInclude Include="..\time_i.h" />
+    <ClInclude Include="..\tlist.h" />
+    <ClInclude Include="win32_interface.h" />
+    <ClInclude Include="win32_mdns.h" />
+    <ClInclude Include="win32_salt.h" />
+    <ClInclude Include="win32_socket.h" />
+    <ClInclude Include="win32_time.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="howl.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

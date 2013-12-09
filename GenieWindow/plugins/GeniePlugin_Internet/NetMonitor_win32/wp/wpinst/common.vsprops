@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="common"
+	OutputDirectory="$(OUTPUT_BIN_DIR)"
+	IntermediateDirectory="$(OUTPUT_OBJ_DIR)"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(ROOT_DIR)/src/zlib_lite"
+	/>
+	<UserMacro
+		Name="ROOT_DIR"
+		Value="$(SolutionDir)"
+	/>
+	<UserMacro
+		Name="TOOLS_DIR"
+		Value="$(ROOT_DIR)\tools"
+	/>
+	<UserMacro
+		Name="DATA_ITEMS"
+		Value="$(OUTPUT_BIN_DIR)\wpinst64.exe $(DATA_DIR)\32_npf.sys $(DATA_DIR)\32_packet.dll $(DATA_DIR)\32_wpcap.dll $(DATA_DIR)\64_npf.sys $(DATA_DIR)\64_packet.dll $(DATA_DIR)\64_wpcap.dll"
+	/>
+	<UserMacro
+		Name="DATA_DIR"
+		Value="$(ROOT_DIR)\data"
+	/>
+	<UserMacro
+		Name="OUTPUT_OBJ_DIR"
+		Value="$(ROOT_DIR)\output\obj\$(ProjectName)\$(ConfigurationName)"
+	/>
+	<UserMacro
+		Name="OUTPUT_BIN_DIR"
+		Value="$(ROOT_DIR)\output\bin\$(ConfigurationName)"
+	/>
+	<UserMacro
+		Name="DATA_ITEMS_DEP"
+		Value="$(OUTPUT_BIN_DIR)\wpinst64.exe;$(DATA_DIR)\32_npf.sys;$(DATA_DIR)\32_packet.dll;$(DATA_DIR)\32_wpcap.dll;$(DATA_DIR)\64_npf.sys;$(DATA_DIR)\64_packet.dll;$(DATA_DIR)\64_wpcap.dll"
+	/>
+</VisualStudioPropertySheet>

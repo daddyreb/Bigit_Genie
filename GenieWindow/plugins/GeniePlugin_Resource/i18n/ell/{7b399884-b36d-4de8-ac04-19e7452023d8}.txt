@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Άκυρο"
+L_MAIN_TRAY_AUTOSTART="Ενεργοποίηση αυτόματης εκκίνησης"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Εμφάνιση αλλαγής συνδεσιμότητας δικτύου"
+L_MAIN_TITLE_ABOUT="Πληροφορίες"
+L_MAIN_CHECKFORUPDATES="Έλεγχος για ενημερώσεις"

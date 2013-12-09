@@ -1,0 +1,14 @@
+﻿##1950##
+
+L_UPGRADE_DOWNLOAD_LEAVETIME="残り時間"
+L_UPGRADE_UPDATE_CANCEL="キャンセル"
+L_UPGRADE_UPDATE_PAGE_FINISH="ダウンロードが完了しました。\n［完了］をクリックしてアップグレードしてください。"
+L_UPGRADE_UPDATE_TITLE="NETGEAR genieアップグレード"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="現在のバージョンは最新です。"
+L_UPGRADE_UPDATE_PAGE_WRONG="一時的に問題が発生しています。しばらく待ってから新しいバージョンをダウンロードしてみてください。"
+L_UPGRADE_UPDATE_DOWNLOAD="ダウンロード"
+L_UPGRADE_UPDATE_FINISH="完了"
+L_UPGRADE_UPDATE_CHECK_DESP="説明ファイルを取得しています..."
+L_UPGRADE_UPDATE_DOWN_FILE="インストーラファイルを取得しています..."
+L_UPGRADE_UPDATE_LINK="このリンクをクリックすると、新しいバージョンをダウンロードすることができます。"
+L_UPGRADE_UPDATE_NETWORK_ERROR="ネットワーク接続の問題"

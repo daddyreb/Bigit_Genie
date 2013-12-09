@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Win32Proj" Name="WSetupDll" ProjectGUID="{20F552DC-1D6D-4BF4-A5D0-20F149C415AB}" ProjectType="Visual C++" RootNamespace="WSetupDll" TargetFrameworkVersion="196613" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration CharacterSet="1" ConfigurationType="2" IntermediateDirectory="$(ConfigurationName)" Name="Debug|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../WSetupCoreImplSrc" BasicRuntimeChecks="3" DebugInformationFormat="4" MinimalRebuild="true" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;WSETUPDLL_EXPORTS" RuntimeLibrary="1" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool GenerateDebugInformation="true" LinkIncremental="2" ModuleDefinitionFile="WSetupDll.def" Name="VCLinkerTool" OutputFile="result\$(ConfigurationName)\$(ProjectName).dll" SubSystem="2" TargetMachine="1" UACExecutionLevel="2" />
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+		<Configuration CharacterSet="1" ConfigurationType="2" IntermediateDirectory="$(ConfigurationName)" Name="Release|Win32" OutputDirectory="$(SolutionDir)$(ConfigurationName)" WholeProgramOptimization="1">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../WSetupCoreImplSrc" DebugInformationFormat="3" EnableFunctionLevelLinking="true" EnableIntrinsicFunctions="true" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;WSETUPDLL_EXPORTS" RuntimeLibrary="0" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool EnableCOMDATFolding="2" GenerateDebugInformation="true" LinkIncremental="1" ModuleDefinitionFile="WSetupDll.def" Name="VCLinkerTool" OptimizeReferences="2" OutputFile="result\$(ConfigurationName)\$(ProjectName).dll" SubSystem="2" TargetMachine="1" UACExecutionLevel="2" />
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="..\WSetupCoreImplSrc\codec.cpp">
+			</File>
+			<File RelativePath="..\WSetupCoreImplSrc\CoreImpl.cpp">
+			</File>
+			<File RelativePath=".\dllmain.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool CompileAsManaged="0" Name="VCCLCompilerTool" UsePrecompiledHeader="0" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool CompileAsManaged="0" Name="VCCLCompilerTool" UsePrecompiledHeader="0" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\WSetupCoreImplSrc\WlanSetProfile.cpp">
+			</File>
+			<File RelativePath=".\WSetupDll.cpp">
+			</File>
+			<File RelativePath=".\WSetupDll.def">
+			</File>
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="..\WSetupCoreImplSrc\codec.h">
+			</File>
+			<File RelativePath="..\WSetupCoreImplSrc\CoreImpl.h">
+			</File>
+			<File RelativePath=".\WSetupDll.h">
+			</File>
+		</Filter>
+		<Filter Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav" Name="Resource Files" UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+		</Filter>
+		<File RelativePath=".\ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

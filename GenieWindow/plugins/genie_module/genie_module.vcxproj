@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B4A53E01-6BD7-3B4A-B36F-AE64E7AE511C}</ProjectGuid>
+    <RootNamespace>Genie</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>Genie</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>Genie</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Genie</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Genie</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>".";"src\inc";"src\inc\dll_hearder";"src\inc\genie_interface";"src\uipage";"src\uiframe";"src\svp";"src\usages";"src\interface";"src\interface2";"src\inc\plugin_ui_def";"src\soap";"src\inc\launch_interface";"src\launch_interface";"src\inc\multilanguage_def";"src\share";"src\network_util";"..\SvtNetworkTool";"..\SvtNetworkTool\libs\msvc";"..\SvtNetworkTool\libs\msvc\openssl";"..\..\include\genie2_interface";"..\..\include\genie2_settings";"src\genie2_singlestart";"..\..\include\genie2_netgear";".";"..\SvtNetworkTool";"..\SvtNetworkTool\libs\msvc";"$(QTDIR)\include";"$(QTDIR)\include\QtWebKit";"$(QTDIR)\include\QtWidgets";"$(QTDIR)\include\QtXml";"$(QTDIR)\include\QtNetwork";"$(QTDIR)\include\QtGui";"$(QTDIR)\include\QtCore";"release";$(QTDIR)\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_UI;GENIE2_MAINFRAME;USE_LAZYLOAD;_WINDOWS;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0502;INTERFACE2;USE_DBG_STACK;QT_NO_DEBUG;QT_PLUGIN;QT_WEBKIT_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;../../bin\SvtNetworkTool.lib;$(QTDIR)\lib\Qt5WebKit.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5Xml.lib;$(QTDIR)\lib\Qt5Network.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Core.lib;libEGL.lib;libGLESv2.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../bin;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\Genie.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_UI;GENIE2_MAINFRAME;USE_LAZYLOAD;_WINDOWS;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0502;INTERFACE2;USE_DBG_STACK;QT_NO_DEBUG;QT_PLUGIN;QT_WEBKIT_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>".";"src\inc";"src\inc\dll_hearder";"src\inc\genie_interface";"src\uipage";"src\uiframe";"src\svp";"src\usages";"src\interface";"src\interface2";"src\inc\plugin_ui_def";"src\soap";"src\inc\launch_interface";"src\launch_interface";"src\inc\multilanguage_def";"src\share";"src\network_util";"..\SvtNetworkTool";"..\SvtNetworkTool\libs\msvc";"..\SvtNetworkTool\libs\msvc\openssl";"..\..\include\genie2_interface";"..\..\include\genie2_settings";"src\genie2_singlestart";"..\..\include\genie2_netgear";".";"..\SvtNetworkTool";"..\SvtNetworkTool\libs\msvc";"$(QTDIR)\include";"$(QTDIR)\include\QtWebKit";"$(QTDIR)\include\QtWidgets";"$(QTDIR)\include\QtXml";"$(QTDIR)\include\QtNetwork";"$(QTDIR)\include\QtGui";"$(QTDIR)\include\QtCore";"debug";$(QTDIR)\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_UI;GENIE2_MAINFRAME;USE_LAZYLOAD;_WINDOWS;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0502;INTERFACE2;USE_DBG_STACK;QT_PLUGIN;QT_WEBKIT_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;../../bin\SvtNetworkTool.lib;$(QTDIR)\lib\Qt5WebKitd.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5Xmld.lib;$(QTDIR)\lib\Qt5Networkd.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Cored.lib;libEGLd.lib;libGLESv2d.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../bin;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\Genie.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_UI;GENIE2_MAINFRAME;USE_LAZYLOAD;_WINDOWS;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0502;INTERFACE2;USE_DBG_STACK;QT_PLUGIN;QT_WEBKIT_LIB;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\genie2_netgear\INetgearInterface.cpp" />
+    <ClCompile Include="Debug\moc_INetgearInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieIface2ShareObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieInterface2Helper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieInterface2LanguageManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieInterface2LogManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieLaunchInf.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieNetgearInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieSingleProcessHandler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieSmartnetworkThread.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieWatchDog.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_images_splash.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Release\moc_INetgearInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieIface2ShareObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieInterface2Helper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieInterface2LanguageManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieInterface2LogManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieLaunchInf.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieNetgearInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieSingleProcessHandler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieSmartnetworkThread.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieWatchDog.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\usages\QGenieAllSingletonClasses.cpp" />
+    <ClCompile Include="src\interface2\QGenieHandlerInf.cpp" />
+    <ClCompile Include="..\..\include\genie2_interface\QGenieIface2ShareObject.cpp" />
+    <ClCompile Include="src\interface2\QGenieInterface2Helper.cpp" />
+    <ClCompile Include="src\interface2\QGenieInterface2LanguageManager.cpp" />
+    <ClCompile Include="src\interface2\QGenieInterface2LogManager.cpp" />
+    <ClCompile Include="src\interface2\QGenieInterface2SubscribedMessageManager.cpp" />
+    <ClCompile Include="src\launch_interface\QGenieLaunchInf.cpp" />
+    <ClCompile Include="..\..\include\genie2_netgear\QGenieNetgearInfoThread.cpp" />
+    <ClCompile Include="..\..\include\genie2_netgear\QGenieNetgearInterface.cpp" />
+    <ClCompile Include="..\..\include\genie2_settings\QGenieSettingHelper.cpp" />
+    <ClCompile Include="..\..\include\genie2_settings\QGenieSettings.cpp" />
+    <ClCompile Include="src\genie2_singlestart\QGenieSingleProcessHandler.cpp" />
+    <ClCompile Include="..\..\include\genie2_netgear\QGenieSmartnetworkThread.cpp" />
+    <ClCompile Include="src\genie2_singlestart\QGenieWatchDog.cpp" />
+    <ClCompile Include="src\genie2_singlestart\QLaunchSemaphore.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\genie2_interface\IHandlerInf.h" />
+    <CustomBuild Include="..\..\include\genie2_netgear\INetgearInterface.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing INetgearInterface.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing INetgearInterface.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IPluginInf2.h" />
+    <ClInclude Include="src\usages\QGenieAllSingletonClasses.h" />
+    <ClInclude Include="src\interface2\QGenieHandlerInf.h" />
+    <CustomBuild Include="..\..\include\genie2_interface\QGenieIface2ShareObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieIface2ShareObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieIface2ShareObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\interface2\QGenieInterface2Helper.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieInterface2Helper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieInterface2Helper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\interface2\QGenieInterface2LanguageManager.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieInterface2LanguageManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieInterface2LanguageManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\interface2\QGenieInterface2LogManager.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieInterface2LogManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieInterface2LogManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="src\interface2\QGenieInterface2SubscribedMessageManager.h" />
+    <CustomBuild Include="src\launch_interface\QGenieLaunchInf.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieLaunchInf.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieLaunchInf.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_netgear\QGenieNetgearInfoThread.h" />
+    <CustomBuild Include="..\..\include\genie2_netgear\QGenieNetgearInterface.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieNetgearInterface.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieNetgearInterface.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_settings\QGenieSettingHelper.h" />
+    <ClInclude Include="..\..\include\genie2_settings\QGenieSettings.h" />
+    <CustomBuild Include="src\genie2_singlestart\QGenieSingleProcessHandler.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieSingleProcessHandler.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieSingleProcessHandler.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\genie2_netgear\QGenieSmartnetworkThread.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieSmartnetworkThread.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieSmartnetworkThread.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\genie2_singlestart\QGenieWatchDog.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_NO_DEBUG -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\release" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieWatchDog.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_UI -DGENIE2_MAINFRAME -DUSE_LAZYLOAD -DWIN32_LEAN_AND_MEAN -D_WIN32_WINNT=0x0502 -DINTERFACE2 -DUSE_DBG_STACK -DQT_PLUGIN -DQT_WEBKIT_LIB -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I." "-I.\src\inc" "-I.\src\inc\dll_hearder" "-I.\src\inc\genie_interface" "-I.\src\uipage" "-I.\src\uiframe" "-I.\src\svp" "-I.\src\usages" "-I.\src\interface" "-I.\src\interface2" "-I.\src\inc\plugin_ui_def" "-I.\src\soap" "-I.\src\inc\launch_interface" "-I.\src\launch_interface" "-I.\src\inc\multilanguage_def" "-I.\src\share" "-I.\src\network_util" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_settings" "-I.\src\genie2_singlestart" "-I.\..\..\include\genie2_netgear" "-I$(QTDIR)\include" "-I$(QTDIR)\include\QtWebKit" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtNetwork" "-I$(QTDIR)\include\QtGui" "-I$(QTDIR)\include\QtCore" "-I.\debug" "-I$(QTDIR)\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieWatchDog.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="src\genie2_singlestart\QLaunchSemaphore.h" />
+    <ClInclude Include="src\genie2_singlestart\SingleInstance.h" />
+    <ClInclude Include="src\inc\Singleton.h" />
+    <ClInclude Include="..\SvtNetworkTool\SvtNetworkTool.h" />
+    <ClInclude Include="..\..\include\genie2_interface\genie2_interface.h" />
+    <ClInclude Include="..\..\include\genie2_interface\genie2_plugincommunication.h" />
+    <ClInclude Include="..\..\include\genie2_settings\genie2_settings.h" />
+    <ClInclude Include="src\genie2_singlestart\genie2_singlestart.h" />
+    <ClInclude Include="..\..\include\genie2_interface\inner_macros.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_cmds.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_macros.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_settings.h" />
+    <ClInclude Include="src\inc\stable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="images\images_splash.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(FullPath);.\images\splash.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);.\images\splash.png;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="images\splash.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.0.2" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

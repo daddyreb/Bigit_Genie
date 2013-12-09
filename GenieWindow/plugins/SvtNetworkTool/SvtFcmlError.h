@@ -1,0 +1,19 @@
+#ifndef SVTFCMLERROR_H
+#define SVTFCMLERROR_H
+
+
+
+#define FE_LACK_PARAMETER -1
+#define FE_RCODE_NOT_INT -2
+#define FE_NULL_NODE -3
+#define FE_NOT_AUTHENTICATIED -4
+#define FE_NOT_ACTIVE -5
+#define FE_ECODE_NOT_INT -6
+#define FE_INITPROCESS -7
+#define FE_GETCPLIST -8
+#define FE_LOGIN_WRONG_PWD -9
+#define FE_SESSION_NOTOK 16
+#define FE_WRONG_USER_OR_PWD 17
+
+
+#endif // SVTFCMLERROR_H

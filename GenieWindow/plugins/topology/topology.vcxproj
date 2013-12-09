@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9296EA00-B512-3E35-AAD1-84350BB86056}</ProjectGuid>
+    <RootNamespace>topology</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>topology</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>topology</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">topology</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">topology</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\SVTWin32Utils";"..\topology\inc";"..\topology\src";"..\topology\src\soap";"..\SvtNetworkTool";"..\SvtNetworkTool\libs\msvc";"..\SvtNetworkTool\libs\msvc\openssl";"..\SvtNetworkTool\libs\msvc";"..\SvtNetworkTool\libs\msvc\openssl";"..\SvtNetworkTool";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore";"release";..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_VALIDATE;QT_NO_DEBUG_OUTPUT;NOTIFY_ADDED_DEVICE;REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED;RETRY_BEFORE_OFFLINE;USE_NETSCAN_HELPER_THREAD;USE_RDP;USE_PUTTY;WIN32_LEAN_AND_MEAN;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_VALIDATE;QT_NO_DEBUG_OUTPUT;NOTIFY_ADDED_DEVICE;REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED;RETRY_BEFORE_OFFLINE;USE_NETSCAN_HELPER_THREAD;USE_RDP;USE_PUTTY;WIN32_LEAN_AND_MEAN;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ResourceOutputFileName>$(OutDir)\$(InputName).res</ResourceOutputFileName>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\SVTWin32Utils";"..\topology\inc";"..\topology\src";"..\topology\src\soap";"..\SvtNetworkTool";"..\SvtNetworkTool\libs\msvc";"..\SvtNetworkTool\libs\msvc\openssl";"..\SvtNetworkTool\libs\msvc";"..\SvtNetworkTool\libs\msvc\openssl";"..\SvtNetworkTool";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui";"..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore";"debug";..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_VALIDATE;QT_NO_DEBUG_OUTPUT;NOTIFY_ADDED_DEVICE;REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED;RETRY_BEFORE_OFFLINE;USE_NETSCAN_HELPER_THREAD;USE_RDP;USE_PUTTY;WIN32_LEAN_AND_MEAN;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;TEST_VALIDATE;QT_NO_DEBUG_OUTPUT;NOTIFY_ADDED_DEVICE;REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED;RETRY_BEFORE_OFFLINE;USE_NETSCAN_HELPER_THREAD;USE_RDP;USE_PUTTY;WIN32_LEAN_AND_MEAN;QT_WIDGETS_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ResourceOutputFileName>$(OutDir)\$(InputName).res</ResourceOutputFileName>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\topology\src\GenieHttp.cpp" />
+    <ClCompile Include="..\topology\src\SvtAfpMethod.cpp" />
+    <ClCompile Include="..\topology\src\SvtControlProxy.cpp" />
+    <ClCompile Include="..\topology\src\SvtCore.cpp" />
+    <ClCompile Include="..\topology\src\SvtNetbiosMethod.cpp" />
+    <ClCompile Include="..\topology\src\netgear_info\SvtNetgearInfo.cpp" />
+    <ClCompile Include="..\topology\src\SvtNetgearSpecificHelper.cpp" />
+    <ClCompile Include="..\topology\src\SvtNetgearSpecificMethod.cpp" />
+    <ClCompile Include="..\topology\src\SvtNetscanMethod.cpp" />
+    <ClCompile Include="..\topology\src\SvtProgardThread.cpp" />
+    <ClCompile Include="..\topology\src\SvtPuttyMethod.cpp" />
+    <ClCompile Include="..\topology\src\SvtQtUtils.cpp" />
+    <ClCompile Include="..\topology\src\SvtRdpMethod.cpp" />
+    <ClCompile Include="..\topology\src\SvtRunnables.cpp" />
+    <ClCompile Include="..\topology\src\SvtSeedFactory.cpp" />
+    <ClCompile Include="..\topology\src\SvtThreadMother.cpp" />
+    <ClCompile Include="..\topology\src\SvtTracer.cpp" />
+    <ClCompile Include="..\topology\src\SvtUpnpHelper.cpp" />
+    <ClCompile Include="..\topology\src\SvtUpnpMethod.cpp" />
+    <ClCompile Include="Debug\moc_SvtUpnpHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SvtUpnpHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\topology\src\GenieHttp.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing GenieHttp.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing GenieHttp.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\topology\src\SvtAfpMethod.h" />
+    <ClInclude Include="..\topology\src\SvtAvlTree.h" />
+    <CustomBuild Include="..\topology\src\SvtControlProxy.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing SvtControlProxy.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SvtControlProxy.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\topology\src\SvtCore.h" />
+    <ClInclude Include="..\topology\src\SvtList.h" />
+    <ClInclude Include="..\topology\src\SvtNetbiosMethod.h" />
+    <CustomBuild Include="..\topology\src\netgear_info\SvtNetgearInfo.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing SvtNetgearInfo.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SvtNetgearInfo.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\topology\src\SvtNetgearSpecificHelper.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing SvtNetgearSpecificHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SvtNetgearSpecificHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\topology\src\SvtNetgearSpecificMethod.h" />
+    <ClInclude Include="..\topology\src\SvtNetscanMethod.h" />
+    <ClInclude Include="..\SvtNetworkTool\SvtNetworkTool.h" />
+    <ClInclude Include="..\topology\src\SvtProgardThread.h" />
+    <ClInclude Include="..\topology\src\SvtPuttyMethod.h" />
+    <ClInclude Include="..\topology\src\SvtQtUtils.h" />
+    <ClInclude Include="..\topology\src\SvtRdpMethod.h" />
+    <ClInclude Include="..\topology\src\SvtReferences.h" />
+    <ClInclude Include="..\topology\src\SvtRunnables.h" />
+    <ClInclude Include="..\topology\src\SvtSeedFactory.h" />
+    <ClInclude Include="..\topology\src\SvtThreadMother.h" />
+    <CustomBuild Include="..\topology\src\SvtTracer.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing SvtTracer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SvtTracer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\topology\src\SvtUpnpHelper.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\release" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing SvtUpnpHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DUSE_RDP -DUSE_PUTTY -DWIN32_LEAN_AND_MEAN -DQT_WIDGETS_LIB -DQT_XML_LIB -DQT_NETWORK_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE "-I.\..\SVTWin32Utils" "-I.\..\topology\inc" "-I.\..\topology\src" "-I.\..\topology\src\soap" "-I.\..\SvtNetworkTool" "-I.\..\SvtNetworkTool\libs\msvc" "-I.\..\SvtNetworkTool\libs\msvc\openssl" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtWidgets" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtXml" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtNetwork" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtGui" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-I.\..\..\..\Qt\5.0.2\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing SvtUpnpHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\topology\src\SvtUpnpMethod.h" />
+    <ClInclude Include="..\topology\src\defines.h" />
+    <ClInclude Include="..\topology\inc\topology.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Debug\moc_GenieHttp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SvtControlProxy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SvtNetgearInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SvtNetgearSpecificHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_SvtTracer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GenieHttp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SvtControlProxy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SvtNetgearInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SvtNetgearSpecificHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_SvtTracer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.0.2" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

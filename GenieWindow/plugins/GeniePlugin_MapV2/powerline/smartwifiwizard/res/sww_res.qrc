@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/sww_res">
+        <file>image/bulb.png</file>
+        <file>image/bg_dialog.png</file>
+    </qresource>
+</RCC>

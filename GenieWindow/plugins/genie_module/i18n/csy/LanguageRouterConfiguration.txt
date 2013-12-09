@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Nastavení routeru"
+L_RTCF_BIGBT_CLICKHERE="Klepněte sem"
+
+L_RTCF_LOGIN_TITLE="Přihlášení k routeru"
+L_RTCF_LOGIN_USER="Jméno uživatele:"
+L_RTCF_PASSWORD="Heslo:"
+L_RTCF_LOGIN_REMEMBER="Zapamatovat heslo"
+L_RTCF_LOGIN_BUT_LEFT="Přihlášení"
+L_RTCF_CANCEL="Storno"
+
+
+L_RTCF_SETTING_SSID="Název bezdrátové sítě (SSID):"
+L_RTCF_SETTING_CHANNEL="Výběr kanálu:"
+L_RTCF_SETTING_MODE="Režim:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 znaků nebo 64 hexadecimálních číslic)"
+L_RTCF_SETTING_APPLY="Použít"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Výběr kanálu:"
+L_RTCF_INFO_CHOICE="Informace o bezdrátové síti"
+L_RTCF_INFO_PASSWOED="Síťový klíč (heslo):"
+L_RTCF_INFO_REFRESH="Aktualizovat"
+L_RTCF_INFO_MODIFY="Upravit"
+L_RTCF_INFO_LOGINOUT="Odhlášení"
+L_RTCF_INFO_EXPORT="Exportovat"
+
+L_RTCF_TAB_TITLE="Nast. bezdrát. připojení"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Změna nastavení může přerušit aktivní provoz v bezdrátové síti. Chcete pokračovat?"
+L_RTCF_MSG_NOTNETGEAR="Přihlášení se nezdařilo! Zkontrolujte, zda je počítač připojený k routeru NETGEAR."
+L_RTCF_MSG_PWDWRONG="Přihlášení se nezdařilo, zkontrolujte heslo."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Přihlášení se nezdařilo. Časový limit odpovědi routeru vypršel."
+L_RTCT_MSG_PLEASEWAIT="Probíhá aktualizace, čekejte..."
+L_RTCT_MSG_COMMITWAIT="Přijímá se odpověď routeru, počkejte %1 sekund."
+L_RTCT_MSG_GACC="Používá se funkce přístupu pro hosta. Jejím zakázáním může dojít k přerušení aktivního provozu v bezdrátové síti. Chcete pokračovat?"
+L_RTCT_MSG_SOAPERROR="Router nepodporuje tuto funkci."
+L_RTCT_MSG_SOAPERROR_LOGIN="Router nepodporuje tuto funkci, aktualizujte firmware routeru."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Router nepodporuje funkci přístupu pro hosta."
+L_RTCF_MSG_TIMEOUT="Časový limit provozu vypršel."
+
+
+
+L_GACC_BIGBT="Přístup pro hosta"
+L_GACC_ENABLEGUEST="Povolit přístup pro hosta"
+L_GACC_DISABLEGUEST="Zakázat přístup pro hosta"
+L_GACC_ENABLE_TITLE="Aktuální nastavení:"
+L_GACC_ENABLED="Povoleno"
+L_GACC_NOTENABLED="Zakázáno"
+
+L_GACC_GUESTWIRELESS_SSID="Přístup pro hosta (SSID):"
+L_GACC_WORKTIME="Časový interval:"
+
+L_RTCF_DEFAULT="(výchozí heslo je "password")"
+L_RTCF_LIST_TITLE="Pro správu těchto nastavení routeru je nutné přihlášení:"
+
+L_RTCF_TRAFFICMETTER="Měření síťového provozu"
+L_RTCF_FUPDATE="Aktualizace routeru"
+
+L_RTCF_ROUTETYPE="Model routeru"
+L_RTCF_FIRMWARE_VERSION="Verze firmwaru"
+
+L_RTCF_LOGIN_LIST=".Nastavení bezdrátového připojení\n.ReadySHARE\n.Přístup pro hosta\n.Měření síťového provozu\n.Aktualizace routeru"
+
+L_GACC_ALWAYS="Vždy"
+L_GACC_1HOUR="1 hodina"
+L_GACC_5HOUR="5 hodin"
+L_GACC_10HOUR="10 hodin"
+L_GACC_1DAY="1 den"
+L_GACC_1WEEK="1 týden"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Základní"
+L_READY_SHARE_FUN_TWO="Umožňuje přístup k úložišti ReadySHARE Storage z libovolného místa"
+L_READY_SHARE_FUN_THREE="Tisk ReadySHARE"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Zpět"
+L_READY_SHARE_CONTINUE="Pokračovat"
+L_READY_SHARE_NOT_SUPPORT="Router nepodporuje tuto funkci."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Režim"
+L_READY_SHARE_NETWORK_NAME="Název sítě/zařízení:"
+L_READY_SHARE_REGISTER="Registrovat"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="Funkce ReadySHARE Cloud poskytuje vzdálený přístup prostřednictvím Internetu k úložnému zařízení USB, které je připojeno k portu USB routeru."
+L_READY_SHARE_REMOTE_HOW_WORKS="Nastavení funkce ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="Krok 1: Potřebujete účet ReadySHARE Cloud. Pokud jej nemáte, můžete jej vytvořit <a   href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>po klepnutí sem</a>."
+L_READY_SHARE_REMOTE_STEPS_TWO="Krok 2: Na této stránce zadejte své uživatelské jméno ReadySHARE Cloud a heslo, čímž zaregistrujete router a zařízení USB, které je k němu připojeno, k vašemu účtu."
+L_READY_SHARE_REMOTE_STEPS_THREE="Krok 3: Přihlaste se zpět na stránku <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> pomocí vašeho účtu. Mělo by se zobrazit zařízení USB, které je připojeno k vašemu routeru."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Krok 4: Při prvním přihlášení budete požádáni o stažení klienta systému Windows, který slouží k zajištění zabezpečeného připojení z vašeho počítače k zařízení USB routeru. Přihlaste se k tomuto klientovi a budete moci přistupovat k zařízení USB odkudkoli."
+L_READY_SHARE_REMOTE_START_NOW="Spuštěním povolte software ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="„Uživatelské jméno“:"
+L_READY_SHARE_REMOTE_PASSWORD="Heslo:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Nemáte-li účet ReadySHARE Cloud, založte si jej po klepnutí sem"
+L_READY_SHARE_PRINTING="Tisk ReadySHARE"
+L_READY_SHARE_PRINTING_DESC="Sdílení tisku na počítačích se systémy Windows a Mac s tiskárnou USB"
+L_READY_SHARE_PRINTING_HOW_WORKS="Jak to funguje?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Krok 1: Připojte tiskárnu USB k portu USB routeru pomocí kabelu USB tiskárny."
+L_READY_SHARE_PRINTING_STEPS_TWO="Krok 2: Nainstalujte ovladače tisku pro tiskárnu USB na každý počítač, který tuto tiskárnu bude sdílet."
+L_READY_SHARE_PRINTING_STEPS_THREE="Krok 3: Na každém počítači, který tuto tiskárnu bude sdílet, stáhněte nástroj NETGEAR USB Control Center ze stránky <a href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Podle pokynů tohoto nástroje se připojte z počítače k tiskárně a tiskněte."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Poznámka:</b> Bez tohoto klienta můžete procházet obsah zařízení USB, ale nemůžete otevřít či měnit soubory."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Poznámka:</b> Připojení k Internetu zůstane zachováno, dokud registraci nezrušíte."
+L_READY_SHARE_REMOTE_REGESTER_USER="Software ReadySHARE Cloud je registrován na uživatele:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Podle výše uvedených kroků 2 až 4 můžete k úložišti přistupovat z libovolného místa"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Klepnutím na tlačítko <B>Zrušit registraci</B> můžete software ReadySHARE Cloud registrovat na jiného uživatele"
+L_READY_SHARE_UNREGISTER="Zrušit registraci"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

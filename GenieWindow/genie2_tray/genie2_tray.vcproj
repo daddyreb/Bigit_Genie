@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Qt4VSv1.0" Name="genie2_tray" ProjectGUID="{0FE7AF10-CADC-32C0-A05C-0A180189120D}" ProjectType="Visual C++" Version="9,00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="debug\" Name="Debug|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;..\src&quot;,&quot;genie2_interface&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="debug\" BufferSecurityCheck="false" DebugInformationFormat="3" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="debug\" Optimization="4" PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,DBG_MODE,QT_DLL,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" ProgramDataBaseFileName=".\" RuntimeLibrary="3" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool AdditionalDependencies="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\qtmaind.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtXmld4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGuid4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtNetworkd4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCored4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtUiToolsd.lib C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtXmld4.lib C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGuid4.lib C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCored4.lib" AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib,C:\OpenSSL-Win32_full\lib" AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;" GenerateDebugInformation="true" IgnoreImportLibrary="true" LinkTimeCodeGeneration="0" Name="VCLinkerTool" OutputFile="debug\genie2_tray.exe" ProgramDatabaseFile="" SubSystem="2" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,DBG_MODE,QT_DLL,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="1" IntermediateDirectory="release\" Name="Release|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;..\src&quot;,&quot;genie2_interface&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="release\" BufferSecurityCheck="false" DebugInformationFormat="0" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="release\" Optimization="2" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,DBG_MODE,QT_DLL,QT_NO_DEBUG,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG" ProgramDataBaseFileName=".\" RuntimeLibrary="2" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool AdditionalDependencies="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\qtmain.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtXml4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGui4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtNetwork4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCore4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtUiTools.lib C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtXml4.lib C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGui4.lib C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCore4.lib" AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib,C:\OpenSSL-Win32_full\lib" AdditionalOptions="&quot;/MANIFESTDEPENDENCY:type=&apos;win32&apos; name=&apos;Microsoft.Windows.Common-Controls&apos; version=&apos;6.0.0.0&apos; publicKeyToken=&apos;6595b64144ccf1df&apos; language=&apos;*&apos; processorArchitecture=&apos;*&apos;&quot;" GenerateDebugInformation="false" IgnoreImportLibrary="true" LinkIncremental="1" LinkTimeCodeGeneration="0" Name="VCLinkerTool" OutputFile="release\genie2_tray.exe" ProgramDatabaseFile="" SubSystem="2" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,DBG_MODE,QT_DLL,QT_NO_DEBUG,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="..\src\QGenieSelfTrayMessage.cpp" />
+			<File RelativePath="..\src\QGenieTrayIco_In.cpp" />
+			<File RelativePath="..\src\QGenieTrayIco_Out.cpp" />
+			<File RelativePath="..\src\QGenieTrayManager.cpp" />
+			<File RelativePath="QGenieTrayService.cpp" />
+			<File RelativePath="..\src\QGenieTray_Communication_Verify.cpp" />
+			<File RelativePath="main.cpp" />
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="..\src\IGenieTrayIco.h" />
+			<File RelativePath="..\src\QGenieSelfTrayMessage.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieSelfTrayMessage.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieSelfTrayMessage.h -o debug\moc_QGenieSelfTrayMessage.cpp" Description="MOC ..\src\QGenieSelfTrayMessage.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieSelfTrayMessage.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieSelfTrayMessage.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieSelfTrayMessage.h -o release\moc_QGenieSelfTrayMessage.cpp" Description="MOC ..\src\QGenieSelfTrayMessage.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieSelfTrayMessage.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\src\QGenieTrayIco_In.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTrayIco_In.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTrayIco_In.h -o debug\moc_QGenieTrayIco_In.cpp" Description="MOC ..\src\QGenieTrayIco_In.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieTrayIco_In.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTrayIco_In.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTrayIco_In.h -o release\moc_QGenieTrayIco_In.cpp" Description="MOC ..\src\QGenieTrayIco_In.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieTrayIco_In.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\src\QGenieTrayIco_Out.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTrayIco_Out.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTrayIco_Out.h -o debug\moc_QGenieTrayIco_Out.cpp" Description="MOC ..\src\QGenieTrayIco_Out.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieTrayIco_Out.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTrayIco_Out.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTrayIco_Out.h -o release\moc_QGenieTrayIco_Out.cpp" Description="MOC ..\src\QGenieTrayIco_Out.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieTrayIco_Out.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\src\QGenieTrayManager.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTrayManager.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTrayManager.h -o debug\moc_QGenieTrayManager.cpp" Description="MOC ..\src\QGenieTrayManager.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieTrayManager.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTrayManager.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTrayManager.h -o release\moc_QGenieTrayManager.cpp" Description="MOC ..\src\QGenieTrayManager.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieTrayManager.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="QGenieTrayService.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;QGenieTrayService.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 QGenieTrayService.h -o debug\moc_QGenieTrayService.cpp" Description="MOC QGenieTrayService.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieTrayService.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;QGenieTrayService.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 QGenieTrayService.h -o release\moc_QGenieTrayService.cpp" Description="MOC QGenieTrayService.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieTrayService.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\src\QGenieTray_Communication_Verify.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTray_Communication_Verify.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTray_Communication_Verify.h -o debug\moc_QGenieTray_Communication_Verify.cpp" Description="MOC ..\src\QGenieTray_Communication_Verify.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieTray_Communication_Verify.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieTray_Communication_Verify.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DDBG_MODE -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtUiTools&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\src&quot; -I&quot;genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\src\QGenieTray_Communication_Verify.h -o release\moc_QGenieTray_Communication_Verify.cpp" Description="MOC ..\src\QGenieTray_Communication_Verify.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieTray_Communication_Verify.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\src\genie2_tray.h" />
+			<File RelativePath="..\src\trayico_out_cmds.h" />
+		</Filter>
+		<Filter Filter="cpp;c;cxx;moc;h;def;odl;idl;res;" Name="Generated Files" UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File RelativePath="debug\moc_QGenieSelfTrayMessage.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieSelfTrayMessage.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QGenieTrayIco_In.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieTrayIco_In.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QGenieTrayIco_Out.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieTrayIco_Out.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QGenieTrayManager.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieTrayManager.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QGenieTrayService.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieTrayService.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QGenieTray_Communication_Verify.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieTray_Communication_Verify.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="ui_QGenieSelfTrayMessage_Windows.h" />
+		</Filter>
+		<Filter Filter="ui" Name="Form Files" ParseFiles="false" UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}">
+			<File RelativePath="..\src\QGenieSelfTrayMessage_Windows.ui">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieSelfTrayMessage_Windows.ui;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe ..\src\QGenieSelfTrayMessage_Windows.ui -o ui_QGenieSelfTrayMessage_Windows.h" Description="UIC ..\src\QGenieSelfTrayMessage_Windows.ui" Name="VCCustomBuildTool" Outputs="ui_QGenieSelfTrayMessage_Windows.h" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\src\QGenieSelfTrayMessage_Windows.ui;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\uic.exe ..\src\QGenieSelfTrayMessage_Windows.ui -o ui_QGenieSelfTrayMessage_Windows.h" Description="UIC ..\src\QGenieSelfTrayMessage_Windows.ui" Name="VCCustomBuildTool" Outputs="ui_QGenieSelfTrayMessage_Windows.h" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

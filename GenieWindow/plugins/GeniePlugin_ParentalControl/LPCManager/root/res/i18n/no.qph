@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="no">
+<phrase>
+	<source>abort</source>
+	<target>Avbryt</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Tilbake til grunnleggende kontroller</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Avbryt</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Kontroller tilgjengelighet</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Tilgjengelig.</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Ikke tilgjengelig</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>E-post</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Bekreft e-post</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Ugyldig e-post</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>E-post er opptatt</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Logg på</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>Det oppstod en feil under oppretting av kontoen. Prøv på nytt.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Kontoen er opprettet. Det oppstod imidlertid et problem med å konfigurere NETGEAR-ruteren.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Passord må inneholde mellom 6 og 20 tegn.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Brukernavn må begynne og slutte med en bokstav eller et tall og kan også inneholde . , - og _.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Passord</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Bekreft passord</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Oppretter din OpenDNS-konto ...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Opprett en gratis OpenDNS-konto</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Brukernavn</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Start tilpasning</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Avansert tilpasning</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Ved hjelp av våre tilpassede kontroller kan du fire på sikkerhetsinnstillingene for enkelte brukere eller på enkelte tidspunkter i løpet av dagen.  De tilpassede innstillingene behandles på vårt webområde. Hit kommer du når ruteren er konfigurert.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Hvis du velger å benytte deg av våre brukerspesifikke innstillinger, blir du bedt om å installere et lite program som administrerer disse spesielle OpenDNS-brukernavnene og -passordene.  Ikke glem å logge deg av når du er ferdig!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Registrerer ruteren med OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Kontrollerer om ruteren allerede er registrert med OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Vi har oppdaget at du nå er koblet til en annen ruter. Behandlingsverktøyet må startes på nytt for å kunne behandle den nye ruteren.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Denne enheten er kanskje registrert med en annen OpenDNS-bruker.  Gå til http://netgear.opendns.com/support/#faq15, så skal vi ordne opp i dette så fort som mulig.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Det ser ut til at du ikke er koblet til Internett via en støttet NETGEAR-ruter.  Kontroller at datamaskinen er koblet til NETGEAR-ruteren via en trådløs tilkobling eller Ethernet-tilkobling, og prøv på nytt.  Hvis dette problemet vedvarer, kan du slå ruteren av og på igjen, vente til lampene lyser og prøve på nytt.  Hvis du trenger hjelp, kan du gå til http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Kontrollerer om ruteren allerede er konfigurert ...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Identifiserer ruteren ...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Konfigurerer ruteren ...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Live Parental Controls er en utmerket løsning for å sikre familien på Internett, men som alle andre webfiltreringsverktøy, er det ikke perfekt. NETGEAR minner deg på at det aller beste er å oppbevare familie-PCen i et fellesområde der du kan se den og overvåke webområdene som barna dine besøker. I tillegg blir du bedt om å utvise forsiktighet ved besøk på webområder der det bes om å oppgi personlige eller økonomiske opplysninger.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Vær oppmerksom på følgende</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Ferdig</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>kontrollere om Live Parental Controls er aktivert</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>deaktivere eller aktivere Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>endre grunnleggende innstillinger</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>endre tilpassede innstillinger, for eksempel en Live Parental Controls som er brukerspesifikk og basert på bestemte tidspunkter</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Før meg til statusskjermbildet</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>Du har konfigurert NETGEAR Live Parental Controls med OpenDNS.  Neste gang du kjører behandlingsverktøyet, kommer du til statusskjermbildet, der du kan gjøre følgende:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Konfigurasjonen er fullført.</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Avslutt</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Det virker ikke som du er koblet til Internett.  Koble deg til Internett via NETGEAR-ruteren, og prøv på nytt.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Det ser ut til at du ikke er koblet til Internett via en støttet NETGEAR-ruter.  Kontroller at datamaskinen er koblet til NETGEAR-ruteren via en trådløs tilkobling eller Ethernet-tilkobling, og prøv på nytt.  Hvis dette problemet vedvarer, kan du slå ruteren av og på igjen, vente til lampene lyser og prøve på nytt.  Hvis du trenger hjelp, kan du gå til http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Ruterens gjeldende fastvare støtter ikke Live Parental Controls.  Gå til http://www.netgear.com/ for å laste ned den nyeste fastvaren, eller bruk funksjonen for ruteroppgradering i webbrukergrensesnittet til ruteren på http://www.routerlogin.net/ for å oppdatere fastvaren først.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Vi kontrollerer at du har fastvare som støtter Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Kontrollerer fastvaren for ruteren</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>Med OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>Du er i ferd med å konfigurere NETGEAR Live Parental Controls med OpenDNS på ruteren for å filtrere webområder du har besøkt på datamaskinene og andre nettverksenheter.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Ved hjelp av våre tilpassede innstillinger kan du redusere sikkerhetsinnstillingene for enkelte brukere eller på noen tidspunkter i løpet av dagen.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>Om denne programvaren</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>OpenDNS-konto:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Endre grunnleggende innstillinger</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>OpenDNS er ikke aktivert</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Finner ikke Internett-tilkobling</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>deaktivert</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>aktivert</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Ruterkonfigurering</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Rutermodell:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Filtreringsnivå:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>Du har tilpasset dine innstillinger på webområdet.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Tilpasset</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet, områder for sosiale nettverk, videodelingsområder, svindelforsøk (phishing) og generelle områder som er bortkastet tid.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Beskytter mot pornografi og svindelforsøk (phishing).</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Beskytter bare mot svindelforsøk (phishing).</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet og svindelforsøk (phishing).</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Ingenting er blokkert.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Endre tilpassede innstillinger</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Kontrollerer om du bruker OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Kontrollerer om Live Parental Controls er aktivert ...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Deaktiverer Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Aktiverer Live Parental Controls med dine standardinnstillinger ...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Status</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Deaktiver Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Aktiver Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Deaktiver Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Neste</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Nei, jeg må opprette en gratis OpenDNS-konto.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Ja, bruk min eksisterende OpenDNS-konto.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Velkommen! Denne konfigureringsveiviseren konfigurere raskt NETGEAR Live Parental Controls med OpenDNS på NETGEAR-ruteren.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Før du kan bruke Live Parental Controls, må du ha en gratis OpenDNS-konto. Har du allerede en konto?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Konfigurere Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Forrige</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Oppdater</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Passord:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Angi brukernavnet og passordet du bruker til å behandle NETGEAR-ruteren.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Ruterpålogging</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Brukernavn:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Høy</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet, områder for sosiale nettverk, videodelingsområder, svindelforsøk (phishing) og generelle områder som er bortkastet tid.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Lav</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Beskytter mot pornografi og svindelforsøk (phishing).</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Minimal</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Beskytter bare mot svindelforsøk (phishing).</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Moderat</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Beskytter mot alle områder med innhold for voksne, ulovlig aktivitet og svindelforsøk (phishing).</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Ingen</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Ingenting er blokkert.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>Det oppstod en feil under lagring av innstillingene. Prøv på nytt.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Henter innstillingene fra OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Sender innstillingene til OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Alle datamaskiner som er koblet til ruteren, vil være beskyttet mot innholdet du velger nedenfor.  Du kan tilpasse Live Parental Controls senere på vårt webområde.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: Velg et filtreringsnivå for ditt nettverk</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>Det oppstod en feil under påloggingen. Kontroller at du er tilkoblet Internett, og prøv på nytt.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Vi gjenkjenner dessverre ikke dette brukernavnet eller passordet.  Prøv på nytt, eller velg Forrige hvis du ikke har en OpenDNS-konto.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Jeg har glemt passordet</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Passord</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Logger på OpenDNS ...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Angi brukernavnet og passordet nedenfor.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Logg deg på OpenDNS-kontoen</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Brukernavn</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>NETGEAR Live Parental Controls Management Utility 2.0b44</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Prøv på nytt</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>En kritisk oppdatering er tilgjengelig fra OpenDNS. Denne åpnes i nettleseren.  Last ned og installer denne nye versjonen.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Kritisk oppdatering</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>En oppdatering er tilgjengelig fra OpenDNS. Denne kan du laste ned og installere.  Vil du laste ned oppdateringen nå?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Nei</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Oppdater</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Ja</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>Du kommer nå til vårt webområde, der du kan tilpasse Live Parental Controls.  Hvis nettleseren ikke åpnes automatisk, kan du kopiere koblingen nedenfor til adresselinjen i nettleseren.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>Du har nå fullført denne konfigureringsveiviseren.  Takk for at du bruker OpenDNS!</target>
+</phrase>
+</QPH>

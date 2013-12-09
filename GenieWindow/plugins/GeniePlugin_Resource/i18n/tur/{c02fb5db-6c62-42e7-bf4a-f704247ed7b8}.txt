@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Tahmini kalan süre"
+L_UPGRADE_UPDATE_CANCEL="İptal"
+L_UPGRADE_UPDATE_PAGE_FINISH="İndirme tamamlandı.\nLütfen yükseltmek için "Son" düğmesini tıklayın."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie Yükseltmesi"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Geçerli sürüm, en güncel sürümdür."
+L_UPGRADE_UPDATE_PAGE_WRONG="Geçici bir sorun yaşıyoruz. Lütfen yeni sürümü daha sonra indirmeyi deneyin."
+L_UPGRADE_UPDATE_DOWNLOAD="İndir"
+L_UPGRADE_UPDATE_FINISH="Son"
+L_UPGRADE_UPDATE_CHECK_DESP="Açıklama dosyası alınıyor..."
+L_UPGRADE_UPDATE_DOWN_FILE="Yükleyici dosyası alınıyor..."
+L_UPGRADE_UPDATE_LINK="Ayrıca, bu bağlantıyı tıklayarak yeni sürümü indirebilirsiniz"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Ağ Bağlantısı Sorunu"

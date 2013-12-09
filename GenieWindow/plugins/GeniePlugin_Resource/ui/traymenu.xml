@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <widget class="QMenu" name="traymenu" title="traymenu">
+    <action name="obj_open" title="Open" icon=":/images/tray_show.png"/>  
+	<action name="obj_upgrade" title="Upgrade" icon=":/images/tray_update.png"/>
+	<spacer />
+    <widget class="QMenu" name="obj_settings" title="Settings" icon=":/images/property.png">
+     <action name="obj_netchange"  title="Show Network Connectivity Change"  checkable="1"/>
+     <action name="obj_autostart" title="Enable AutoStart" checkable="1" />
+    </widget>
+	<spacer />
+    <action name="obj_exit" title="Exit" icon=":/images/tray_exit.png"/>
+   </widget>
+

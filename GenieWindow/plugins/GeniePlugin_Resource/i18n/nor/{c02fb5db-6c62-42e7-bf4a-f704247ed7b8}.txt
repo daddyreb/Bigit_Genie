@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Beregnet tid som gjenstår"
+L_UPGRADE_UPDATE_CANCEL="Avbryt"
+L_UPGRADE_UPDATE_PAGE_FINISH="Nedlasting fullført.\nKlikk på "Fullfør" for å oppgradere."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie-oppgradering"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Gjeldende versjon er den nyeste versjonen."
+L_UPGRADE_UPDATE_PAGE_WRONG="Det har oppstått et midlertidig problem. Prøv å laste ned den nye versjonen på et senere tidspunkt."
+L_UPGRADE_UPDATE_DOWNLOAD="Last ned"
+L_UPGRADE_UPDATE_FINISH="Fullfør"
+L_UPGRADE_UPDATE_CHECK_DESP="Henter beskrivelsesfil..."
+L_UPGRADE_UPDATE_DOWN_FILE="Henter installasjonsfil..."
+L_UPGRADE_UPDATE_LINK="Du kan også laste ned den nye versjonen ved å klikke på denne koblingen"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Problem med nettverkstilkoblingen"

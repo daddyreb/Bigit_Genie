@@ -1,0 +1,4008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ca71e0ce-390d-4fc8-8350-de8dd6751d08}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{9be0ebda-2737-4487-ae1c-0431d97c6750}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeniePlugin_Resource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\genie2_interface\QGenieIface2ShareObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GeniePlugin_Resource.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GeniePlugin_Resource.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieIface2ShareObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieIface2ShareObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_fontsetting.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_i18n.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_images.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_map.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_readyshare.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_route.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_ui.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GeniePlugin_Resource.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IHandlerInf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\IPluginInf2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\include\genie2_interface\QGenieIface2ShareObject.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\genie2_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\genie2_plugincommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\inner_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\interface2_cmds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\interface2_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\interface2_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\movie\1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\10.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\11.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\12.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\5.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\6.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\7.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\8.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie\9.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AmazonkindleDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AmazonkindleNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AmazonkindleOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AmazonkindleSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidDeviceDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidDeviceNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidDeviceOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidDeviceSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidPhoneDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidPhoneNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidPhoneOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidPhoneSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidTabletDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidTabletNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidTabletOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\AndroidTabletSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\BD_Disable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\BD_Enable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\BlockFlag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\Blu-rayPlayerDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\Blu-rayPlayerNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\Blu-rayPlayerOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\Blu-rayPlayerSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\BridgeDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\BridgeNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\BridgeOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\BridgeSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CG3300big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24GNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24GNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24GOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24GSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24GSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24Gbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24Gbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24Gbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\CGD24Gbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\readyshare\Cable-Change-7.swf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CableSTBDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CableSTBNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CableSTBOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CableSTBSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CameraDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CameraNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CameraOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CameraSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CentralRouterDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CentralRouterNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CentralRouterOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\CentralRouterSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEAROffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NETGEARbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEAROffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DEFAULT_NONETGEARbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GTbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834GVbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Gbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Gbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Gbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Gbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834NNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834NNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834NOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834NSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834NSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Nbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Nbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Nbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Nbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834PNbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DG834big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN1000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200MNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200MNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200MOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200MSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200MSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Mbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Mbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Mbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Mbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN2200big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGN3500big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGNB2100big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3300big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND3700big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DGND4000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111POffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSPbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111PSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111Pbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111Pbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111Pbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\DM111Pbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\DVRDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\DVRNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\DVROffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\DVRSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\DetailViewFrameBkg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\DeviceCount.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\FeedBack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\First.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\FirstDisabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\FirstSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\GamingConsoleDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\GamingConsoleNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\GamingConsoleOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\GamingConsoleSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\GenieUpdate.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Internet.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\InternetNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\InternetOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JNR3210big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000TNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000TNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000TOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000TSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000TSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Tbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Tbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Tbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000Tbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\JWNR2000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Last.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\LastDisabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\LastSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LinuxPCDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LinuxPCNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LinuxPCOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LinuxPCSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostDetails_Mac.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostNormal_Mac.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostOffline_Mac.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\LocalHostSelected_Mac.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBM621big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR1210big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBR624GUbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\MBRN3000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacBookDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacBookNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacBookOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacBookSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacMiniDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacMiniNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacMiniOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacMiniSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacProDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacProNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacProOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MacProSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Mac_DetailViewFrameBkg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Mac_NewDeviceNotifyWidgetBk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Map.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MediaDeviceDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MediaDeviceNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MediaDeviceOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\MediaDeviceSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\NetworkDeviceDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\NetworkDeviceNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\NetworkDeviceOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\NetworkDeviceSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Network_Problem.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\NewDeviceNotifyCloseBtnHover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\NewDeviceNotifyCloseBtnNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\NewDeviceNotifyWidgetBk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\NextDisabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\NextSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\OtherSTBDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\OtherSTBNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\OtherSTBOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\OtherSTBSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Parental_Controls.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PowerlineDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\PowerlineHover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PowerlineNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\PowerlineNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\PowerlineOff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PowerlineOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PowerlineSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\PowerlineSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Prev.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\PrevDisabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\PrevSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PrinterDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PrinterNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PrinterOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\PrinterSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\QGenieMainUi.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\QGenieMainUi.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QTabBar_scroller_bj.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QTabBar_scroller_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QTabBar_scroller_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\QosSetting.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6200big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R6300big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\R7000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\RP614big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\RdpFlag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Rdp_Launch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\ReadySHARE.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Refresh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\RefreshDisabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\RefreshHover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\RefreshSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RepeaterDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RepeaterNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RepeaterOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RepeaterSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RouterDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RouterNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RouterOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\RouterSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SatelliteSTBDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SatelliteSTBNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SatelliteSTBOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SatelliteSTBSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\ScannerDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\ScannerNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\ScannerOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\ScannerSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\Setup.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SlingBoxDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SlingBoxNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SlingBoxOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SlingBoxSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SmartPhoneDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SmartPhoneNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SmartPhoneOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SmartPhoneSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\StorageDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\StorageNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\StorageOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\StorageSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SwitchDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SwitchNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SwitchOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\SwitchSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TVDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TVNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TVOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TVSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TabletDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TabletNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TabletOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\TabletSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Traffic_Minor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\TurboFlag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\UnixPCDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\UnixPCNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\UnixPCOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\UnixPCSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\ViewDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\VmFlag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGM124Normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGM124OffLine.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGM124Selected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGM124big_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGM124big_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGM124big_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR101Normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR101OffLine.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR101Selected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR101big_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR101big_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR101big_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR612big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614LNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614LNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614LOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614LSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614LSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Lbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Lbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Lbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Lbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGR614big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WGT624big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNB2100big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3300big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3400big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3700big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR37AVbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR3800big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4300big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4500big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDR4700big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNDRMACbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR1500big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR2200big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500LNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500LNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500LOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500LSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500LSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Lbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Lbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Lbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Lbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR3500big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR500big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR612big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834BNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834BNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834BOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834BSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834BSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Bbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Bbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Bbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Bbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834MNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834MNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834MOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834MSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834MSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Mbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Mbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Mbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR834Mbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854TNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854TNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854TOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854TSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854TSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854Tbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854Tbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854Tbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNR854Tbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WNXR2000big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824EXTbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824NNormal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824NNormal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824NOffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824NSelected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824NSelected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Nbig_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Nbig_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Nbig_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Nbig_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Normal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824OffLine_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Selected_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824Selected_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824big_1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824big_2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824big_3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\route\WPN824big_3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\WindowsPCDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\WindowsPCNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\WindowsPCOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\WindowsPCSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WiredNetCardHover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WiredNetCardNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WiredNetCardOff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WiredNetCardSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\Wireless5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessNetCardHover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessNetCardNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessNetCardOff.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessNetCardSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessSignal_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessSignal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessSignal_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessSignal_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\WirelessSignal_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\aboutdialog.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bbticon\bbt_default.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_about_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_about_gadd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_ad_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_dialog.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_dlg_mid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_plugin_page.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_search_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bg_title_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_about.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_about_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_appstore_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_appstore_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_close_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_color_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_color_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_color_selected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_combo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_head_error.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_head_warring.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_maximize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_maximize_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_minimize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_minimize_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_normalize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_normalize_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_scroll_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_scroll_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_scroll_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_scroll_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_state_good.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_state_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_type_admin.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_type_diagnose.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\but_type_topo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\conner_24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\conner_5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\detailviewframe.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\exitdialog.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\faq.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fg_ad_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fg_search_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fg_title_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fg_title_gadd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\find.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\firmwareupdate.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="fontsetting\fontsetting.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="fontsetting\fontsetting_enu.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\framelessframe.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\gacc.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\genie.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\node\genie_b1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\node\genie_b2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="i18n\i18n.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="map\devices\iMacDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iMacNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iMacOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iMacSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadminiDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadminiNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadminiOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPadminiSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhone5Details.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhone5Normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhone5Offline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhone5Selected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhoneDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhoneNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhoneOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPhoneSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPodTouchDetails.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPodTouchNormal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPodTouchOffline.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\devices\iPodTouchSelected.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico_tray_error.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico_tray_good.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico_update.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico_update_genie.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="images\images.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="images\node\internet_b1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\node\internet_b2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\kill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\label_update_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\label_update_wrong.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_button_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_button_click.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_button_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_home_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_home_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\left_pan_smartwifi_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="map\map.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="ui\mapdbgW.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\maplogin.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\maplogin.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\menu_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\movie_01.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\netcardspanel.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\newdevicenotifywidget.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\readyshare\p2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_go_but.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_gradient_but.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_gradient_but_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_mainmenu_but.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_mainmenu_but_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_tab_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_tab_left_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_tab_mid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_tab_mid_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_tab_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plugin_tab_right_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\pluginshowdialog.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\property.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\others\puttyFlag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\qrcode.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\rccountdown.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\rctopo_controlpan.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\rctopo_controlpan.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\rctopo_detail.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\rctopology.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\readyshare\readyshare.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="images\readyshare\readyshare.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="images\readyshare\readyshare_Basic.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\readyshare\readyshare_Basic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\readysharebasic.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\readysharemanager.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\readyshareprint.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\readyshareremote.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\reboot.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="images\route\route.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="images\self_tray\selftray_msg_ld.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\self_tray\selftray_msg_lu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\self_tray\selftray_msg_rd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\self_tray\selftray_msg_ru.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\smlogin.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\splash_gadd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\stack_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bigit\title-bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\trafficmetter.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tray_exit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tray_show.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tray_update.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\traymenu.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\traymenu.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="ui\ui.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="images\update_green.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\update_red.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui\wirelesssetting.ui">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{142d68b8-aadf-4500-9d32-7c27947bd6bb}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{4bb1fd3c-7a84-4740-8fb3-5960bb1b28b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{5325cdd0-d419-4e98-88d8-66d865932824}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{5ddd2596-5211-4d83-980b-71f3516d0b5c}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{6653bbdd-844a-465b-bcdb-94111206b1b2}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{6c1c9b2f-5f5e-45f8-8dad-1633ff446377}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{6c7b332f-a107-40ab-84f3-2163ac13ad0a}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{7b399884-b36d-4de8-ac04-19e7452023d8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{98DB626F-5F14-387F-0931-81B7581111A3}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{b3665786-212a-4ae8-bf26-03b70b22cee7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{c02fb5db-6c62-42e7-bf4a-f704247ed7b8}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{ced77229-c59a-4669-9c26-0bb4860d96a7}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{e722b972-b05e-4d71-8cd9-676ebd1535b9}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ara\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\chs\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\csy\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\dan\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\deu\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ell\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\enu\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\esp\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fin\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\fra\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\hun\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ita\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\jpn\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\kor\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nld\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\nor\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\plk\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\ptb\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rom\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\rus\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sky\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\slv\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\sve\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\tur\{f8018c9f-5431-497e-ac5d-511dd0ae7402}.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_GenieUpdate.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QGenieMainUi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QosSetting.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_aboutdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_exitdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_firmwareupdate.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_gacc.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mapdbgW.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_maplogin.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pluginshowdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qrcode.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rccountdown.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rctopo_controlpan.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rctopo_detail.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rctopology.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_readysharebasic.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_readysharemanager.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_readyshareprint.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_readyshareremote.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_reboot.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_smlogin.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_trafficmetter.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wirelesssetting.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

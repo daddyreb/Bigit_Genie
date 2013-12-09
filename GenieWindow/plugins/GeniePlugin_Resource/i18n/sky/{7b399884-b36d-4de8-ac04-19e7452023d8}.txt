@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Zrušiť"
+L_MAIN_TRAY_AUTOSTART="Povoliť automatický štart"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Zobraziť zmenu sieťového pripojenia"
+L_MAIN_TITLE_ABOUT="O aplikácii"
+L_MAIN_CHECKFORUPDATES="Skontrolovať aktualizácie"

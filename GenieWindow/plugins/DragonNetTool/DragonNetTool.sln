@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Launch", "..\..\launch\Launch.vcxproj", "{C84BFD42-C3F1-3A7D-B8C2-75AF95CF831C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genie_module", "..\genie_module\genie_module.vcxproj", "{21FCBEAD-7718-3E80-9D9F-A974B75E208A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniePlugin_NetWorkProblem", "..\GeniePlugin_NetworkProblem\GeniePlugin_NetWorkProblem.vcxproj", "{76E3F7F3-AFCD-3726-9FC7-FB846FBF0527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C84BFD42-C3F1-3A7D-B8C2-75AF95CF831C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C84BFD42-C3F1-3A7D-B8C2-75AF95CF831C}.Debug|Win32.Build.0 = Debug|Win32
+		{C84BFD42-C3F1-3A7D-B8C2-75AF95CF831C}.Release|Win32.ActiveCfg = Release|Win32
+		{C84BFD42-C3F1-3A7D-B8C2-75AF95CF831C}.Release|Win32.Build.0 = Release|Win32
+		{21FCBEAD-7718-3E80-9D9F-A974B75E208A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21FCBEAD-7718-3E80-9D9F-A974B75E208A}.Debug|Win32.Build.0 = Debug|Win32
+		{21FCBEAD-7718-3E80-9D9F-A974B75E208A}.Release|Win32.ActiveCfg = Release|Win32
+		{21FCBEAD-7718-3E80-9D9F-A974B75E208A}.Release|Win32.Build.0 = Release|Win32
+		{76E3F7F3-AFCD-3726-9FC7-FB846FBF0527}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76E3F7F3-AFCD-3726-9FC7-FB846FBF0527}.Debug|Win32.Build.0 = Debug|Win32
+		{76E3F7F3-AFCD-3726-9FC7-FB846FBF0527}.Release|Win32.ActiveCfg = Release|Win32
+		{76E3F7F3-AFCD-3726-9FC7-FB846FBF0527}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

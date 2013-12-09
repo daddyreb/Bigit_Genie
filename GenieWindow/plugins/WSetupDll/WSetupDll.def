@@ -1,0 +1,13 @@
+LIBRARY	"WSetupDll"
+EXPORTS
+ex_get_export_information		@1
+ex_free_export_information		@2
+ex_export_to_file					@3
+ex_export_to_file2				@4
+ex_get_logicaldriver_letters		@5
+ex_free_logicaldriver_letters	@6
+ex_is_logicaldriver_removable	@7
+ex_is_logicaldriver_cdrom		@8
+ex_is_logicaldriver_system		@9
+ex_export_to_file2_v2			@10
+

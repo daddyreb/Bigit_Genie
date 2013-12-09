@@ -1,0 +1,56 @@
+#ifndef MAPDEVICETYPE_H
+#define MAPDEVICETYPE_H
+//Device types used by plugin map
+
+enum DEVICE_TYPE_
+{
+    MDT_INTERNET,//not a real device
+    MDT_NETWORKDEV,
+    MDT_WINDOWSPC,
+    MDT_MACBOOK,
+    MDT_IMAC,
+    MDT_MACMINI,
+    MDT_MACPRO,
+    MDT_LINUXPC,
+    MDT_UNIXPC,
+    MDT_GAMINGCONSOLE,
+    MDT_MEDIADEV,
+    MDT_CAMERA,
+    MDT_SMARTPHONE,
+    MDT_TABLET,
+    MDT_PRINTER,
+    MDT_SCANNER,
+    MDT_STORAGE,
+    MDT_ROUTER,
+    MDT_IPAD,
+    MDT_IPODTOUCH,
+    MDT_IPHONE,
+    MDT_BRIDGE,
+    MDT_REPEATER,
+    MDT_CABLESTB,
+    MDT_SATELLITESTB,
+    MDT_SLINGBOX,
+    MDT_OTHERSTB,
+    MDT_TV,
+    MDT_SWITCH,
+    MDT_ANDROIDTABLET,
+    MDT_ANDROIDPHONE,
+    MDT_ANDROIDDEVICE,
+    MDT_BLUERAYPLAYER,
+	MDT_DVR,
+    MDT_POWERLINE,
+    MDT_AMAZONKINDLE,  //kai.yan add Amazonkindle
+    MDT_IPADMINI,  //kai.yan add iPadmini
+    MDT_IPHONE5,   //kai.yan add iPhone5
+    MDT_DEVICETYPE_COUNT
+};
+
+enum CONNECTION_TYPE_{
+    MCT_WIRED,
+    MCT_WIRELESS,
+    MCT_AUTO,
+    MCT_COUNT
+
+};
+
+#endif // MAPDEVICETYPE_H

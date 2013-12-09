@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/images/readyshare">
+    
+        <file>Cable-Change-7.swf</file>
+        <file>p2.png</file>
+		<file>readyshare.jpg</file>
+		<file>readyshare_Basic.gif</file>
+		<file>readyshare_Basic.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>

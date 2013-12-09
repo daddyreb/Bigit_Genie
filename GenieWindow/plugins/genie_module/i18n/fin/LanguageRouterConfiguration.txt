@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Reititinasetukset"
+L_RTCF_BIGBT_CLICKHERE="Napsauta tätä"
+
+L_RTCF_LOGIN_TITLE="Reitittimen sisäänkirjaus"
+L_RTCF_LOGIN_USER="Käyttäjätunnus:"
+L_RTCF_PASSWORD="Salasana:"
+L_RTCF_LOGIN_REMEMBER="Muista salasana"
+L_RTCF_LOGIN_BUT_LEFT="Käyttäjätunnus"
+L_RTCF_CANCEL="Peruuta"
+
+
+L_RTCF_SETTING_SSID="Langattoman verkon nimi (SSID):"
+L_RTCF_SETTING_CHANNEL="Kanavan valinta:"
+L_RTCF_SETTING_MODE="Tila:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 merkkiä tai 64 heksadesimaalilukua)"
+L_RTCF_SETTING_APPLY="Käytä"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Kanavan valinta:"
+L_RTCF_INFO_CHOICE="Langattoman verkon tiedot"
+L_RTCF_INFO_PASSWOED="Verkkoavain (salasana):"
+L_RTCF_INFO_REFRESH="Päivitä"
+L_RTCF_INFO_MODIFY="Muokkaa"
+L_RTCF_INFO_LOGINOUT="Uloskirjaus"
+L_RTCF_INFO_EXPORT="Vie"
+
+L_RTCF_TAB_TITLE="Langattomat asetukset"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Asetusten muuttaminen voi keskeyttää langattoman verkon aktiivisen liikenteen. Haluatko jatkaa?"
+L_RTCF_MSG_NOTNETGEAR="Kirjautuminen epäonnistui. Varmista, että tietokone on liitetty NETGEAR-reitittimeen."
+L_RTCF_MSG_PWDWRONG="Kirjautuminen epäonnistui, tarkista salasana."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Kirjautuminen epäonnistui. Reitittimen vastaus aikakatkaistiin."
+L_RTCT_MSG_PLEASEWAIT="Päivitetään. Odota..."
+L_RTCT_MSG_COMMITWAIT="Vastaanotetaan reitittimen vastaustietoja. Odota %1 sekuntia."
+L_RTCT_MSG_GACC="Vieraskäyttö on käytössä. Sen poistaminen käytöstä voi keskeyttää langattoman verkon aktiivisen liikenteen. Haluatko jatkaa?"
+L_RTCT_MSG_SOAPERROR="Reititin ei tue tätä toimintoa."
+L_RTCT_MSG_SOAPERROR_LOGIN="Reititin ei tue tätä toimintoa, päivitä reitittimen laiteohjelma."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Reititin ei tue vieraskäyttöä."
+L_RTCF_MSG_TIMEOUT="Toiminto aikakatkaistiin."
+
+
+
+L_GACC_BIGBT="Vieraskäyttö"
+L_GACC_ENABLEGUEST="Ota vieraskäyttö käyttöön"
+L_GACC_DISABLEGUEST="Poista vieraskäyttö käytöstä"
+L_GACC_ENABLE_TITLE="Nykyinen asetus:"
+L_GACC_ENABLED="Käytössä"
+L_GACC_NOTENABLED="Poistettu käytöstä"
+
+L_GACC_GUESTWIRELESS_SSID="Vieraskäyttö (SSID):"
+L_GACC_WORKTIME="Ajanjakso:"
+
+L_RTCF_DEFAULT="(oletussalasana on "password")"
+L_RTCF_LIST_TITLE="Seuraavien reitittimen asetusten hallintaa varten on kirjauduttava sisään:"
+
+L_RTCF_TRAFFICMETTER="Liikennemittari"
+L_RTCF_FUPDATE="Reitittimen päivitys"
+
+L_RTCF_ROUTETYPE="Reitittimen malli"
+L_RTCF_FIRMWARE_VERSION="Laiteohjelman versio"
+
+L_RTCF_LOGIN_LIST=".Langattoman verkon asetukset\n.ReadySHARE\n.Vieraskäyttö\n.Liikennemittari\n.Reitittimen päivitys"
+
+L_GACC_ALWAYS="Aina"
+L_GACC_1HOUR="1 tunti"
+L_GACC_5HOUR="5 tuntia"
+L_GACC_10HOUR="10 tuntia"
+L_GACC_1DAY="1 päivä"
+L_GACC_1WEEK="1 viikko"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Perus"
+L_READY_SHARE_FUN_TWO="Tämän avulla voit käyttää ReadySHARE-tallennustilaa mistä tahansa"
+L_READY_SHARE_FUN_THREE="ReadySHARE-tulostus"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Edellinen"
+L_READY_SHARE_CONTINUE="Jatka"
+L_READY_SHARE_NOT_SUPPORT="Reititin ei tue tätä toimintoa."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Tila"
+L_READY_SHARE_NETWORK_NAME="Verkon/laitteen nimi:"
+L_READY_SHARE_REGISTER="Rekisteröi"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="ReadySHARE Cloud -toiminnon avulla voidaan käyttää reitittimen USB-porttiin liitettyä USB-tallennuslaitetta Internetin kautta."
+L_READY_SHARE_REMOTE_HOW_WORKS="ReadySHARE Cloudn käyttöönotto"
+L_READY_SHARE_REMOTE_STEPS_ONE="Vaihe 1: Tarvitset ReadySHARE Cloud -tilin. Jos sinulla ei ole tiliä, siirry tilin luontiin <a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>napsauttamalla tätä</a>."
+L_READY_SHARE_REMOTE_STEPS_TWO="Vaihe 2: rekisteröi tällä sivulla reitittimesi ja siihen liitetty USB-laite käyttäjätilillesi kirjoittamalla ReadySHARE Cloud -käyttäjätunnuksesi ja salasanasi."
+L_READY_SHARE_REMOTE_STEPS_THREE="Vaihe 3: Kirjaudu uudelleen sisään sivustoon <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a>. Sivulla pitäisi näkyä reitittimeen liitetty USB-laite."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Vaihe 4: Ensimmäisellä käyttökerralla sinua pyydetään lataamaan Windows-sovellus, jolla muodostetaan suojattu yhteys tietokoneesta reitittimen USB-laitteeseen. Kun olet kirjautunut sovellukseen, voit käyttää USB-laitetta mistä tahansa."
+L_READY_SHARE_REMOTE_START_NOW="Aloita nyt ja ota ReadySHARE Cloud käyttöön"
+L_READY_SHARE_REMOTE_USERNAME="Käyttäjätunnus:"
+L_READY_SHARE_REMOTE_PASSWORD="Salasana:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Jos sinulla ei ole ReadySHARE Cloud -tiliä, hanki se napsauttamalla tätä"
+L_READY_SHARE_PRINTING="ReadySHARE-tulostus"
+L_READY_SHARE_PRINTING_DESC="Jaettu tulostus USB-tulostimeen Windows- ja Mac-tietokoneissa"
+L_READY_SHARE_PRINTING_HOW_WORKS="Miten se toimii?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Vaihe 1: liitä USB-tulostin reitittimen USB-porttiin USB-tulostinkaapelilla."
+L_READY_SHARE_PRINTING_STEPS_TWO="Vaihe 2: Asenna USB-tulostimen ohjain kaikkiin tietokoneisiin, joista jaettua tulostinta käytetään."
+L_READY_SHARE_PRINTING_STEPS_THREE="Vaihe 3: Lataa NETGEAR USB Control Center -apuohjelma kaikkiin tietokoneisiin, joista jaettua tulostinta käytetään. Se on ladattavissa osoitteesta <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Liitä tulostin tietokoneeseen ja tulosta haluamasi sisältö apuohjelman ohjeiden mukaisesti."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Huomautus:</b> ilman tätä sovellusta voit selata USB-laitteen sisältöä, mutta et voi avata tai muokata tiedostoja."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Huomautus:</b> Internet-yhteyttä ei katkaista, ennen kuin rekisteröinti poistetaan."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud on rekisteröity käyttäjälle:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Noudattamalla vaiheiden 2 - 4 ohjeita voit käyttää tallennustilaa mistä tahansa"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Valitse <B>Poista rekisteröinti</B>, jos haluat rekisteröidä ReadySHARE Cloud -palvelun toiselle käyttäjälle"
+L_READY_SHARE_UNREGISTER="Poista rekisteröinti"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

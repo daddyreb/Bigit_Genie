@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Ρυθμίσεις δρομολ."
+L_RTCF_BIGBT_CLICKHERE="Κάντε κλικ εδώ"
+
+L_RTCF_LOGIN_TITLE="Σύνδεση δρομολογητή"
+L_RTCF_LOGIN_USER="Όνομα χρήστη:"
+L_RTCF_PASSWORD="Κωδικός πρόσβασης:"
+L_RTCF_LOGIN_REMEMBER="Απομνημόνευση κωδικού πρόσβασης"
+L_RTCF_LOGIN_BUT_LEFT="Σύνδεση"
+L_RTCF_CANCEL="Άκυρο"
+
+
+L_RTCF_SETTING_SSID="Όνομα ασύρματου δικτύου (SSID):"
+L_RTCF_SETTING_CHANNEL="Επιλογή καναλιού:"
+L_RTCF_SETTING_MODE="Λειτουργία:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 χαρακτήρες ή 64 δεκαεξαδικά ψηφία)"
+L_RTCF_SETTING_APPLY="Εφαρμογή"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Επιλογή καναλιού:"
+L_RTCF_INFO_CHOICE="Πληροφορίες ασύρματου δικτύου"
+L_RTCF_INFO_PASSWOED="Κλειδί δικτύου (κωδικός πρόσβασης):"
+L_RTCF_INFO_REFRESH="Ανανέωση"
+L_RTCF_INFO_MODIFY="Τροποποίηση"
+L_RTCF_INFO_LOGINOUT="Αποσύνδεση"
+L_RTCF_INFO_EXPORT="Εξαγωγή"
+
+L_RTCF_TAB_TITLE="Ρυθμίσεις ασύρμ. δικτύου"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Η αλλαγή των ρυθμίσεων μπορεί να διακόψει την ενεργή κυκλοφορία στο ασύρματο δίκτυο. Θέλετε να συνεχίσετε;"
+L_RTCF_MSG_NOTNETGEAR="Η σύνδεση απέτυχε! Ελέγξτε εάν ο υπολογιστής είναι συνδεδεμένος στο δρομολογητή της NETGEAR."
+L_RTCF_MSG_PWDWRONG="Η σύνδεση απέτυχε, ελέγξτε τον κωδικό πρόσβασης."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Η σύνδεση απέτυχε. Λήξη χρονικού ορίου απόκρισης δρομολογητή."
+L_RTCT_MSG_PLEASEWAIT="Γίνεται ανανέωση, περιμένετε..."
+L_RTCT_MSG_COMMITWAIT="Γίνεται λήψη των πληροφοριών απόκρισης του δρομολογητή, περιμένετε %1 δευτερόλεπτα."
+L_RTCT_MSG_GACC="Χρησιμοποιείται η λειτουργία πρόσβασης επισκέπτη. Τυχόν απενεργοποίησή της μπορεί να διακόψει την ενεργή κυκλοφορία στο ασύρματο δίκτυο. Θέλετε να συνεχίσετε;"
+L_RTCT_MSG_SOAPERROR="Ο δρομολογητής δεν υποστηρίζει αυτήν τη λειτουργία."
+L_RTCT_MSG_SOAPERROR_LOGIN="Ο δρομολογητής δεν υποστηρίζει αυτήν τη λειτουργία. Αναβαθμίστε το υλικολογισμικό του δρομολογητή."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Η δρομολογητής δεν υποστηρίζει τη λειτουργία πρόσβασης επισκέπτη."
+L_RTCF_MSG_TIMEOUT="Το χρονικό όριο της λειτουργίας έληξε."
+
+
+
+L_GACC_BIGBT="Πρόσβαση επισκέπτη"
+L_GACC_ENABLEGUEST="Ενεργοποίηση λειτουργίας πρόσβασης επισκέπτη"
+L_GACC_DISABLEGUEST="Απενεργοποίηση λειτουργίας πρόσβασης επισκέπτη"
+L_GACC_ENABLE_TITLE="Τρέχουσα ρύθμιση:"
+L_GACC_ENABLED="Ενεργοποιήθηκε"
+L_GACC_NOTENABLED="Απενεργοποιημένη"
+
+L_GACC_GUESTWIRELESS_SSID="Πρόσβαση επισκέπτη (SSID):"
+L_GACC_WORKTIME="Χρονική περίοδος:"
+
+L_RTCF_DEFAULT="(ο προεπιλεγμένος κωδικός πρόσβασης είναι "password")"
+L_RTCF_LIST_TITLE="Απαιτείται σύνδεση για τη διαχείριση αυτών των ρυθμίσεων δρομολογητή:"
+
+L_RTCF_TRAFFICMETTER="Μέτρηση κυκλοφορίας"
+L_RTCF_FUPDATE="Αναβάθμιση δρομολογητή"
+
+L_RTCF_ROUTETYPE="Μοντέλο δρομολογητή"
+L_RTCF_FIRMWARE_VERSION="Έκδοση υλικολογισμικού"
+
+L_RTCF_LOGIN_LIST=".Ασύρματες ρυθμίσεις\n.ReadySHARE\n.Πρόσβαση επισκέπτη\n.Μέτρηση κυκλοφορίας\n.Ενημέρωση δρομολογητή"
+
+L_GACC_ALWAYS="Πάντα"
+L_GACC_1HOUR="1 ώρα"
+L_GACC_5HOUR="5 ώρες"
+L_GACC_10HOUR="10 ώρες"
+L_GACC_1DAY="1 ημέρα"
+L_GACC_1WEEK="1 εβδομάδα"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Βασική"
+L_READY_SHARE_FUN_TWO="Σας δίνει τη δυνατότητα να προσπελάσετε τη μονάδα αποθήκευσης ReadySHARE, όπου κι αν βρίσκεστε"
+L_READY_SHARE_FUN_THREE="Εκτύπωση ReadySHARE"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Πίσω"
+L_READY_SHARE_CONTINUE="Συνέχεια"
+L_READY_SHARE_NOT_SUPPORT="Ο δρομολογητής δεν υποστηρίζει αυτήν τη λειτουργία."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Λειτουργία"
+L_READY_SHARE_NETWORK_NAME="Όνομα δικτύου/συσκευής:"
+L_READY_SHARE_REGISTER="Εγγραφή"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="Η λειτουργία ReadySHARE Cloud σάς παρέχει απομακρυσμένη πρόσβαση στο Διαδίκτυο μέσω μιας συσκευής αποθήκευσης USB που είναι συνδεδεμένη στη θύρα USB του δρομολογητή."
+L_READY_SHARE_REMOTE_HOW_WORKS="Τρόπος ρύθμισης λειτουργίας ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="Βήμα 1: Πρέπει να έχετε λογαριασμό ReadySHARE Cloud. Αν δεν έχετε λογαριασμό,<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>κάντε κλικ εδώ</a> για να αποκτήσετε."
+L_READY_SHARE_REMOTE_STEPS_TWO="Βήμα 2: Σε αυτήν τη σελίδα, πληκτρολογήστε το όνομα χρήστη και τον κωδικό πρόσβασης του λογαριασμού ReadySHARE Cloud, προκειμένου να εγγράψετε το δρομολογητή σας και τη συσκευή USB που είναι συνδεδεμένη σε αυτόν με το λογαριασμό σας."
+L_READY_SHARE_REMOTE_STEPS_THREE="Βήμα 3: Συνδεθείτε πάλι στο <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> με το λογαριασμό σας. Θα πρέπει να βλέπετε τη συσκευή USB που είναι συνδεδεμένη στο δρομολογητή σας."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Βήμα 4: Την πρώτη φορά, θα σας ζητηθεί να κάνετε λήψη ενός πελάτη Windows που χρησιμοποιείται για τη δημιουργία μιας ασφαλούς σύνδεσης από τον υπολογιστή σας προς τη συσκευή USB του δρομολογητή. Συνδεθείτε σε αυτόν τον πελάτη. Θα μπορείτε να προσπελάσετε τη συσκευή USB όπου κι αν βρίσκεστε."
+L_READY_SHARE_REMOTE_START_NOW="Ξεκινήστε τώρα για να ενεργοποιήσετε το ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="Όνομα χρήστη:"
+L_READY_SHARE_REMOTE_PASSWORD="Κωδικός πρόσβασης:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Αν δεν έχετε λογαριασμό ReadySHARE Cloud, κάντε κλικ εδώ για να αποκτήσετε"
+L_READY_SHARE_PRINTING="Εκτύπωση ReadySHARE"
+L_READY_SHARE_PRINTING_DESC="Κοινόχρηστη εκτύπωση για υπολογιστές Windows και Mac με εκτυπωτή USB"
+L_READY_SHARE_PRINTING_HOW_WORKS="Πώς λειτουργεί;"
+L_READY_SHARE_PRINTING_STEPS_ONE="Βήμα 1: Συνδέστε τον εκτυπωτή USB στη θύρα USB του δρομολογητή με ένα καλώδιο εκτυπωτή USB."
+L_READY_SHARE_PRINTING_STEPS_TWO="Βήμα 2: Εγκαταστήστε το πρόγραμμα οδήγησης του εκτυπωτή USB σε όλους τους υπολογιστές που θα τον χρησιμοποιούν."
+L_READY_SHARE_PRINTING_STEPS_THREE="Βήμα 3: Σε κάθε υπολογιστή που θα χρησιμοποιεί τον εκτυπωτή, λάβετε το βοηθητικό πρόγραμμα USB Control Center της NETGEAR από τη διεύθυνση <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Ακολουθήστε τις οδηγίες του βοηθητικού προγράμματος για να συνδεθείτε στον εκτυπωτή από τον υπολογιστή σας και να εκτυπώσετε."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Σημείωση:</b> Χωρίς αυτόν τον πελάτη, μπορείτε να πραγματοποιήσετε αναζήτηση στα περιεχόμενα της συσκευής USB, αλλά δεν μπορείτε να ανοίξετε αρχεία ή να πραγματοποιήσετε αλλαγές σε αυτά."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Σημείωση:</b> Η σύνδεση στο Διαδίκτυο θα διατηρηθεί ενεργή μέχρι την κατάργηση της εγγραφής."
+L_READY_SHARE_REMOTE_REGESTER_USER="Το ReadySHARE Cloud είναι εγγεγραμμένο με το χρήστη:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Μπορείτε να ακολουθήσετε τα βήματα 2~4 για να προσπελάσετε τη συσκευή αποθήκευσης όπου κι αν βρίσκεστε"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Πατήστε <B>Κατάργηση εγγραφής</B> για να εγγράψετε το ReadySHARE Cloud με διαφορετικό χρήστη"
+L_READY_SHARE_UNREGISTER="Κατάργηση εγγραφής"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

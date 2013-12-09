@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/LPCModule">
+        <file>images/icon_working.gif</file>
+        <file>images/netgear_logo.png</file>
+        <file>images/netgear_users_small.png</file>
+        <file>images/netgear_users_small_cg_dn.png</file>
+        <file>i18n/cs.qph</file>
+        <file>i18n/da.qph</file>
+        <file>i18n/de.qph</file>
+        <file>i18n/el.qph</file>
+        <file>i18n/en.qph</file>
+        <file>i18n/es.qph</file>
+        <file>i18n/fi.qph</file>
+        <file>i18n/hu.qph</file>
+        <file>i18n/it.qph</file>
+        <file>i18n/nl.qph</file>
+        <file>i18n/no.qph</file>
+        <file>i18n/pl.qph</file>
+        <file>i18n/pt_BR.qph</file>
+        <file>i18n/ro.qph</file>
+        <file>i18n/ru.qph</file>
+        <file>i18n/sk.qph</file>
+        <file>i18n/sl.qph</file>
+        <file>i18n/sv.qph</file>
+        <file>ui/createaccount.ui</file>
+        <file>ui/disclaimer.ui</file>
+        <file>ui/done.ui</file>
+        <file>ui/manage.ui</file>
+        <file>ui/firmware.ui</file>
+        <file>ui/presignin.ui</file>
+        <file>ui/signin.ui</file>
+        <file>ui/settings.ui</file>
+        <file>ui/intro.ui</file>
+        <file>default.css</file>
+        <file>ui/bypassLogin.ui</file>
+        <file>ui/bypassAccountList.ui</file>
+    </qresource>
+</RCC>

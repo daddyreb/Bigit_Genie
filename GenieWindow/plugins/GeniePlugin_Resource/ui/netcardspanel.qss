@@ -1,0 +1,202 @@
+#RefreshMapBtn
+{
+	border-image:url(:/map/others/Refresh.png);
+    width:27px; height:27px;
+	min-width:27px;	
+	border-width:0px;
+	border-radius: 0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+
+#RefreshMapBtn:hover
+{
+	border-image:url(:/map/others/RefreshHover.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#RefreshMapBtn:pressed
+{
+	border-image:url(:/map/others/RefreshSelected.png);
+		background-color:none;
+	border-width:0px;
+}
+#RefreshMapBtn:disabled
+{
+	border-image:url(:/map/others/RefreshDisabled.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#GoPLCBtn
+{
+	border-image:url(:/map/others/PowerlineNormal.png);
+    width:27px; height:27px;
+	
+	min-width:27px;	
+	border-width:0px;
+	border-radius: 0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+
+#GoPLCBtn:hover
+{
+	border-image:url(:/map/others/PowerlineHover.png);
+	background-color:none;
+	border-width:0px;
+}
+
+#GoPLCBtn:checked
+{
+	border-image:url(:/map/others/PowerlineSelected.png);
+	background-color:none;
+	border-width:0px;
+}
+
+#GoPLCBtn:pressed
+{
+	border-image:url(:/map/others/PowerlineSelected.png);
+	background-color:none;
+	border-width:0px;
+}
+
+#GoPLCBtn:disabled
+{
+	border-image:url(:/map/others/PowerlineOff.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#WiredNetCardBtn
+{
+	border-image:url(:/map/others/WiredNetCardNormal.png);
+    width:27px; height:27px;
+	
+	min-width:27px;	
+	border-width:0px;
+	border-radius: 0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+
+#WiredNetCardBtn:hover
+{
+	border-image:url(:/map/others/WiredNetCardHover.png);
+	background-color:none;
+	border-width:0px;
+}
+
+#WiredNetCardBtn:checked
+{
+	border-image:url(:/map/others/WiredNetCardSelected.png);
+	background-color:none;
+	border-width:0px;
+}
+
+#WiredNetCardBtn:pressed
+{
+	border-image:url(:/map/others/WiredNetCardSelected.png);
+	background-color:none;
+	border-width:0px;
+}
+
+#WiredNetCardBtn:disabled
+{
+	border-image:url(:/map/others/WiredNetCardOff.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#WirelessNetCardBtn
+{
+	border-image:url(:/map/others/WirelessNetCardNormal.png);
+    width:27px; height:27px;
+	
+		min-width:27px;	
+	border-width:0px;
+	border-radius: 0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+
+#WirelessNetCardBtn:hover
+{
+	border-image:url(:/map/others/WirelessNetCardHover.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#WirelessNetCardBtn:checked
+{
+	border-image:url(:/map/others/WirelessNetCardSelected.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#WirelessNetCardBtn:pressed
+{
+	border-image:url(:/map/others/WirelessNetCardSelected.png);
+		background-color:none;
+	border-width:0px;
+}
+
+#WirelessNetCardBtn:disabled
+{
+	border-image:url(:/map/others/WirelessNetCardOff.png);
+		background-color:none;
+	border-width:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PowerlineBtn
+{
+	border-image:url(:/map/others/PowerlineNormal.png);
+    width:27px; height:27px;
+}
+
+#PowerlineBtn:hover
+{
+	border-image:url(:/map/others/PowerlineHover.png);
+}
+
+#PowerlineBtn:checked
+{
+	border-image:url(:/map/others/PowerlineSelected.png);
+}
+
+#PowerlineBtn:pressed
+{
+	border-image:url(:/map/others/PowerlineSelected.png);
+}
+
+#PowerlineBtn:disabled
+{
+	border-image:url(:/map/others/PowerlineOff.png);
+}
+

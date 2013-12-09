@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="ru">
+<phrase>
+	<source>abort</source>
+	<target>Отмена</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Вернуться к основным элементам управления</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Отмена</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Проверить доступность</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Доступно!</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Недоступно</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>Адрес эл. почты</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Подтвердите адрес эл. почты</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Недействительный адрес эл. почты</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>Адрес эл. почты принят</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Регистрация</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>При создании вашей учетной записи произошла ошибка, повторите попытку.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Создание вашей учетной записи успешно завершено, однако возникли проблемы с настройкой вашего маршрутизатора NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Пароль должен содержать от 6 до 20 символов.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Имена пользователей должны начинаться и заканчиваться буквой или цифрой, а также могут содержать символы '.', '-' и '_'.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Пароль</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Подтвердите пароль</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Выполняется создание вашей учетной записи OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Создание бесплатной учетной записи OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Имя пользователя</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Начать настройку</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Дополнительная настройка</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Наши пользовательские управляющие элементы позволяют вам сделать менее строгими настройки безопасности для определенных пользователей или в определенное время суток.  Пользовательские настройки поддерживаются на нашем веб-сайте, который вы посетите после настройки своего маршрутизатора.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Если вы решите воспользоваться нашими настройками для определенных пользователей, вам будет предложено установить небольшую программу, которая будет управлять этими специальными для OpenDNS именами пользователей и паролями.  Не забудьте выйти из системы по окончании работы!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Выполняется регистрация вашего маршрутизатора с помощью OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Выполняется проверка, не зарегистрирован ли уже ваш маршрутизатор с помощью OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Было обнаружено, что в настоящий момент вы подключены к другому маршрутизатору. Для управления новым маршрутизатором необходимо повторно запустить утилиту управления.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Это устройство зарегистрировано на другого пользователя OpenDNS.  Откройте страницу http://netgear.opendns.com/support/#faq15, и мы решим эту проблему как можно быстрее.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Вероятно, вы не подключены к Интернету через поддерживаемый маршрутизатор NETGEAR.  Убедитесь, что ваш компьютер подключен к маршрутизатору NETGEAR с использованием беспроводного или Ethernet-соединения, и повторите попытку.  Если проблему решить не удается, выключите свой маршрутизатор и включите его повторно, подождите, пока загорятся индикаторы, и повторите попытку.  Для получения дополнительной информации посетите страницу веб-сайта http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Выполняется проверка, не была ли уже осуществлена настройка вашего маршрутизатора...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Выполняется идентификация вашего маршрутизатора...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Выполняется настройка вашего маршрутизатора...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Live Parental Controls – это превосходное решение для обеспечения безопасности вашей семьи в Интернете, но, как и все средства веб-фильтрации, оно не идеально. NETGEAR напоминает вам, что самое лучшее – это держать семейный компьютер в общем помещении, под постоянным присмотром, где вы сможете контролировать, какие веб-сайты посещают ваши дети, и предостерегать их при посещении веб-сайтов, запрашивающих персональную или финансовую информацию.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Внимание!</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Выполнено.</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>проверить, включена ли утилита Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>отключить или включить Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>изменить основные настройки</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>изменить такие пользовательские настройки, как Live Parental Controls для определенных пользователей и времени суток</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Перейти на экран состояния</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>Настройка NETGEAR Live Parental Controls с использованием сервиса OpenDNS успешно завершена.  При следующем запуске утилиты управления отобразится экран состояния, на котором можно выполнить следующие действия:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Настройка завершена!</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Закрыть</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Вероятно, вы не подключены к Интернету.  Подключитесь к Интернету через свой маршрутизатор NETGEAR и повторите попытку.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Вероятно, вы не подключены к Интернету через поддерживаемый маршрутизатор NETGEAR.  Убедитесь, что ваш компьютер подключен к маршрутизатору NETGEAR с использованием беспроводного или Ethernet-соединения, и повторите попытку.  Если проблему решить не удается, выключите свой маршрутизатор и включите его повторно, подождите, пока загорятся индикаторы, и повторите попытку.  Для получения дополнительной информации посетите страницу веб-сайта http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Текущая версия прошивки вашего маршрутизатора не поддерживает Live Parental Controls.  Сначала обновите прошивку, для чего загрузите с веб-сайта http://www.netgear.com/ последнюю версию прошивки или используйте функцию "Обновление маршрутизатора" веб-интерфейса вашего маршрутизатора на веб-сайте http://www.routerlogin.net/.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Выполняется проверка, обеспечивает ли ваша прошивка поддержку Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Проверка прошивки маршрутизатора</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>С использованием сервиса OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>Вы собираетесь установить NETGEAR Live Parental Controls с использованием сервиса OpenDNS на свой маршрутизатор, чтобы выполнять фильтрацию веб-сайтов, которые посещаются с ваших компьютеров и других сетевых устройств.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Наши пользовательские настройки позволяют вам сделать менее строгими настройки безопасности для некоторых пользователей или в определенное время суток.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>О программе</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) OpenDNS, LLC, 2009 г.</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>Учетная запись OpenDNS:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Изменение основных настроек</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>Сервис OpenDNS не включен</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Невозможно обнаружить интернет-соединение</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>выключен</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>включен</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Настройка маршрутизатора</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Модель маршрутизатора:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Уровень фильтрации:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>Вы изменили свои предпочтения на веб-сайте.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Пользовательская установка</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, веб-сайтов социальных сетей, веб-сайтов, предназначенных для обмена видеоматериалами, от фишинг-атак и от посещения веб-сайтов, напрасно отнимающих время.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Защита от посещения веб-сайтов с порнографическим содержимым и от фишинг-атак.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Защита только от фишинг-атак.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, и от фишинг-атак.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Блокировка не включена.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Изменение пользовательских настроек</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Выполняется проверка, используется ли вами OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Выполняется проверка, включена ли утилита Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Выполняется отключение Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Выполняется включение Live Parental Controls с вашими настройками по умолчанию...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Состояние</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Отключение Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Включение Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Отключение Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Далее</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>ОК</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Нет, мне нужно создать бесплатную учетную запись OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Да, использовать мою существующую учетную запись OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Вас приветствует мастер установки, который быстро выполнит настройку NETGEAR Live Parental Controls с использованием сервиса OpenDNS на вашем маршрутизаторе NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Для использования Live Parental Controls требуется бесплатная учетная запись OpenDNS. Она у вас уже есть?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Настройка Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Назад</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Обновить</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Пароль:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Введите имя пользователя и пароль, которые используете для управления своим маршрутизатором NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Регистрация на маршрутизаторе</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Имя пользователя:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Высокий</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, веб-сайтов социальных сетей, веб-сайтов, предназначенных для обмена видеоматериалами, от фишинг-атак и от посещения веб-сайтов, напрасно отнимающих время.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Низкий</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Защита от посещения веб-сайтов с порнографическим содержимым и от фишинг-атак.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Минимальный</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Защита только от фишинг-атак.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Средний</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Защита от посещения всех веб-сайтов, предназначенных для взрослых, веб-сайтов, занимающихся противозаконной деятельностью, и от фишинг-атак.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Нет</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Блокировка не включена.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>При сохранении ваших настроек произошла ошибка, повторите попытку.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Выполняется выборка ваших настроек из OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Выполняется передача ваших настроек в OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Все компьютеры, подключенные к вашему маршрутизатору, буду защищены от контента, который вы выберите ниже.  Можно выполнить настройку Live Parental Controls позже на нашем веб-сайте.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: выберите уровень фильтрации для своей сети</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>При регистрации произошла ошибка, убедитесь в том, что вы подключены к Интернету, и повторите попытку.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Нам неизвестно это имя пользователя или пароль.  Повторите попытку или выберите "Назад", если у вас нет учетной записи OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Забыли пароль?</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Пароль</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Выполняется регистрация в OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Ниже введите свое имя пользователя и пароль.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Зарегистрируйтесь с использованием своей учетной записи OpenDNS</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Имя пользователя</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>Утилита управления NETGEAR Live Parental Controls 2.0b44</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Повторите попытку</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>В OpenDNS доступно обязательное обновление, которое откроется в вашем браузере.  Загрузите и установите эту новую версию.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>ОК</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Обязательное обновление</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>В OpenDNS доступно обновление, которое можно загрузить и установить.  Загрузить обновление прямо сейчас?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Нет</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Обновить</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Да</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>Приглашаем вас на наш веб-сайт, на котором вы сможете настроить свою утилиту Live Parental Controls.  Если ваш браузер не открывает страницу нашего веб-сайта автоматически, скопируйте приведенную ниже ссылку в адресную строку браузера.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>Теперь вы закончили работу с этим мастером установки.  Благодарим за использование OpenDNS!</target>
+</phrase>
+</QPH>

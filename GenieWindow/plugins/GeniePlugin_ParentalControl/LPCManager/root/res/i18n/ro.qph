@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="ro">
+<phrase>
+	<source>abort</source>
+	<target>Anulare</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Înapoi la comenzile de bază</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Anulare</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Verificare disponibilitate</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Disponibil!</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Indisponibil</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>Adresă e-mail</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Confirmare adresă e-mail</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Adresă e-mail invalidă</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>Adresă e-mail acceptată</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Conectare</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>A avut loc o eroare la crearea contului dvs., încercaţi din nou.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Contul a fost creat cu succes dar a apărut o problemă la configurarea routerului NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Parolele trebuie să conţină între 6 şi 20 de caractere.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Numele de utilizator trebuie să înceapă şi să se sfârşească cu o literă sau o cifră şi pot conţine şi caracterele '.', '-' şi '_'.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Parolă</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Confirmare parolă</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Se creează contul dvs. OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Creare cont OpenDNS gratuit</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Nume utilizator</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Pornire personalizare</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Personalizare avansată</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Controlul nostru personalizat vă permite să relaxaţi setările de securitate pentru anumiţi utilizatori sau pentru anumite momente ale zilei.  Setările personalizate sunt gestionate pe site-ul nostru Web, spre care veţi fi direcţionat după configurarea routerului dvs.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Dacă alegeţi să beneficiaţi de setările noastre pentru fiecare utilizator, vi se va solicita să instalaţi un program de dimensiuni reduse, care va gestiona aceste nume de utilizator şi parole OpenDNS speciale.  Nu uitaţi să vă deconectaţi când aţi terminat!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Se înregistrează routerul de către OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Se verifică dacă routerul este deja înregistrat de OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Am detectat că sunteţi conectat(ă)la un alt router. Utilitarul de administrare trebuie repornit pentru a administra noul router.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Acest dispozitiv pare să fie înregistrat pentru un alt utilizator OpenDNS.  Vizitaţi http://netgear.opendns.com/support/#faq15 şi vom remedia această problemă cât de rapid posibil.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Se pare că nu vă conectaţi la Internet prin intermediul unui router NETGEAR acceptat.  Asiguraţi-vă de conectarea computerului la routerul NETGEAR printr-o legătură wireless sau Ethernet şi încercaţi din nou.  Dacă problema persistă, opriţi şi reporniţi routerul, aşteptaţi până se aprind ledurile şi încercaţi din nou.  Pentru asistenţă suplimentară, vizitaţi http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Se verifică dacă routerul este deja configurat...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Se identifică routerul...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Se configurează routerul...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Live Parental Controls este o soluţie excelentă pentru menţinerea siguranţei familiei dvs. în timpul utilizării Internetului dar, ca toate instrumentele de filtrare Web, nu este perfectă. NETGEAR vă reaminteşte că nu există un substitut pentru menţinerea computerului familial într-o zonă comună, la vedere, de unde să puteţi monitoriza site-urile Web vizitate de copiii dvs. şi pentru atenţia la vizitarea site-urilor Web care solicită informaţii personale sau financiare.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Reţineţi</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Finalizat!</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>verifica dacă Live Parental Controls este activat</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>dezactiva şi activa Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>modifica setări de bază</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>modifica setări personalizate asociate anumitor utilizatori sau anumitor momente ale zilei Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Deplasare la ecranul de stare</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>Aţi configurat cu succes programul NETGEAR Live Parental Controls bazat pe OpenDNS.  La următoarea rulare utilitarului de administrare, acesta vă va direcţiona spre ecranul de stare unde puteţi:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Configurarea este finalizată!</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Renunţare</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Se pare că nu sunteţi conectat la Internet.  Conectaţi-vă la Internet prin routerul NETGEAR şi încercaţi din nou.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Se pare că nu vă conectaţi la Internet prin intermediul unui router NETGEAR acceptat.  Asiguraţi-vă de conectarea computerului la routerul NETGEAR printr-o legătură wireless sau Ethernet şi încercaţi din nou.  Dacă problema persistă, opriţi şi reporniţi routerul, aşteptaţi până se aprind ledurile şi încercaţi din nou.  Pentru asistenţă suplimentară, vizitaţi http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Firmware-ul curent al routerului nu acceptă Live Parental Controls.  Vizitaţi http://www.netgear.com/ pentru a descărca cel mai recent firmware sau utilizaţi funcţia „Actualizare router” din interfaţa grafică Web de utilizare a routerului la adresa http://www.routerlogin.net/ pentru a actualiza mai întâi firmware-ul.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Ne asigurăm că deţineţi firmware care acceptă Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Se verifică firmware-ul pentru router</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>Bazat pe OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>Urmează să configuraţi NETGEAR Live Parental Controls Powered bazat pe OpenDNS pe routerul dvs. pentru a filtra site-urile Web vizitate pe computerele şi pe alte dispozitive din reţeaua dvs.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Setările noastre personalizate vă permit să relaxaţi setările de securitate pentru anumiţi utilizatori sau pentru anumite momente ale zilei.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>Despre acest software</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>Cont OpenDNS:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Modificare setări de bază</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>OpenDNS nu este activat</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Nu se poate detecta conexiunea la Internet</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>dezactivat</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>activat</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Configurare router</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Model router:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Nivel de filtrare:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>V-aţi personalizat preferinţele pe site-ul Web.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Personalizat</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Protejează împotriva tuturor site-urilor cu conţinut adult, a activităţilor ilegale, a site-urilor de socializare, a site-urilor de partajare de materiale video, a atacurilor de tip phishing şi a site-urilor generale de divertisment.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Protejează împotriva pornografiei şi a atacurilor de tip phishing.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Protejează împotriva atacurilor de tip phishing.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Protejează împotriva tuturor site-urilor cu conţinut adult, a activităţilor ilegale şi a atacurilor de tip phishing.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Nu se blochează nimic.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Modificare setări personalizate</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Se verifică dacă utilizaţi OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Se verifică dacă programul Live Parental Controls are este activat...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Se dezactivează Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Se activează Live Parental Controls cu setările implicite...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Stare</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Dezactivare Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Activare Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Dezactivare Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Înainte</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Nu, trebuie să creez un cont OpenDNS gratuit.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Da, utilizaţi contul meu OpenDNS existent.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Bun venit, acest asistent de configurare va configura rapid NETGEAR Live Parental Controls bazat pe OpenDNS pe routerul dvs. NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Pentru a putea utiliza Live Parental Controls, aveţi nevoie de un cont OpenDNS gratuit. Aveţi deja unul?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Configurarea programului Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Înapoi</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Împrospătare</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Parolă:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Introduceţi numele de utilizator şi parola utilizate pentru gestionarea routerului dvs. NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Conectare la router</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Nume utilizator:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Ridicat</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Protejează împotriva tuturor site-urilor cu conţinut adult, a activităţilor ilegale, a site-urilor de socializare, a site-urilor de partajare de materiale video, a atacurilor de tip phishing şi a site-urilor generale de divertisment.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Scăzut</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Protejează împotriva pornografiei şi a atacurilor de tip phishing.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Minim</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Protejează împotriva atacurilor de tip phishing.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Moderat</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Protejează împotriva tuturor site-urilor cu conţinut adult, a activităţilor ilegale şi a atacurilor de tip phishing.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Fără</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Nu se blochează nimic.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>A avut loc o eroare la salvarea setărilor, încercaţi din nou.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Se aduc setările de la OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Se trimit setările către OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Toate computerele conectate la routerul dvs. vor fi protejate împotriva conţinutului selectat mai jos.  Puteţi personaliza Live Parental Controls ulterior pe site-ul nostru Web.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: selectaţi un nivel de filtrare pentru reţeaua dvs.</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>A avut loc o eroare la conectare, asiguraţi-vă că sunteţi conectat la Internet şi încercaţi din nou.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Ne pare rău, nu recunoaştem numele de utilizator sau parola.  Încercaţi din nou sau selectaţi „Înapoi” dacă nu aveţi un cont OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Am uitat parola</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Parolă</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Are loc conectarea la OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Introduceţi mai jos numele de utilizator şi parola.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Conectaţi-vă la contul dvs. OpenDNS</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Nume utilizator</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>Utilitarul de administrare al programului NETGEAR Live Parental Controls 2.0b44</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Încercaţi din nou</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>Există o actualizare critică de la OpenDNS, care se va deschide în browser-ul dvs.  Descărcaţi şi instalaţi această versiune nouă.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Actualizare de importanţă critică</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>Există o actualizare disponibilă de la OpenDNS pe care o puteţi descărca şi instala.  Doriţi să descărcaţi actualizarea acum?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Nu</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Actualizare</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Da</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>Vă direcţionăm spre site-ul nostru Web unde puteţi vă personaliza programul Live Parental Controls.  Dacă browserul nu se deschide automat, copiaţi legătura de mai jos în bara de adrese a browserului.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>Aţi finalizat configurarea cu acest asistent.  Vă mulţumim pentru utilizarea OpenDNS!</target>
+</phrase>
+</QPH>

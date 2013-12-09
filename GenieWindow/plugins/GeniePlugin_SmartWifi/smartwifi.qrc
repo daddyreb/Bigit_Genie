@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/smartWiFi">
+        <file>img/speed_img.png</file>
+        <file>img/status_circle.png</file>
+        <file>img/disconnected_flag.png</file>
+        <file>img/connected_flag.png</file>
+        <file>img/man.png</file>
+        <file>img/line_1.png</file>
+        <file>img/head_bg.png</file>
+        <file>img/line_2.png</file>
+        <file>img/clear.png</file>
+        <file>img/seprator_1.png</file>
+        <file>img/bg_dlg_mid.png</file>
+        <file>img/web.png</file>
+        <file>img/user.png</file>
+        <file>img/top_bar.png</file>
+        <file>img/button_bg.png</file>
+        <file>img/spitter1.png</file>
+        <file>img/account_imf_img.png</file>
+    </qresource>
+    <qresource prefix="/country">
+        <file>img/singapore.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>smartwifi.qss</file>
+    </qresource>
+</RCC>

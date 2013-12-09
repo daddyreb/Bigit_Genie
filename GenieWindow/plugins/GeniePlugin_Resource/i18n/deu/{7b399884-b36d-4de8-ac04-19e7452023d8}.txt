@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Abbrechen"
+L_MAIN_TRAY_AUTOSTART="Autostart aktivieren"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Netzwerkverbindungsänderung anzeigen"
+L_MAIN_TITLE_ABOUT="Info"
+L_MAIN_CHECKFORUPDATES="Nach Updates suchen"

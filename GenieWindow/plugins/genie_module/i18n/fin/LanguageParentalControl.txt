@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Parental Controls"
+L_PARENTAL_CONTROL_DESC="NETGEAR Live Parental Controls Powered by OpenDNS -käyttäjäapuohjelma on reititinpohjainen web-suojausratkaisu, joka on saatavilla NETGEARin langattomaan N-reitittimeen ja yhdyskäytävätuotteisiin."
+L_PARENTAL_CONTROL_MANAGER="Hallitse"
+L_PARENTAL_CONTROL_INSTALL="Asenna"
+L_PARENTAL_CONTROL_ENABLE="Asennettu"
+L_PARENTAL_CONTROL_NOT_ENABLE="Ei asennettu"
+L_PARENTAL_CONTROL_FUN_ONE=">Estää jopa 50 eri Internet-sisältöluokkaa"
+L_PARENTAL_CONTROL_FUN_TWO=">Kehitetty suojaamaan sinua identiteettivarkauksilta ja huijauksilta"
+L_PARENTAL_CONTROL_FUN_THREE=">Palvelu on MAKSUTON kaikille NETGEARin asiakkaille."
+L_PARENTAL_CONTROL_LIVE="Parental Controls"
+L_PARENTAL_CONTROL_CLICKHERE="Napsauta tätä"

@@ -1,0 +1,50 @@
+ 驱动器 F 中的卷是 娱乐
+ 卷的序列号是 0000-9844
+
+ F:\GenieWindow\plugins 的目录
+
+2013/05/07  08:43    <DIR>          .
+2013/05/07  08:43    <DIR>          ..
+2013/05/06  17:56    <DIR>          airprintdll
+2013/05/06  17:56    <DIR>          ComputerDetails
+2013/05/06  18:10    <DIR>          DiagnoseDll
+2013/05/06  18:10    <DIR>          DiagnosePlugin
+2013/05/06  17:56    <DIR>          DragonNetTool
+2013/05/06  18:10    <DIR>          genie2_qrcode
+2013/05/06  17:56    <DIR>          GenieDaemon
+2013/05/06  17:56    <DIR>          GeniePlugin_About
+2013/05/06  18:10    <DIR>          GeniePlugin_Airprint
+2013/05/06  17:56    <DIR>          GeniePlugin_FeedBack
+2013/05/06  17:56    <DIR>          GeniePlugin_FirmwareUpdate
+2013/05/06  17:56    <DIR>          GeniePlugin_GuestAccess
+2013/05/06  17:56    <DIR>          GeniePlugin_Info
+2013/05/06  18:10    <DIR>          GeniePlugin_Internet
+2013/05/06  18:10    <DIR>          GeniePlugin_LPC
+2013/05/06  18:10    <DIR>          GeniePlugin_MapV2
+2013/05/06  17:56    <DIR>          GeniePlugin_NetTraffic
+2013/05/06  18:10    <DIR>          GeniePlugin_NetworkProblem
+2013/05/06  17:56    <DIR>          GeniePlugin_ParentalControl
+2013/05/06  18:10    <DIR>          GeniePlugin_Resource
+2013/05/06  17:56    <DIR>          GeniePlugin_RetroShare
+2013/05/06  18:10    <DIR>          GeniePlugin_RouterConfiguration
+2013/05/06  18:10    <DIR>          GeniePlugin_Statistics
+2013/05/06  17:56    <DIR>          GeniePlugin_TrafficMeter
+2013/05/06  18:10    <DIR>          GeniePlugin_Ui
+2013/05/06  18:10    <DIR>          GeniePlugin_Update2
+2013/05/06  18:10    <DIR>          GeniePlugin_VC
+2013/05/06  18:10    <DIR>          GeniePlugin_Wireless
+2013/05/06  18:10    <DIR>          GeniePlugin_WirelessExport
+2013/05/06  18:10    <DIR>          genie_module
+2013/05/06  18:10    <DIR>          InternetDaemon
+2013/05/07  08:43                 0 kkk
+2013/05/06  17:56    <DIR>          NETGEARGenieDaemon
+2013/05/06  17:56    <DIR>          plugin_lib
+2013/05/06  17:56    <DIR>          readyShareFileChecker
+2013/05/06  18:11    <DIR>          SvtNetworkTool
+2013/05/06  17:56    <DIR>          SVTWin32Utils
+2013/05/06  17:56    <DIR>          topology
+2013/05/06  18:10    <DIR>          Win32
+2013/05/06  18:10    <DIR>          WSetupApiPlugin
+2013/05/06  18:10    <DIR>          WSetupDll
+               1 个文件              0 字节
+              42 个目录 92,146,184,192 可用字节

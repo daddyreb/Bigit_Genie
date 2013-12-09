@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniePlugin_Resource", "plugins\GeniePlugin_Resource\GeniePlugin_Resource.vcxproj", "{C1D8F5D2-3FD3-3B08-89AF-2E28B4A252F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniePlugin_Ui", "plugins\GeniePlugin_Ui\GeniePlugin_Ui.vcxproj", "{020F32D3-3B78-3818-B77E-EC564751C816}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genie2_tray", "genie2_tray\genie2_tray.vcxproj", "{465415C2-52CB-3C0B-ACEC-C93FA205CB6A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Genie", "plugins\genie_module\Genie.vcxproj", "{FC3758B4-DC0A-3127-85E8-AD2C1E4CB58C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NETGEARGenie", "launch\NETGEARGenie.vcxproj", "{13E971F5-C8B6-34E3-8D9A-D613DF619B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1D8F5D2-3FD3-3B08-89AF-2E28B4A252F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1D8F5D2-3FD3-3B08-89AF-2E28B4A252F0}.Debug|Win32.Build.0 = Debug|Win32
+		{C1D8F5D2-3FD3-3B08-89AF-2E28B4A252F0}.Release|Win32.ActiveCfg = Release|Win32
+		{C1D8F5D2-3FD3-3B08-89AF-2E28B4A252F0}.Release|Win32.Build.0 = Release|Win32
+		{020F32D3-3B78-3818-B77E-EC564751C816}.Debug|Win32.ActiveCfg = Debug|Win32
+		{020F32D3-3B78-3818-B77E-EC564751C816}.Debug|Win32.Build.0 = Debug|Win32
+		{020F32D3-3B78-3818-B77E-EC564751C816}.Release|Win32.ActiveCfg = Release|Win32
+		{020F32D3-3B78-3818-B77E-EC564751C816}.Release|Win32.Build.0 = Release|Win32
+		{465415C2-52CB-3C0B-ACEC-C93FA205CB6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{465415C2-52CB-3C0B-ACEC-C93FA205CB6A}.Debug|Win32.Build.0 = Debug|Win32
+		{465415C2-52CB-3C0B-ACEC-C93FA205CB6A}.Release|Win32.ActiveCfg = Release|Win32
+		{465415C2-52CB-3C0B-ACEC-C93FA205CB6A}.Release|Win32.Build.0 = Release|Win32
+		{FC3758B4-DC0A-3127-85E8-AD2C1E4CB58C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC3758B4-DC0A-3127-85E8-AD2C1E4CB58C}.Debug|Win32.Build.0 = Debug|Win32
+		{FC3758B4-DC0A-3127-85E8-AD2C1E4CB58C}.Release|Win32.ActiveCfg = Release|Win32
+		{FC3758B4-DC0A-3127-85E8-AD2C1E4CB58C}.Release|Win32.Build.0 = Release|Win32
+		{13E971F5-C8B6-34E3-8D9A-D613DF619B25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13E971F5-C8B6-34E3-8D9A-D613DF619B25}.Debug|Win32.Build.0 = Debug|Win32
+		{13E971F5-C8B6-34E3-8D9A-D613DF619B25}.Release|Win32.ActiveCfg = Release|Win32
+		{13E971F5-C8B6-34E3-8D9A-D613DF619B25}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = Qt5.1
+	EndGlobalSection
+EndGlobal

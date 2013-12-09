@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "topology", "..\topology\topology.vcxproj", "{9296EA00-B512-3E35-AAD1-84350BB86056}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniePlugin_MapV2", "..\GeniePlugin_MapV2\GeniePlugin_MapV2.vcxproj", "{8E58870C-4FA3-3882-AEE7-A68288253787}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniePlugin_Internet", "GeniePlugin_Internet.vcxproj", "{E229B547-0C5A-3C29-AE11-8E2DE4AED486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9296EA00-B512-3E35-AAD1-84350BB86056}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9296EA00-B512-3E35-AAD1-84350BB86056}.Debug|Win32.Build.0 = Debug|Win32
+		{9296EA00-B512-3E35-AAD1-84350BB86056}.Release|Win32.ActiveCfg = Release|Win32
+		{9296EA00-B512-3E35-AAD1-84350BB86056}.Release|Win32.Build.0 = Release|Win32
+		{8E58870C-4FA3-3882-AEE7-A68288253787}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E58870C-4FA3-3882-AEE7-A68288253787}.Debug|Win32.Build.0 = Debug|Win32
+		{8E58870C-4FA3-3882-AEE7-A68288253787}.Release|Win32.ActiveCfg = Release|Win32
+		{8E58870C-4FA3-3882-AEE7-A68288253787}.Release|Win32.Build.0 = Release|Win32
+		{E229B547-0C5A-3C29-AE11-8E2DE4AED486}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E229B547-0C5A-3C29-AE11-8E2DE4AED486}.Debug|Win32.Build.0 = Debug|Win32
+		{E229B547-0C5A-3C29-AE11-8E2DE4AED486}.Release|Win32.ActiveCfg = Release|Win32
+		{E229B547-0C5A-3C29-AE11-8E2DE4AED486}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

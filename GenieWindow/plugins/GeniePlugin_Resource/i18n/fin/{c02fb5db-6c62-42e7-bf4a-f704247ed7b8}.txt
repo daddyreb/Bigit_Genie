@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Arvioitu kesto:"
+L_UPGRADE_UPDATE_CANCEL="Peruuta"
+L_UPGRADE_UPDATE_PAGE_FINISH="Tiedosto on ladattu.\nPäivitä valitsemalla "Valmis"."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie -päivitys"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Nykyinen versio on uusin."
+L_UPGRADE_UPDATE_PAGE_WRONG="Väliaikainen ongelma. Yritä ladata uusi version myöhemmin."
+L_UPGRADE_UPDATE_DOWNLOAD="Lataa"
+L_UPGRADE_UPDATE_FINISH="Valmis"
+L_UPGRADE_UPDATE_CHECK_DESP="Haetaan kuvaustiedostoa..."
+L_UPGRADE_UPDATE_DOWN_FILE="Haetaan asennustiedostoa..."
+L_UPGRADE_UPDATE_LINK="Voit myös ladata uuden version napsauttamalla tätä linkkiä"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Ongelma verkkoyhteydessä"

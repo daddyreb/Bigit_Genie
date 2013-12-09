@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/fontsetting">		
+	<file>fontsetting_enu.txt</file>	
+	
+    </qresource>
+</RCC>

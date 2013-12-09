@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="عناصر تحكم الوالدين"
+L_PARENTAL_CONTROL_DESC="تُعتبر عناصر تحكم الوالدين المباشرة من NETGEAR، التي يتم تشغيلها من قبل OpenDNS، حل تصفية على ويب مستنداً إلى الموجه متوفراً على موجه NETGEAR اللاسلكي-N ومنتجات البوابة."
+L_PARENTAL_CONTROL_MANAGER="إدارة"
+L_PARENTAL_CONTROL_INSTALL="تثبيت"
+L_PARENTAL_CONTROL_ENABLE="مثبت"
+L_PARENTAL_CONTROL_NOT_ENABLE="غير مثبت"
+L_PARENTAL_CONTROL_FUN_ONE=">حظر ما يصل إلى 50 فئة من محتوى الإنترنت"
+L_PARENTAL_CONTROL_FUN_TWO=">تصميم لحمايتك من سرقة هويتك ورسائل التصيّد"
+L_PARENTAL_CONTROL_FUN_THREE=">خدمة مجانية لعملاء NETGEAR!"
+L_PARENTAL_CONTROL_LIVE="عناصر تحكم الوالدين"
+L_PARENTAL_CONTROL_CLICKHERE="انقر هنا"

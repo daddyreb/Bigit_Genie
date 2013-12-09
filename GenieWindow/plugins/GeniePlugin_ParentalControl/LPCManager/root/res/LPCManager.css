@@ -1,0 +1,57 @@
+Page {
+	background-image: url(image:/netgear_logo.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+SettingsPage {
+	background-image: url();
+}
+
+QLabel {
+	qproperty-wordWrap: true;
+}
+
+.singleline {
+	qproperty-wordWrap: false;
+}
+
+.description { margin-bottom: .8em }
+
+.settings-bundle-high      { color: #880000; font-weight: bold; }
+.settings-bundle-moderate  { color: #ba100c; font-weight: bold; }
+.settings-bundle-low       { color: #dd5207; font-weight: bold; }
+.settings-bundle-minimal   { color: #f57a16; font-weight: bold; }
+.settings-bundle-none      { color: #666; font-weight: bold; }
+
+.bold {
+	font-weight: bold;
+}
+
+.success {
+    color: #009900;
+}
+
+.error {
+    color: #cc0000;
+}
+
+QLabel#title {
+	font: bold 16pt;
+}
+/*
+WaitPopup {
+	border: 4px solid black;
+}
+*/
+/*
+WaitPopup > QLabel {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+*/
+/*
+MainWindow {
+	background-color: red;
+}
+*/

@@ -1,0 +1,3 @@
+﻿##3200##
+L_SHortMESSAGE_BIGBT="ShortMessage"
+L_SHORTMESSAGE_LEFTBT="ShortMessage"

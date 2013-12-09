@@ -1,0 +1,455 @@
+/*ALL WIDGETS PROPERTY*/
+*{
+	color:rgb(50,50,50);
+	font: 75 12px "Arial";	
+}
+
+QWidget#wdt_title
+{
+	border-image: url(:/pics/bg_title_frame.png);
+}
+QLabel#lbl_model 
+{
+    color: rgb(0,0,0);
+	font: 75 15px "Arial" ;
+	font-weight:bold;	
+}
+QLabel#lbl_languageSelect
+{
+	color: rgb(0,0,0);
+	font: 75 14px "Arial" ;
+	font-weight:bold;	
+}
+QLabel#lbl_firewareVersion, #lbl_ExtenderGenie
+{
+    color: #4ac600;
+	font: 75 15px "Arial" ;
+	font-weight:bold;
+}
+
+QLabel#lbl_WN1000RP {
+	border-image: url(:/pics/WN1000RP.png);
+}
+QLabel#lbl_WN2500RP {
+	border-image: url(:/pics/WN2500RP.png);
+}
+QLabel#lbl_WN1000RP_2 {
+	border-image: url(:/pics/WN1000RP.png);
+}
+QLabel#lbl_WN2500RP_2 {
+	border-image: url(:/pics/WN2500RP.png);
+}
+
+QLabel#lbl_extenderToRouter1000 {
+	border-image: url(:/pics/10001.png);
+}
+QLabel#lbl_deviceToExtender1000 {
+	border-image: url(:/pics/10002.png);
+}
+QLabel#lbl_applyExtender1000{
+	border-image: url(:/pics/10003.png);
+}
+QLabel#lbl_extenderToRouter2500 {
+	border-image: url(:/pics/25001.png);
+}
+QLabel#lbl_deviceToExtender2500 {
+	border-image: url(:/pics/25002.png);
+}
+QLabel#lbl_applyExtender2500{
+	border-image: url(:/pics/25003.png);
+}
+/*hightlight label*/
+QLabel#lbl_waitText, #lbl_waitText2, #lbl_waitText3, #lbl_waitText4,#lbl_selectNetwork, 
+	#lbl_configureNow, #lbl_deviceToExtender1, #lbl_completInstall,	
+	#lbl_countdown, #lbl_extenderCreated, #lbl_selectedNetwork,
+    #lbl_promptNoConnectExtender,
+	#lbl_wait5
+ {
+    color: #827ECB;
+	font-size: 15px;
+	font: bold;
+}
+/*bold label*/
+QLabel #lbl_SecurityWEPAuto2G, #lbl_securityWEPManual2G,#lbl_securityOptionsManual2G,
+	#lbl_SecurityWEPAuto5G,#lbl_securityWEPManual5G,#lbl_securityOptionsManual5G,
+	#lbl_securityOption2G, #lbl_securityEncryption2G, #lbl_securityOption5G, #lbl_securityEncryption5G,
+	#rbtn_manualAutoSel, #rbtn_manualManualSel,#lbl_needHelp,
+	#rbtn_auto2G, #rbtn_auto5G, #rbtn_manual2G, #rbtn_manual5G , #lbl_extenderPortSelect, #lbl_manualExtenderPortSelect,
+	#lbl_finishExtenderNetwork2G, #lbl_finishExtenderNetwork5G,
+	#lbl_selectedNetwork2G,#lbl_selectedNetworkManual2G, #lbl_selectedNetwork5G, #lbl_selectedNetworkManual5G,
+	#NetworkItem_SSID, #NetworkItem_ConnectState,
+	#lbl_connectHintText,
+	#lbRouterInfo2G, #lbRouterInfo5G,
+	#lbWlanInfo2G, #lbWlanInfo5G
+	
+{
+	font: bold;
+	font-size: 13px;
+}
+
+QLabel#lbl_SSIDNameAuto2GLabel, #lbl_securityTypeAuto2GLabel, #lbl_wlanPasswordAutoSet2G,
+	#lbl_encryptionStrengthAuto2G, #lbl_wlanPasswordWEPAutoSet2G,
+	#lbl_SSIDNameManual2G, #lbl_securityManual2G, #lbl_encryptionStrengthManual2G, #lbl_wlanPasswordWEPManualSet2G,
+	#lbl_wlanPasswordManualSet2G, #lbl_SSIDNameAuto5GLabel, #lbl_securityTypeAuto5GLabel, #lbl_wlanPasswordAutoSet5G,
+	#lbl_encryptionStrengthAuto5G, #lbl_wlanPasswordWEPAutoSet5G, #lbl_SSIDNameManual5G, #lbl_securityManual5G,
+	#lbl_encryptionStrengthManual5G, #lbl_wlanPasswordWEPManualSet5G, #lbl_wlanPasswordManualSet5G,
+	#lbl_extenderNtName2G, #lbl_extenderNtName5G, #lbl_encryptionStrength2G,
+	#lbl_passPhrase2G, #lbl_passPhraseNoWEP2G, #lbl_encryptionStrength5G, #lbl_passPhraseWEP2G, #lbl_passPhraseWEP5G, #lbl_passPhraseNoWEP5G,
+	#lbl_SSIDFinish2G, #lbl_securitytypeFinish2G, #lbl_passphraseFinish2G,
+	#lbl_SSIDFinish5G, #lbl_securitytypeFinish5G, #lbl_passphraseFinish5G,
+	#lbl_WEPStrength2G, #lbl_index2G, #lbl_key12G, #lbl_key22G, #lbl_key32G,#lbl_key42G ,
+	#lbl_WEPStrength5G, #lbl_index5G, #lbl_key15G, #lbl_key25G, #lbl_key35G,#lbl_key45G
+{
+	font: bold;
+	font-size: 12px;
+}
+
+/*QPushButton*/
+QPushButton
+{   
+	border-style:solid;
+	border-width:1px;
+	border-radius: 4px;
+	height:23px;
+	width:75px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 148, 144, 221), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+QPushButton:hover
+{  
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(  240, 240,251), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255); 
+	border-color:rgb( 116, 113, 190);
+}
+QPushButton:disabled
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 230, 230,230), stop:1 rgb( 140, 140, 140));
+	color:rgb(140,140,140); 
+	border-color:rgb( 140, 140, 140);
+}
+QPushButton:pressed
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 116, 113, 190), stop:1 rgb( 211, 209, 240));
+	color:rgb(255,255,255); 
+	border-color:rgb( 140, 140, 140);
+}
+QPushButton:focus
+{  
+	outline:none;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 88, 80, 186), stop:1 rgb( 68, 65, 137));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+QPushButton:focus:hover
+{  
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 240, 240,251), stop:1 rgb( 68, 65, 137));
+}
+
+/*Buttons*/
+QPushButton#btn_about,#btn_close,#btn_minimize
+{   
+	border-style:solid;
+	border-width:0px;
+	border-radius: 0px;
+	padding-left:4px;
+	padding-right:4px;
+	
+}
+/*HEAD BUTTONS ABOUT*/
+QPushButton#btn_about
+{
+	border-style:solid;
+	padding:0px 10px 0px 10px;
+	border-width:1px;
+	border-radius: 0px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 255, 255, 255), stop:1 rgb( 244, 244, 244));
+	color:rgb(0,0,0);
+	border-color:rgb( 203, 203, 203);
+	font-size:12px;
+	font-weight:bold;
+	/*border-image: url(:/pics/but_about.png);*/
+}
+QPushButton#btn_about:hover
+{
+	border-style:solid;
+	/*width:90px;*/padding:0px 10px 0px 10px;
+	border-width:1px;
+	border-radius: 0px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(86,82,155 ), stop:1 rgb( 170, 166, 240));
+	color:rgb(255,255,255);
+	border-color:rgb( 131, 131, 131);
+}
+QPushButton#btn_close
+{
+    border-image: url(:/pics/but_close.png);
+}
+QPushButton#btn_close:hover
+{
+    border-image: url(:/pics/but_close_hover.png);
+}
+
+/*HEAD BUTTONS MINIMIZE*/
+QPushButton#btn_minimize
+{
+   border-image: url(:/pics/but_minimize.png);
+}
+QPushButton#btn_minimize:hover
+{
+    border-image: url(:/pics/but_minimize_hover.png);
+}
+/*HEAD BUTTON*/
+QPushButton#head {
+    border-image: url(:/pics/logo.png);
+	background-color: transparent;
+}
+
+QPushButton#btn_pwdGeneratorAuto2G, #btn_pwdGeneratorManual2G, #btn_pwdGeneratorAuto5G, #btn_pwdGeneratorManual5G ,
+	#btn_pwdGenerator2G, #btn_pwdGenerator5G
+{
+    height:23px;
+	width:75px;
+}
+
+/*TableWidget for APList*/
+QTableWidget QHeaderView::section
+{
+    background-color: #767676;
+    color: white;
+	height: 20px;
+    padding-left: 4px;
+    border: 0px solid #6c6c6c
+}
+/*QTextEdit*/
+ QLineEdit
+ {
+	background-color:#ffffff;
+	border:1px solid #cccccc;
+ }
+ QLineEdit:hover {
+	border-color: lightblue
+}
+
+ .QLineEdit:focus
+ {
+	background-color:#ffffff;
+	border:1px solid #9E99FD;
+ } 
+/*COMBOBOX LANGUAGE*/
+
+QComboBox#cmb_language{
+	color: rgb(100,100,100);
+	background-color:rgb(255,255,241);
+	border:2px solid rgb(108, 59, 142);
+	border-radius:5px;
+	font-size:13px;
+	padding-left:8px;
+	padding-right:8px;
+	selection-color: #ffffff;
+	selection-background-color: rgb(191,31,127);
+}
+QComboBox#cmb_language:hover{
+	border:2px solid #9E99FD;
+}
+QComboBox#cmb_language:checked{
+	color: rgb(100,100,100);
+}
+QComboBox#cmb_language::drop-down{
+	background-image: url(:/pics/but_combo.png) 2;
+	border-radius:2px;
+	subcontrol-origin: margin;
+	subcontrol-position: center right;
+	border-width:0px;
+	width: 30px;
+}
+
+/*scroll bar  shude   zj*/
+QScrollBar:vertical {
+      border: 2px solid rgb(242,242,242);
+      background: rgb(242,242,242);
+      width: 18px;
+      margin: 16px 0 16px 0;
+  }
+  QScrollBar::handle:vertical {
+      background: rgb(217,217,217);
+      min-height: 20px;
+  }
+  QScrollBar::add-line:vertical {
+      border: 0px solid red;     
+      height: 16px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+	  border-image:url(:/pics/but_scroll_down.png);
+  }
+  QScrollBar::sub-line:vertical {
+      border: 0px solid red;      
+      height: 16px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+	  border-image:url(:/pics/but_scroll_up.png);
+  }
+  
+ /*TABWIDGET*/
+ QTabWidget::pane { /* The tab widget frame */
+     border:1px solid #C4C4C3;
+ }
+
+ QTabWidget::tab-bar {
+     left: 0px; /* move to the right by 5px */
+ }
+
+ /* Style the tab using the tab sub-control. Note that
+     it reads QTabBar _not_ QTabWidget */
+QTabBar::tear {
+     /*image: url(:/but_scroll_right.png);*/
+ }
+
+QTabBar::scroller { /* the width of the scroll buttons */
+     width: 20px;
+ }
+
+QTabBar QToolButton { /* the scroll buttons are tool buttons */
+     /*border-image: url(:/pics/QTabBar_scroller_bj.png) 2;*/
+     border-width: 2px;
+ }
+
+QTabBar QToolButton::right-arrow { /* the arrow mark in the tool buttons */
+     /*image: url(:/pics/QTabBar_scroller_right.png);*/
+ }
+
+QTabBar QToolButton::left-arrow {
+     /*image: url(:/pics/QTabBar_scroller_left.png);*/
+ }
+
+QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #DFDFDF, stop: 0.5 #ffffff,  stop: 1.0 #EAEAEA
+                                 );
+    border-left: 1px solid #C4C4C3;
+    border-top: 1px solid #C4C4C3;
+    border-right: 1px solid #C4C4C3;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width:140px;
+    padding:2px 15px 2px 15px;
+    height:23px;
+    margin-top: 2px;
+ }
+
+ QTabBar::tab:selected
+ {
+ margin-top: 0px;
+   height:25px;
+   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0.3 #ffffff,  stop: 1.0 #eeeeee);
+   padding:2px 5px 2px 5px;
+   min-width:160px;
+   font-weight:bold;
+}
+
+QTabBar::tab:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #DFDFDF, stop: 0.5 #ffffff);
+    color:rgb(50,50,50);
+  }
+
+QTabBar::tab:only-one {
+     margin: 0; /* if there is only one tab, we don't want overlapping margins */
+ }
+
+QLabel#lbl_step1En {
+	border-image: url(:/pics/step1en.png);
+}
+QLabel#lbl_step2En {
+	border-image: url(:/pics/step2en.png);
+}
+QLabel#lbl_step3En {
+	border-image: url(:/pics/step3en.png);
+}
+QLabel#lbl_step1Cn {
+	border-image: url(:/pics/step1cn.png);
+}
+QLabel#lbl_step2Cn {
+	border-image: url(:/pics/step2cn.png);
+}
+QLabel#lbl_step3Cn {
+	border-image: url(:/pics/step3cn.png);
+}
+
+QWidget#wdt_left
+{
+    border-image: url(:/pics/bg_left_widget.png);
+}
+QWidget#wdt_right
+{
+	border-image: url(:/pics/bg_right_widget.png);
+}
+
+QWidget#scrollAreaWidgetContents_ExtenderToRouter, #scrollAreaWidgetContents_extenderSet,
+	#scrollAreaWidgetContents_extenderShow	
+{
+	/*border-image: url(:/pics/bg_right_widget.png);*/
+	background-color: white;
+}
+
+QWidget#wdt_left
+{
+	background-color: white;
+}
+
+/*
+Wireless Network List QSS
+*/
+
+QFrame#wirelessNetworkListFrame
+{
+        border-image: url(:/pics/wireless_image/BigDlgBkg.png);
+    border-width: 50px 5px 5px 5px;
+    padding-top: -45px;
+    border-radius: 0px;
+    margin: 0 0 0 0;
+}
+
+/*DialogContainerFrame#ipw_widget
+{
+    background-image: url(:/pics/wireless_image/MinDlgBkg.png);
+    border-width: 0 0 0 0;
+    padding-top: 0;
+    color: red;
+}*/
+
+QLabel#lbl_errorImage
+{
+	border-image: url(:/pics/soap_error.png);
+}
+
+QLabel#wireless_label_title
+{
+	font: bold;
+	color: white;
+	font-size: 15px;
+}
+
+QGroupBox::title 
+ {
+    color: #827ECB;
+        font-size: 20px;
+	font: bold;
+}
+/*QWidget#scrollAreaWidgetContents_ExtenderToRouter{
+    background-color:transparent;
+}*/
+/*
+QGroupBox#gbxAdvancedSet
+{
+	border-image: url(:/pics/bg_right_widget.png);
+}*/
+
+QLabel#lbDefaultExtender
+{
+	color: #f0932b;
+	font: bold;
+}
+
+

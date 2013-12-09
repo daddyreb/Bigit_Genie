@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Parental Controls"
+L_PARENTAL_CONTROL_DESC="NETGEAR Live Parental Controls, powered by OpenDNS, is een op NETGEAR draadloze-N routers en gateways geïnstalleerde oplossing voor het blokkeren van websites."
+L_PARENTAL_CONTROL_MANAGER="Beheren"
+L_PARENTAL_CONTROL_INSTALL="Installeren"
+L_PARENTAL_CONTROL_ENABLE="Geïnstalleerd"
+L_PARENTAL_CONTROL_NOT_ENABLE="Niet geïnstalleerd"
+L_PARENTAL_CONTROL_FUN_ONE=">Blokkeert tot 50 categorieën internetinhoud"
+L_PARENTAL_CONTROL_FUN_TWO=">Ontworpen om u te beschermen tegen identiteitsdiefstal en fraude"
+L_PARENTAL_CONTROL_FUN_THREE=">En het is GRATIS voor NETGEAR-klanten!"
+L_PARENTAL_CONTROL_LIVE="Parental Controls"
+L_PARENTAL_CONTROL_CLICKHERE="Klik hier"

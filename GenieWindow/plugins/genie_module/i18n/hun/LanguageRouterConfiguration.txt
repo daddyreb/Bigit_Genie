@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Útválasztó beállításai"
+L_RTCF_BIGBT_CLICKHERE="Kattintson ide"
+
+L_RTCF_LOGIN_TITLE="Bejelentkezés az útválasztóba"
+L_RTCF_LOGIN_USER="Felhasználónév:"
+L_RTCF_PASSWORD="Jelszó:"
+L_RTCF_LOGIN_REMEMBER="Jelszó megjegyzése"
+L_RTCF_LOGIN_BUT_LEFT="Bejelentkezés"
+L_RTCF_CANCEL="Mégse"
+
+
+L_RTCF_SETTING_SSID="Vezeték nélküli hálózat neve (SSID):"
+L_RTCF_SETTING_CHANNEL="Csatornaválasztás:"
+L_RTCF_SETTING_MODE="Mód:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8 - 63 karakter vagy 64 hexadecimális számjegy)"
+L_RTCF_SETTING_APPLY="Alkalmazás"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Csatornaválasztás:"
+L_RTCF_INFO_CHOICE="Vezeték nélküli adatok"
+L_RTCF_INFO_PASSWOED="Hálózati kulcs (jelszó):"
+L_RTCF_INFO_REFRESH="Frissítés"
+L_RTCF_INFO_MODIFY="Módosítás"
+L_RTCF_INFO_LOGINOUT="Kijelentkezés"
+L_RTCF_INFO_EXPORT="Exportálás"
+
+L_RTCF_TAB_TITLE="Vezeték nélküli beállítások"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="A beállítások módosítása megszakíthatja az aktív adatforgalmat a vezeték nélküli hálózaton. Folytatja?"
+L_RTCF_MSG_NOTNETGEAR="Bejelentkezés sikertelen! Ellenőrizze, hogy a számítógép csatlakozik-e a NETGEAR útválasztóhoz."
+L_RTCF_MSG_PWDWRONG="Bejelentkezés sikertelen, ellenőrizze a jelszót."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Bejelentkezés sikertelen. Az útválasztó időtúllépés miatt lekapcsolódott."
+L_RTCT_MSG_PLEASEWAIT="Frissítés, várjon..."
+L_RTCT_MSG_COMMITWAIT="Útválasztó válaszadatainak fogadása, várjon %1 másodpercet."
+L_RTCT_MSG_GACC="Vendég hozzáférés használatban. Ha letiltja, megszakad az aktív adatforgalom a vezeték nélküli hálózaton. Folytatja?"
+L_RTCT_MSG_SOAPERROR="Az útválasztó nem támogatja ezt a funkciót."
+L_RTCT_MSG_SOAPERROR_LOGIN="Az útválasztó nem támogatja ezt a funkciót. Kérjük, frissítse az útválasztó készülékszoftverét.""
+L_RTCT_MSG_GACC_NOTSUPPORTED="Az útválasztó nem támogatja a vendég hozzáférést."
+L_RTCF_MSG_TIMEOUT="A művelet időtúllépés miatt leállt."
+
+
+
+L_GACC_BIGBT="Vendég hozzáférés"
+L_GACC_ENABLEGUEST="Vendég hozzáférés engedélyezése"
+L_GACC_DISABLEGUEST="Vendég hozzáférés letiltása"
+L_GACC_ENABLE_TITLE="Jelenlegi beállítás:"
+L_GACC_ENABLED="Engedélyezve"
+L_GACC_NOTENABLED="Letiltva"
+
+L_GACC_GUESTWIRELESS_SSID="Vendég hozzáférés (SSID):"
+L_GACC_WORKTIME="Időszak:"
+
+L_RTCF_DEFAULT="(az alapértelmezett érték: "password")"
+L_RTCF_LIST_TITLE="Az útválasztó alábbi beállításaihoz be kell jelentkeznie:"
+
+L_RTCF_TRAFFICMETTER="Forgalommérő"
+L_RTCF_FUPDATE="Útválasztó frissítése"
+
+L_RTCF_ROUTETYPE="Útválasztó típusa"
+L_RTCF_FIRMWARE_VERSION="Készülékszoftver-verzió"
+
+L_RTCF_LOGIN_LIST=".Vezeték nélküli beállítások\n.ReadySHARE\n.Vendég hozzáférés\n.Forgalommérő\n.Útválasztó frissítése"
+
+L_GACC_ALWAYS="Mindig"
+L_GACC_1HOUR="1 óra"
+L_GACC_5HOUR="5 óra"
+L_GACC_10HOUR="10 óra"
+L_GACC_1DAY="1 nap"
+L_GACC_1WEEK="1 hét"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Alap"
+L_READY_SHARE_FUN_TWO="Lehetővé teszi a ReadySHARE tárolóhoz való hozzáférést tetszőleges helyről"
+L_READY_SHARE_FUN_THREE="ReadySHARE nyomtatás"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Vissza"
+L_READY_SHARE_CONTINUE="Folytatás"
+L_READY_SHARE_NOT_SUPPORT="Az útválasztó ezt a funkciót nem támogatja."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Mód"
+L_READY_SHARE_NETWORK_NAME="Hálózat/eszköz neve:"
+L_READY_SHARE_REGISTER="Regisztráció"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="A ReadySHARE Cloud funkció interneten keresztüli, távoli hozzáférést biztosít az útválasztó USB-portjához csatlakoztatott USB-tárolóeszközhöz."
+L_READY_SHARE_REMOTE_HOW_WORKS="A ReadySHARE Cloud telepítése"
+L_READY_SHARE_REMOTE_STEPS_ONE="1. lépés: egy ReadySHARE Cloud fiókra van szükség. Ha még nem rendelkezik ilyennel,<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>kattintson ide</a> a létrehozáshoz."
+L_READY_SHARE_REMOTE_STEPS_TWO="2. lépés: ezen az oldalon adja meg ReadySHARE Cloud felhasználónevét és jelszavát az útválasztó és a fiókjával hozzá csatlakoztatott USB-eszköz regisztrálásához."
+L_READY_SHARE_REMOTE_STEPS_THREE="3. lépés: fiókjával jelentkezzen be ismét a <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> weboldalra. Ekkor látnia kell az útválasztóhoz csatlakoztatott USB-eszközt."
+L_READY_SHARE_REMOTE_STEPS_FOUR="4. lépés: első alkalommal a rendszer egy Windows kliens letöltésére kéri, amely a számítógép és az útválasztó USB-eszköze közötti biztonságos kapcsolat létrehozásához szükséges. Jelentkezzen be ebbe a kliensbe, és máris bárhonnan hozzáférhet az USB-eszközhöz."
+L_READY_SHARE_REMOTE_START_NOW="Kezdje el a műveletet most a ReadySHARE Cloud engedélyezéséhez"
+L_READY_SHARE_REMOTE_USERNAME="Felhasználónév:"
+L_READY_SHARE_REMOTE_PASSWORD="Jelszó:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Ha még nem rendelkezik ReadySHARE Cloud fiókkal, kattintson ide a létrehozáshoz"
+L_READY_SHARE_PRINTING="ReadySHARE nyomtatás"
+L_READY_SHARE_PRINTING_DESC="Nyomtató megosztása funkció Windows PC-hez és Mac számítógépekhez USB-nyomtatóval"
+L_READY_SHARE_PRINTING_HOW_WORKS="Hogyan működik?"
+L_READY_SHARE_PRINTING_STEPS_ONE="1. lépés: USB-nyomtatókábel segítségével csatlakoztassa az USB-nyomtatót az útválasztó USB-portjához."
+L_READY_SHARE_PRINTING_STEPS_TWO="2. lépés: telepítse az USB-nyomtatóillesztő szoftvert a nyomtatót megosztó mindegyik számítógépre."
+L_READY_SHARE_PRINTING_STEPS_THREE="3. lépés: a nyomtatót megosztó mindegyik számítógépre töltse le a NETGEAR USB Control Center segédprogramot a következő webhelyről: <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Kövesse a segédprogramban szereplő utasításokat a nyomtató számítógéphez való csatlakoztatásához és a nyomtatáshoz."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Megjegyzés:</b> a kliens nélkül csak böngészheti az USB-eszköz tartalmát, ám nem nyithatja meg, illetve nem módosíthatja a fájlokat."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Megjegyzés:</b> az internetkapcsolat a regisztráció megszüntetésig él."
+L_READY_SHARE_REMOTE_REGESTER_USER="A ReadySHARE Cloud a következő felhasználóhoz van regisztrálva::"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="A fenti 2~4. lépés végrehajtásával bárhonnan hozzáférhet a tárolóhoz"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="A ReadySHARE Cloud egy másik felhasználóhoz való regisztrálásához kattintson a <B>Regisztráció megszüntetése (Unregister)</B> opcióra"
+L_READY_SHARE_UNREGISTER="Regisztráció törlése"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

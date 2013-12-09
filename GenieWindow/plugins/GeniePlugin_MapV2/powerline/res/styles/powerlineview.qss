@@ -1,0 +1,54 @@
+/*·­Ò³°´Å¥*/
+
+QPushButton:focus
+{  
+	outline:none;
+}
+/*prev btn*/
+QPushButton#prevPageBtn
+{
+	border-image:url(:/PowerLineImage/left_normal.png);
+	width:30px;height:30px;
+	min-width:30px;
+	border-width:0px;
+	border-radius:0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+QPushButton#prevPageBtn:hover
+{
+	border-image:url(:/PowerLineImage/left_hover.png);
+}
+QPushButton#prevPageBtn:pressed
+{
+	border-image:url(:/PowerLineImage/left_pressed.png);
+}
+QPushButton#prevPageBtn:disabled
+{
+	border-image:url(:/PowerLineImage/left-disabled.png);
+}
+/*next btn*/
+QPushButton#nextPageBtn
+{
+	border-image:url(:/PowerLineImage/right_normal.png);
+	width:30px;height:30px;
+	min-width:30px;
+	border-width:0px;
+	border-radius:0px;
+	padding-left:0px;
+	padding-right:0px;
+	background-color:none;
+}
+QPushButton#nextPageBtn:hover
+{
+	border-image:url(:/PowerLineImage/right_hover.png);
+}
+QPushButton#nextPageBtn:pressed
+{
+	border-image:url(:/PowerLineImage/right_pressed.png);
+}
+QPushButton#nextPageBtn:disabled
+{
+	border-image:url(:/PowerLineImage/right-disabled.png);
+}

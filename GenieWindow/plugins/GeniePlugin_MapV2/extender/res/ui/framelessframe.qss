@@ -1,0 +1,75 @@
+#iframe
+{
+   border-image: url(:/pics/bg_dialog.png);
+    border-width: 44px 16px 6px 59px;
+	padding-top: -44px;
+	padding-right: -16px;
+	padding-bottom: -6px;
+	padding-left: -59px;
+	
+    border-radius: 0px;
+}
+
+QPushButton
+{   
+	border-style:solid;
+	border-width:1px;
+	border-radius: 4px;
+	height:21px;
+	min-width:65px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 148, 144, 221), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:hover
+{  
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(  240, 240,251), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255); 
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:disabled
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 230, 230,230), stop:1 rgb( 140, 140, 140));
+	color:rgb(140,140,140); 
+	border-color:rgb( 140, 140, 140);
+}
+
+QPushButton:pressed
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 116, 113, 190), stop:1 rgb( 211, 209, 240));
+	color:rgb(255,255,255); 
+	border-color:rgb( 140, 140, 140);
+}
+
+
+QPushButton:focus
+{  
+		outline:none;
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 88, 80, 186), stop:1 rgb( 68, 65, 137));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:focus:hover
+{  
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 240, 240,251), stop:1 rgb( 68, 65, 137));
+}
+
+
+/*about dialog label title*/
+QLabel#label_title
+{  
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight:bold;
+}
+
+/********·Ö¸îÏß***********/
+QFrame[split_line="1"]{
+	border:1px solid #D4D4D3;
+}

@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Ruterinnstillinger"
+L_RTCF_BIGBT_CLICKHERE="Klikk her"
+
+L_RTCF_LOGIN_TITLE="Pålogging, ruter"
+L_RTCF_LOGIN_USER="Brukernavn:"
+L_RTCF_PASSWORD="Passord:"
+L_RTCF_LOGIN_REMEMBER="Husk passord"
+L_RTCF_LOGIN_BUT_LEFT="Logg på"
+L_RTCF_CANCEL="Avbryt"
+
+
+L_RTCF_SETTING_SSID="Navn på trådløst nettverk (SSID):"
+L_RTCF_SETTING_CHANNEL="Kanalvalg:"
+L_RTCF_SETTING_MODE="Modus:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 tegn eller 64 heksadesimale sifre)"
+L_RTCF_SETTING_APPLY="Bruk"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Kanalvalg:"
+L_RTCF_INFO_CHOICE="Trådløsinformasjon"
+L_RTCF_INFO_PASSWOED="Nettverksnøkkel (Passord):"
+L_RTCF_INFO_REFRESH="Oppdater"
+L_RTCF_INFO_MODIFY="Endre"
+L_RTCF_INFO_LOGINOUT="Logg av"
+L_RTCF_INFO_EXPORT="Eksport"
+
+L_RTCF_TAB_TITLE="Trådløsinnstillinger"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Hvis du endrer innstillingene, kan dette forstyrre aktiv trafikk på det trådløse nettverket. Vil du fortsette?"
+L_RTCF_MSG_NOTNETGEAR="Pålogging mislyktes. Kontroller at datamaskinen er koblet til NETGEAR-ruteren."
+L_RTCF_MSG_PWDWRONG="Pålogging mislyktes. Kontroller at passordet er riktig."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Pålogging mislyktes. Svaret fra ruter ble tidsavbrutt."
+L_RTCT_MSG_PLEASEWAIT="Oppdaterer, vent litt..."
+L_RTCT_MSG_COMMITWAIT="Mottar informasjon om svar fra ruter, vent %1 sekunder."
+L_RTCT_MSG_GACC="Gjestetilgang er i bruk. Hvis du deaktiverer den, kan dette forstyrre aktiv trafikk på det trådløse nettverket. Vil du fortsette?"
+L_RTCT_MSG_SOAPERROR="Ruteren støtter ikke denne funksjonen."
+L_RTCT_MSG_SOAPERROR_LOGIN="Ruteren støtter ikke denne funksjonen. Oppgrader ruterfastvaren."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Ruteren støtter ikke gjestetilgang."
+L_RTCF_MSG_TIMEOUT="Handlingen ble tidsavbrutt."
+
+
+
+L_GACC_BIGBT="Gjestetilgang"
+L_GACC_ENABLEGUEST="Aktiver gjestetilgang"
+L_GACC_DISABLEGUEST="Deaktiver gjestetilgang"
+L_GACC_ENABLE_TITLE="Gjeldende innstilling:"
+L_GACC_ENABLED="Aktivert"
+L_GACC_NOTENABLED="Deaktivert"
+
+L_GACC_GUESTWIRELESS_SSID="Gjestetilgang (SSID):"
+L_GACC_WORKTIME="Tidsperiode:"
+
+L_RTCF_DEFAULT="(Standard er "password")"
+L_RTCF_LIST_TITLE="Pålogging er påkrevd for å administrere disse ruterinnstillingene:"
+
+L_RTCF_TRAFFICMETTER="Trafikkmåler"
+L_RTCF_FUPDATE="Ruteroppgradering"
+
+L_RTCF_ROUTETYPE="Rutermodell"
+L_RTCF_FIRMWARE_VERSION="Fastvareversjon"
+
+L_RTCF_LOGIN_LIST=".Trådløsinnstillinger\n.ReadySHARE\n.Gjestetilgang\n.Trafikkmåler\n.Ruteroppdatering"
+
+L_GACC_ALWAYS="Alltid"
+L_GACC_1HOUR="1 time"
+L_GACC_5HOUR="5 timer"
+L_GACC_10HOUR="10 timer"
+L_GACC_1DAY="1 dag"
+L_GACC_1WEEK="1 uke"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Grunnleggende"
+L_READY_SHARE_FUN_TWO="Gir deg tilgang til ReadySHARE Storage overalt"
+L_READY_SHARE_FUN_THREE="ReadySHARE-utskrift"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Tilbake"
+L_READY_SHARE_CONTINUE="Fortsett"
+L_READY_SHARE_NOT_SUPPORT="Ruteren støtter ikke denne funksjonen."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Modus"
+L_READY_SHARE_NETWORK_NAME="Nettverks-/enhetsnavn:"
+L_READY_SHARE_REGISTER="Registrer"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="ReadySHARE Cloud-funksjonen gir deg ekstern tilgang via Internett til en USB-lagringsenhet som er koblet til ruterens USB-port."
+L_READY_SHARE_REMOTE_HOW_WORKS="Slik konfigurerer du ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="Trinn 1: Du trenger en ReadySHARE Cloud-konto. Hvis du ikke har en, kan du<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>klikke her</a> for å få en."
+L_READY_SHARE_REMOTE_STEPS_TWO="Trinn 2: På denne siden angir du brukernavnet og passordet for ReadySHARE Cloud for å registrere ruteren og USB-enheten som er tilkoblet kontoen din."
+L_READY_SHARE_REMOTE_STEPS_THREE="Trinn 3: Logg på <a href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> igjen med kontoen din. Du vil se USB-enheten som er tilkoblet ruteren."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Trinn 4: Den første gangen blir du bedt om å laste ned en Windows-klient, som brukes til å foreta en sikker tilkobling fra PC-en til ruterens USB-enhet. Logg på denne klienten slik at du kan få tilgang til USB-enheten overalt."
+L_READY_SHARE_REMOTE_START_NOW="Start nå for å aktivere ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="Brukernavn:"
+L_READY_SHARE_REMOTE_PASSWORD="Passord:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Hvis du ikke har en ReadySHARE Cloud-konto, kan du klikke her for å skaffe deg en"
+L_READY_SHARE_PRINTING="ReadySHARE-utskrift"
+L_READY_SHARE_PRINTING_DESC="Skriverdeling for Windows-PC-er og Mac-datamaskiner med en USB-skriver"
+L_READY_SHARE_PRINTING_HOW_WORKS="Hvordan fungerer den?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Trinn 1: Koble USB-skriveren til ruterens USB-port med en USB-skriverkabel."
+L_READY_SHARE_PRINTING_STEPS_TWO="Trinn 2: Installer driverprogramvaren for USB-skriveren på hver datamaskin som skal dele denne skriveren."
+L_READY_SHARE_PRINTING_STEPS_THREE="Trinn 3: På hver datamaskin som skal dele skriveren, kan du laste ned verktøyet NETGEAR USB Control Center fra <a href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Følg instruksjonene i verktøyet for å koble til skriveren fra datamaskinen og skrive ut."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Merk:</b> Uten denne klienten kan du bla gjennom innholdet på USB-enheten, men du kan ikke åpne filer eller foreta endringer i dem."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Merk:</b> Internett vil være aktivert til avregistreringen er fullført."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud er registrert med brukeren:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Du kan følge trinnene 2–4 ovenfor for å få tilgang til lagringsenheten overalt"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Klikk på <B>Avregistrer</B> for å registrere ReadySHARE Cloud med en annen bruker"
+L_READY_SHARE_UNREGISTER="Unregister"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

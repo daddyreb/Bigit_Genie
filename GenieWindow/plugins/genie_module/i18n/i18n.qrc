@@ -1,0 +1,303 @@
+<RCC>
+    <qresource prefix="/i18n">
+        <file>ara/LanguageFeedback.txt</file>
+        <file>ara/LanguageFirmwareUpdate.txt</file>
+        <file>ara/LanguageInternet.txt</file>
+        <file>ara/LanguageMainFrame.txt</file>
+        <file>ara/LanguageMap.txt</file>
+        <file>ara/LanguageNetworkProblem.txt</file>
+        <file>ara/LanguageParentalControl.txt</file>
+        <file>ara/LanguageRouterConfiguration.txt</file>
+        <file>ara/LanguageTrafficMeter.txt</file>
+        <file>ara/LanguageWireless.txt</file>
+        <file>ara/LanguageWirelessExport.txt</file>
+		<file>ara/LanguageLPC.txt</file>
+		
+		
+		<file>chs/LanguageFeedback.txt</file>
+        <file>chs/LanguageFirmwareUpdate.txt</file>
+        <file>chs/LanguageInternet.txt</file>
+        <file>chs/LanguageMainFrame.txt</file>
+        <file>chs/LanguageMap.txt</file>
+        <file>chs/LanguageNetworkProblem.txt</file>
+        <file>chs/LanguageParentalControl.txt</file>
+        <file>chs/LanguageRouterConfiguration.txt</file>
+        <file>chs/LanguageTrafficMeter.txt</file>
+        <file>chs/LanguageWireless.txt</file>
+        <file>chs/LanguageWirelessExport.txt</file>
+		<file>chs/LanguageLPC.txt</file>
+		
+		<file>csy/LanguageFeedback.txt</file>
+        <file>csy/LanguageFirmwareUpdate.txt</file>
+        <file>csy/LanguageInternet.txt</file>
+        <file>csy/LanguageMainFrame.txt</file>
+        <file>csy/LanguageMap.txt</file>
+        <file>csy/LanguageNetworkProblem.txt</file>
+        <file>csy/LanguageParentalControl.txt</file>
+        <file>csy/LanguageRouterConfiguration.txt</file>
+        <file>csy/LanguageTrafficMeter.txt</file>
+        <file>csy/LanguageWireless.txt</file>
+        <file>csy/LanguageWirelessExport.txt</file>
+		<file>csy/LanguageLPC.txt</file>
+		
+		<file>dan/LanguageFeedback.txt</file>
+        <file>dan/LanguageFirmwareUpdate.txt</file>
+        <file>dan/LanguageInternet.txt</file>
+        <file>dan/LanguageMainFrame.txt</file>
+        <file>dan/LanguageMap.txt</file>
+        <file>dan/LanguageNetworkProblem.txt</file>
+        <file>dan/LanguageParentalControl.txt</file>
+        <file>dan/LanguageRouterConfiguration.txt</file>
+        <file>dan/LanguageTrafficMeter.txt</file>
+        <file>dan/LanguageWireless.txt</file>
+        <file>dan/LanguageWirelessExport.txt</file>
+		<file>dan/LanguageLPC.txt</file>
+		
+		<file>deu/LanguageFeedback.txt</file>
+        <file>deu/LanguageFirmwareUpdate.txt</file>
+        <file>deu/LanguageInternet.txt</file>
+        <file>deu/LanguageMainFrame.txt</file>
+        <file>deu/LanguageMap.txt</file>
+        <file>deu/LanguageNetworkProblem.txt</file>
+        <file>deu/LanguageParentalControl.txt</file>
+        <file>deu/LanguageRouterConfiguration.txt</file>
+        <file>deu/LanguageTrafficMeter.txt</file>
+        <file>deu/LanguageWireless.txt</file>
+        <file>deu/LanguageWirelessExport.txt</file>
+		<file>deu/LanguageLPC.txt</file>
+		
+		<file>ell/LanguageFeedback.txt</file>
+        <file>ell/LanguageFirmwareUpdate.txt</file>
+        <file>ell/LanguageInternet.txt</file>
+        <file>ell/LanguageMainFrame.txt</file>
+        <file>ell/LanguageMap.txt</file>
+        <file>ell/LanguageNetworkProblem.txt</file>
+        <file>ell/LanguageParentalControl.txt</file>
+        <file>ell/LanguageRouterConfiguration.txt</file>
+        <file>ell/LanguageTrafficMeter.txt</file>
+        <file>ell/LanguageWireless.txt</file>
+        <file>ell/LanguageWirelessExport.txt</file>
+		<file>ell/LanguageLPC.txt</file>
+		
+		<file>enu/LanguageFeedback.txt</file>
+        <file>enu/LanguageFirmwareUpdate.txt</file>
+        <file>enu/LanguageInternet.txt</file>
+        <file>enu/LanguageMainFrame.txt</file>
+        <file>enu/LanguageMap.txt</file>
+        <file>enu/LanguageNetworkProblem.txt</file>
+        <file>enu/LanguageParentalControl.txt</file>
+        <file>enu/LanguageRouterConfiguration.txt</file>
+        <file>enu/LanguageTrafficMeter.txt</file>
+        <file>enu/LanguageWireless.txt</file>
+        <file>enu/LanguageWirelessExport.txt</file>
+		<file>enu/LanguageLPC.txt</file>
+		
+		<file>esp/LanguageFeedback.txt</file>
+        <file>esp/LanguageFirmwareUpdate.txt</file>
+        <file>esp/LanguageInternet.txt</file>
+        <file>esp/LanguageMainFrame.txt</file>
+        <file>esp/LanguageMap.txt</file>
+        <file>esp/LanguageNetworkProblem.txt</file>
+        <file>esp/LanguageParentalControl.txt</file>
+        <file>esp/LanguageRouterConfiguration.txt</file>
+        <file>esp/LanguageTrafficMeter.txt</file>
+        <file>esp/LanguageWireless.txt</file>
+        <file>esp/LanguageWirelessExport.txt</file>
+		<file>esp/LanguageLPC.txt</file>
+		
+		<file>fin/LanguageFeedback.txt</file>
+        <file>fin/LanguageFirmwareUpdate.txt</file>
+        <file>fin/LanguageInternet.txt</file>
+        <file>fin/LanguageMainFrame.txt</file>
+        <file>fin/LanguageMap.txt</file>
+        <file>fin/LanguageNetworkProblem.txt</file>
+        <file>fin/LanguageParentalControl.txt</file>
+        <file>fin/LanguageRouterConfiguration.txt</file>
+        <file>fin/LanguageTrafficMeter.txt</file>
+        <file>fin/LanguageWireless.txt</file>
+        <file>fin/LanguageWirelessExport.txt</file>
+		<file>fin/LanguageLPC.txt</file>
+		
+		<file>fra/LanguageFeedback.txt</file>
+        <file>fra/LanguageFirmwareUpdate.txt</file>
+        <file>fra/LanguageInternet.txt</file>
+        <file>fra/LanguageMainFrame.txt</file>
+        <file>fra/LanguageMap.txt</file>
+        <file>fra/LanguageNetworkProblem.txt</file>
+        <file>fra/LanguageParentalControl.txt</file>
+        <file>fra/LanguageRouterConfiguration.txt</file>
+        <file>fra/LanguageTrafficMeter.txt</file>
+        <file>fra/LanguageWireless.txt</file>
+        <file>fra/LanguageWirelessExport.txt</file>
+		<file>fra/LanguageLPC.txt</file>
+		
+		
+		<file>hun/LanguageFeedback.txt</file>
+        <file>hun/LanguageFirmwareUpdate.txt</file>
+        <file>hun/LanguageInternet.txt</file>
+        <file>hun/LanguageMainFrame.txt</file>
+        <file>hun/LanguageMap.txt</file>
+        <file>hun/LanguageNetworkProblem.txt</file>
+        <file>hun/LanguageParentalControl.txt</file>
+        <file>hun/LanguageRouterConfiguration.txt</file>
+        <file>hun/LanguageTrafficMeter.txt</file>
+        <file>hun/LanguageWireless.txt</file>
+        <file>hun/LanguageWirelessExport.txt</file>
+		<file>hun/LanguageLPC.txt</file>
+		
+		<file>ita/LanguageFeedback.txt</file>
+        <file>ita/LanguageFirmwareUpdate.txt</file>
+        <file>ita/LanguageInternet.txt</file>
+        <file>ita/LanguageMainFrame.txt</file>
+        <file>ita/LanguageMap.txt</file>
+        <file>ita/LanguageNetworkProblem.txt</file>
+        <file>ita/LanguageParentalControl.txt</file>
+        <file>ita/LanguageRouterConfiguration.txt</file>
+        <file>ita/LanguageTrafficMeter.txt</file>
+        <file>ita/LanguageWireless.txt</file>
+        <file>ita/LanguageWirelessExport.txt</file>
+		<file>ita/LanguageLPC.txt</file>
+		
+		
+		<file>kor/LanguageFeedback.txt</file>
+        <file>kor/LanguageFirmwareUpdate.txt</file>
+        <file>kor/LanguageInternet.txt</file>
+        <file>kor/LanguageMainFrame.txt</file>
+        <file>kor/LanguageMap.txt</file>
+        <file>kor/LanguageNetworkProblem.txt</file>
+        <file>kor/LanguageParentalControl.txt</file>
+        <file>kor/LanguageRouterConfiguration.txt</file>
+        <file>kor/LanguageTrafficMeter.txt</file>
+        <file>kor/LanguageWireless.txt</file>
+        <file>kor/LanguageWirelessExport.txt</file>
+		<file>kor/LanguageLPC.txt</file>
+		
+		<file>nld/LanguageFeedback.txt</file>
+        <file>nld/LanguageFirmwareUpdate.txt</file>
+        <file>nld/LanguageInternet.txt</file>
+        <file>nld/LanguageMainFrame.txt</file>
+        <file>nld/LanguageMap.txt</file>
+        <file>nld/LanguageNetworkProblem.txt</file>
+        <file>nld/LanguageParentalControl.txt</file>
+        <file>nld/LanguageRouterConfiguration.txt</file>
+        <file>nld/LanguageTrafficMeter.txt</file>
+        <file>nld/LanguageWireless.txt</file>
+        <file>nld/LanguageWirelessExport.txt</file>
+		<file>nld/LanguageLPC.txt</file>
+		
+		
+		<file>nor/LanguageFeedback.txt</file>
+        <file>nor/LanguageFirmwareUpdate.txt</file>
+        <file>nor/LanguageInternet.txt</file>
+        <file>nor/LanguageMainFrame.txt</file>
+        <file>nor/LanguageMap.txt</file>
+        <file>nor/LanguageNetworkProblem.txt</file>
+        <file>nor/LanguageParentalControl.txt</file>
+        <file>nor/LanguageRouterConfiguration.txt</file>
+        <file>nor/LanguageTrafficMeter.txt</file>
+        <file>nor/LanguageWireless.txt</file>
+        <file>nor/LanguageWirelessExport.txt</file>
+		<file>nor/LanguageLPC.txt</file>
+		
+		
+		<file>plk/LanguageFeedback.txt</file>
+        <file>plk/LanguageFirmwareUpdate.txt</file>
+        <file>plk/LanguageInternet.txt</file>
+        <file>plk/LanguageMainFrame.txt</file>
+        <file>plk/LanguageMap.txt</file>
+        <file>plk/LanguageNetworkProblem.txt</file>
+        <file>plk/LanguageParentalControl.txt</file>
+        <file>plk/LanguageRouterConfiguration.txt</file>
+        <file>plk/LanguageTrafficMeter.txt</file>
+        <file>plk/LanguageWireless.txt</file>
+        <file>plk/LanguageWirelessExport.txt</file>
+		<file>plk/LanguageLPC.txt</file>
+		
+		
+		<file>ptb/LanguageFeedback.txt</file>
+        <file>ptb/LanguageFirmwareUpdate.txt</file>
+        <file>ptb/LanguageInternet.txt</file>
+        <file>ptb/LanguageMainFrame.txt</file>
+        <file>ptb/LanguageMap.txt</file>
+        <file>ptb/LanguageNetworkProblem.txt</file>
+        <file>ptb/LanguageParentalControl.txt</file>
+        <file>ptb/LanguageRouterConfiguration.txt</file>
+        <file>ptb/LanguageTrafficMeter.txt</file>
+        <file>ptb/LanguageWireless.txt</file>
+        <file>ptb/LanguageWirelessExport.txt</file>
+		<file>ptb/LanguageLPC.txt</file>
+		
+		
+		<file>rom/LanguageFeedback.txt</file>
+        <file>rom/LanguageFirmwareUpdate.txt</file>
+        <file>rom/LanguageInternet.txt</file>
+        <file>rom/LanguageMainFrame.txt</file>
+        <file>rom/LanguageMap.txt</file>
+        <file>rom/LanguageNetworkProblem.txt</file>
+        <file>rom/LanguageParentalControl.txt</file>
+        <file>rom/LanguageRouterConfiguration.txt</file>
+        <file>rom/LanguageTrafficMeter.txt</file>
+        <file>rom/LanguageWireless.txt</file>
+        <file>rom/LanguageWirelessExport.txt</file>
+		<file>rom/LanguageLPC.txt</file>
+		
+		
+		<file>rus/LanguageFeedback.txt</file>
+        <file>rus/LanguageFirmwareUpdate.txt</file>
+        <file>rus/LanguageInternet.txt</file>
+        <file>rus/LanguageMainFrame.txt</file>
+        <file>rus/LanguageMap.txt</file>
+        <file>rus/LanguageNetworkProblem.txt</file>
+        <file>rus/LanguageParentalControl.txt</file>
+        <file>rus/LanguageRouterConfiguration.txt</file>
+        <file>rus/LanguageTrafficMeter.txt</file>
+        <file>rus/LanguageWireless.txt</file>
+        <file>rus/LanguageWirelessExport.txt</file>
+		<file>rus/LanguageLPC.txt</file>
+		
+		
+		<file>sky/LanguageFeedback.txt</file>
+        <file>sky/LanguageFirmwareUpdate.txt</file>
+        <file>sky/LanguageInternet.txt</file>
+        <file>sky/LanguageMainFrame.txt</file>
+        <file>sky/LanguageMap.txt</file>
+        <file>sky/LanguageNetworkProblem.txt</file>
+        <file>sky/LanguageParentalControl.txt</file>
+        <file>sky/LanguageRouterConfiguration.txt</file>
+        <file>sky/LanguageTrafficMeter.txt</file>
+        <file>sky/LanguageWireless.txt</file>
+        <file>sky/LanguageWirelessExport.txt</file>
+		<file>sky/LanguageLPC.txt</file>
+		
+		
+		<file>slv/LanguageFeedback.txt</file>
+        <file>slv/LanguageFirmwareUpdate.txt</file>
+        <file>slv/LanguageInternet.txt</file>
+        <file>slv/LanguageMainFrame.txt</file>
+        <file>slv/LanguageMap.txt</file>
+        <file>slv/LanguageNetworkProblem.txt</file>
+        <file>slv/LanguageParentalControl.txt</file>
+        <file>slv/LanguageRouterConfiguration.txt</file>
+        <file>slv/LanguageTrafficMeter.txt</file>
+        <file>slv/LanguageWireless.txt</file>
+        <file>slv/LanguageWirelessExport.txt</file>
+		<file>slv/LanguageLPC.txt</file>
+		
+		
+		<file>sve/LanguageFeedback.txt</file>
+        <file>sve/LanguageFirmwareUpdate.txt</file>
+        <file>sve/LanguageInternet.txt</file>
+        <file>sve/LanguageMainFrame.txt</file>
+        <file>sve/LanguageMap.txt</file>
+        <file>sve/LanguageNetworkProblem.txt</file>
+        <file>sve/LanguageParentalControl.txt</file>
+        <file>sve/LanguageRouterConfiguration.txt</file>
+        <file>sve/LanguageTrafficMeter.txt</file>
+        <file>sve/LanguageWireless.txt</file>
+        <file>sve/LanguageWirelessExport.txt</file>
+		<file>sve/LanguageLPC.txt</file>
+		
+		
+		
+    </qresource>
+</RCC>

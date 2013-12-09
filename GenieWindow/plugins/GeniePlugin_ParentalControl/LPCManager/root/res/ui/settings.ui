@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>settingsPage</class>
+ <widget class="SettingsPage" name="settingsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="text">
+        <string>settings.title</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>settings.subtitle</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="error">
+     <property name="text">
+      <string>settings.error</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+     <property name="class" stdset="0">
+      <string>error QLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QRadioButton" name="level1">
+        <property name="text">
+         <string>settings.bundle.high</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>settings-bundle-high QRadioButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>settings.bundle.high.description</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>description QLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="level2">
+        <property name="text">
+         <string>settings.bundle.moderate</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>settings-bundle-moderate QRadioButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>settings.bundle.moderate.description</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>description QLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="level3">
+        <property name="text">
+         <string>settings.bundle.low</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>settings-bundle-low QRadioButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>settings.bundle.low.description</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>description QLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="level4">
+        <property name="text">
+         <string>settings.bundle.minimal</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>settings-bundle-minimal QRadioButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>settings.bundle.minimal.description</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>description QLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="level5">
+        <property name="text">
+         <string>settings.bundle.none</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>settings-bundle-none QRadioButton</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>settings.bundle.none.description</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>description QLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="abort">
+       <property name="text">
+        <string>abort</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="prev">
+       <property name="text">
+        <string>prev</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="next">
+       <property name="text">
+        <string>next</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SettingsPage</class>
+   <extends>QWidget</extends>
+   <header>settingspage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>next</sender>
+   <signal>clicked()</signal>
+   <receiver>settingsPage</receiver>
+   <slot>nextPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>prev</sender>
+   <signal>clicked()</signal>
+   <receiver>settingsPage</receiver>
+   <slot>prevPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>511</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>abort</sender>
+   <signal>clicked()</signal>
+   <receiver>settingsPage</receiver>
+   <slot>gotoMainPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

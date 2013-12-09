@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Γονικός έλεγχος"
+L_PARENTAL_CONTROL_DESC="Το Live Parental Controls της NETGEAR με την υποστήριξη της OpenDNS, είναι μια λύση φιλτραρίσματος Web μέσω δρομολογητή, η οποία είναι διαθέσιμη στο δρομολογητή NETGEAR Wireless-N και στα προϊόντα πύλης."
+L_PARENTAL_CONTROL_MANAGER="Διαχείριση"
+L_PARENTAL_CONTROL_INSTALL="Εγκατάσταση"
+L_PARENTAL_CONTROL_ENABLE="Εγκαταστάθηκε"
+L_PARENTAL_CONTROL_NOT_ENABLE="Δεν εγκαταστάθηκε"
+L_PARENTAL_CONTROL_FUN_ONE=">Αποκλείει έως και 50 κατηγορίες περιεχομένου διαδικτύου"
+L_PARENTAL_CONTROL_FUN_TWO=">Σχεδιασμένο να σας προστατεύει από κλοπές ταυτότητας και απάτες"
+L_PARENTAL_CONTROL_FUN_THREE=">ΔΩΡΕΑΝ για τους πελάτες της NETGEAR!"
+L_PARENTAL_CONTROL_LIVE="Γονικός έλεγχος"
+L_PARENTAL_CONTROL_CLICKHERE="Κάντε κλικ εδώ"

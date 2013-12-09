@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/download.png</file>
+        <file>image/mini.ico</file>
+        <file>image/normal.ico</file>
+        <file>image/upload.png</file>
+        <file>image/aa.ico</file>
+        <file>image/close.ico</file>
+        <file>image/Net Traffic.png</file>
+        <file>image/alert.png</file>
+    </qresource>
+</RCC>

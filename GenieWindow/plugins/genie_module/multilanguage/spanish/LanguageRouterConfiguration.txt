@@ -1,0 +1,64 @@
+﻿##1500##
+L_RTCF_BIGBT="Router Settings"
+L_RTCF_BIGBT_CLICKHERE="Click here"
+
+L_RTCF_LOGIN_TITLE="Router Login"
+L_RTCF_LOGIN_USER="User Name:"
+L_RTCF_PASSWORD="Password:"
+L_RTCF_LOGIN_REMEMBER="Remember password"
+L_RTCF_LOGIN_BUT_LEFT="Login"
+L_RTCF_CANCEL="Cancel"
+
+
+L_RTCF_SETTING_SSID="Wireless Name (SSID):"
+L_RTCF_SETTING_CHANNEL="Channel:"
+L_RTCF_SETTING_MODE="Mode:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8-63 characters or 64 hexadecimal characters)"
+L_RTCF_SETTING_APPLY="Apply"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Channel:"
+L_RTCF_INFO_CHOICE="Wireless Information:"
+L_RTCF_INFO_PASSWOED="Network Key (Password):"
+L_RTCF_INFO_REFRESH="Refresh"
+L_RTCF_INFO_MODIFY="Modify"
+L_RTCF_INFO_LOGINOUT="Logout"
+L_RTCF_INFO_EXPORT="Export"
+
+L_RTCF_TAB_TITLE="Wireless Settings"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Changing settings can disrupt active traffic on the wireless network. Do you want to continue?"
+L_RTCF_MSG_NOTNETGEAR="Login failed! Please check to see if this computer is connected to the NETGEAR router."
+L_RTCF_MSG_PWDWRONG="Login failed, Please check the password."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Login failed. The router response timed out."
+L_RTCT_MSG_PLEASEWAIT="Refreshing; Please wait ..."
+L_RTCT_MSG_COMMITWAIT="Receiving router response infomation, please wait %1 seconds."
+L_RTCT_MSG_GACC="Guest Access is in use. Disabling it could disrupt active traffic on the wireless network. Do you want to continue?"
+L_RTCT_MSG_SOAPERROR="The router does not support this function."
+L_RTCT_MSG_SOAPERROR_LOGIN="The router does not support this function, Please upgrade the router firmware."
+L_RTCT_MSG_GACC_NOTSUPPORTED="The router does not support guest access."
+L_RTCF_MSG_TIMEOUT="The operation timed out."
+
+
+
+L_GACC_BIGBT="Guest Access"
+L_GACC_ENABLEGUEST="Enable Guest Access"
+L_GACC_DISABLEGUEST="Disable Guest Access"
+L_GACC_ENABLE_TITLE="Current Setting:"
+L_GACC_ENABLED="Enabled"
+L_GACC_NOTENABLED="Disabled"
+
+L_GACC_GUESTWIRELESS_SSID="Guest Access (SSID):"
+L_GACC_WORKTIME="Time Period:"
+
+L_RTCF_DEFAULT="(default is "password")"
+L_RTCF_LIST=".Wireless Settings\n.Guest Access\n.Traffic Meter\n.Router Update"
+L_RTCF_LIST_TITLE="Login is required to manage these router settings:"

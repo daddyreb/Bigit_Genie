@@ -1,0 +1,2010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{f01676dd-aa50-4bf6-b1e8-2c6e2f9245a5}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{2dd6ee90-1aaa-4fc3-9022-531207a65aad}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\DNSServices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\DialogMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GeniePlugin_MapV2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\genie2_netgear\INetgearInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PLDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineDeviceName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineEdge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineMapView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlinePrompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineSecurity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineSecurity_PWD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineTimeLineBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\PowerlineWirelessSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\Powerline_DetailDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\Powerline_HubMapView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\Powerline_MessageBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\Powerline_RateShowDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\Powerline_mapuitilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\genie2_interface\QGenieIface2ShareObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QGenieMapDbgWObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\genie2_routeranim\QGenieTopoNodePaintStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QProgressIndicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\advancewirelesssettingpane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blockdeviceconrolpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blockdevicemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\browser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\ccc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detailviewcontentwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detectportthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\devicedetailview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\devicedetailviewframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\devicedetailviewmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dnsservice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\enterwirelesssettingpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\epoll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extenderpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extenderview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\platform\win32\filesystemmonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcapi\helperroutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\howlpublish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcapi\mainpipeapiguard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mapuitilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netcardspanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcsoap\netgearsoapapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\platform\win32\nethelproutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netscanningcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcsoap\networkaccessproxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\networkmapview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcsoap\networktransaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcsoap\networktransactionmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\newdevicenotifymanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\newdevicenotifywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\newfilenotifywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\newsendfilenotifywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tbatchsetdevicessecuritykey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tcheckfirmwareupgrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tdeviceresetdefault.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tgetdevicewlaninfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tresynchscan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tsetdeviceled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tsetdevicename.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tsetdevicesecuritykey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\transactions\plc_tsetdevicewlaninfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plcappengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plcappengineexecutive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plcdevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plcdevicescanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plcdevicesoapthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdriverexecutive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdrivermanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\core\plcmainpipeplugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plctopologydata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\core\plctransactionmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\powerlinepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\other\progressindicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puttyfuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\receivefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recethread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\searchrouterpane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sendfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcsoap\smarthandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\smartwirelesssettingwizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\plc_appengine\plcmainpipe\plcsoap\soapreturnhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\topologyedge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\topologynode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\topologyview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\src\waitpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\waittingpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udt\window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\wirelesssettingcopyroutersettingpage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\wirelesssettingoperatepane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\wirelesssettingpannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="powerline\smartwifiwizard\wirelesssettingreadonlypannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_DialogMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_DialogMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GeniePlugin_MapV2.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GeniePlugin_MapV2.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_INetgearInterface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_INetgearInterface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineDeviceName.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineDeviceName.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineHandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineHandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineMapView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineMapView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineNode.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineNode.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlinePrompt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlinePrompt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineSecurity.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineSecurity.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineSecurity_PWD.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineSecurity_PWD.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineTimeLineBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineTimeLineBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_PowerlineWirelessSet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_PowerlineWirelessSet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_Powerline_DetailDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_Powerline_DetailDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_Powerline_HubMapView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_Powerline_HubMapView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_Powerline_MessageBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_Powerline_MessageBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_Powerline_RateShowDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_Powerline_RateShowDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieIface2ShareObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieIface2ShareObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieMapDbgWObject.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieMapDbgWObject.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QProgressIndicator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QProgressIndicator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_advancewirelesssettingpane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_advancewirelesssettingpane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_blockdeviceconrolpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_blockdeviceconrolpanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_blockdevicemanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_blockdevicemanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_browser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_browser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_detailviewcontentwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_detailviewcontentwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_detectportthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_detectportthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_devicedetailview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_devicedetailview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_devicedetailviewframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_devicedetailviewframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_devicedetailviewmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_devicedetailviewmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_dnsservice.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_dnsservice.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_enterwirelesssettingpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_enterwirelesssettingpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_extenderpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_extenderpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_extenderview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_extenderview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_filesystemmonitor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_filesystemmonitor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_howlpublish.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_howlpublish.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_netcardspanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_netcardspanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_netgearsoapapi.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_netgearsoapapi.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_netscanningcontroller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_netscanningcontroller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_networkaccessproxy.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_networkaccessproxy.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_networkmapview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_networkmapview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_networktransaction.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_networktransaction.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_networktransactionmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_networktransactionmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_newdevicenotifymanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_newdevicenotifymanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_newdevicenotifywidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_newdevicenotifywidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_newfilenotifywidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_newfilenotifywidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_newsendfilenotifywidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_newsendfilenotifywidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plc_tcheckfirmwareupgrade.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plc_tcheckfirmwareupgrade.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plcappengine.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plcappengine.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plcappengineexecutive.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plcappengineexecutive.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plcdevicescanner.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plcdevicescanner.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plcdevicesoapthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plcdevicesoapthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plcdriverexecutive.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plcdriverexecutive.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plcmainpipeplugin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plcmainpipeplugin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_plctransactionmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_plctransactionmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_powerlinepage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_powerlinepage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_progressindicator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_progressindicator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_receivefile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_receivefile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_recethread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_recethread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_searchrouterpane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_searchrouterpane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_sendfile.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_sendfile.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_smartwirelesssettingwizard.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_smartwirelesssettingwizard.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_soapreturnhandler.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_soapreturnhandler.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_topologynode.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_topologynode.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_topologyview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_topologyview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_waitpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_waitpanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_waittingpanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_waittingpanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_wirelesssettingcopyroutersettingpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_wirelesssettingcopyroutersettingpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_wirelesssettingoperatepane.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_wirelesssettingoperatepane.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_wirelesssettingpannel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_wirelesssettingpannel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_wirelesssettingreadonlypannel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_wirelesssettingreadonlypannel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Powerline.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_sww_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\DNSServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\src\DialogMgr.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\GeniePlugin_MapV2.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IHandlerInf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\include\genie2_netgear\INetgearInterface.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IPluginInf2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\src\PLDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\src\PowerlineDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\src\PowerlineDeviceName.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\src\PowerlineEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\src\PowerlineHandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineMapView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineNode.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlinePrompt.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineSecurity.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineSecurity_PWD.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineTimeLineBox.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\PowerlineWirelessSet.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\Powerline_DetailDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\Powerline_HubMapView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\Powerline_MessageBox.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\src\Powerline_RateShowDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\src\Powerline_mapuitilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="..\..\include\genie2_interface\QGenieIface2ShareObject.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\QGenieMapDbgWObject.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_routeranim\QGenieTopoNodePaintStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\QProgressIndicator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\src\Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SvtNetworkTool\SvtNetworkTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\smartwifiwizard\advancewirelesssettingpane.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\udt\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\blockdeviceconrolpanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\blockdevicemanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\browser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\udt\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\ccc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\udt\core.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\detailviewcontentwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\detectportthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\devicedetailview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\devicedetailviewframe.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\devicedetailviewmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\dnsservice.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\enterwirelesssettingpage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\udt\epoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\extenderpage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\extenderview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\platform\win32\filesystemmonitor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\genie2_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\genie2_plugincommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\plcapi\helperroutines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\howlpublish.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\inner_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\interface2_cmds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\interface2_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\genie2_interface\interface2_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smartwifiwizard\other\language_i18n.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mDNSClientAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mDNSDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mDNSPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mDNSPlatformFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mDNSServant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\plcapi\mainpipeapiguard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\include\mainpipedefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\include\mainpipeeventmonitorinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\include\mainpipeinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\mapdevicetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mapuitilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\netcardspanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\plcsoap\netgearsoapapi.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\platform\win32\nethelproutines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\netscanningcontroller.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\plcsoap\networkaccessproxy.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\networkmapview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\plcsoap\networktransaction.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\plcsoap\networktransactionmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\newdevicenotifymanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\newdevicenotifywidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\newfilenotifywidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\newsendfilenotifywidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\udt\packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tbatchsetdevicessecuritykey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\plc_appengine\transactions\plc_tcheckfirmwareupgrade.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tdeviceresetdefault.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tgetdevicewlaninfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tresynchscan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tsetdeviceled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tsetdevicename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tsetdevicesecuritykey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\transactions\plc_tsetdevicewlaninfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\plc_appengine\core\plcappengine.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\core\plcappengineexecutive.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\core\plcdevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\plc_appengine\core\plcdevicescanner.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\core\plcdevicesoapthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdriverexecutive.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdriverinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\plcapi\plcdrivermanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\core\plcmainpipeplugin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\core\plctopologydata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\plc_appengine\core\plctransactionmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\core\pointertransfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\src\powerlinepage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\other\progressindicator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\puttyfuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\receivefile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\recethread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\searchrouterpane.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\sendfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\plcmainpipe\plcsoap\smarthandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\smartwifiwizard\smartwirelesssettingwizard.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\plc_appengine\plcmainpipe\plcsoap\soapreturnhandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\topologyedge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="src\topologynode.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\topologyview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="powerline\plc_appengine\transactions\include\transactions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\udt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\src\waitpanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\waittingpanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\Win32\win32_mdns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\udt\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingcopyroutersettingpage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingoperatepane.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingpannel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingreadonlypannel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="src\udt\wspiapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PowerlineDeviceName.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PowerlinePrompt.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PowerlineSecurity.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PowerlineSecurity_PWD.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PowerlineTimeLineBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PowerlineWirelessSet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Powerline_DetailDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Powerline_MessageBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Powerline_RateShowDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_advancewirelesssettingpane.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_enterwirelesssettingpage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_powerlinepage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_searchrouterpane.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_smartwirelesssettingwizard.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wirelesssettingcopyroutersettingpage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wirelesssettingoperatepane.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wirelesssettingpannel.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_wirelesssettingreadonlypannel.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="debug\moc_core.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="release\moc_core.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="powerline\ui\PowerlineDeviceName.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\PowerlinePrompt.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\PowerlineSecurity.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\PowerlineSecurity_PWD.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\PowerlineTimeLineBox.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\PowerlineWirelessSet.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\Powerline_DetailDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\Powerline_MessageBox.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\Powerline_RateShowDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\advancewirelesssettingpane.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\enterwirelesssettingpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\ui\powerlinepage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\searchrouterpane.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\smartwirelesssettingwizard.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingcopyroutersettingpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingoperatepane.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingpannel.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="powerline\smartwifiwizard\wirelesssettingreadonlypannel.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="powerline\res\PowerLineImage\PLineDev\DEFAULT-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\DEFAULT-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\DEFAULT-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\DEFAULT-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\DEFAULT-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\DEFAULT-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\LocalHost.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\NetworkDeviceDetails-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\NetworkDeviceDetails-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\NetworkDeviceDetailss_N2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\NetworkDeviceUSB-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\NetworkDeviceUSB-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="powerline\res\Powerline.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="powerline\res\PowerLineImage\QTabBar_scroller_bj.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\UNKNOWN-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\UNKNOWN-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\UNKNOWN-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\UNKNOWN-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\UNKNOWN-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\UNKNOWN-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\UnKnown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\WNDR4500Normal_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAU2511-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAU2511-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAU2511-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAU2511-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAU2511-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAU2511-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1004-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1004-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1004-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1004-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1004-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1004-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV101-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV101-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1101-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1101-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1201-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1201-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1201-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1201-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1201-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1201-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1301-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1301-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1301-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1301-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1301-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1301-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1401-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1401-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1401-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1401-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1401-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1401-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1601-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1601-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1601-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1601-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV1601-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV1601-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2001-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2001-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101v2-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2101v2-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101v2-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101v2-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2101v2-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2101v2-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2501-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2501-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2501-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2501-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2501-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2501-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2601-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2601-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2601-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2601-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2601-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2601-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2602-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2602-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602v2-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2602v2-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602v2-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602v2-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV2602v2-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV2602v2-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5001-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5001-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5004-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5004-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5004-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5004-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5004-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5004-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5101-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5101-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5101-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5101-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5201-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5201-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5201-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5201-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5201-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5201-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5501-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5501-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5501-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5501-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5501-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5501-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5601-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5601-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5601-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5601-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5601-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5601-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5602-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5602-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5602-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5602-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAV5602-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAV5602-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVN2001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVN2001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001v2-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVN2001v2-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001v2-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001v2-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVN2001v2-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVN2001v2-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP1000-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVP1000-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP1000-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP1000-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVP1000-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP1000-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP2000-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVP2000-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP2000-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP2000-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XAVP2000-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XAVP2000-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XWN5001-OFF-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XWN5001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XWN5001-OFF-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XWN5001-ON-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDevDetail\XWN5001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\PLineDev\XWN5001-ON-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\bg_dialog.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\smartwifiwizard\res\image\bg_dialog.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\bg_plugin_page.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\smartwifiwizard\res\image\bulb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\but_scroll_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\but_scroll_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\but_scroll_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\but_scroll_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\styles\framelessframe.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\hub-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\hub-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\info.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\internet-OFF.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\internet-ON.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\left-disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\left_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\left_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\left_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\password.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\styles\powerlineview.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\printer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\right-disabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\right_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\right_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\right_pressed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\scrollbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\scrollbar_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\scrollbar_bg_portrait.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\scrollbar_left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\scrollbar_portrait.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\scrollbar_right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\security-priv-M-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\security-priv-M-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\security-pub-M-L.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\security-pub-M-S.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\sound.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\storage.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="powerline\smartwifiwizard\res\sww_res.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="powerline\res\PowerLineImage\tag.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="powerline\res\PowerLineImage\OtherDev\usb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

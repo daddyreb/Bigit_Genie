@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Router Settings"
+L_RTCF_BIGBT_CLICKHERE="Click here"
+
+L_RTCF_LOGIN_TITLE="Router Login"
+L_RTCF_LOGIN_USER="User Name:"
+L_RTCF_PASSWORD="Password:"
+L_RTCF_LOGIN_REMEMBER="Remember password"
+L_RTCF_LOGIN_BUT_LEFT="Login"
+L_RTCF_CANCEL="Cancel"
+
+
+L_RTCF_SETTING_SSID="Wireless Name (SSID):"
+L_RTCF_SETTING_CHANNEL="Channel Selection:"
+L_RTCF_SETTING_MODE="Mode:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8-63 characters or 64 hex digits)"
+L_RTCF_SETTING_APPLY="Apply"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Channel Selection:"
+L_RTCF_INFO_CHOICE="Wireless Information"
+L_RTCF_INFO_PASSWOED="Network Key (Password):"
+L_RTCF_INFO_REFRESH="Refresh"
+L_RTCF_INFO_MODIFY="Modify"
+L_RTCF_INFO_LOGINOUT="Logout"
+L_RTCF_INFO_EXPORT="Export"
+
+L_RTCF_TAB_TITLE="Wireless Settings"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Changing settings can disrupt active traffic on the wireless network. Do you want to continue?"
+L_RTCF_MSG_NOTNETGEAR="Login failed! Please check to see if this computer is connected to the NETGEAR router."
+L_RTCF_MSG_PWDWRONG="Login failed, Please check the password."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Login failed. The router response timed out."
+L_RTCT_MSG_PLEASEWAIT="Refreshing, please wait..."
+L_RTCT_MSG_COMMITWAIT="Receiving router response infomation, please wait %1 seconds."
+L_RTCT_MSG_GACC="Guest Access is in use. Disabling it could disrupt active traffic on the wireless network. Do you want to continue?"
+L_RTCT_MSG_SOAPERROR="The router does not support this function."
+L_RTCT_MSG_SOAPERROR_LOGIN="The router does not support this function, Please upgrade the router firmware."
+L_RTCT_MSG_GACC_NOTSUPPORTED="The router does not support guest access."
+L_RTCF_MSG_TIMEOUT="The operation timed out."
+
+
+
+L_GACC_BIGBT="Guest Access"
+L_GACC_ENABLEGUEST="Enable Guest Access"
+L_GACC_DISABLEGUEST="Disable Guest Access"
+L_GACC_ENABLE_TITLE="Current Setting:"
+L_GACC_ENABLED="Enabled"
+L_GACC_NOTENABLED="Disabled"
+
+L_GACC_GUESTWIRELESS_SSID="Guest Access (SSID):"
+L_GACC_WORKTIME="Time Period:"
+
+L_RTCF_DEFAULT="(default is "password")"
+L_RTCF_LIST_TITLE="Login is required to manage these router settings:"
+
+L_RTCF_TRAFFICMETTER="Traffic Meter"
+L_RTCF_FUPDATE="Router Upgrade"
+
+L_RTCF_ROUTETYPE="Router Model"
+L_RTCF_FIRMWARE_VERSION="Firmware Version"
+
+L_RTCF_LOGIN_LIST=".Wireless Settings\n.ReadySHARE\n.Guest Access\n.Traffic Meter\n.Router Update"
+
+L_GACC_ALWAYS="Always"
+L_GACC_1HOUR="1 Hour"
+L_GACC_5HOUR="5 Hours"
+L_GACC_10HOUR="10 Hours"
+L_GACC_1DAY="1 Day"
+L_GACC_1WEEK="1 Week"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Basic"
+L_READY_SHARE_FUN_TWO="Allows you to access ReadySHARE Storage from anywhere"
+L_READY_SHARE_FUN_THREE="ReadySHARE Printing"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Back"
+L_READY_SHARE_CONTINUE="Continue"
+L_READY_SHARE_NOT_SUPPORT="The router does not support this function."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Mode"
+L_READY_SHARE_NETWORK_NAME="Network/Device Name:"
+L_READY_SHARE_REGISTER="Register"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="The ReadySHARE Cloud feature gives you remote access over the Internet to a USB storage device that is connected to your router's USB port."
+L_READY_SHARE_REMOTE_HOW_WORKS="How to Set Up ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="Step 1: You need a ReadySHARE Cloud account. If you do not have one,<a href ='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_STEPS_TWO="Step 2: On this page, enter your ReadySHARE Cloud user name and password to register your router and the USB device that is connected to it with your account."
+L_READY_SHARE_REMOTE_STEPS_THREE="Step 3: Log back into <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> with your account. You should see the USB device that is connected to your router."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Step 4: The first time, you are asked to download a Windows client, which is used to make a secure connection from your PC to the router's USB device. Log into this client and you can access the USB device from anywhere."
+L_READY_SHARE_REMOTE_START_NOW="Start now to enable ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="Username:"
+L_READY_SHARE_REMOTE_PASSWORD="Password:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="If you don't have a ReadySHARE Cloud account click here to get one"
+L_READY_SHARE_PRINTING="ReadySHARE Printing"
+L_READY_SHARE_PRINTING_DESC="Print Sharing for Windows PCs and Mac Computers with a USB Printer"
+L_READY_SHARE_PRINTING_HOW_WORKS="How It Works?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Step 1: Connect the USB printer to the router’s USB port with a USB printer cable."
+L_READY_SHARE_PRINTING_STEPS_TWO="Step 2: Install the USB printer driver software on each computer that will share the printer."
+L_READY_SHARE_PRINTING_STEPS_THREE="Step 3: On each computer that will share the printer, download the NETGEAR USB Control Center utility from <a href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Follow the instructions in the utility to connect to the printer from your computer and print."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Note:</b> Without this client, you can browse your USB device contents but you cannot open files or make changes to them."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Note:</b> Internet will be kept active until unregistered."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud is registered with user:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="You can follow step 2~4 above to access the storage from anywhere"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Click <B>Unregister</B> to register ReadySHARE Cloud with a different user"
+L_READY_SHARE_UNREGISTER="Unregister"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

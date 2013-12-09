@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Annuleren"
+L_MAIN_TRAY_AUTOSTART="Automatisch starten inschakelen"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Wijziging van netwerkconnectiviteit weergeven"
+L_MAIN_TITLE_ABOUT="Info"
+L_MAIN_CHECKFORUPDATES="Controleren op updates"

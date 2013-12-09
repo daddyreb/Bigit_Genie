@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Roditeljska kontrola"
+L_PARENTAL_CONTROL_DESC="NETGEAR Live roditeljsku kontrolu pruža OpenDNS i ona predstavlja rješenje za web-filtriranje koje se temelji na usmjerivaču, a dostupno je na NETGEAR bežičnim N usmjerivačima i pristupnicima.."
+L_PARENTAL_CONTROL_MANAGER="Upravljaj"
+L_PARENTAL_CONTROL_INSTALL="Instaliraj"
+L_PARENTAL_CONTROL_ENABLE="Instalirano"
+L_PARENTAL_CONTROL_NOT_ENABLE="Nije instalirano"
+L_PARENTAL_CONTROL_FUN_ONE=">Blokira do 50 kategorija internetskog sadržaja"
+L_PARENTAL_CONTROL_FUN_TWO=">Dizajniran kako bi vas zaštitio od krađe identiteta i prevara"
+L_PARENTAL_CONTROL_FUN_THREE=">I BESPLATAN za NETGEAR korisnike!"
+L_PARENTAL_CONTROL_LIVE="Roditeljska kontrola"
+

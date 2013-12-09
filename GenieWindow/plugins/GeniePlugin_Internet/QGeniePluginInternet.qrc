@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Internet.png</file>
+        <file>image/PC.png</file>
+        <file>image/Router.png</file>
+        <file>image/LinkStateFailed.png</file>
+        <file>image/LinkStateUnknown.png</file>
+        <file>image/PCFlash.png</file>
+        <file>image/PluginCable.gif</file>
+        <file>image/RouterFlash.png</file>
+        <file>image/InternetFlash.png</file>
+        <file>image/A_WNetwork.png</file>
+        <file>image/I_WNetwork.png</file>
+        <file>image/Sec_Enabled.png</file>
+        <file>image/W_Signal_0.png</file>
+        <file>image/W_Signal_1.png</file>
+        <file>image/W_Signal_2.png</file>
+        <file>image/W_Signal_3.png</file>
+        <file>image/W_Signal_4.png</file>
+        <file>image/W_Signal_5.png</file>
+        <file>image/LinkStateOk.png</file>
+        <file>image/pwd_invalid.png</file>
+        <file>image/upload_big.png</file>
+        <file>image/download_big.png</file>
+        <file>image/WlanNicRadioOff.gif</file>
+        <file>image/netmon_barchart.png</file>
+        <file>image/netmon_detail.png</file>
+        <file>image/netmon_detail2.png</file>
+    </qresource>
+</RCC>

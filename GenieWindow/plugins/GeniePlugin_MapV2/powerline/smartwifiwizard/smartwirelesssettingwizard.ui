@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SmartWirelessSettingWizard</class>
+ <widget class="QDialog" name="SmartWirelessSettingWizard">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>603</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#iframe
+{
+   border-image: url(:/sww_res/image/bg_dialog.png);
+    border-width: 44px 16px 6px 59px;
+	padding-top: -44px;
+	padding-right: -16px;
+	padding-bottom: -6px;
+	padding-left: -59px;
+	
+    border-radius: 0px;
+}
+
+SmartWirelessSettingWizard
+{
+	background-color:transparent;
+}
+
+QPushButton
+{   
+	border-style:solid;
+	border-width:1px;
+	border-radius: 4px;
+	height:21px;
+	min-width:65px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 148, 144, 221), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:focus
+{  
+		outline:none;
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 88, 80, 186), stop:1 rgb( 68, 65, 137));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:focus:hover
+{  
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 240, 240,251), stop:1 rgb( 68, 65, 137));
+}
+
+QPushButton:hover
+{  
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(  240, 240,251), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255); 
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:disabled
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 230, 230,230), stop:1 rgb( 140, 140, 140));
+	color:rgb(140,140,140); 
+	border-color:rgb( 140, 140, 140);
+}
+
+QPushButton:pressed
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 116, 113, 190), stop:1 rgb( 211, 209, 240));
+	color:rgb(255,255,255); 
+	border-color:rgb( 140, 140, 140);
+}
+
+/*
+QPushButton:focus
+{  
+	outline:none;
+}
+*/
+
+/*about dialog label title*/
+QLabel#label_title
+{  
+	color: rgb(255, 255, 255);
+	font-weight:bold;
+	font-size: 14px;
+}
+
+/********分割线***********/
+QFrame[split_line=&quot;1&quot;]{
+	border:1px solid #D4D4D3;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="iframe" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="leftMargin">
+         <number>56</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_title">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>26</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Wireless Settings</string>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QScrollArea" name="m_wizardScrollArea">
+           <property name="styleSheet">
+            <string notr="true">QScrollArea
+{
+	background-color:transparent;
+}</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>567</width>
+              <height>406</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout"/>
+           </widget>
+          </widget>
+         </item>
+         <item>
+          <widget class="AdvanceWirelessSettingPane" name="m_advWirelessSettingPane" native="true">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AdvanceWirelessSettingPane</class>
+   <extends>QWidget</extends>
+   <header>advancewirelesssettingpane.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

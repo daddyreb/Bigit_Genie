@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Geschätzte verbleibende Zeit"
+L_UPGRADE_UPDATE_CANCEL="Abbrechen"
+L_UPGRADE_UPDATE_PAGE_FINISH="Download abgeschlossen.\nKlicken Sie auf "Finish" (Fertig stellen), um das Upgrade auszuführen."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie-Upgrade"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Die verwendete Version ist die neueste."
+L_UPGRADE_UPDATE_PAGE_WRONG="Es liegt ein vorübergehendes Problem vor. Versuchen Sie zu einem späteren Zeitpunkt, die neue Version herunterzuladen."
+L_UPGRADE_UPDATE_DOWNLOAD="Herunterladen"
+L_UPGRADE_UPDATE_FINISH="Fertig stellen"
+L_UPGRADE_UPDATE_CHECK_DESP="Beschreibungsdatei wird abgerufen …"
+L_UPGRADE_UPDATE_DOWN_FILE="Installationsdatei wird abgerufen …"
+L_UPGRADE_UPDATE_LINK="Sie können die neue Version auch herunterladen, indem Sie auf diesen Link klicken."
+L_UPGRADE_UPDATE_NETWORK_ERROR="Problem mit Netzwerkverbindung."

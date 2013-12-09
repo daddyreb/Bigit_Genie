@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>GenieWirelessConfig.app/Contents/MacOS/GenieWirelessConfig</file>
+        <file>GenieWirelessConfig.app/Contents/Resources/English.lproj/InfoPlist.strings</file>
+        <file>GenieWirelessConfig.app/Contents/Resources/English.lproj/MainMenu.nib</file>
+        <file>GenieWirelessConfig.app/Contents/Resources/GenieWirelessConfig.icns</file>
+        <file>GenieWirelessConfig.app/Contents/Info.plist</file>
+        <file>GenieWirelessConfig.app/Contents/PkgInfo</file>
+    </qresource>
+</RCC>

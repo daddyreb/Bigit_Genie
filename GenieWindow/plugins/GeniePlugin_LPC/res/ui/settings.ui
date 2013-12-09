@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>settingsPage</class>
+ <widget class="SettingsPage" name="settingsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="text">
+        <string>settings.title</string>
+       </property>
+       <property name="LPCText" stdset="0">
+        <string>settings.title</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>settings.subtitle</string>
+     </property>
+     <property name="LPCText" stdset="0">
+      <string>settings.subtitle</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="error">
+     <property name="text">
+      <string>settings.error</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+     <property name="LPCText" stdset="0">
+      <string>settings.error</string>
+     </property>
+     <property name="LPCTags" stdset="0">
+      <stringlist>
+       <string>Error</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-417</y>
+           <width>583</width>
+           <height>703</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QRadioButton" name="level5">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="text">
+             <string>settings.bundle.none</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.none</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>settings.bundle.none.description</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.none.description</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Description</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="level4">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="text">
+             <string>settings.bundle.minimal</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.minimal</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>settings.bundle.minimal.description</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.minimal.description</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Description</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="level3">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="text">
+             <string>settings.bundle.low</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.low</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>settings.bundle.low.description</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.low.description</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Description</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="level2">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="text">
+             <string>settings.bundle.moderate</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.moderate</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>settings.bundle.moderate.description</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.moderate.description</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Description</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="level1">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="text">
+             <string>settings.bundle.high</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.high</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>settings.bundle.high.description</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.high.description</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Description</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="level6">
+            <property name="focusPolicy">
+             <enum>Qt::StrongFocus</enum>
+            </property>
+            <property name="text">
+             <string>settings.bundle.custom</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.custom</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>settings.bundle.custom.description</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>settings.bundle.custom.description</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Description</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_custom">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QCheckBox" name="checkBox_0">
+               <property name="text">
+                <string>Academic Fraud</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QCheckBox" name="checkBox_1">
+               <property name="text">
+                <string>Adult Themes</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QCheckBox" name="checkBox_2">
+               <property name="text">
+                <string>Adware</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QCheckBox" name="checkBox_3">
+               <property name="text">
+                <string>Alcohol</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QCheckBox" name="checkBox_4">
+               <property name="text">
+                <string>Anime/Manga/Webcomic</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type4</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QCheckBox" name="checkBox_5">
+               <property name="text">
+                <string>Auctions</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type5</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QCheckBox" name="checkBox_6">
+               <property name="text">
+                <string>Automotive</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type6</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QCheckBox" name="checkBox_7">
+               <property name="text">
+                <string>Blogs</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type7</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QCheckBox" name="checkBox_8">
+               <property name="text">
+                <string>Business Services</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type8</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QCheckBox" name="checkBox_9">
+               <property name="text">
+                <string>Chat</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type9</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QCheckBox" name="checkBox_10">
+               <property name="text">
+                <string>Classifieds</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type10</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QCheckBox" name="checkBox_11">
+               <property name="text">
+                <string>Dating</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type11</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QCheckBox" name="checkBox_12">
+               <property name="text">
+                <string>Drugs</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type12</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="QCheckBox" name="checkBox_13">
+               <property name="text">
+                <string>Ecommerce/Shopping</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type13</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2">
+              <widget class="QCheckBox" name="checkBox_14">
+               <property name="text">
+                <string>Educational Institutions</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type14</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QCheckBox" name="checkBox_15">
+               <property name="text">
+                <string>File Storage</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type15</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <widget class="QCheckBox" name="checkBox_16">
+               <property name="text">
+                <string>Financial Institutions</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type16</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="2">
+              <widget class="QCheckBox" name="checkBox_17">
+               <property name="text">
+                <string>Forums/Message boards</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type17</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QCheckBox" name="checkBox_18">
+               <property name="text">
+                <string>Gambling</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type18</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QCheckBox" name="checkBox_19">
+               <property name="text">
+                <string>Games</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type19</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="2">
+              <widget class="QCheckBox" name="checkBox_20">
+               <property name="text">
+                <string>German Youth Protection</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type20</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QCheckBox" name="checkBox_21">
+               <property name="text">
+                <string>Government</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type21</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="1">
+              <widget class="QCheckBox" name="checkBox_22">
+               <property name="text">
+                <string>Hate/Discrimination</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type22</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="2">
+              <widget class="QCheckBox" name="checkBox_23">
+               <property name="text">
+                <string>Health and Fitness</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type23</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QCheckBox" name="checkBox_24">
+               <property name="text">
+                <string>Humor</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type24</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="1">
+              <widget class="QCheckBox" name="checkBox_25">
+               <property name="text">
+                <string>Instant Messaging</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type25</string>
+               </property>
+              </widget>
+             </item>
+             <item row="8" column="2">
+              <widget class="QCheckBox" name="checkBox_26">
+               <property name="text">
+                <string>Jobs/Employment</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type26</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="0">
+              <widget class="QCheckBox" name="checkBox_27">
+               <property name="text">
+                <string>Lingerie/Bikini</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type27</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="1">
+              <widget class="QCheckBox" name="checkBox_28">
+               <property name="text">
+                <string>Movies</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type28</string>
+               </property>
+              </widget>
+             </item>
+             <item row="9" column="2">
+              <widget class="QCheckBox" name="checkBox_29">
+               <property name="text">
+                <string>Music</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type29</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QCheckBox" name="checkBox_30">
+               <property name="text">
+                <string>News/Media</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type30</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="1">
+              <widget class="QCheckBox" name="checkBox_31">
+               <property name="text">
+                <string>Non-Profits</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type31</string>
+               </property>
+              </widget>
+             </item>
+             <item row="10" column="2">
+              <widget class="QCheckBox" name="checkBox_32">
+               <property name="text">
+                <string>Nudity</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type32</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0">
+              <widget class="QCheckBox" name="checkBox_33">
+               <property name="text">
+                <string>P2P/File sharing</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type33</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="1">
+              <widget class="QCheckBox" name="checkBox_34">
+               <property name="text">
+                <string>Parked Domains</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type34</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="2">
+              <widget class="QCheckBox" name="checkBox_35">
+               <property name="text">
+                <string>Photo Sharing</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type35</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="0">
+              <widget class="QCheckBox" name="checkBox_36">
+               <property name="text">
+                <string>Podcasts</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type36</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="1">
+              <widget class="QCheckBox" name="checkBox_37">
+               <property name="text">
+                <string>Politics</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type37</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="2">
+              <widget class="QCheckBox" name="checkBox_38">
+               <property name="text">
+                <string>Pornography</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type38</string>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="0">
+              <widget class="QCheckBox" name="checkBox_39">
+               <property name="text">
+                <string>Portals</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type39</string>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="1">
+              <widget class="QCheckBox" name="checkBox_40">
+               <property name="text">
+                <string>Proxy/Anonymizer</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type40</string>
+               </property>
+              </widget>
+             </item>
+             <item row="13" column="2">
+              <widget class="QCheckBox" name="checkBox_41">
+               <property name="text">
+                <string>Radio</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type41</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="0">
+              <widget class="QCheckBox" name="checkBox_42">
+               <property name="text">
+                <string>Religious</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type42</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="1">
+              <widget class="QCheckBox" name="checkBox_43">
+               <property name="text">
+                <string>Research/Reference</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type43</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="2">
+              <widget class="QCheckBox" name="checkBox_44">
+               <property name="text">
+                <string>Search Engines</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type44</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="0">
+              <widget class="QCheckBox" name="checkBox_45">
+               <property name="text">
+                <string>Sexuality</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type45</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="1">
+              <widget class="QCheckBox" name="checkBox_46">
+               <property name="text">
+                <string>Social Networking</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type46</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="2">
+              <widget class="QCheckBox" name="checkBox_47">
+               <property name="text">
+                <string>Software/Technology</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type47</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="0">
+              <widget class="QCheckBox" name="checkBox_48">
+               <property name="text">
+                <string>Sports</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type48</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="1">
+              <widget class="QCheckBox" name="checkBox_49">
+               <property name="text">
+                <string>Tasteless</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type49</string>
+               </property>
+              </widget>
+             </item>
+             <item row="16" column="2">
+              <widget class="QCheckBox" name="checkBox_50">
+               <property name="text">
+                <string>Television</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type50</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="0">
+              <widget class="QCheckBox" name="checkBox_51">
+               <property name="text">
+                <string>Tobacco</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type51</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="1">
+              <widget class="QCheckBox" name="checkBox_52">
+               <property name="text">
+                <string>Travel</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type52</string>
+               </property>
+              </widget>
+             </item>
+             <item row="17" column="2">
+              <widget class="QCheckBox" name="checkBox_53">
+               <property name="text">
+                <string>Typo Squatting</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type53</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="0">
+              <widget class="QCheckBox" name="checkBox_54">
+               <property name="text">
+                <string>Video Sharing</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type54</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="1">
+              <widget class="QCheckBox" name="checkBox_55">
+               <property name="text">
+                <string>Visual Search Engines</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type55</string>
+               </property>
+              </widget>
+             </item>
+             <item row="18" column="2">
+              <widget class="QCheckBox" name="checkBox_56">
+               <property name="text">
+                <string>Weapons</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type56</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="0">
+              <widget class="QCheckBox" name="checkBox_57">
+               <property name="text">
+                <string>Web Spam</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type57</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="1">
+              <widget class="QCheckBox" name="checkBox_58">
+               <property name="text">
+                <string>Webmail</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type58</string>
+               </property>
+              </widget>
+             </item>
+             <item row="19" column="2">
+              <widget class="QCheckBox" name="checkBox_59">
+               <property name="text">
+                <string>Phishing Protection</string>
+               </property>
+               <property name="LPCText" stdset="0">
+                <string>bundle.custom.type59</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <property name="spacing">
+      <number>20</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="abort">
+       <property name="text">
+        <string>abort</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="LPCText" stdset="0">
+        <string>abort</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="prev">
+       <property name="text">
+        <string>prev</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="LPCText" stdset="0">
+        <string>prev</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="next">
+       <property name="text">
+        <string>next</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+       <property name="LPCText" stdset="0">
+        <string>next</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SettingsPage</class>
+   <extends>QWidget</extends>
+   <header>settingspage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>next</sender>
+   <signal>clicked()</signal>
+   <receiver>settingsPage</receiver>
+   <slot>nextPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>prev</sender>
+   <signal>clicked()</signal>
+   <receiver>settingsPage</receiver>
+   <slot>prevPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>511</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>abort</sender>
+   <signal>clicked()</signal>
+   <receiver>settingsPage</receiver>
+   <slot>gotoMainPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

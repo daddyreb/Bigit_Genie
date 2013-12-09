@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>printer2.png</file>
+        <file>printer.png</file>
+        <file>uninstallation.png</file>
+        <file>icon_working.gif</file>
+    </qresource>
+</RCC>

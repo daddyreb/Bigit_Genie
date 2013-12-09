@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="الوقت المتبقي المقدر"
+L_UPGRADE_UPDATE_CANCEL="إلغاء"
+L_UPGRADE_UPDATE_PAGE_FINISH="انتهى التنزيل.\nيرجى النقر فوق "إنهاء" للترقية."
+L_UPGRADE_UPDATE_TITLE="ترقية NETGEAR genie"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="الإصدار الحالي هو الأحدث."
+L_UPGRADE_UPDATE_PAGE_WRONG="نواجه مشكلة مؤقتة. يرجى محاولة تنزيل الإصدار الجديد في وقت لاحق."
+L_UPGRADE_UPDATE_DOWNLOAD="تنزيل"
+L_UPGRADE_UPDATE_FINISH="إنهاء"
+L_UPGRADE_UPDATE_CHECK_DESP="الحصول على ملف الوصف..."
+L_UPGRADE_UPDATE_DOWN_FILE="الحصول على ملف المثبت..."
+L_UPGRADE_UPDATE_LINK="يمكنك أيضاً تنزيل الإصدار الجديد عبر النقر فوق هذا الارتباط"
+L_UPGRADE_UPDATE_NETWORK_ERROR="مشكلة اتصال الشبكة"

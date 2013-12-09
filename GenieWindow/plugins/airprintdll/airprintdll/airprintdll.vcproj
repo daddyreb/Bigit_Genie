@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Win32Proj" Name="airprintdll" ProjectGUID="{585A7C04-FEAA-4837-A7DF-246E2B24CF71}" ProjectType="Visual C++" RootNamespace="airprinterdll" TargetFrameworkVersion="196613" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration CharacterSet="0" ConfigurationType="2" IntermediateDirectory="$(ConfigurationName)" Name="Debug|Win32" OutputDirectory=".">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../.." BasicRuntimeChecks="3" DebugInformationFormat="4" MinimalRebuild="true" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;AIRPRINTERDLL_EXPORTS" RuntimeLibrary="3" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool AdditionalDependencies="dnssd.lib ws2_32.lib" AdditionalLibraryDirectories="lib" GenerateDebugInformation="true" LinkIncremental="2" Name="VCLinkerTool" SubSystem="2" TargetMachine="1" />
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+		<Configuration CharacterSet="0" ConfigurationType="2" IntermediateDirectory="$(ConfigurationName)" Name="Release|Win32" OutputDirectory="." UseOfMFC="1" WholeProgramOptimization="1">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../.." DebugInformationFormat="3" EnableFunctionLevelLinking="true" EnableIntrinsicFunctions="true" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;AIRPRINTERDLL_EXPORTS" RuntimeLibrary="0" ShowIncludes="false" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool AdditionalDependencies="dnssd.lib ws2_32.lib winspool.lib advapi32.lib" AdditionalLibraryDirectories="lib" EnableCOMDATFolding="2" GenerateDebugInformation="true" LinkIncremental="1" Name="VCLinkerTool" OptimizeReferences="2" SubSystem="2" TargetMachine="1" />
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath=".\src\airprinter.def">
+			</File>
+			<File RelativePath=".\src\array.c">
+			</File>
+			<File RelativePath=".\src\http-addr.c">
+			</File>
+			<File RelativePath=".\src\http-support.c">
+			</File>
+			<File RelativePath=".\src\http.c">
+			</File>
+			<File RelativePath=".\src\ipp-support.c">
+			</File>
+			<File RelativePath=".\src\ipp.c">
+			</File>
+			<File RelativePath=".\src\ippserver.c">
+			</File>
+			<File RelativePath=".\src\private.cpp">
+			</File>
+			<File RelativePath=".\src\string.c">
+			</File>
+			<File RelativePath=".\src\thread.c">
+			</File>
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath=".\src\array.h">
+			</File>
+			<File RelativePath=".\src\common.h">
+			</File>
+			<File RelativePath=".\src\dns_sd.h">
+			</File>
+			<File RelativePath=".\src\http-private.h">
+			</File>
+			<File RelativePath=".\src\http.h">
+			</File>
+			<File RelativePath=".\src\iapi.h">
+			</File>
+			<File RelativePath=".\src\ierrors.h">
+			</File>
+			<File RelativePath=".\src\ipp-private.h">
+			</File>
+			<File RelativePath=".\src\ipp.h">
+			</File>
+			<File RelativePath=".\src\ippserver.h">
+			</File>
+			<File RelativePath=".\src\private.h">
+			</File>
+			<File RelativePath=".\src\string-private.h">
+			</File>
+			<File RelativePath=".\src\thread-private.h">
+			</File>
+		</Filter>
+		<Filter Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav" Name="Resource Files" UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+			<File RelativePath="..\..\airprinter.def">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,47 @@
+#include "PowerlinePrompt.h"
+#include "ui_PowerlinePrompt.h"
+#include <QEvent>
+
+PowerlinePrompt::PowerlinePrompt(QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::PowerlinePrompt)
+  ,m_bMove(false)
+{
+    ui->setupUi(this);
+}
+
+PowerlinePrompt::~PowerlinePrompt()
+{
+    delete ui;
+}
+
+//====================================================
+//  Slot function
+//====================================================
+void PowerlinePrompt::btn_cancel()
+{
+    this->close();
+}
+void PowerlinePrompt::btn_ok()
+{}
+
+//====================================================
+//  public function
+//====================================================
+void PowerlinePrompt::setTitle(QString strTitle)
+{}
+void PowerlinePrompt::setPic(QString strPath)
+{}
+void PowerlinePrompt::setContext(QString strTip)
+{}
+//====================================================
+//  event function
+//====================================================
+void PowerlinePrompt::mouseMoveEvent(QMouseEvent *evt)
+{}
+void PowerlinePrompt::mousePressEvent(QMouseEvent *evt)
+{
+    if(evt)
+}
+void PowerlinePrompt::mouseReleaseEvent(QMouseEvent *evt)
+{}

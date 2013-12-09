@@ -1,0 +1,2 @@
+echo "smbutil view -g smb:$1"
+smbutil view -g smb:$1

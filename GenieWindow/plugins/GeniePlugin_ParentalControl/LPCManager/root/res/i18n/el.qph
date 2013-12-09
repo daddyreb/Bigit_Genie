@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="el">
+<phrase>
+	<source>abort</source>
+	<target>Άκυρο</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Πίσω στο Βασικό Έλεγχο</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Άκυρο</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Ελέγξτε τη διαθεσιμότητα</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Διαθέσιμο!</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Μη διαθέσιμο</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>Email</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Επιβεβαίωση email</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Μη έγκυρο email</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>Το email ανήκει σε άλλον</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Σύνδεση</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>Παρουσιάστηκε σφάλμα κατά τη δημιουργία του λογαριασμού, δοκιμάστε ξανά.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Η δημιουργία του λογαριασμού σας ολοκληρώθηκε με επιτυχία, ωστόσο παρουσιάστηκε πρόβλημα κατά την εγκατάσταση του δρομολογητή NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Το μήκος των κωδικών πρόσβασης πρέπει να είναι μεταξύ 6 και 20 χαρακτήρων.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Τα ονόματα χρήστη πρέπει να ξεκινούν και να τελειώνουν με γράμμα ή αριθμό και μπορούν να περιέχουν τα σύμβολα '.', '-' και '_'.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Κωδικός πρόσβασης</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Επιβεβαίωση κωδικού πρόσβασης</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Δημιουργία λογαριασμού OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Δημιουργήστε ένα δωρεάν λογαριασμό OpenDNS</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Όνομα χρήστη</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Έναρξη προσαρμογής</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Προσαρμογή για προχωρημένους</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Χάρη στους προσαρμοσμένους ελέγχους μας μπορείτε να χαλαρώσετε τις ρυθμίσεις ασφαλείας για ορισμένους χρήστες ή για κάποιες ώρες της ημέρας.  Οι προσαρμοσμένες ρυθμίσεις εκτελούνται μέσω του ιστότοπού μας όπου θα οδηγηθείτε μετά την εγκατάσταση του δρομολογητή σας.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Εάν επιλέξετε να αξιοποιήσετε τις ρυθμίσεις ανά χρήστη, θα σας ζητηθεί να εγκαταστήσετε ένα μικρό πρόγραμμα που θα διαχειρίζεται αυτά τα ειδικά ονόματα χρήστη και κωδικούς πρόσβασης OpenDNS.  Μην ξεχάσετε να αποσυνδεθείτε όταν τελειώσετε!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Εγγραφή του δρομολογητή σας με το OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Έλεγχος για την εγγραφή του δρομολογητή σας με το OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Διαπιστώσαμε ότι είστε συνδεδεμένοι σε διαφορετικό δρομολογητή. Πρέπει να πραγματοποιηθεί επανεκκίνηση του βοηθητικού προγράμματος για να γίνει διαχείριση του νέου δρομολογητή.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Η συσκευή αυτή φαίνεται να είναι εγγεγραμμένη με άλλον χρήστη OpenDNS.  Επισκεφθείτε τη διεύθυνση http://netgear.opendns.com/support/#faq15 και θα βρούμε λύση στο πρόβλημα όσο το δυνατό συντομότερα.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Φαίνεται ότι μπορεί να μην συνδέεστε στο Διαδίκτυο μέσω υποστηριζόμενου δρομολογητή NETGEAR.  Βεβαιωθείτε ότι ο υπολογιστής σας είναι συνδεδεμένος στο δρομολογητή NETGEAR μέσω ασύρματης σύνδεσης ή σύνδεσης Ethernet και δοκιμάστε ξανά.  Εάν το πρόβλημα συνεχίζει να εμφανίζεται, απενεργοποιήστε το δρομολογητή σας και ενεργοποιήστε τον ξανά, περιμένετε μέχρι να ανάψουν οι φωτεινές ενδείξεις LED και πάλι.  Για περισσότερη βοήθεια επισκεφθείτε τη διεύθυνση http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Έλεγχος εγκατάστασης του δρομολογητή σας...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Εντοπισμός του δρομολογητή σας...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Εγκατάσταση του δρομολογητή σας...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Το Live Parental Controls είναι μια εξαιρετική λύση για να προστατεύσετε τα μέλη της οικογένειάς σας κατά τη σύνδεση, ωστόσο, όπως κάθε εργαλείο φιλτραρίσματος, έχει τις αδυναμίες του. Η NETGEAR σας υπενθυμίζει ότι δεν υπάρχει καλύτερη λύση από το να βρίσκεται ο υπολογιστής της οικογένειας σε κοινόχρηστο δωμάτιο και σε κοινή θέα ώστε να μπορείτε να παρακολουθείτε τους ιστότοπους που επισκέπτονται τα παιδιά σας και να τηρείτε επιφυλακτική στάση όταν επισκέπτονται ιστότοπους που ζητούν πληροφορίες προσωπικού ή οικονομικού χαρακτήρα.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Επισημαίνεται ότι</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Ολοκληρώθηκε!</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>Να ελέγξετε αν έχει ενεργοποιηθεί το Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>Να ενεργοποιήσετε ή να απενεργοποιήσετε το Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>Να τροποποιήσετε τις βασικές ρυθμίσεις</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>Να αλλάξετε τις προσαρμοσμένες ρυθμίσεις, όπως ανά  χρήστη και ώρα της ημέρας, με βάση το Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Να μεταβώ στην οθόνη κατάστασης</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>Η εγκατάσταση του Live Parental Controls της NETGEAR με την υποστήριξη της OpenDNS ολοκληρώθηκε με επιτυχία.  Την επόμενη φορά που θα εκτελέσετε το βοηθητικό πρόγραμμα διαχείρισης θα μεταβείτε σε μια οθόνη κατάσταση από όπου μπορείτε να κάνετε τα εξής:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Η εγκατάσταση ολοκληρώθηκε!</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Έξοδος</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Φαίνεται ότι δεν είστε συνδεδεμένος στο Διαδίκτυο.  Συνδεθείτε στο Διαδίκτυο μέσω του δρομολογητή NETGEAR και δοκιμάστε ξανά.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Φαίνεται ότι μπορεί να μην συνδέεστε στο Διαδίκτυο μέσω υποστηριζόμενου δρομολογητή NETGEAR.  Βεβαιωθείτε ότι ο υπολογιστής σας είναι συνδεδεμένος στο δρομολογητή NETGEAR μέσω ασύρματης σύνδεσης ή σύνδεσης Ethernet και δοκιμάστε ξανά.  Εάν το πρόβλημα συνεχίζει να εμφανίζεται, απενεργοποιήστε το δρομολογητή σας και ενεργοποιήστε τον ξανά, περιμένετε μέχρι να ανάψουν οι φωτεινές ενδείξεις LED και πάλι.  Για περισσότερη βοήθεια επισκεφθείτε τη διεύθυνση http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Το τρέχον υλικολογισμικό του δρομολογητή δεν υποστηρίζει τη λειτουργία Live Parental Controls.  Επισκεφθείτε τη διεύθυνση http://www.netgear.com/ για να κάνετε λήψη του πιο πρόσφατου υλικολογισμικού ή χρησιμοποιήστε τη δυνατότητα  "Αναβάθμιση δρομολογητή" στο web GUI του δρομολογητή στη διεύθυνση http://www.routerlogin.net/ για να ενημερώσετε πρώτα το υλικολογισμικό.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Εξασφαλίζουμε ότι διαθέτετε το υλικολογισμικό που υποστηρίζει Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Έλεγχος υλικολογισμικού δρομολογητή</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>Με την υποστήριξη της OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>Πρόκειται να εγκαταστήσετε το Live Parental Controls της NETGEAR με την υποστήριξη της OpenDNS στο δρομολογητή σας για να φιλτράρετε ιστότοπους που έχετε επισκεφθεί μέσω του υπολογιστή σας και άλλων συσκευών δικτύου.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Χάρη στις προσαρμοσμένες ρυθμίσεις μπορείτε να χαλαρώσετε τις ρυθμίσεις ασφαλείας για ορισμένους χρήστες ή για κάποιες ώρες της ημέρας.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>Σχετικά με το παρόν λογισμικό</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>Λογαριασμός OpenDNS:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Αλλαγή βασικών ρυθμίσεων</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>Το OpenDNS δεν είναι ενεργοποιημένο</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Δεν είναι δυνατή η σύνδεση στο Διαδίκτυο</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>απενεργοποιημένο</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>ενεργοποιημένο</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Εγκατάσταση δρομολογητή</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Μοντέλο δρομολογητή:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Επίπεδο φιλτραρίσματος:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>Έχετε προσαρμόσει τις προτιμήσεις στον ιστότοπό σας.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Προσαρμοσμένη</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους ή παράνομες δραστηριότητες, από ιστότοπους κοινωνικής δικτύωσης, ιστότοπους κοινής χρήσης βίντεο, επιθέσεις από ηλεκτρονικό "ψάρεμα" και γενικότερα ιστότοπους με ανούσιο περιεχόμενο .</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Παρέχει προστασία από ιστότοπους με πορνογραφικό περιεχόμενο και επιθέσεις από ηλεκτρονικό "ψάρεμα".</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Παρέχει προστασία μόνο από επιθέσεις από ηλεκτρονικό "ψάρεμα".</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους, με παράνομες δραστηριότητες και επιθέσεις από ηλεκτρονικό "ψάρεμα".</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Δεν έχει αποκλειστεί τίποτα.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Αλλαγή προσαρμοσμένων ρυθμίσεων</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Έλεγχος σχετικά με τη χρήση OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Έλεγχος για την ενεργοποίηση του Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Απενεργοποίηση του Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Ενεργοποίηση του Live Parental Controls με τις προεπιλεγμένες ρυθμίσεις σας...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Κατάσταση</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Απενεργοποίηση του Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Ενεργοποίηση του Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Απενεργοποίηση του Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Επόμενο</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Όχι, πρέπει να δημιουργήσω δωρεάν ένα λογαριασμό OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Ναι, χρησιμοποιήστε το λογαριασμό OpenDNS που έχω ήδη.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Καλωσορίσατε. Αυτός ο οδηγός εγκατάστασης θα διαμορφώσει γρήγορα τα στοιχεία του Live Parental Controls της NETGEAR με την υποστήριξη της OpenDNS στο δρομολογητή NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Για να χρησιμοποιήσετε το Live Parental Controls, πρέπει να ανοίξετε δωρεάν ένα λογαριασμό OpenDNS. Μήπως έχετε ήδη;</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Εγκατάσταση του Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Προηγούμενο</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Ανανέωση</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Κωδικός πρόσβασης:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Πληκτρολογήστε το όνομα χρήστη και τον κωδικό πρόσβασης που χρησιμοποιείτε για τη διαχείριση του δρομολογητή NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Σύνδεση δρομολογητή</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Όνομα χρήστη:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Υψηλή</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους ή παράνομες δραστηριότητες, από ιστότοπους κοινωνικής δικτύωσης, ιστότοπους κοινής χρήσης βίντεο, επιθέσεις από ηλεκτρονικό ""ψάρεμα"" και γενικότερα ιστότοπους με ανούσιο περιεχόμενο.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Χαμηλή</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Παρέχει προστασία από ιστότοπους με πορνογραφικό περιεχόμενο και επιθέσεις από ηλεκτρονικό ""ψάρεμα"".</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Ελάχιστη</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Παρέχει προστασία μόνο από επιθέσεις από ηλεκτρονικό ""ψάρεμα"".</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Μέτρια</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Παρέχει προστασία από ιστότοπους με περιεχόμενο για ενηλίκους, με παράνομες δραστηριότητες και επιθέσεις από ηλεκτρονικό ""ψάρεμα"".</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Καμία</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Δεν έχει αποκλειστεί τίποτα.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>Παρουσιάστηκε σφάλμα κατά την αποθήκευση των ρυθμίσεών σας, δοκιμάστε ξανά.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Λήψη των ρυθμίσεών σας από το OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Αποστολή των ρυθμίσεών σας στο OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Όλοι οι υπολογιστές που συνδέονται στο δρομολογητή σας θα προστατεύονται από το περιεχόμενο που επιλέξετε παρακάτω.  Μπορείτε να προσαρμόσετε αργότερα τις ρυθμίσεις του Live Parental Controls από τον ιστότοπό μας.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: επιλέξτε ένα επίπεδο φιλτραρίσματος για το δίκτυό σας</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>Παρουσιάστηκε σφάλμα κατά τη σύνδεση, βεβαιωθείτε ότι είστε συνδεδεμένοι στο Διαδίκτυο και δοκιμάστε ξανά.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Λυπούμαστε αλλά δεν αναγνωρίζουμε το όνομα χρήστη ή τον κωδικό πρόσβασης.  Δοκιμάστε ξανά ή επιλέξτε "Προηγούμενο" εάν δεν έχετε λογαριασμό OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Ξέχασα τον κωδικό πρόσβασής μου</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Κωδικός πρόσβασης</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Σύνδεση στο OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Πληκτρολογήστε το όνομα χρήστη και τον κωδικό πρόσβασης παρακάτω.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Συνδεθείτε στο λογαριασμό OpenDNS</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Όνομα χρήστη</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>Βοηθητικό πρόγραμμα διαχείρισης NETGEAR Live Parental Controls Management Utility 2.0b44</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Δοκιμάστε ξανά</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>Διατίθεται μια κρίσιμη ενημέρωση από το OpenDNS, η οποία θα ανοίξει στο πρόγραμμα περιήγησής σας.  Κάντε λήψη και εγκατάσταση της νέας έκδοσης.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Κρίσιμη ενημέρωση</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>Υπάρχει διαθέσιμη μια ενημέρωση από το OpenDNS την οποία μπορείτε να κατεβάσετε και να εγκαταστήσετε.  Θέλετε να κάνετε λήψη της ενημέρωσης τώρα;</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Όχι</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Ενημέρωση</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Ναι</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>Σας οδηγούμε στον ιστότοπό μας όπου μπορείτε να προσαρμόσετε τις ρυθμίσεις του Live Parental Controls.  Εάν το πρόγραμμα περιήγησης δεν ανοίγει αυτόματα, αντιγράψτε τον παρακάτω σύνδεσμο στη γραμμή διευθύνσεων του προγράμματος περιήγησης.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>Η διαδικασία εγκατάστασης του οδηγού εγκατάστασης ολοκληρώθηκε.  Σας ευχαριστούμε που χρησιμοποιήσατε την OpenDNS!</target>
+</phrase>
+</QPH>

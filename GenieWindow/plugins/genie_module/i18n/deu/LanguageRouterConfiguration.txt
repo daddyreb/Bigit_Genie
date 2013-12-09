@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Router-Einstellungen"
+L_RTCF_BIGBT_CLICKHERE="Klicken Sie hier."
+
+L_RTCF_LOGIN_TITLE="Router-Anmeldung"
+L_RTCF_LOGIN_USER="Benutzername:"
+L_RTCF_PASSWORD="Passwort:"
+L_RTCF_LOGIN_REMEMBER="Passwort merken"
+L_RTCF_LOGIN_BUT_LEFT="Anmeldung"
+L_RTCF_CANCEL="Abbrechen"
+
+
+L_RTCF_SETTING_SSID="WLAN-Name (SSID)::"
+L_RTCF_SETTING_CHANNEL="Kanalauswahl:"
+L_RTCF_SETTING_MODE="Modus:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 Zeichen oder Hexadezimalzahl mit 64 Stellen)"
+L_RTCF_SETTING_APPLY="Übernehmen"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Kanalauswahl:"
+L_RTCF_INFO_CHOICE="WLAN-Informationen"
+L_RTCF_INFO_PASSWOED="Netzwerkschlüssel (Passwort):"
+L_RTCF_INFO_REFRESH="Aktualisieren"
+L_RTCF_INFO_MODIFY="Ändern"
+L_RTCF_INFO_LOGINOUT="Abmelden"
+L_RTCF_INFO_EXPORT="Exportieren"
+
+L_RTCF_TAB_TITLE="Wireless-Konfiguration"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Die Änderung der Einstellungen kann den aktiven Datenverkehr im drahtlosen Netzwerk stören. Möchten Sie fortfahren?"
+L_RTCF_MSG_NOTNETGEAR="Anmeldung fehlgeschlagen! Überprüfen Sie, ob der Computer mit dem Router verbunden ist."
+L_RTCF_MSG_PWDWRONG="Anmeldung fehlgeschlagen. Überprüfen Sie das Passwort."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Anmeldung fehlgeschlagen. Zeitüberschreitung bei Router-Antwort."
+L_RTCT_MSG_PLEASEWAIT="Aktualisierung läuft, bitte warten …"
+L_RTCT_MSG_COMMITWAIT="Router-Antwortinformationen werden empfangen. Bitte warten Sie %1 Sekunden."
+L_RTCT_MSG_GACC="Gastzugang wird verwendet. Die Deaktivierung kann den aktiven Datenverkehr im drahtlosen Netzwerk stören. Möchten Sie fortfahren?"
+L_RTCT_MSG_SOAPERROR="Der Router unterstützt diese Funktion nicht."
+L_RTCT_MSG_SOAPERROR_LOGIN="Der Router unterstützt diese Funktion nicht. Aktualisieren Sie die Router-Firmware."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Der Router unterstützt den Gastzugang nicht."
+L_RTCF_MSG_TIMEOUT="Zeitüberschreitung beim Vorgang."
+
+
+
+L_GACC_BIGBT="Gastzugang"
+L_GACC_ENABLEGUEST="Gastzugang aktivieren"
+L_GACC_DISABLEGUEST="Gastzugang deaktivieren"
+L_GACC_ENABLE_TITLE="Aktuelle Einstellung:"
+L_GACC_ENABLED="Aktiviert"
+L_GACC_NOTENABLED="Deaktiviert"
+
+L_GACC_GUESTWIRELESS_SSID="Gastzugang (SSID):"
+L_GACC_WORKTIME="Zeitraum:"
+
+L_RTCF_DEFAULT="(Voreinstellung lautet "password")"
+L_RTCF_LIST_TITLE="Zur Verwaltung dieser Router-Einstellungen ist eine Anmeldung erforderlich:"
+
+L_RTCF_TRAFFICMETTER="Datenverkehrsanzeige"
+L_RTCF_FUPDATE="Router aktualisieren"
+
+L_RTCF_ROUTETYPE="Router-Modell"
+L_RTCF_FIRMWARE_VERSION="Firmwareversion"
+
+L_RTCF_LOGIN_LIST=".WLAN-Einstellungen\n.ReadySHARE\n.Gastzugang\n.Datenverkehrsanzeige\n.Router-Update"
+
+L_GACC_ALWAYS="Immer"
+L_GACC_1HOUR="1 Stunde"
+L_GACC_5HOUR="5 Stunden"
+L_GACC_10HOUR="10 Stunden"
+L_GACC_1DAY="1 Tag"
+L_GACC_1WEEK="1 Woche"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Einfach"
+L_READY_SHARE_FUN_TWO="Ermöglicht Ihnen von überall Zugriff auf ReadySHARE Storage"
+L_READY_SHARE_FUN_THREE="ReadySHARE-Druck"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Zurück"
+L_READY_SHARE_CONTINUE="Weiter"
+L_READY_SHARE_NOT_SUPPORT="Der Router unterstützt diese Funktion nicht."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Modus"
+L_READY_SHARE_NETWORK_NAME="Netzwerk-/Gerätename:"
+L_READY_SHARE_REGISTER="Registrieren"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="Mit der ReadySHARE Cloud-Funktion erhalten Sie Remote-Zugriff über das Internet auf ein USB-Speichergerät, das mit dem USB-Port Ihres Routers verbunden ist."
+L_READY_SHARE_REMOTE_HOW_WORKS="So richten Sie ReadySHARE Cloud ein"
+L_READY_SHARE_REMOTE_STEPS_ONE="Schritt 1: Sie benötigen ein ReadySHARE Cloud-Konto. Wenn Sie noch nicht über ein Konto verfügen,<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>klicken Sie hier</a>, um dieses einzurichten."
+L_READY_SHARE_REMOTE_STEPS_TWO="Schritt 2: Geben Sie auf dieser Seite Ihren ReadySHARE Cloud-Benutzernamen und Ihr Passwort ein, um den Router und das an ihn angeschlossene USB-Speichergerät bei Ihrem Konto zu registrieren."
+L_READY_SHARE_REMOTE_STEPS_THREE="Schritt 3: Melden Sie sich wieder mit Ihrem Konto bei <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> an. Sie sollten nun das an Ihren Router angeschlossene USB-Gerät sehen."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Schritt 4: Bei der ersten Anmeldung werden Sie aufgefordert, einen Windows Client herunterzuladen, mit dem eine sichere Verbindung von Ihrem PC zum USB-Gerät des Routers hergestellt werden kann. Melden Sie sich bei diesem Client an, und Sie können von jedem beliebigen Standort aus auf das USB-Gerät zugreifen."
+L_READY_SHARE_REMOTE_START_NOW="Aktivieren Sie jetzt ReadySHARE Cloud."
+L_READY_SHARE_REMOTE_USERNAME="Benutzername:"
+L_READY_SHARE_REMOTE_PASSWORD="Passwort:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Wenn Sie über kein ReadySHARE Cloud-Konto verfügen, klicken Sie hier, um eines zu erstellen."
+L_READY_SHARE_PRINTING="ReadySHARE-Druck"
+L_READY_SHARE_PRINTING_DESC="Druckerfreigabe für Windows-PCs und Apple-Computer mit einem USB-Drucker"
+L_READY_SHARE_PRINTING_HOW_WORKS="Wie das funktioniert?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Schritt 1: Verbinden Sie den USB-Drucker über ein USB-Druckerkabel mit dem USB-Anschluss des Routers."
+L_READY_SHARE_PRINTING_STEPS_TWO="Schritt 2: Installieren Sie den USB-Druckertreiber auf jedem Computer, für den der Drucker freigegeben ist."
+L_READY_SHARE_PRINTING_STEPS_THREE="Schritt 3: Laden Sie für jeden Computer, für den der Drucker freigegeben werden soll, das NETGEAR USB Control Center-Dienstprogramm unter <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a> herunter. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Folgen Sie den Anweisungen des Dienstprogramms, um den Drucker an Ihren Computer anzuschließen und zu drucken."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Hinweis:</b> Ohne diesen Client können Sie den Inhalt des USB-Geräts durchsuchen aber keine Dateien öffnen oder Änderungen an ihnen vornehmen."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Hinweis:</b> Das Internet bleibt aktiv, bis Sie sich abmelden."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud ist registriert mit dem Benutzer:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Sie können den Schritten 2 bis 4 folgen, um überall auf das Speichergerät zuzugreifen"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Klicken Sie auf <B>Registrierung aufheben</B>, um ReadySHARE Cloud mit einem anderen Benutzer zu registrieren."
+L_READY_SHARE_UNREGISTER="Registrierung aufheben"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

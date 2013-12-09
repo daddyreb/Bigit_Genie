@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Win32Proj" Name="NetcardApi" ProjectGUID="{BF73B8AA-27E8-4C84-9A7B-BF57D87B399F}" ProjectType="Visual C++" RootNamespace="NetcardApi" TargetFrameworkVersion="0" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration CharacterSet="1" ConfigurationType="2" IntermediateDirectory="$(ConfigurationName)" Name="Debug|Win32" OutputDirectory=".">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../inc;../src;." BasicRuntimeChecks="3" DebugInformationFormat="4" MinimalRebuild="true" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_USRDLL;DIAGNOSEDLL_EXPORTS;NETCARDAPI_EXPORTS;_CRT_SECURE_NO_WARNINGS" RuntimeLibrary="1" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool GenerateDebugInformation="true" LinkIncremental="2" ModuleDefinitionFile="NetcardApi.def" Name="VCLinkerTool" OutputFile="$(ConfigurationName)\$(ProjectName).dll" SubSystem="2" TargetMachine="1" />
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+		<Configuration CharacterSet="1" ConfigurationType="2" IntermediateDirectory="$(ConfigurationName)" Name="Release|Win32" OutputDirectory="." WholeProgramOptimization="1">
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCXMLDataGeneratorTool" />
+			<Tool Name="VCWebServiceProxyGeneratorTool" />
+			<Tool Name="VCMIDLTool" />
+			<Tool AdditionalIncludeDirectories="../inc;../src;." DebugInformationFormat="3" EnableFunctionLevelLinking="true" EnableIntrinsicFunctions="true" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_USRDLL;DIAGNOSEDLL_EXPORTS;NETCARDAPI_EXPORTS;_CRT_SECURE_NO_WARNINGS" RuntimeLibrary="0" UsePrecompiledHeader="0" WarningLevel="3" />
+			<Tool Name="VCManagedResourceCompilerTool" />
+			<Tool Name="VCResourceCompilerTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool EnableCOMDATFolding="2" GenerateDebugInformation="true" LinkIncremental="1" ModuleDefinitionFile="NetcardApi.def" Name="VCLinkerTool" OptimizeReferences="2" SubSystem="2" TargetMachine="1" />
+			<Tool Name="VCALinkTool" />
+			<Tool Name="VCManifestTool" />
+			<Tool Name="VCXDCMakeTool" />
+			<Tool Name="VCBscMakeTool" />
+			<Tool Name="VCFxCopTool" />
+			<Tool Name="VCAppVerifierTool" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="..\src\Common.cpp">
+			</File>
+			<File RelativePath="..\src\CommonApi.cpp">
+			</File>
+			<File RelativePath="..\src\CoreImp.cpp">
+			</File>
+			<File RelativePath="..\src\dllmain.cpp">
+			</File>
+			<File RelativePath="..\src\NetcardApi.cpp">
+			</File>
+			<File RelativePath=".\NetcardApi.def">
+			</File>
+			<File RelativePath="..\src\ping.cpp">
+			</File>
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="..\inc\Common.h">
+			</File>
+			<File RelativePath="..\inc\CommonApi.h">
+			</File>
+			<File RelativePath="..\src\CoreImp.h">
+			</File>
+			<File RelativePath="..\inc\NetcardApi.h">
+			</File>
+		</Filter>
+		<Filter Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav" Name="Resource Files" UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+		</Filter>
+		<File RelativePath=".\ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

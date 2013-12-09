@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Predvideni preostali čas"
+L_UPGRADE_UPDATE_CANCEL="Prekliči"
+L_UPGRADE_UPDATE_PAGE_FINISH="Prenos je končan.\nZa nadgradnjo kliknite "Končaj"."
+L_UPGRADE_UPDATE_TITLE="Nadgradnja NETGEAR genie"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Trenutna različica je najnovejša."
+L_UPGRADE_UPDATE_PAGE_WRONG="Trenutno imamo težavo. Novo različico poskušajte prenesti pozneje."
+L_UPGRADE_UPDATE_DOWNLOAD="Prenos"
+L_UPGRADE_UPDATE_FINISH="Končaj"
+L_UPGRADE_UPDATE_CHECK_DESP="Pridobivanje opisne datoteke ..."
+L_UPGRADE_UPDATE_DOWN_FILE="Pridobivanje datoteke namestitvenega programa ..."
+L_UPGRADE_UPDATE_LINK="Novo različico lahko prenesete tudi tako, da kliknete to povezavo"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Težava pri omrežni povezavi"

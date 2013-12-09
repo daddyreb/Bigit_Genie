@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Storno"
+L_MAIN_TRAY_AUTOSTART="Povolit Automatický start"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Zobrazit změnu síťového připojení"
+L_MAIN_TITLE_ABOUT="Informace"
+L_MAIN_CHECKFORUPDATES="Vyhledat aktualizace"

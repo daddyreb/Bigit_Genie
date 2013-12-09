@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Setări router"
+L_RTCF_BIGBT_CLICKHERE="Faceţi clic aici"
+
+L_RTCF_LOGIN_TITLE="Conectare la router"
+L_RTCF_LOGIN_USER="Nume utilizator:"
+L_RTCF_PASSWORD="Parolã:"
+L_RTCF_LOGIN_REMEMBER="Memorare parolă"
+L_RTCF_LOGIN_BUT_LEFT="Conectare"
+L_RTCF_CANCEL="Anulare"
+
+
+L_RTCF_SETTING_SSID="Nume wireless (SSID):"
+L_RTCF_SETTING_CHANNEL="Selecţie canal:"
+L_RTCF_SETTING_MODE="Mod:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 caractere sau 64 cifre hexazecimale)"
+L_RTCF_SETTING_APPLY="Aplicare"
+
+L_RTCF_IMSGBOX_OK="OK"
+
+
+L_RTCF_INFO_CHANNEL="Selecţie canal:"
+L_RTCF_INFO_CHOICE="Informaţii wireless"
+L_RTCF_INFO_PASSWOED="Cheie de reţea (parolă):"
+L_RTCF_INFO_REFRESH="Împrospãtare"
+L_RTCF_INFO_MODIFY="Modificare"
+L_RTCF_INFO_LOGINOUT="Deconectare"
+L_RTCF_INFO_EXPORT="Export"
+
+L_RTCF_TAB_TITLE="Setãri wireless"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Modificarea setărilor poate întrerupe traficul activ din reţeaua wireless. Continuaţi?"
+L_RTCF_MSG_NOTNETGEAR="Conectarea a eşuat! Verificaţi dacă acest computer este conectat la routerul NETGEAR."
+L_RTCF_MSG_PWDWRONG="Conectarea a eşuat; verificaţi parola."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Conectarea a eşuat. Durata de răspuns a routerului a expirat."
+L_RTCT_MSG_PLEASEWAIT="Se reîmprospătează; aşteptaţi..."
+L_RTCT_MSG_COMMITWAIT="Se primesc informaţii de răspuns de la router; aşteptaţi %1 secunde."
+L_RTCT_MSG_GACC="Accesul vizitatorilor este în curs de utilizare. Dezactivarea acestuia poate întrerupe traficul activ din reţeaua wireless. Continuaţi?"
+L_RTCT_MSG_SOAPERROR="Routerul nu acceptă această funcţie."
+L_RTCT_MSG_SOAPERROR_LOGIN="Routerul nu acceptă această funcţie; efectuaţi upgrade-ul firmware-ului routerului."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Routerul nu acceptă accesul vizitatorilor."
+L_RTCF_MSG_TIMEOUT="Operaţia a expirat."
+
+
+
+L_GACC_BIGBT="Acces vizitatori"
+L_GACC_ENABLEGUEST="Activare acces vizitatori"
+L_GACC_DISABLEGUEST="Dezactivare acces vizitatori"
+L_GACC_ENABLE_TITLE="Setare curentă:"
+L_GACC_ENABLED="Activat"
+L_GACC_NOTENABLED="Dezactivat"
+
+L_GACC_GUESTWIRELESS_SSID="Acces vizitatori (SSID):"
+L_GACC_WORKTIME="Perioadă de timp:"
+
+L_RTCF_DEFAULT="(valoarea implicită este "password")"
+L_RTCF_LIST_TITLE="Este obligatorie conectarea pentru administrarea acestor setări ale routerului:"
+
+L_RTCF_TRAFFICMETTER="Contor trafic"
+L_RTCF_FUPDATE="Actualizare router"
+
+L_RTCF_ROUTETYPE="Model router"
+L_RTCF_FIRMWARE_VERSION="Versiune firmware"
+
+L_RTCF_LOGIN_LIST=".Setări wireless\n.ReadySHARE\n.Acces vizitatori\n.Contor trafic\n.Actualizare router"
+
+L_GACC_ALWAYS="Întotdeauna"
+L_GACC_1HOUR="1 oră"
+L_GACC_5HOUR="5 ore"
+L_GACC_10HOUR="10 ore"
+L_GACC_1DAY="1 zi"
+L_GACC_1WEEK="1 săptămână"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Minimă"
+L_READY_SHARE_FUN_TWO="Permite accesarea dispozitivelor de stocare ReadySHARE de oriunde"
+L_READY_SHARE_FUN_THREE="Imprimare ReadySHARE"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Înapoi"
+L_READY_SHARE_CONTINUE="Continuare"
+L_READY_SHARE_NOT_SUPPORT="Routerul nu acceptă această funcţie."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Mod"
+L_READY_SHARE_NETWORK_NAME="Nume de reţea/dispozitiv:"
+L_READY_SHARE_REGISTER="Înregistrare"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="Caracteristica ReadySHARE Cloud vă oferă acces de la distanţă prin Internet la un dispozitiv de stocare USB care este conectat la portul USB al routerului dvs."
+L_READY_SHARE_REMOTE_HOW_WORKS="Cum se configurează ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="Pasul 1: Aveţi nevoie de un cont ReadySHARE Cloud. Dacă nu aveţi cont,<a   href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>faceţi clic aici</a> pentru a obţine unul."
+L_READY_SHARE_REMOTE_STEPS_TWO="Pasul 2: Pe această pagină, introduceţi numele de utilizator şi parola ReadySHARE Cloud pentru a vă înregistra routerul şi dispozitivul USB care este conectat la acesta utilizând contul dvs."
+L_READY_SHARE_REMOTE_STEPS_THREE="Pasul 3: Reconectaţi-vă la <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> utilizând contul dvs. Trebuie să vedeţi dispozitivul USB care este conectat la routerul dvs."
+L_READY_SHARE_REMOTE_STEPS_FOUR="Pasul 4: Prima dată, vi se solicită să descărcaţi un client Windows, care este utilizat pentru a efectua o conexiune securizată de la PC la dispozitivul USB al routerului. Conectaţi-vă la acest client şi puteţi accesa dispozitivul USB de oriunde."
+L_READY_SHARE_REMOTE_START_NOW="Începeţi acum pentru a activa ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="Nume de utilizator:"
+L_READY_SHARE_REMOTE_PASSWORD="Parolã:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Dacă nu aveţi un cont ReadySHARE Cloud, faceţi clic aici pentru a obţine unul"
+L_READY_SHARE_PRINTING="Imprimare ReadySHARE"
+L_READY_SHARE_PRINTING_DESC="Partajare tipărire pentru PC-uri cu Windows şi computere Mac cu o imprimantă USB"
+L_READY_SHARE_PRINTING_HOW_WORKS="Cum funcţionează?"
+L_READY_SHARE_PRINTING_STEPS_ONE="Pasul 1: Conectaţi imprimanta USB la portul USB al routerului cu un cablu de imprimantă USB."
+L_READY_SHARE_PRINTING_STEPS_TWO="Pasul 2: Instalaţi driverul pentru imprimantă USB pe fiecare computer care va partaja imprimanta."
+L_READY_SHARE_PRINTING_STEPS_THREE="Pasul 3: Pe fiecare computer care va partaja imprimanta, descărcaţi utilitarul NETGEAR USB Control Center de la adresa <a href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Urmaţi instrucţiunile din utilitar pentru a vă conecta la imprimantă de la computer şi a tipări."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Notă:</b> Fără acest client, puteţi naviga prin conţinutul dispozitivului USB, dar nu puteţi deschide sau modifica fişiere."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Notă:</b> Conexiunea la Internet va fi menţinută activă până la anularea înregistrării."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud este înregistrat cu utilizatorul:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Puteţi parcurge paşii 2-4 de mai sus pentru a accesa dispozitivul de stocare de oriunde"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Faceţi clic pe <B>Anulare înregistrare</B> pentru a înregistra ReadySHARE Cloud cu un alt utilizator"
+L_READY_SHARE_UNREGISTER="Anulare înregistrare"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

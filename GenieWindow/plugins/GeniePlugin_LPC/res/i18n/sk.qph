@@ -1,0 +1,519 @@
+﻿<!DOCTYPE QPH>
+<QPH language="sk">
+<phrase>
+	<source>abort</source>
+	<target>Zrušiť</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Späť na základné ovládacie prvky</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Zrušiť</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Skontrolovať dostupnosť</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Dostupné!</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Nedostupné</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>E-mail</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Potvrďte e-mail</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Neplatná e-mailová adresa</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>E-mail prijatý</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Prihlásiť sa</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>Pri vytváraní vášho konta sa vyskytla chyba. Prosím, skúste to znova.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Váš účet bol úspešne vytvorený, ale pri nastavení vášho smerovača značky NETGEAR sa vyskytla chyba.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Heslo musí pozostávať najmenej zo 6 až 20 znakov.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Meno používateľa sa musí začínať a končiť písmenom alebo číslom a taktiež môže obsahovať znaky „.“, „-“ a „_“.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Heslo</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Potvrďte heslo</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Vytváram konto služby OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target></target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Vytvoriť bezplatné konto služby OpenDNS</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Meno používateľa</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Začať s prispôsobením</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Rozšírené prispôsobenie systému</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Pomocou našich vlastných ovládacích prvkov si môžete užívať bezpečnostné nastavenia pre určitých používateľov alebo na určitý čas v priebehu dňa.  Vlastné nastavenia sa vykonávajú na našej webovej stránke, kde sa dostanete po nastavení vášho smerovača.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>Ak sa rozhodnete využiť výhody našich nastavení podľa používateľa, budete požiadaní, aby ste si nainštalovali malý program, ktorý spravuje špeciálne mená používateľov a heslá služby OpenDNS.  Na konci sa nezabudnite odhlásiť!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Funkcia Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Registrujem váš smerovač do služby OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Kontrolujem, či je váš smerovač registrovaný v službe OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>Zistili sme, že ste práve pripojený k inému smerovaču. Aby bolo možné riadiť nový smerovač, musíte reštartovať pomocný program správy.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>Toto zariadenie je pravdepodobne registrované na iného používateľa služby OpenDNS.  Navštívte webovú stránku http://netgear.opendns.com/support/#faq15 a tento problém čo najrýchlejšie vyriešime.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>Pravdepodobne k internetu nie ste pripojení prostredníctvom podporovaného smerovača značky NETGEAR.  Uistite sa, že je váš počítač pripojený k smerovaču značky NETGEAR prostredníctvom bezdrôtového alebo ethernetového pripojenia a skúste to znova.  Ak problém pretrváva, vypnite smerovač a opätovne ho zapnite. Počkajte, kým sa rozsvietia diódy LED a skúste to znova.  Bližšie informácie nájdete na webovej stránke http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Kontrolujem nastavenia vášho smerovača...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Identifikujem váš smerovač...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Nastavujem váš smerovač...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Funkcia Live Parental Controls je vynikajúcim riešením na ochranu vašej rodiny v on-line prostredí, hoci podobne všetky webové filtrovacie nástroje nie je dokonalá. Spoločnosť NETGEAR vám pripomína, že nič nenahradí umiestnenie rodinného počítača tak, aby ste mohli priamym pohľadom sledovať webové stránky, ktoré navštevujú vaše deti ako aj obozretnosť pri návšteve webových stránok, ktoré požadujú osobné alebo finančné informácie.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Zapamätajte si</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Hotovo!</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>skontrolovať, či je zapnutá funkcia Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>vypnúť alebo zapnúť funkciu Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>upraviť základné nastavenia</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>zmeniť vlastné nastavenia, ako napr. funkciu Live Parental Controls založenú na používateľovi a čase v priebehu dňa</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Prejsť na stavovú obrazovku</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>Úspešne ste nastavili funkciu Live Parental Controls od spoločnosti NETGEAR podporovanú službou OpenDNS.  Pri ďalšom spustení pomocného programu správy sa presuniete na stavovú obrazovku, kde môžete:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Nastavenie je dokončené!</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Ukončiť</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>Pravdepodobne nie ste pripojení k internetu.  Pripojte sa k internetu prostredníctvom vášho smerovača NETGEAR a skúste to znova.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>Pravdepodobne k internetu nie ste pripojení prostredníctvom podporovaného smerovača značky NETGEAR.  Uistite sa, že je váš počítač pripojený k smerovaču značky NETGEAR prostredníctvom bezdrôtového alebo ethernetového pripojenia a skúste to znova.  Ak problém pretrváva, vypnite smerovač a opätovne ho zapnite. Počkajte, kým sa rozsvietia diódy LED a skúste to znova.  Bližšie informácie nájdete na webovej stránke http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Aktuálny firmvér vášho smerovača nepodporuje funkciu Live Parental Controls.  Ak si chcete prevziať najnovšiu verziu firmvéru, navštívte webovú stránku http://www.netgear.com/ alebo firmvér najskôr aktualizujte pomocou funkcie „Inovácia smerovača“ na webovom GUI vášho smerovača na stránke http://www.routerlogin.net/.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>Uisťujeme sa, či váš firmvér podporuje funkciu Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Kontrola firmvéru smerovača</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>Podporovaná službou OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>Chystáte sa na vašom smerovači nastaviť funkciu Live Parental Controls od spoločnosti NETGEAR podporovanú službou OpenDNS za účelom filtrovania navštívených webových stránok na vašich počítačoch a iných sieťových zariadeniach.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Pomocou našich vlastných nastavení si môžete užívať bezpečnostné nastavenia pre niektorých používateľov alebo na určitý čas v priebehu dňa.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Funkcia Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>Informácie o tomto softvéri</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>Konto služby OpenDNS:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Zmeniť základné nastavenia</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>Služba OpenDNS nie je aktivovaná</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Nepodarilo sa rozpoznať internetové pripojenie</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Funkcia Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>vypnuté</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>zapnuté</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Nastavenie smerovača</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Model smerovača:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Úroveň filtrovania:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>Prispôsobili ste vaše predvoľby na webovej stránke.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Vlastné</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami, stránkami sociálnych sietí, stránkami zdieľajúcimi videá, útokmi na citlivé informácie a všeobecnými stránkami na zabíjanie času.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Chráni pred pornografiou a útokmi na citlivé informácie.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Chráni iba pred útokmi na citlivé informácie.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami a útokmi na citlivé informácie.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Nič nie je blokované.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Zmeniť vlastné nastavenia</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Kontrolujem, či používate službu OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Kontrolujem, či je zapnutá funkcia Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Vypínam funkciu Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Zapínam funkciu Live Parental Controls pomocou vašich predvolených nastavení...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Stav</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Vypnúť funkciu Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Zapnúť funkciu Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Vypnúť funkciu Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Ďalej</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>Nie, musím si vytvoriť nové bezplatné konto služby OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Áno, použiť moje existujúce konto služby OpenDNS.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Vitajte. Tento sprievodca nastavením rýchlo nakonfiguruje funkciu Live Parental Controls od spoločnosti NETGEAR podporovanú službou OpenDNS vo vašom smerovači značky NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>Aby ste mohli používať funkciu Live Parental Controls, musíte si vytvoriť bezplatné konto služby OpenDNS. Už máte svoje konto?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Natavenie funkcie Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Predchádz.</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Obnoviť</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Heslo:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Zadajte meno používateľa a heslo, ktoré používate pre správu vášho smerovača značky NETGEAR.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Prihlásenie smerovača</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Meno používateľa:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>Vysoká</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami, stránkami sociálnych sietí, stránkami zdieľajúcimi videá, útokmi na citlivé informácie a všeobecnými stránkami na zabíjanie času.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Nízka</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Chráni pred pornografiou a útokmi na citlivé informácie.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Minimálna</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Chráni iba pred útokmi na citlivé informácie.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Stredná</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Chráni pred všetkými stránkami pre dospelých, stránkami s nelegálnymi aktivitami a útokmi na citlivé informácie.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>Žiadna</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Nič nie je blokované.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>Pri ukladaní vašich nastavení sa vyskytla chyba. Prosím, skúste to znova.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Vyvolávam nastavenia zo služby OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Odosielam nastavenia do služby OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>Všetky počítače pripojené k vášmu smerovaču budú chránené pred nižšie zvoleným obsahom.  Neskôr si na našej webovej stránke môžete nastavenia funkcie Live Parental Controls prispôsobiť.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Funkcia Live Parental Controls: vyberte si úroveň filtrovania pre vašu sieť</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>Pri prihlásení sa vyskytla chyba. Uistite sa, že ste pripojený k internetu a skúste to znova.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Hopla, meno používateľa alebo heslo nebolo rozpoznané.  Skúste znova alebo v prípade, že nemáte konto služby OpenDNS zvoľte položku „Predchádz.“.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>Zabudol som heslo</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Heslo</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Prihlasujem sa do služby OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Nižšie zadajte vaše meno používateľa a heslo.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Prihláste sa do vášho konta služby OpenDNS</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Meno používateľa</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>Pomocný program správy 2.0b44 k funkcii Live Parental Controls od spoločnosti NETGEAR</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Skúste znova</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>Vo vašom prehliadači sa otvorí dostupná kritická aktualizácia služby OpenDNS.  Prosím, prevezmite a nainštalujte si túto novú verziu.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Kritická aktualizácia</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>Služba OpenDNS ponúka aktualizáciu, ktorú si môžete prevziať a nainštalovať.  Chcete aktualizáciu prevziať teraz?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>Nie</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Aktualizovať</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Áno</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>Prenesieme vás na našu webovú stránku, kde si môžete prispôsobiť nastavenia funkcie Live Parental Controls.  Ak sa automaticky neotvorí váš prehliadač, skopírujte nižšie uvedený odkaz do panelu s adresou vášho prehliadača.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>Dokončili ste sprievodcu nastavení.  Ďakujeme, že používate službu OpenDNS!</target>
+</phrase>
+</QPH>

@@ -1,0 +1,39 @@
+#but_first{
+	background-image: url(:/map/others/First.png);
+}
+#but_first:hover{
+	background-image: url(:/map/others/FirstSelected.png);
+}
+#but_first:disabled{
+	background-image: url(:/map/others/FirstDisabled.png);
+}
+
+#but_prev{
+	background-image: url(:/map/others/Prev.png);
+}
+#but_prev:hover{
+	background-image: url(:/map/others/PrevSelected.png);
+}
+#but_prev:disabled{
+	background-image: url(:/map/others/PrevDisabled.png);
+}
+
+#but_next{
+	background-image: url(:/map/others/Next.png);
+}
+#but_next:hover{
+	background-image: url(:/map/others/NextSelected.png);
+}
+#but_next:disabled{
+	background-image: url(:/map/others/NextDisabled.png);
+}
+
+#but_last{
+	background-image: url(:/map/others/Last.png);
+}
+#but_last:hover{
+	background-image: url(:/map/others/LastSelected.png);
+}
+#but_last:disabled{
+	background-image: url(:/map/others/LastDisabled.png);
+}

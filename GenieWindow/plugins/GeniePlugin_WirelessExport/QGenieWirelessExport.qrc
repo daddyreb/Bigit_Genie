@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Failed.png</file>
+        <file>image/InsertFlash.png</file>
+        <file>image/Ok.png</file>
+        <file>image/Welcome.png</file>
+        <file>autorun.inf</file>
+        <file>GenieWirelessConfig.exe</file>
+        <file>GenieWirelessConfig</file>
+    </qresource>
+</RCC>

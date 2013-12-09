@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Durată rămasă estimată"
+L_UPGRADE_UPDATE_CANCEL="Anulare"
+L_UPGRADE_UPDATE_PAGE_FINISH="Descărcarea a fost finalizată.\nFaceţi clic pe "Finalizare" pentru a efectua upgrade-ul."
+L_UPGRADE_UPDATE_TITLE="Upgrade NETGEAR genie"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Versiunea curentă este cea mai recentă."
+L_UPGRADE_UPDATE_PAGE_WRONG="Ne confruntăm cu o problemă temporară. Încercaţi să descărcaţi versiunea nouă mai târziu."
+L_UPGRADE_UPDATE_DOWNLOAD="Descărcare"
+L_UPGRADE_UPDATE_FINISH="Finalizare"
+L_UPGRADE_UPDATE_CHECK_DESP="Se preia fişierul de descriere..."
+L_UPGRADE_UPDATE_DOWN_FILE="Se preia fişierul programului de instalare..."
+L_UPGRADE_UPDATE_LINK="Puteţi, de asemenea, să descărcaţi noua versiune făcând clic pe această legătură"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Problemă de conectare la reţea"

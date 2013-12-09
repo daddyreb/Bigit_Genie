@@ -1,0 +1,9 @@
+; mDNSResponderd.def : Declares the module parameters.
+
+LIBRARY   "mDNSResponderd.dll"
+
+EXPORTS
+	sw_mdns_servant_new
+	sw_mdns_servant_init
+	sw_mdns_servant_delete
+	sw_mdns_servant_fina

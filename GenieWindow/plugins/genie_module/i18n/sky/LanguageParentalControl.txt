@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Rodičovská kontrola"
+L_PARENTAL_CONTROL_DESC="Rodičovská kontrola NETGEAR Live prevádzkovaná na báze systému OpenDNS predstavuje riešenie filtrácie webového obsahu pomocou smerovača a podporujú ju smerovače a brány z produktového radu NETGEAR Wireless-N."
+L_PARENTAL_CONTROL_MANAGER="Spravovať"
+L_PARENTAL_CONTROL_INSTALL="Inštalovať"
+L_PARENTAL_CONTROL_ENABLE="Nainštalované"
+L_PARENTAL_CONTROL_NOT_ENABLE="Nenainštalované"
+L_PARENTAL_CONTROL_FUN_ONE=">Blokuje až 50 kategórií internetového obsahu"
+L_PARENTAL_CONTROL_FUN_TWO=">Má za účel chrániť vás pred odcudzením identity a podvodníkmi"
+L_PARENTAL_CONTROL_FUN_THREE=">A pre zákazníkov spoločnosti NETGEAR sa poskytuje bezplatne!"
+L_PARENTAL_CONTROL_LIVE="Rodičovská kontrola"
+L_PARENTAL_CONTROL_CLICKHERE="Kliknite sem"

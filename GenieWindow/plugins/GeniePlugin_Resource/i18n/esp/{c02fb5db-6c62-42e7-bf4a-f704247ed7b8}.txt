@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Tiempo restante estimado"
+L_UPGRADE_UPDATE_CANCEL="Cancelar"
+L_UPGRADE_UPDATE_PAGE_FINISH="Descarga finalizada.\nHaga clic en "Finalizar" para actualizar."
+L_UPGRADE_UPDATE_TITLE="Actualización de NETGEAR genie"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="La versión actual es la más reciente."
+L_UPGRADE_UPDATE_PAGE_WRONG="Estamos experimentando un problema temporal. Intente descargar la nueva versión más tarde."
+L_UPGRADE_UPDATE_DOWNLOAD="Descargar"
+L_UPGRADE_UPDATE_FINISH="Finalizar"
+L_UPGRADE_UPDATE_CHECK_DESP="Obteniendo el archivo de descripción..."
+L_UPGRADE_UPDATE_DOWN_FILE="Obteniendo el archivo del instalador..."
+L_UPGRADE_UPDATE_LINK="También puede descargar la nueva versión haciendo clic en este vínculo"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Problema de conexión de red"

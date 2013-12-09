@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddPLCDriver	.\plcdrivermanager.cpp	/^PLCDriver* PLCDriverManager::AddPLCDriver(const QString &driverPath)$/;"	f	class:PLCDriverManager
+AssociatePLCDriver	.\plcdrivermanager.cpp	/^void PLCDriverManager::AssociatePLCDriver(const QString &devMAC, PLCDriver* plcDriver)$/;"	f	class:PLCDriverManager
+Cleanup	.\plcmainpipeplugin.cpp	/^void PLCMainPipePlugin::Cleanup()$/;"	f	class:PLCMainPipePlugin
+ConstructDriverObject	.\plcdrivermanager.cpp	/^PLCDriver * PLCDriverManager::ConstructDriverObject(QLibrary *libDriver) const$/;"	f	class:PLCDriverManager
+FILESYSTEMMONITOR_H	.\filesystemmonitor.h	2;"	d
+FileSystemMonitor	.\filesystemmonitor.cpp	/^FileSystemMonitor::FileSystemMonitor(const QString &monitorDirPath) :$/;"	f	class:FileSystemMonitor
+FileSystemMonitor	.\filesystemmonitor.h	/^class FileSystemMonitor : public QThread$/;"	c
+GetAllDriverModules	.\plcdrivermanager.cpp	/^QStringList PLCDriverManager::GetAllDriverModules(const QString &dirName) const$/;"	f	class:PLCDriverManager
+GetDeviceDriverFilePath	.\plcmainpipeplugin.cpp	/^QString PLCMainPipePlugin::GetDeviceDriverFilePath(const QString &DeviceMACAddress)$/;"	f	class:PLCMainPipePlugin
+GetLibraryPathName	.\plcdriver.cpp	/^QString PLCDriver::GetLibraryPathName() const$/;"	f	class:PLCDriver
+GetPLCDriver	.\plcdrivermanager.cpp	/^PLCDriver* PLCDriverManager::GetPLCDriver(const QString &devMAC)$/;"	f	class:PLCDriverManager
+GetPLCDriverList	.\plcdrivermanager.cpp	/^QVector<PLCDriver *> PLCDriverManager::GetPLCDriverList() const$/;"	f	class:PLCDriverManager
+GetPLCDriverPath	.\plcdriverexecutive.cpp	/^QString PLCDriverExecutive::GetPLCDriverPath(const QString &devMac) const$/;"	f	class:PLCDriverExecutive
+HELPERROUTINES_H	.\helperroutines.h	2;"	d
+IsMacAddrValid	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::IsMacAddrValid(const QString &mac) const$/;"	f	class:PLCMainPipePlugin
+LoadAllDriverModules	.\plcdrivermanager.cpp	/^void PLCDriverManager::LoadAllDriverModules(const QString & dirName)$/;"	f	class:PLCDriverManager
+NormalizeMacAddrFormat	.\plcmainpipeplugin.cpp	/^QString PLCMainPipePlugin::NormalizeMacAddrFormat(const QString &mac) const$/;"	f	class:PLCMainPipePlugin
+OnNewPLCDriver	.\plcdriverexecutive.cpp	/^void PLCDriverExecutive::OnNewPLCDriver(const QString &driverPath)$/;"	f	class:PLCDriverExecutive
+PLCDRIVEREXECUTIVE_H	.\plcdriverexecutive.h	2;"	d
+PLCDRIVERINTERFACE_H	.\plcdriverinterface.h	2;"	d
+PLCDRIVERMANAGER_H	.\plcdrivermanager.h	2;"	d
+PLCDRIVER_H	.\plcdriver.h	2;"	d
+PLCDeviceMacAddr2String	.\helperroutines.cpp	/^QString PLCDeviceMacAddr2String(BYTE DeviceMAC[PLC_MAC_ADDRESS_SIZE])$/;"	f
+PLCDeviceMacAddrFromString	.\helperroutines.cpp	/^BYTE* PLCDeviceMacAddrFromString(const QString &strDevMac, BYTE DeviceMAC[PLC_MAC_ADDRESS_SIZE])$/;"	f
+PLCDiscovery	.\plcdriver.h	/^    PLCDiscovery_t PLCDiscovery;$/;"	m	class:PLCDriver
+PLCDiscovery	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCDiscovery(int *DeviceNumber, PLC_DiscoveryDeviceList *DeviceMACAddrList)  const$/;"	f	class:PLCDriverExecutive
+PLCDiscovery	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCDiscovery(QStringList &DeviceMACAddrList) const$/;"	f	class:PLCMainPipePlugin
+PLCDiscovery_t	.\plcdriver.h	/^    typedef BOOL (*PLCDiscovery_t)(int *, PLC_DiscoveryDeviceList *);$/;"	t	class:PLCDriver
+PLCDriver	.\plcdriver.cpp	/^PLCDriver::PLCDriver(QLibrary *libDriver):$/;"	f	class:PLCDriver
+PLCDriver	.\plcdriver.h	/^class PLCDriver$/;"	c
+PLCDriverExecutive	.\plcdriverexecutive.cpp	/^PLCDriverExecutive::PLCDriverExecutive(const QString &driverDirPath) :$/;"	f	class:PLCDriverExecutive
+PLCDriverExecutive	.\plcdriverexecutive.h	/^class PLCDriverExecutive : public QObject$/;"	c
+PLCDriverManager	.\plcdrivermanager.cpp	/^PLCDriverManager::PLCDriverManager(const QString &driverDirPath)$/;"	f	class:PLCDriverManager
+PLCDriverManager	.\plcdrivermanager.h	/^class PLCDriverManager$/;"	c
+PLCGetDeviceFWVersion	.\plcdriver.h	/^    PLCGetDeviceFWVersion_t PLCGetDeviceFWVersion;$/;"	m	class:PLCDriver
+PLCGetDeviceFWVersion	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceFWVersion(PLC_MACAddress DeviceMACAddress, char *DeviceFWVersion) const$/;"	f	class:PLCDriverExecutive
+PLCGetDeviceFWVersion	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceFWVersion(const QString &DeviceMACAddress, QString &DeviceFWVersion) const$/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceFWVersion_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceFWVersion_t)(PLC_MACAddress , char *);$/;"	t	class:PLCDriver
+PLCGetDeviceForwardtable	.\plcdriver.h	/^    PLCGetDeviceForwardtable_t PLCGetDeviceForwardtable;$/;"	m	class:PLCDriver
+PLCGetDeviceForwardtable	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceForwardtable($/;"	f	class:PLCDriverExecutive
+PLCGetDeviceForwardtable	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceForwardtable(const QString &DeviceMACAddress, QStringList &ForwardTable) const$/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceForwardtable_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceForwardtable_t)(PLC_MACAddress , int *, PLC_DeviceForwardTableList *);$/;"	t	class:PLCDriver
+PLCGetDeviceLedStatus	.\plcdriver.h	/^    PLCGetDeviceLedStatus_t PLCGetDeviceLedStatus;$/;"	m	class:PLCDriver
+PLCGetDeviceLedStatus	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceLedStatus(PLC_MACAddress DeviceMACAddress, int *DeviceLedStatus) const$/;"	f	class:PLCDriverExecutive
+PLCGetDeviceLedStatus	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceLedStatus(const QString &DeviceMACAddress, int *DeviceLedStatus) const$/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceLedStatus_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceLedStatus_t)(PLC_MACAddress , int *);$/;"	t	class:PLCDriver
+PLCGetDeviceLinkRate	.\plcdriver.h	/^    PLCGetDeviceLinkRate_t PLCGetDeviceLinkRate;$/;"	m	class:PLCDriver
+PLCGetDeviceLinkRate	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceLinkRate($/;"	f	class:PLCDriverExecutive
+PLCGetDeviceLinkRate	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceLinkRate(const QString &DeviceMACAddress, QMap<QString, QPair<qint16, qint16> > &DeviceLinkRateTable) const$/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceLinkRate_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceLinkRate_t)(PLC_MACAddress , int *, PLC_DeviceLinkRateTable *);$/;"	t	class:PLCDriver
+PLCGetDeviceModelName	.\plcdriver.h	/^    PLCGetDeviceModelName_t PLCGetDeviceModelName;$/;"	m	class:PLCDriver
+PLCGetDeviceModelName	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceModelName(PLC_MACAddress DeviceMACAddress, char *DeviceModelName) const$/;"	f	class:PLCDriverExecutive
+PLCGetDeviceModelName	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceModelName(const QString &DeviceMACAddress, QString &DeviceModelName) const$/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceModelName_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceModelName_t)(PLC_MACAddress , char *);$/;"	t	class:PLCDriver
+PLCGetDeviceName	.\plcdriver.h	/^    PLCGetDeviceName_t PLCGetDeviceName;$/;"	m	class:PLCDriver
+PLCGetDeviceName	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceName(PLC_MACAddress DeviceMACAddress, char *DeviceName) const$/;"	f	class:PLCDriverExecutive
+PLCGetDeviceName	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceName(const QString &DeviceMACAddress, QString &DeviceName) const$/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceName_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceName_t)(PLC_MACAddress , char *);$/;"	t	class:PLCDriver
+PLCGetDeviceQoSStatus	.\plcdriver.h	/^    PLCGetDeviceQoSStatus_t PLCGetDeviceQoSStatus;$/;"	m	class:PLCDriver
+PLCGetDeviceQoSStatus	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetDeviceQoSStatus(PLC_MACAddress DeviceMACAddress, PLC_DeviceQoSStatus *QoSStatus) const$/;"	f	class:PLCDriverExecutive
+PLCGetDeviceQoSStatus	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetDeviceQoSStatus(const QString &DeviceMACAddress $/;"	f	class:PLCMainPipePlugin
+PLCGetDeviceQoSStatus_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetDeviceQoSStatus_t)(PLC_MACAddress , PLC_DeviceQoSStatus *);$/;"	t	class:PLCDriver
+PLCGetLocalDevice	.\plcdriver.h	/^    PLCGetLocalDevice_t PLCGetLocalDevice;$/;"	m	class:PLCDriver
+PLCGetLocalDevice	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetLocalDevice(PLC_MACAddress DeviceMACAddress) const$/;"	f	class:PLCDriverExecutive
+PLCGetLocalDevice	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetLocalDevice(QString &DeviceMACAddress) const$/;"	f	class:PLCMainPipePlugin
+PLCGetLocalDevice_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetLocalDevice_t)(PLC_MACAddress);$/;"	t	class:PLCDriver
+PLCGetNetworkType	.\plcdriver.h	/^    PLCGetNetworkType_t PLCGetNetworkType;$/;"	m	class:PLCDriver
+PLCGetNetworkType	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCGetNetworkType(PLC_MACAddress DeviceMACAddress, char *DeviceNetworkType) const$/;"	f	class:PLCDriverExecutive
+PLCGetNetworkType	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCGetNetworkType(const QString &DeviceMACAddress, QString &DeviceNetworkType) const$/;"	f	class:PLCMainPipePlugin
+PLCGetNetworkType_t	.\plcdriver.h	/^    typedef BOOL (*PLCGetNetworkType_t)(PLC_MACAddress , char *);$/;"	t	class:PLCDriver
+PLCMAINPIPEPLUGIN_H	.\plcmainpipeplugin.h	2;"	d
+PLCMainPipePlugin	.\plcmainpipeplugin.cpp	/^PLCMainPipePlugin::PLCMainPipePlugin(QObject *parent) :$/;"	f	class:PLCMainPipePlugin
+PLCMainPipePlugin	.\plcmainpipeplugin.h	/^class PLCMainPipePlugin : public QObject ,public MainPipeInterface$/;"	c
+PLCSetDeviceLedStatus	.\plcdriver.h	/^    PLCSetDeviceLedStatus_t PLCSetDeviceLedStatus;$/;"	m	class:PLCDriver
+PLCSetDeviceLedStatus	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCSetDeviceLedStatus(PLC_MACAddress DeviceMACAddress, int DeviceLedStatus) const$/;"	f	class:PLCDriverExecutive
+PLCSetDeviceLedStatus	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCSetDeviceLedStatus(const QString &DeviceMACAddress, int DeviceLedStatus) const$/;"	f	class:PLCMainPipePlugin
+PLCSetDeviceLedStatus_t	.\plcdriver.h	/^    typedef BOOL (*PLCSetDeviceLedStatus_t)(PLC_MACAddress , int );$/;"	t	class:PLCDriver
+PLCSetDeviceName	.\plcdriver.h	/^    PLCSetDeviceName_t PLCSetDeviceName;$/;"	m	class:PLCDriver
+PLCSetDeviceName	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCSetDeviceName(PLC_MACAddress DeviceMACAddress, const char DeviceName[]) const$/;"	f	class:PLCDriverExecutive
+PLCSetDeviceName	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCSetDeviceName(const QString &DeviceMACAddress, const QString &DeviceName)const$/;"	f	class:PLCMainPipePlugin
+PLCSetDeviceName_t	.\plcdriver.h	/^    typedef BOOL (*PLCSetDeviceName_t)(PLC_MACAddress , char []);$/;"	t	class:PLCDriver
+PLCSetDeviceQoS	.\plcdriver.h	/^    PLCSetDeviceQoS_t PLCSetDeviceQoS;$/;"	m	class:PLCDriver
+PLCSetDeviceQoS	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCSetDeviceQoS(PLC_MACAddress DeviceMACAddress, PLC_DeviceQoSStatus* QoSStatus) const$/;"	f	class:PLCDriverExecutive
+PLCSetDeviceQoS	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCSetDeviceQoS(const QString &DeviceMACAddress$/;"	f	class:PLCMainPipePlugin
+PLCSetDeviceQoS_t	.\plcdriver.h	/^    typedef BOOL (*PLCSetDeviceQoS_t)(PLC_MACAddress , PLC_DeviceQoSStatus* );$/;"	t	class:PLCDriver
+PLCSetDeviceResetDefault	.\plcdriver.h	/^    PLCSetDeviceResetDefault_t PLCSetDeviceResetDefault;$/;"	m	class:PLCDriver
+PLCSetDeviceResetDefault	.\plcdriverexecutive.cpp	/^BOOL PLCDriverExecutive::PLCSetDeviceResetDefault(PLC_MACAddress DeviceMACAddress) const$/;"	f	class:PLCDriverExecutive
+PLCSetDeviceResetDefault	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCSetDeviceResetDefault(const QString &DeviceMACAddress) const$/;"	f	class:PLCMainPipePlugin
+PLCSetDeviceResetDefault_t	.\plcdriver.h	/^    typedef BOOL (*PLCSetDeviceResetDefault_t)(PLC_MACAddress );$/;"	t	class:PLCDriver
+PLCSetDeviceSecurityKey	.\plcdriver.h	/^    PLCSetDeviceSecurityKey_t PLCSetDeviceSecurityKey;$/;"	m	class:PLCDriver
+PLCSetDeviceSecurityKey	.\plcdriverexecutive.cpp	/^int PLCDriverExecutive::PLCSetDeviceSecurityKey($/;"	f	class:PLCDriverExecutive
+PLCSetDeviceSecurityKey	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::PLCSetDeviceSecurityKey( const QString &DeviceMACAddress, const QString &SecurityKey,const QString &DevicePassword) const$/;"	f	class:PLCMainPipePlugin
+PLCSetDeviceSecurityKey_t	.\plcdriver.h	/^    typedef int	(*PLCSetDeviceSecurityKey_t)( PLC_MACAddress , char [], char []);$/;"	t	class:PLCDriver
+ResolveSymbols	.\plcdriver.cpp	/^void PLCDriver::ResolveSymbols()$/;"	f	class:PLCDriver
+Startup	.\plcmainpipeplugin.cpp	/^bool PLCMainPipePlugin::Startup(const QString &driverDir) $/;"	f	class:PLCMainPipePlugin
+ValidPLCDriverModule	.\plcdrivermanager.cpp	/^bool PLCDriverManager::ValidPLCDriverModule(QLibrary * libDriver) const$/;"	f	class:PLCDriverManager
+m_driverModules	.\plcdrivermanager.h	/^    QVector<PLCDriver *>    m_driverModules;$/;"	m	class:PLCDriverManager
+m_execMutex	.\plcdriverexecutive.h	/^    mutable QMutex m_execMutex;$/;"	m	class:PLCDriverExecutive
+m_filesystemMonitor	.\plcdriverexecutive.h	/^    FileSystemMonitor *m_filesystemMonitor;$/;"	m	class:PLCDriverExecutive
+m_hExitEvent	.\filesystemmonitor.h	/^    HANDLE m_hExitEvent;$/;"	m	class:FileSystemMonitor
+m_libDriver	.\plcdriver.h	/^    QLibrary *m_libDriver;$/;"	m	class:PLCDriver
+m_monitorDirPath	.\filesystemmonitor.h	/^    QString m_monitorDirPath;$/;"	m	class:FileSystemMonitor
+m_plcDevDriverMap	.\plcdrivermanager.h	/^    QMap<QString , PLCDriver *> m_plcDevDriverMap;$/;"	m	class:PLCDriverManager
+m_plcDriverExecutive	.\plcmainpipeplugin.h	/^	PLCDriverExecutive *m_plcDriverExecutive;$/;"	m	class:PLCMainPipePlugin
+m_plcDriverManager	.\plcdriverexecutive.h	/^    PLCDriverManager *m_plcDriverManager;$/;"	m	class:PLCDriverExecutive
+run	.\filesystemmonitor.cpp	/^void FileSystemMonitor::run()$/;"	f	class:FileSystemMonitor
+~FileSystemMonitor	.\filesystemmonitor.cpp	/^FileSystemMonitor::~FileSystemMonitor()$/;"	f	class:FileSystemMonitor
+~PLCDriver	.\plcdriver.cpp	/^PLCDriver::~PLCDriver()$/;"	f	class:PLCDriver
+~PLCDriverExecutive	.\plcdriverexecutive.cpp	/^PLCDriverExecutive::~PLCDriverExecutive()$/;"	f	class:PLCDriverExecutive
+~PLCDriverManager	.\plcdrivermanager.cpp	/^PLCDriverManager::~PLCDriverManager()$/;"	f	class:PLCDriverManager

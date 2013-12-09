@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Parental Controls"
+L_PARENTAL_CONTROL_DESC="Pripomoček NETGEAR Live Parental Controls s tehnologijo OpenDNS je rešitev usmerjevalnika za filtriranje spletnih vsebin in je na voljo na usmerjevalniku NETGEAR Wireless-N in prehodih."
+L_PARENTAL_CONTROL_MANAGER="Upravljanje"
+L_PARENTAL_CONTROL_INSTALL="Namesti"
+L_PARENTAL_CONTROL_ENABLE="Nameščeno"
+L_PARENTAL_CONTROL_NOT_ENABLE="Ni nameščeno"
+L_PARENTAL_CONTROL_FUN_ONE=">Blokira do 50 kategorij internetne vsebine"
+L_PARENTAL_CONTROL_FUN_TWO=">Zasnovan za zaščito pred krajo identitete in lažnim predstavljanjem"
+L_PARENTAL_CONTROL_FUN_THREE=">BREZPLAČEN za NETGEAR-ove uporabnike!"
+L_PARENTAL_CONTROL_LIVE="Parental Controls"
+L_PARENTAL_CONTROL_CLICKHERE="Kliknite tukaj"

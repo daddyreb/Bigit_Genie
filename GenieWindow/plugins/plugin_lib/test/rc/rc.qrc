@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bbticon/bbt_demo.png</file>		
+		<file>i18n/ara/LanguageDemo.txt</file>
+  		<file>i18n/chs/LanguageDemo.txt</file>
+		<file>i18n/csy/LanguageDemo.txt</file>
+		<file>i18n/dan/LanguageDemo.txt</file>
+ 		<file>i18n/deu/LanguageDemo.txt</file>
+		<file>i18n/ell/LanguageDemo.txt</file>
+ 		<file>i18n/enu/LanguageDemo.txt</file>
+		<file>i18n/esp/LanguageDemo.txt</file>
+ 		<file>i18n/fin/LanguageDemo.txt</file>
+ 		<file>i18n/fra/LanguageDemo.txt</file>
+ 		<file>i18n/hun/LanguageDemo.txt</file>
+ 		<file>i18n/ita/LanguageDemo.txt</file>
+ 		<file>i18n/kor/LanguageDemo.txt</file>
+ 		<file>i18n/nld/LanguageDemo.txt</file>
+ 		<file>i18n/nor/LanguageDemo.txt</file>
+ 		<file>i18n/plk/LanguageDemo.txt</file>
+ 		<file>i18n/ptb/LanguageDemo.txt</file>
+  		<file>i18n/rom/LanguageDemo.txt</file>
+ 		<file>i18n/rus/LanguageDemo.txt</file>
+ 		<file>i18n/sky/LanguageDemo.txt</file>
+ 		<file>i18n/slv/LanguageDemo.txt</file>
+ 		<file>i18n/sve/LanguageDemo.txt</file>
+     </qresource>
+</RCC>

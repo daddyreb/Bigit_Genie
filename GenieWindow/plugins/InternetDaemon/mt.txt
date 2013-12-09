@@ -1,0 +1,1 @@
+mt -manifest InternetDaemon.exe.manifest -outputresource:InternetDaemon.exe;1

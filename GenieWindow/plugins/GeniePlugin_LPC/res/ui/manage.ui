@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>managePage</class>
+ <widget class="ManagePage" name="managePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="title">
+       <property name="text">
+        <string>manage.title</string>
+       </property>
+       <property name="LPCText" stdset="0">
+        <string>manage.title</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>manage.parentalcontrols</string>
+        </property>
+        <property name="class" stdset="0">
+         <string>singleline bold QLabel</string>
+        </property>
+        <property name="LPCText" stdset="0">
+         <string>manage.parentalcontrols</string>
+        </property>
+        <property name="LPCTags" stdset="0">
+         <stringlist>
+          <string>SingleLine</string>
+          <string>Bold</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lpcStatus">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="toggleButton">
+        <property name="text">
+         <string>manage.toggle.disabled</string>
+        </property>
+        <property name="autoDefault">
+         <bool>true</bool>
+        </property>
+        <property name="LPCText" stdset="0">
+         <string>manage.toggle.disabled</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>manage.settings.bundle</string>
+            </property>
+            <property name="LPCText" stdset="0">
+             <string>manage.settings.bundle</string>
+            </property>
+            <property name="LPCTags" stdset="0">
+             <stringlist>
+              <string>Bold</string>
+              <string>SingleLine</string>
+             </stringlist>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="bundle">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="bundleDetail">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="changeButton">
+          <property name="text">
+           <string>manage.change</string>
+          </property>
+          <property name="autoDefault">
+           <bool>true</bool>
+          </property>
+          <property name="LPCText" stdset="0">
+           <string>manage.change</string>
+          </property>
+          <property name="LPCWide" stdset="0">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="settingsButton">
+          <property name="text">
+           <string>manage.settings.link</string>
+          </property>
+          <property name="autoDefault">
+           <bool>true</bool>
+          </property>
+          <property name="LPCText" stdset="0">
+           <string>manage.settings.link</string>
+          </property>
+          <property name="LPCWide" stdset="0">
+           <string>1</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_3">
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>manage.account</string>
+        </property>
+        <property name="LPCText" stdset="0">
+         <string>manage.account</string>
+        </property>
+        <property name="LPCTags" stdset="0">
+         <stringlist>
+          <string>Bold</string>
+          <string>SingleLine</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="account">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>manage.bypass.account</string>
+        </property>
+        <property name="LPCText" stdset="0">
+         <string>manage.bypass.account</string>
+        </property>
+        <property name="LPCTags" stdset="0">
+         <stringlist>
+          <string>Bold</string>
+          <string>SingleLine</string>
+         </stringlist>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="bypass_account">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>329</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="bypassButton">
+        <property name="text">
+         <string>manage.bypass.enter</string>
+        </property>
+        <property name="autoDefault">
+         <bool>true</bool>
+        </property>
+		 <property name="LPCText" stdset="0">
+           <string>manage.bypass.enter</string>
+          </property>
+          <property name="LPCWide" stdset="0">
+           <string>1</string>
+          </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="error">
+     <property name="text">
+      <string>error</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+     <property name="LPCTags" stdset="0">
+      <stringlist>
+       <string>Error</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Preferred</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="refresh">
+       <property name="text">
+        <string>refresh</string>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+       <property name="LPCText" stdset="0">
+        <string>refresh</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ManagePage</class>
+   <extends>QWidget</extends>
+   <header>managepage.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>refresh</sender>
+   <signal>clicked()</signal>
+   <receiver>managePage</receiver>
+   <slot>gotoMainPage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>458</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toggleButton</sender>
+   <signal>clicked()</signal>
+   <receiver>managePage</receiver>
+   <slot>toggleLPC()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>616</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>settingsButton</sender>
+   <signal>clicked()</signal>
+   <receiver>managePage</receiver>
+   <slot>changeCustomSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>changeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>managePage</receiver>
+   <slot>changeSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bypassButton</sender>
+   <signal>clicked()</signal>
+   <receiver>managePage</receiver>
+   <slot>enterBypass()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>554</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

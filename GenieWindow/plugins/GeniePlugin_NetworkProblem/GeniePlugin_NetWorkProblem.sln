@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeniePlugin_NetWorkProblem", "GeniePlugin_NetWorkProblem.vcxproj", "{0C6AB7F5-5A7E-30B3-9697-AF8EC98F5261}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Launch", "..\..\launch\Launch.vcxproj", "{8993BCC8-A471-38AA-B70D-8CA28D0AC9CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DragonNetTool", "..\DragonNetTool\DragonNetTool.vcxproj", "{A7CE5570-BC12-3692-8857-6230409551F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6AB7F5-5A7E-30B3-9697-AF8EC98F5261}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C6AB7F5-5A7E-30B3-9697-AF8EC98F5261}.Debug|Win32.Build.0 = Debug|Win32
+		{0C6AB7F5-5A7E-30B3-9697-AF8EC98F5261}.Release|Win32.ActiveCfg = Release|Win32
+		{0C6AB7F5-5A7E-30B3-9697-AF8EC98F5261}.Release|Win32.Build.0 = Release|Win32
+		{8993BCC8-A471-38AA-B70D-8CA28D0AC9CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8993BCC8-A471-38AA-B70D-8CA28D0AC9CC}.Debug|Win32.Build.0 = Debug|Win32
+		{8993BCC8-A471-38AA-B70D-8CA28D0AC9CC}.Release|Win32.ActiveCfg = Release|Win32
+		{8993BCC8-A471-38AA-B70D-8CA28D0AC9CC}.Release|Win32.Build.0 = Release|Win32
+		{A7CE5570-BC12-3692-8857-6230409551F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7CE5570-BC12-3692-8857-6230409551F0}.Debug|Win32.Build.0 = Debug|Win32
+		{A7CE5570-BC12-3692-8857-6230409551F0}.Release|Win32.ActiveCfg = Release|Win32
+		{A7CE5570-BC12-3692-8857-6230409551F0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

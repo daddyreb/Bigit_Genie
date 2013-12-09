@@ -1,0 +1,9 @@
+[AutoRun]
+open=GenieWirelessConfig.exe
+icon=GenieWirelessConfig.exe
+action=Run NETGEAR Genie Wireless Setup
+
+[Content]
+MusicFiles=0
+PictureFiles=0
+VideoFiles=0

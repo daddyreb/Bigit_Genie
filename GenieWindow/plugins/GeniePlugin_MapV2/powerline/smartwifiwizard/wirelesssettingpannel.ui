@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WirelessSettingPannel</class>
+ <widget class="QWidget" name="WirelessSettingPannel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>563</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="m_wifiCommonPanne" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QFormLayout" name="formLayout_2">
+      <property name="fieldGrowthPolicy">
+       <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="m_ssidTagLB">
+        <property name="text">
+         <string>Wireless Network Name(SSID):</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="m_ssidLE">
+        <property name="maxLength">
+         <number>32</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="m_secTypeTagLB">
+        <property name="text">
+         <string>Wireless Security Type:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="m_securityCB">
+        <item>
+         <property name="text">
+          <string>None</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>WEP</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>WPA-PSK[TKIP]</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>WPA2-PSK[AES]</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>WPA-PSK[TKIP]+WPA2-PSK[AES]</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="m_passPhraseLB">
+        <property name="text">
+         <string>Passphrase:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="m_passPhraseLE">
+        <property name="maxLength">
+         <number>64</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="m_wirelessModePromptPane" native="true">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="m_wirelessModePromptLB">
+        <property name="text">
+         <string>&lt;P&gt;&lt;B&gt;IMPORTANT&lt;/P&gt;&lt;/B&gt;&lt;P&gt;WPA-PSK [TKIP] may only operate at &quot;Up to 54Mbps&quot; rate, not N rate.&lt;/P&gt;&lt;P&gt;NETGEAR recommends that you use WPA2-PSK [AES] to get full N rate support.&lt;/P&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="m_wepSecurityPane" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="m_wepEncryptionTitleLB">
+        <property name="text">
+         <string>Security Encryption(WEP)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="m_authTypeTagLB">
+          <property name="text">
+           <string>Authentication Type:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="m_wepAuthTypeCB">
+          <property name="editable">
+           <bool>false</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string>Automatic</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Shared</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Open</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="m_encryptionStrengthTagLB">
+          <property name="text">
+           <string>Encryption Strength:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="m_wepEncryptionLenCB">
+          <item>
+           <property name="text">
+            <string>64-bits</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>128-bits</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="m_wepEncryptipnKeyTagLB">
+        <property name="text">
+         <string>Security Encryption(WEP) Key</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="m_wepPassphraseTagLB">
+          <property name="text">
+           <string>Passphrase:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_wepPassphraseLE">
+          <property name="maxLength">
+           <number>32</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="m_wepkeyGenerateBtn">
+          <property name="text">
+           <string>Generate</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <widget class="QRadioButton" name="m_wepkey1RB">
+          <property name="text">
+           <string>Key1</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="m_wepkey1LE">
+          <property name="maxLength">
+           <number>10</number>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QRadioButton" name="m_wepkey3RB">
+          <property name="text">
+           <string>Key3</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLineEdit" name="m_wepkey3LE">
+          <property name="maxLength">
+           <number>10</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QRadioButton" name="m_wepkey2RB">
+          <property name="text">
+           <string>Key2</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="m_wepkey2LE">
+          <property name="maxLength">
+           <number>10</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QRadioButton" name="m_wepkey4RB">
+          <property name="text">
+           <string>Key4</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLineEdit" name="m_wepkey4LE">
+          <property name="maxLength">
+           <number>10</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>m_securityCB</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onCBCurrentIndexChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>201</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>396</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepAuthTypeCB</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onCBCurrentIndexChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>365</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepEncryptionLenCB</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onCBCurrentIndexChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>330</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_ssidLE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>198</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>473</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_passPhraseLE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>85</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>419</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepPassphraseLE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>216</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey1LE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>71</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey2LE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>272</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>320</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey3LE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>340</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey4LE</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onLETextChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>297</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey2RB</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onRBToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>269</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-3</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey1RB</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onRBToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>22</x>
+     <y>236</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey3RB</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onRBToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>455</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_wepkey4RB</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>WirelessSettingPannel</receiver>
+   <slot>onRBToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>463</x>
+     <y>226</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onCBCurrentIndexChanged(QString)</slot>
+  <slot>onLETextChanged(QString)</slot>
+  <slot>onRBToggled(bool)</slot>
+ </slots>
+</ui>

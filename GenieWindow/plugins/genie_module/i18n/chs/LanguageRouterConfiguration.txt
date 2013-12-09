@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="路由器设置"
+L_RTCF_BIGBT_CLICKHERE="单击此处"
+
+L_RTCF_LOGIN_TITLE="路由器登录"
+L_RTCF_LOGIN_USER="用户名:"
+L_RTCF_PASSWORD="密码:"
+L_RTCF_LOGIN_REMEMBER="记住密码"
+L_RTCF_LOGIN_BUT_LEFT="登录"
+L_RTCF_CANCEL="取消"
+
+
+L_RTCF_SETTING_SSID="无线网络名称 (SSID):"
+L_RTCF_SETTING_CHANNEL="频道选择:"
+L_RTCF_SETTING_MODE="模式:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8到63个字符或者64个十六进制数字)"
+L_RTCF_SETTING_APPLY="应用"
+
+L_RTCF_IMSGBOX_OK=" 确定 "
+
+
+L_RTCF_INFO_CHANNEL="频道选择:"
+L_RTCF_INFO_CHOICE="无线网络信息"
+L_RTCF_INFO_PASSWOED="网络密钥（密码）:"
+L_RTCF_INFO_REFRESH="刷新"
+L_RTCF_INFO_MODIFY="修改"
+L_RTCF_INFO_LOGINOUT="注销"
+L_RTCF_INFO_EXPORT="导出"
+
+L_RTCF_TAB_TITLE="无线设置"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="更改设置会中断无线网络上的活动流量。要继续吗？"
+L_RTCF_MSG_NOTNETGEAR="登录失败！请检查本计算机是否已连接到 NETGEAR 路由器。"
+L_RTCF_MSG_PWDWRONG="登录失败，请检查密码。"
+
+
+L_RTCF_MSG_LOGINTIMEOUT="登录失败。路由器响应超时。"
+L_RTCT_MSG_PLEASEWAIT="正在刷新，请稍候..."
+L_RTCT_MSG_COMMITWAIT="正在接收路由器响应信息，请等待 %1 秒钟。"
+L_RTCT_MSG_GACC="正在使用访客访问。禁用访客访问会中断无线网络上的活动流量。要继续吗？"
+L_RTCT_MSG_SOAPERROR="路由器不支持该功能。"
+L_RTCT_MSG_SOAPERROR_LOGIN="路由器不支持该功能，请升级路由器固件。"
+L_RTCT_MSG_GACC_NOTSUPPORTED="路由器不支持访客访问。"
+L_RTCF_MSG_TIMEOUT="操作超时。"
+
+
+
+L_GACC_BIGBT="访客访问"
+L_GACC_ENABLEGUEST="启用访客访问"
+L_GACC_DISABLEGUEST="禁用访客访问"
+L_GACC_ENABLE_TITLE="当前设置:"
+L_GACC_ENABLED="已启用"
+L_GACC_NOTENABLED="停止"
+
+L_GACC_GUESTWIRELESS_SSID="访客访问 (SSID):"
+L_GACC_WORKTIME="时间段:"
+
+L_RTCF_DEFAULT="（默认为 "password"）"
+L_RTCF_LIST_TITLE="要管理以下路由器设置，必须先登录："
+
+L_RTCF_TRAFFICMETTER="流量控制"
+L_RTCF_FUPDATE="路由器升级"
+
+L_RTCF_ROUTETYPE="路由器型号"
+L_RTCF_FIRMWARE_VERSION="固件版本"
+
+L_RTCF_LOGIN_LIST=".无线设置\n.ReadySHARE\n.访客访问\n.流量计\n.路由器升级"
+
+L_GACC_ALWAYS="始终"
+L_GACC_1HOUR="1 小时"
+L_GACC_5HOUR="5 小时"
+L_GACC_10HOUR="10 小时"
+L_GACC_1DAY="1 天"
+L_GACC_1WEEK="1 星期"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="基本"
+L_READY_SHARE_FUN_TWO="允许您从任何地方访问ReadySHARE存储"
+L_READY_SHARE_FUN_THREE="ReadySHARE 打印"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="上一步"
+L_READY_SHARE_CONTINUE="继续"
+L_READY_SHARE_NOT_SUPPORT="路由器不支持该功能。"
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE 模式"
+L_READY_SHARE_NETWORK_NAME="网络/设备名:"
+L_READY_SHARE_REGISTER="注册"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="ReadySHARE Cloud 功能可让您从因特网远程访问与路由器 USB 端口相连的 USB 存储设备。"
+L_READY_SHARE_REMOTE_HOW_WORKS="如何设置 ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="第一步：您需要拥有 ReadySHARE Cloud 帐户。如果没有，请<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>单击此处</a>获取一个。"
+L_READY_SHARE_REMOTE_STEPS_TWO="第二步：在此页中输入 ReadySHARE Cloud 用户名和密码，将您的路由器和所连的 USB 设备注册到您的帐户。"
+L_READY_SHARE_REMOTE_STEPS_THREE="第三步：使用您的帐户重新登录 <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a>。您应该可以看到与路由器连接的 USB 设备。"
+L_READY_SHARE_REMOTE_STEPS_FOUR="第四步：第一次使用时，系统会要求您下载一个 Windows 客户端，用于安全连接 PC 和路由器的 USB 设备。登录此客户端，您就可以随时随地访问该 USB 设备。"
+L_READY_SHARE_REMOTE_START_NOW="现在开始启用ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="用户名:"
+L_READY_SHARE_REMOTE_PASSWORD="密码:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="如果您没有 ReadySHARE Cloud 账户，请点击此处获取"
+L_READY_SHARE_PRINTING="ReadySHARE 打印"
+L_READY_SHARE_PRINTING_DESC="使用 USB 打印机的 Windows PC 和 Mac 计算机的打印共享"
+L_READY_SHARE_PRINTING_HOW_WORKS="它是如何工作的？"
+L_READY_SHARE_PRINTING_STEPS_ONE="第一步：使用 USB 打印机电缆将 USB 打印机连接到路由器的 USB 端口。"
+L_READY_SHARE_PRINTING_STEPS_TWO="第二步：在要共享打印机的每台计算机上安装 USB 打印机驱动程序软件。"
+L_READY_SHARE_PRINTING_STEPS_THREE="第三步：在要共享打印机的每台计算机上，从 <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a> 下载 NETGEAR USB Control Center 实用程序。 "
+L_READY_SHARE_PRINTING_STEPS_FOUR="按照该实用程序中的说明从计算机连接打印机并进行打印。"
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>注意：</b>如果没有此客户端，您只能浏览 USB 设备内容，但无法打开文件或进行更改."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>注意：</b>因特网连接将保持活动状态，直到注销为止。"
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud 已注册到用户:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="您可以按上面的第二到四步随时随地访问您的存储空间"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="点击 <B>注销</B> 注册 ReadySHARE Cloud 到一个不同的用户"
+L_READY_SHARE_UNREGISTER="注销"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

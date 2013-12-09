@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bg_search_frame.png</file>
+		<file>fg_search_frame.png</file>
+        <file>bg_ad_frame.png</file>
+		<file>fg_ad_frame.png</file>
+        <file>fg_title_frame.png</file>
+		<file>bg_title_frame.png</file>
+        <file>but_state_good.png</file>
+		<file>but_state_hover.png</file>
+        <file>but_state_warring.png</file>
+        <file>but_state_error.png</file>
+        <file>but_type_status.png</file>
+        <file>but_type_parents.png</file>
+        <file>but_type_diagnose.png</file>
+        <file>but_type_mails.png</file>
+        <file>but_type_topo.png</file>
+        <file>but_type_admin.png</file>
+		<file>but_head_error.png</file>
+		<file>but_head_warring.png</file>
+		
+		<file>but_close.gif</file>
+		<file>but_close_hover.gif</file>
+		<file>but_maximize.png</file>
+		<file>but_normalize.png</file>
+		<file>but_minimize.gif</file>
+		<file>but_maximize_hover.png</file>
+		<file>but_normalize_hover.png</file>
+		<file>but_minimize_hover.gif</file>
+		<file>but_search.png</file>
+		<file>but_combo.png</file>
+		<file>but_color_hover.png</file>
+		<file>but_color_normal.png</file>
+		<file>but_color_selected.png</file>
+		<file>bg_plugin_page.png</file>
+		<file>bg_title_frame.png</file>
+		<file>ico_tray.ico</file>
+		
+		
+		<file>plugin_gradient_but.png</file>
+		<file>plugin_gradient_but_hover.png</file>
+		<file>plugin_tab_left.png</file>
+		<file>plugin_tab_left_hover.png</file>		
+		<file>plugin_tab_mid.png</file>
+		<file>plugin_tab_mid_hover.png</file>
+		<file>plugin_tab_right.png</file>
+		<file>plugin_tab_right_hover.png</file>			
+		<file>plugin_mainmenu_but.png</file>
+		<file>plugin_mainmenu_but_hover.png</file>		
+		<file>plugin_go_but.png</file>	
+		
+		
+    </qresource>
+</RCC>

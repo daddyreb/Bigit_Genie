@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Estimated time remaining"
+L_UPGRADE_UPDATE_CANCEL="Cancel"
+L_UPGRADE_UPDATE_PAGE_FINISH="Download finished.\nPlease click "Finish" to upgrade."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie Upgrade"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Current version is the most recent."
+L_UPGRADE_UPDATE_PAGE_WRONG="We are experiencing a temporary problem. Please try to download the new version at a later time."
+L_UPGRADE_UPDATE_DOWNLOAD="Download"
+L_UPGRADE_UPDATE_FINISH="Finish"
+L_UPGRADE_UPDATE_CHECK_DESP="Getting the description file..."
+L_UPGRADE_UPDATE_DOWN_FILE="Getting installer file..."
+L_UPGRADE_UPDATE_LINK="You can also download the new version by clicking this link"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Network Connection Issue"

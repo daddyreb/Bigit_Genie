@@ -1,0 +1,531 @@
+﻿<!DOCTYPE QPH>
+<QPH language="en">
+<phrase>
+	<source>general.wait.title</source>
+	<target>Please wait</target>
+</phrase>
+<phrase>
+	<source>general.status.commmicating</source>
+	<target>Commmicating to OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>abort</source>
+	<target>Cancel</target>
+</phrase>
+<phrase>
+	<source>basic.back</source>
+	<target>Back to Basic Controls</target>
+</phrase>
+<phrase>
+	<source>cancel</source>
+	<target>Cancel</target>
+</phrase>
+<phrase>
+	<source>createaccount.check</source>
+	<target>Check availability</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.available</source>
+	<target>Available!</target>
+</phrase>
+<phrase>
+	<source>createaccount.check.unavailable</source>
+	<target>Unavailable</target>
+</phrase>
+<phrase>
+	<source>createaccount.email</source>
+	<target>Email</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.confirm</source>
+	<target>Confirm Email</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.invalid</source>
+	<target>Invalid email</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken</source>
+	<target>Email taken</target>
+</phrase>
+<phrase>
+	<source>createaccount.email.taken.signin</source>
+	<target>Signin</target>
+</phrase>
+<phrase>
+	<source>createaccount.error</source>
+	<target>There was an error creating your account, please try again.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.device</source>
+	<target>Your account was created successfully however there was a problem setting up your NETGEAR router.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.password</source>
+	<target>Passwords must be between 6 and 20 characters.</target>
+</phrase>
+<phrase>
+	<source>createaccount.error.username</source>
+	<target>Usernames must start and end with a letter or number and can also contain '.', '-' and '_'.</target>
+</phrase>
+<phrase>
+	<source>createaccount.password</source>
+	<target>Password</target>
+</phrase>
+<phrase>
+	<source>createaccount.password.confirm</source>
+	<target>Confirm Password</target>
+</phrase>
+<phrase>
+	<source>createaccount.status</source>
+	<target>Creating your OpenDNS account...</target>
+</phrase>
+<phrase>
+	<source>createaccount.subtitle</source>
+	<target>Please enter your information below.</target>
+</phrase>
+<phrase>
+	<source>createaccount.title</source>
+	<target>Create a free OpenDNS account</target>
+</phrase>
+<phrase>
+	<source>createaccount.username</source>
+	<target>Username</target>
+</phrase>
+<phrase>
+	<source>custom.start</source>
+	<target>Start Customization</target>
+</phrase>
+<phrase>
+	<source>custom.subtitle</source>
+	<target>Advanced Customization</target>
+</phrase>
+<phrase>
+	<source>custom.text.1</source>
+	<target>Our custom controls let you relax security settings for certain users or at certain times of day.  The custom settings are taken care of on our website, where you'll be taken after your router is setup.</target>
+</phrase>
+<phrase>
+	<source>custom.text.2</source>
+	<target>If you choose to take advantage of our per-user settings, you'll be prompted to install a small program that will manage these special OpenDNS usernames and passwords.  Don't forget to logout when you're done!</target>
+</phrase>
+<phrase>
+	<source>custom.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>device.api.create</source>
+	<target>Registering your router with OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.api.get</source>
+	<target>Checking if your router is already registered with OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>device.error.device_id_not_mine</source>
+	<target>We have detected that you are now connected to a different router. The management utility must be restarted to manage the new router.</target>
+</phrase>
+<phrase>
+	<source>device.error.device_key</source>
+	<target>This device appears to be registered with another OpenDNS user.  Please visit http://netgear.opendns.com/support/#faq15 and we'll get this sorted out as quickly as possible.</target>
+</phrase>
+<phrase>
+	<source>device.error.netgear</source>
+	<target>It looks like you might not be connecting to the Internet through a supported NETGEAR router.  Please make sure your computer is connected to your NETGEAR router via a wireless or Ethernet connection and try again.  If this problem persists, turn off your router and turn it back on, wait until LEDs are lit and try again.  For further assistance visit http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>device.router.get</source>
+	<target>Checking if your router is already setup...</target>
+</phrase>
+<phrase>
+	<source>device.router.init</source>
+	<target>Identifying your router...</target>
+</phrase>
+<phrase>
+	<source>device.router.set</source>
+	<target>Setting up your router...</target>
+</phrase>
+<phrase>
+	<source>disclaimer.text</source>
+	<target>Live Parental Controls is an excellent solution for keeping your family safe online, but like all Web filtering tools, it isn't perfect. NETGEAR reminds you there's no substitute for keeping the family computer in a common area and in plain sight where you can monitor the Web sites your kids are visiting, and taking caution when visiting Web sites requesting personal or financial information.</target>
+</phrase>
+<phrase>
+	<source>disclaimer.title</source>
+	<target>Please note</target>
+</phrase>
+<phrase>
+	<source>done</source>
+	<target>Done!</target>
+</phrase>
+<phrase>
+	<source>done.list.1</source>
+	<target>check whether Live Parental Controls are enabled</target>
+</phrase>
+<phrase>
+	<source>done.list.2</source>
+	<target>disable or enable Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.list.3</source>
+	<target>modify basic settings</target>
+</phrase>
+<phrase>
+	<source>done.list.4</source>
+	<target>change custom settings such as per-user and time-of-day based Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>done.next</source>
+	<target>Take me to the status screen</target>
+</phrase>
+<phrase>
+	<source>done.text</source>
+	<target>You have successfully setup NETGEAR Live Parental Controls Powered by OpenDNS.  Next time you run the Management Utility it will take you to the status screen where you can:</target>
+</phrase>
+<phrase>
+	<source>done.title</source>
+	<target>Setup is complete!</target>
+</phrase>
+<phrase>
+	<source>exit</source>
+	<target>Quit</target>
+</phrase>
+<phrase>
+	<source>firmware.error.internet</source>
+	<target>You don't appear to be connected to the Internet.  Please connect to the Internet through your NETGEAR router and try again.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.netgear</source>
+	<target>It looks like you might not be connecting to the Internet through a supported NETGEAR router.  Please make sure your computer is connected to your NETGEAR router via a wireless or Ethernet connection and try again.  If this problem persists, turn off your router and turn it back on, wait until LEDs are lit and try again.  For further assistance visit http://netgear.opendns.com/support/.</target>
+</phrase>
+<phrase>
+	<source>firmware.error.support</source>
+	<target>Your router's current firmware does not support Live Parental Controls.  Please go to http://www.netgear.com/ to download the latest firmware or use the "Router Upgrade" feature in your router's web GUI at http://www.routerlogin.net/ to update the firmware first.</target>
+</phrase>
+<phrase>
+	<source>firmware.text</source>
+	<target>We're making sure you have firmware that supports Live Parental Controls.</target>
+</phrase>
+<phrase>
+	<source>firmware.title</source>
+	<target>Checking router firmware</target>
+</phrase>
+<phrase>
+	<source>intro.subtitle</source>
+	<target>Powered by OpenDNS</target>
+</phrase>
+<phrase>
+	<source>intro.text.1</source>
+	<target>You're about to setup NETGEAR Live Parental Controls Powered by OpenDNS on your router to filter websites visited on your computers and other networked devices.</target>
+</phrase>
+<phrase>
+	<source>intro.text.2</source>
+	<target>Our custom settings let you relax security settings for some users or at some times of the day.</target>
+</phrase>
+<phrase>
+	<source>intro.title</source>
+	<target>Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>intro.learnmore</source>
+	<target>Learn more</target>
+</phrase>
+<phrase>
+	<source>manage.about</source>
+	<target>About this software</target>
+</phrase>
+<phrase>
+	<source>manage.about.description</source>
+	<target>(c) 2009 OpenDNS, LLC</target>
+</phrase>
+<phrase>
+	<source>manage.account</source>
+	<target>OpenDNS account:</target>
+</phrase>
+<phrase>
+	<source>manage.change</source>
+	<target>Change Basic Settings</target>
+</phrase>
+<phrase>
+	<source>manage.disabled</source>
+	<target>OpenDNS is not enabled</target>
+</phrase>
+<phrase>
+	<source>manage.no_network</source>
+	<target>Cannot detect Internet connection</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols</source>
+	<target>Live Parental Controls:</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.disabled</source>
+	<target>disabled</target>
+</phrase>
+<phrase>
+	<source>manage.parentalcontrols.enabled</source>
+	<target>enabled</target>
+</phrase>
+<phrase>
+	<source>manage.router</source>
+	<target>Router Setup</target>
+</phrase>
+<phrase>
+	<source>manage.router.model</source>
+	<target>Router model:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle</source>
+	<target>Filtering level:</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom</source>
+	<target>You've customized your preferences on the website.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.custom.label</source>
+	<target>Custom</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.high</source>
+	<target>Protects against all adult-related sites, illegal activity, social networking sites, video sharing sites, phishing attacks and general time-wasters.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.low</source>
+	<target>Protects against pornography and phishing attacks.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.minimal</source>
+	<target>Protects only against phishing attacks.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.moderate</source>
+	<target>Protects against all adult-related sites, illegal activity and phishing attacks.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.bundle.none</source>
+	<target>Nothing blocked.</target>
+</phrase>
+<phrase>
+	<source>manage.settings.link</source>
+	<target>Change Custom Settings</target>
+</phrase>
+<phrase>
+	<source>manage.status</source>
+	<target>Checking to see if you're using OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>manage.status.checking</source>
+	<target>Checking to see if Live Parental Controls are enabled...</target>
+</phrase>
+<phrase>
+	<source>manage.status.disabling</source>
+	<target>Disabling Live Parental Controls...</target>
+</phrase>
+<phrase>
+	<source>manage.status.enabling</source>
+	<target>Enabling Live Parental Controls with your default settings...</target>
+</phrase>
+<phrase>
+	<source>manage.title</source>
+	<target>Status</target>
+</phrase>
+<phrase>
+	<source>manage.toggle</source>
+	<target>Disable Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.disabled</source>
+	<target>Enable Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>manage.toggle.enabled</source>
+	<target>Disable Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>next</source>
+	<target>Next</target>
+</phrase>
+<phrase>
+	<source>ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>presignin.account.create</source>
+	<target>No, I need to create a free OpenDNS account.</target>
+</phrase>
+<phrase>
+	<source>presignin.account.existing</source>
+	<target>Yes, use my existing OpenDNS account.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.1</source>
+	<target>Welcome, this setup wizard will quickly configure NETGEAR Live Parental Controls Powered by OpenDNS on your NETGEAR router.</target>
+</phrase>
+<phrase>
+	<source>presignin.subtitle.2</source>
+	<target>In order to use Live Parental Controls, you need a free OpenDNS account. Do you already have one?</target>
+</phrase>
+<phrase>
+	<source>presignin.title</source>
+	<target>Setting up Live Parental Controls</target>
+</phrase>
+<phrase>
+	<source>prev</source>
+	<target>Previous</target>
+</phrase>
+<phrase>
+	<source>refresh</source>
+	<target>Refresh</target>
+</phrase>
+<phrase>
+	<source>routerlogin.password</source>
+	<target>Password:</target>
+</phrase>
+<phrase>
+	<source>routerlogin.prompt</source>
+	<target>Please enter the username and password you use to manage your NETGEAR router.</target>
+</phrase>
+<phrase>
+	<source>routerlogin.title</source>
+	<target>Router Login</target>
+</phrase>
+<phrase>
+	<source>routerlogin.username</source>
+	<target>Username:</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high</source>
+	<target>High</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.high.description</source>
+	<target>Protects against all adult-related sites, illegal activity, social networking sites, video sharing sites, phishing attacks and general time-wasters.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low</source>
+	<target>Low</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.low.description</source>
+	<target>Protects against pornography and phishing attacks.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal</source>
+	<target>Minimal</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.minimal.description</source>
+	<target>Protects only against phishing attacks.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate</source>
+	<target>Moderate</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.moderate.description</source>
+	<target>Protects against all adult-related sites, illegal activity and phishing attacks.</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none</source>
+	<target>None</target>
+</phrase>
+<phrase>
+	<source>settings.bundle.none.description</source>
+	<target>Nothing blocked.</target>
+</phrase>
+<phrase>
+	<source>settings.error</source>
+	<target>There was an error saving your settings, please try again.</target>
+</phrase>
+<phrase>
+	<source>settings.status.get</source>
+	<target>Fetching your settings from OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.status.set</source>
+	<target>Sending your settings to OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>settings.subtitle</source>
+	<target>All computers connected to your router will be protected from the content you select below.  You can customize your Live Parental Controls later on our website.</target>
+</phrase>
+<phrase>
+	<source>settings.title</source>
+	<target>Live Parental Controls: choose a filtering level for your network</target>
+</phrase>
+<phrase>
+	<source>signin.error.failed</source>
+	<target>There was an error signing in, please make sure you're connected to the Internet and try again.</target>
+</phrase>
+<phrase>
+	<source>signin.error.signin</source>
+	<target>Oops, we don't recognize that username or password.  Try again or select "Previous" if you don't have an OpenDNS account.</target>
+</phrase>
+<phrase>
+	<source>signin.forgot</source>
+	<target>I forgot my password</target>
+</phrase>
+<phrase>
+	<source>signin.password</source>
+	<target>Password</target>
+</phrase>
+<phrase>
+	<source>signin.status</source>
+	<target>Signing into OpenDNS...</target>
+</phrase>
+<phrase>
+	<source>signin.subtitle</source>
+	<target>Please enter your username and password below.</target>
+</phrase>
+<phrase>
+	<source>signin.title</source>
+	<target>Sign in to your OpenDNS account</target>
+</phrase>
+<phrase>
+	<source>signin.username</source>
+	<target>Username</target>
+</phrase>
+<phrase>
+	<source>title</source>
+	<target>NETGEAR Live Parental Controls Management Utility 2.0b44</target>
+</phrase>
+<phrase>
+	<source>tryagain</source>
+	<target>Try again</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert</source>
+	<target>There is a critical update available from OpenDNS, which will open in your browser.  Please download and install this new version.</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.ok</source>
+	<target>OK</target>
+</phrase>
+<phrase>
+	<source>upgrade.alert.title</source>
+	<target>Critical Update</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm</source>
+	<target>There is an update available from OpenDNS which you can download and install.  Would you like to download the update now?</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.no</source>
+	<target>No</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.title</source>
+	<target>Update</target>
+</phrase>
+<phrase>
+	<source>upgrade.confirm.yes</source>
+	<target>Yes</target>
+</phrase>
+<phrase>
+	<source>website.text.1</source>
+	<target>We're taking you to our website where you can customize your Live Parental Controls.  If your browser does not open automatically, copy the link below to your browser's address bar.</target>
+</phrase>
+<phrase>
+	<source>website.text.2</source>
+	<target>You're now finished with this setup wizard.  Thanks for using OpenDNS!</target>
+</phrase>
+</QPH>

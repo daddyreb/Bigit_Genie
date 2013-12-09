@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QGeniePageHome</class>
+ <widget class="QWidget" name="QGeniePageHome">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>585</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="dddd" stdset="0">
+   <bool>false</bool>
+  </property>
+  <property name="stylehint" stdset="0">
+   <number>0</number>
+  </property>
+  <property name="stylehintsub" stdset="0">
+   <number>4</number>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetDefaultConstraint</enum>
+   </property>
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>7</number>
+   </property>
+   <property name="rightMargin">
+    <number>5</number>
+   </property>
+   <property name="bottomMargin">
+    <number>3</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGenieButtonBig" name="pushButton_1">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>165</width>
+       <height>190</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="but_type" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="linkpage" stdset="0">
+      <number>1</number>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGenieButtonBig" name="pushButton_3">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>165</width>
+       <height>190</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="but_type" stdset="0">
+      <number>1</number>
+     </property>
+     <property name="linkpage" stdset="0">
+      <number>2</number>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QGenieButtonBig" name="pushButton_5">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>165</width>
+       <height>190</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="but_type" stdset="0">
+      <number>2</number>
+     </property>
+     <property name="linkpage" stdset="0">
+      <number>3</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGenieButtonBig" name="pushButton_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>165</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="but_type" stdset="0">
+      <number>3</number>
+     </property>
+     <property name="linkpage" stdset="0">
+      <number>4</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGenieButtonBig" name="pushButton_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="but_type" stdset="0">
+      <number>4</number>
+     </property>
+     <property name="linkpage" stdset="0">
+      <number>5</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QGenieButtonBig" name="pushButton_6">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="but_type" stdset="0">
+      <number>5</number>
+     </property>
+     <property name="linkpage" stdset="0">
+      <number>6</number>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QGenieButtonBig</class>
+   <extends>QPushButton</extends>
+   <header>QGenieButtonBig.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

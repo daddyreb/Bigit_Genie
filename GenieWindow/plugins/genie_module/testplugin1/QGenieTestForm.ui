@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QGenieTestForm</class>
+ <widget class="QWidget" name="QGenieTestForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="iframe">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="tr_lab">
+        <property name="text">
+         <string>tr_lab</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2">
+       <widget class="QPushButton" name="tr_but">
+        <property name="text">
+         <string>tr_but</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" colspan="4">
+       <widget class="QComboBox" name="cob_model"/>
+      </item>
+      <item row="0" column="9" rowspan="7">
+       <widget class="QSpyWindow" name="widget" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>400</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" colspan="9">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLineEdit" name="edt_setting">
+          <property name="text">
+           <string>plugin/routerconf_user</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lab_setting">
+          <property name="text">
+           <string>TextLafdasfdafdabel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="getsetting">
+          <property name="text">
+           <string>getsetting</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0" colspan="4">
+       <widget class="QLineEdit" name="edt_setting_set1">
+        <property name="text">
+         <string>plugin/routerconf_user</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4" colspan="4">
+       <widget class="QLineEdit" name="edt_setting_set2">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="8" rowspan="2">
+       <widget class="QPushButton" name="setsetting">
+        <property name="text">
+         <string>setsetting</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QPushButton" name="subscrib">
+        <property name="text">
+         <string>subscrib</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2" colspan="2">
+       <widget class="QPushButton" name="notify">
+        <property name="text">
+         <string>notify</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4" colspan="2">
+       <widget class="QPushButton" name="but_quit">
+        <property name="text">
+         <string>quit</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="9">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QComboBox" name="comboBox"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="edt_para1"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_2"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="uicmd">
+          <property name="text">
+           <string>uicmd</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0" colspan="6">
+       <widget class="QLineEdit" name="edt_log">
+        <property name="text">
+         <string>test log log log</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="6" colspan="3">
+       <widget class="QPushButton" name="but_log">
+        <property name="text">
+         <string>log</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <widget class="QPushButton" name="but_routeranim">
+        <property name="text">
+         <string>routeranim</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2" colspan="3">
+       <widget class="QPushButton" name="but_currentsetting">
+        <property name="text">
+         <string>currentsetting</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="5" colspan="3">
+       <widget class="QPushButton" name="but_test">
+        <property name="text">
+         <string>test</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QSpyWindow</class>
+   <extends>QWidget</extends>
+   <header>QSpyWindow.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

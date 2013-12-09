@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mDNSResponder", "mDNSResponderEXE.vcxproj", "{6B17FF6B-D83D-489B-9E03-FAC413CDFD2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B17FF6B-D83D-489B-9E03-FAC413CDFD2F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B17FF6B-D83D-489B-9E03-FAC413CDFD2F}.Debug|Win32.Build.0 = Debug|Win32
+		{6B17FF6B-D83D-489B-9E03-FAC413CDFD2F}.Release|Win32.ActiveCfg = Release|Win32
+		{6B17FF6B-D83D-489B-9E03-FAC413CDFD2F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

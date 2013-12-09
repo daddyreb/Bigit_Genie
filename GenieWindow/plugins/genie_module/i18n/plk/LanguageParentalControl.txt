@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Ochrona rodzicielska"
+L_PARENTAL_CONTROL_DESC="Ochrona rodzicielska NETGEAR Live Parental Controls, wykorzystująca darmowe serwery DNS, jest rozwiązaniem umożliwiającym filtrowanie zawartości witryn internetowych, dostępnym w routerach NETGEAR Wireless-N i stacjach łączności z zewnętrzną siecią komputerową."
+L_PARENTAL_CONTROL_MANAGER="Zarządzaj"
+L_PARENTAL_CONTROL_INSTALL="Instaluj"
+L_PARENTAL_CONTROL_ENABLE="Zainstalowane"
+L_PARENTAL_CONTROL_NOT_ENABLE="Nie zainstalowane"
+L_PARENTAL_CONTROL_FUN_ONE=">Blokowanie do 50 rodzajów treści internetowych"
+L_PARENTAL_CONTROL_FUN_TWO=">Stworzone, aby zabezpieczać Cię kradzieżą tożsamości i oszustwami"
+L_PARENTAL_CONTROL_FUN_THREE=">BEZPŁATNE dla klientów firmy NETGEAR!"
+L_PARENTAL_CONTROL_LIVE="Ochrona rodzicielska"
+L_PARENTAL_CONTROL_CLICKHERE="Kliknij tutaj"

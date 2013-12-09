@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Anulare"
+L_MAIN_TRAY_AUTOSTART="Activare pornire automată"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Afişare modificare conectivitate reţea"
+L_MAIN_TITLE_ABOUT="Despre"
+L_MAIN_CHECKFORUPDATES="Căutare actualizări"

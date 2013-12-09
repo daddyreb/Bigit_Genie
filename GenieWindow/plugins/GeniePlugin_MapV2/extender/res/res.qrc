@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/10001.png</file>
+        <file>pics/10002.png</file>
+        <file>pics/10003.png</file>
+        <file>pics/25001.png</file>
+        <file>pics/25002.png</file>
+        <file>pics/25003.png</file>
+        <file>pics/bg_left_widget.png</file>
+        <file>pics/bg_right_widget.png</file>
+        <file>pics/bg_title_frame.png</file>
+        <file>pics/but_close.png</file>
+        <file>pics/but_close_hover.png</file>
+        <file>pics/but_combo.png</file>
+        <file>pics/but_minimize.png</file>
+        <file>pics/but_minimize_hover.png</file>
+        <file>pics/but_scroll_down.png</file>
+        <file>pics/but_scroll_up.png</file>
+        <file>pics/language.png</file>
+        <file>pics/logo.png</file>
+        <file>pics/MAC_ch.png</file>
+        <file>pics/mac_cn.png</file>
+        <file>pics/mac_en.png</file>
+        <file>pics/soap_error.png</file>
+        <file>pics/win7_cn.png</file>
+        <file>pics/win7_en.png</file>
+        <file>pics/win8_cn.png</file>
+        <file>pics/win8_en.png</file>
+        <file>pics/WN1000RP.png</file>
+        <file>pics/WN2500RP.png</file>
+        <file>pics/xp_cn.png</file>
+        <file>pics/xp_en.png</file>
+        <file>styles/default.qss</file>
+        <file>ui/exitdialog.ui</file>
+        <file>ui/framelessframe.qss</file>
+        <file>pics/bg_dialog.png</file>
+    </qresource>
+</RCC>

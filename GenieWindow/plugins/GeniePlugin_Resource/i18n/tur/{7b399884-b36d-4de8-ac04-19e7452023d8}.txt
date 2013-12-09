@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="Tamam"
+L_MAIN_CANCEL="İptal"
+L_MAIN_TRAY_AUTOSTART="Otomatik Başlatmayı Etkinleştir"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Ağ Bağlantısı Değişikliğini Göster"
+L_MAIN_TITLE_ABOUT="Hakkında"
+L_MAIN_CHECKFORUPDATES="Güncellemeleri denetle"

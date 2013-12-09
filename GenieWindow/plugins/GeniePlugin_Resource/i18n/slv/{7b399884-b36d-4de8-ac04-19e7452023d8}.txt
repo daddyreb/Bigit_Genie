@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="V redu"
+L_MAIN_CANCEL="Prekliči"
+L_MAIN_TRAY_AUTOSTART="Omogoči samodejni zagon"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Pokaži spremembo omrežne povezljivosti"
+L_MAIN_TITLE_ABOUT="Vizitka"
+L_MAIN_CHECKFORUPDATES="Iskanje posodobitev"

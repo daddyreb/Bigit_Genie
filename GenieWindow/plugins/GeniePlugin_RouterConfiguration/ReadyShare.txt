@@ -1,0 +1,21 @@
+与ie翻译 略有不同的链接方式文本许增加的
+L_READY_SHARE_REMOTE_STEPS_ONE="Step 1: You need a ReadySHARE Remote account. If you do not have one,<a class=""linktype"" target=""_blank"" href=""https://readyshare.netgear.com/site/index.jsp?pid=4&src=device"">click here</a> to get one."
+change to 
+L_READY_SHARE_REMOTE_STEPS_ONE="Step 1: You need a ReadySHARE Remote account. If you do not have one, <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+(L_READY_SHARE_REMOTE_STEPS_ONE="D-Genie_430")
+
+L_READY_SHARE_REMOTE_STEPS_THREE="Step 3: Log back into <a class=""linktype"" target=""_blank"" href=""http://readyshare.netgear.com/"">http://readyshare.netgear.com/</a> with your account. You should see the USB device that is connected to your router."
+change to 
+L_READY_SHARE_REMOTE_STEPS_THREE="Step 3: Log back into <a href = 'http://readyshare.netgear.com'>http://readyshare.netgear.com</a> with your account. You should see the USB device that is connected to your router."
+(L_READY_SHARE_REMOTE_STEPS_THREE="D-Genie_432")
+
+L_READY_SHARE_PRINTING_STEPS_THREE="Step 3: On each computer that will share the printer, download the NETGEAR USB Control Center utility from <a class="linktype" target="_blank" href="http://www.netgear.com/readyshare">http://www.netgear.com/readyshare</a>. "
+change to 
+L_READY_SHARE_PRINTING_STEPS_THREE="Step 3: On each computer that will share the printer, download the NETGEAR USB Control Center utility from <a href = 'http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>."
+(L_READY_SHARE_PRINTING_STEPS_THREE="D-Genie_405")
+
+
+需要增加的
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

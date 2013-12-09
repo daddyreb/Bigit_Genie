@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Szülői felü."
+L_PARENTAL_CONTROL_DESC="A NETGEAR OpenDNS alapú Élő szülői felügyelet funkciója a NETGEAR Wireless-N útválasztókon és átjárótermékeken megtalálható beépített webszűrő megoldás."
+L_PARENTAL_CONTROL_MANAGER="Kezelés"
+L_PARENTAL_CONTROL_INSTALL="Telepítés"
+L_PARENTAL_CONTROL_ENABLE="Telepítve"
+L_PARENTAL_CONTROL_NOT_ENABLE="Nincs telepítve"
+L_PARENTAL_CONTROL_FUN_ONE=">Az internetes tartalmak akár 50 kategóriáját blokkolja"
+L_PARENTAL_CONTROL_FUN_TWO=">Véd az azonosítóadatok eltulajdonításával és az internetes csalásokkal szemben"
+L_PARENTAL_CONTROL_FUN_THREE=">És a NETGEAR ügyfelek számára mindez INGYENES!"
+L_PARENTAL_CONTROL_LIVE="Szülői felü."
+L_PARENTAL_CONTROL_CLICKHERE="Kattintson ide"

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Qt4VSv1.0" Name="GeniePlugin_NetworkProblem" ProjectGUID="{5626FEE0-0DD2-3F29-A660-41D77F23C5FA}" ProjectType="Visual C++" Version="9,00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="2" IntermediateDirectory="debug\" Name="Debug|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;.&quot;,&quot;src&quot;,&quot;..\..\..\..\trunk\src\genie2_interface&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;debug&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="debug\" BufferSecurityCheck="false" DebugInformationFormat="3" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="debug\" Optimization="4" PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_PLUGIN,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" ProgramDataBaseFileName=".\" RuntimeLibrary="3" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool AdditionalDependencies="../DragonNetTool/Debug/DragonNetTool.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGuid4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtNetworkd4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCored4.lib" AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib" GenerateDebugInformation="true" IgnoreImportLibrary="true" LinkTimeCodeGeneration="0" Name="VCLinkerTool" OutputFile="debug\GeniePlugin_NetworkProblem.dll" ProgramDatabaseFile="" SubSystem="0" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_PLUGIN,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" />
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="2" IntermediateDirectory="release\" Name="Release|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;.&quot;,&quot;src&quot;,&quot;..\..\..\..\trunk\src\genie2_interface&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;release&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="release\" BufferSecurityCheck="false" DebugInformationFormat="0" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="release\" Optimization="2" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG" ProgramDataBaseFileName=".\" RuntimeLibrary="2" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool AdditionalDependencies="../DragonNetTool/Debug/DragonNetTool.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtGui4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtNetwork4.lib c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib\QtCore4.lib" AdditionalLibraryDirectories="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\lib" GenerateDebugInformation="false" IgnoreImportLibrary="true" LinkIncremental="1" LinkTimeCodeGeneration="0" Name="VCLinkerTool" OutputFile="release\GeniePlugin_NetworkProblem.dll" ProgramDatabaseFile="" SubSystem="0" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_PLUGIN,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="src\GeniePluginTest.cpp" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.cpp" />
+			<File RelativePath="src\QProgressIndicator.cpp" />
+			<File RelativePath="src\dnslookup.cpp" />
+			<File RelativePath="src\faq.cpp" />
+			<File RelativePath="src\flex.cpp" />
+			<File RelativePath="src\label.cpp" />
+			<File RelativePath="src\line.cpp" />
+			<File RelativePath="src\mainwindow.cpp" />
+			<File RelativePath="src\ping.cpp" />
+			<File RelativePath="src\profile.cpp" />
+			<File RelativePath="src\pushbutton.cpp" />
+			<File RelativePath="src\support.cpp" />
+			<File RelativePath="src\tools.cpp" />
+			<File RelativePath="src\traceroute.cpp" />
+			<File RelativePath="src\twidget.cpp" />
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="src\GeniePluginTest.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\GeniePluginTest.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\GeniePluginTest.h -o debug\moc_GeniePluginTest.cpp" Description="MOC src\GeniePluginTest.h" Name="VCCustomBuildTool" Outputs="debug\moc_GeniePluginTest.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\GeniePluginTest.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\GeniePluginTest.h -o release\moc_GeniePluginTest.cpp" Description="MOC src\GeniePluginTest.h" Name="VCCustomBuildTool" Outputs="release\moc_GeniePluginTest.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\IHandlerInf.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\IPluginInf2.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h -o debug\moc_QGenieIface2ShareObject.cpp" Description="MOC ..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h" Name="VCCustomBuildTool" Outputs="debug\moc_QGenieIface2ShareObject.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h -o release\moc_QGenieIface2ShareObject.cpp" Description="MOC ..\..\..\..\trunk\src\genie2_interface\QGenieIface2ShareObject.h" Name="VCCustomBuildTool" Outputs="release\moc_QGenieIface2ShareObject.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\QProgressIndicator.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\QProgressIndicator.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\QProgressIndicator.h -o debug\moc_QProgressIndicator.cpp" Description="MOC src\QProgressIndicator.h" Name="VCCustomBuildTool" Outputs="debug\moc_QProgressIndicator.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\QProgressIndicator.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\QProgressIndicator.h -o release\moc_QProgressIndicator.cpp" Description="MOC src\QProgressIndicator.h" Name="VCCustomBuildTool" Outputs="release\moc_QProgressIndicator.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\dnslookup.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\dnslookup.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\dnslookup.h -o debug\moc_dnslookup.cpp" Description="MOC src\dnslookup.h" Name="VCCustomBuildTool" Outputs="debug\moc_dnslookup.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\dnslookup.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\dnslookup.h -o release\moc_dnslookup.cpp" Description="MOC src\dnslookup.h" Name="VCCustomBuildTool" Outputs="release\moc_dnslookup.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\dragonnettool.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\dragonnettool.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\dragonnettool.h -o debug\moc_dragonnettool.cpp" Description="MOC src\dragonnettool.h" Name="VCCustomBuildTool" Outputs="debug\moc_dragonnettool.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\dragonnettool.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\dragonnettool.h -o release\moc_dragonnettool.cpp" Description="MOC src\dragonnettool.h" Name="VCCustomBuildTool" Outputs="release\moc_dragonnettool.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\faq.h" />
+			<File RelativePath="src\flex.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\flex.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\flex.h -o debug\moc_flex.cpp" Description="MOC src\flex.h" Name="VCCustomBuildTool" Outputs="debug\moc_flex.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\flex.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\flex.h -o release\moc_flex.cpp" Description="MOC src\flex.h" Name="VCCustomBuildTool" Outputs="release\moc_flex.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\genie2_interface.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\genie2_plugincommunication.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\inner_macros.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\interface2_cmds.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\interface2_macros.h" />
+			<File RelativePath="..\..\..\..\trunk\src\genie2_interface\interface2_settings.h" />
+			<File RelativePath="src\label.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\label.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\label.h -o debug\moc_label.cpp" Description="MOC src\label.h" Name="VCCustomBuildTool" Outputs="debug\moc_label.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\label.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\label.h -o release\moc_label.cpp" Description="MOC src\label.h" Name="VCCustomBuildTool" Outputs="release\moc_label.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\line.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\line.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\line.h -o debug\moc_line.cpp" Description="MOC src\line.h" Name="VCCustomBuildTool" Outputs="debug\moc_line.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\line.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\line.h -o release\moc_line.cpp" Description="MOC src\line.h" Name="VCCustomBuildTool" Outputs="release\moc_line.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\mainwindow.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\mainwindow.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\mainwindow.h -o debug\moc_mainwindow.cpp" Description="MOC src\mainwindow.h" Name="VCCustomBuildTool" Outputs="debug\moc_mainwindow.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\mainwindow.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\mainwindow.h -o release\moc_mainwindow.cpp" Description="MOC src\mainwindow.h" Name="VCCustomBuildTool" Outputs="release\moc_mainwindow.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\ping.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\ping.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\ping.h -o debug\moc_ping.cpp" Description="MOC src\ping.h" Name="VCCustomBuildTool" Outputs="debug\moc_ping.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\ping.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\ping.h -o release\moc_ping.cpp" Description="MOC src\ping.h" Name="VCCustomBuildTool" Outputs="release\moc_ping.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\profile.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\profile.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\profile.h -o debug\moc_profile.cpp" Description="MOC src\profile.h" Name="VCCustomBuildTool" Outputs="debug\moc_profile.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\profile.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\profile.h -o release\moc_profile.cpp" Description="MOC src\profile.h" Name="VCCustomBuildTool" Outputs="release\moc_profile.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\pushbutton.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\pushbutton.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\pushbutton.h -o debug\moc_pushbutton.cpp" Description="MOC src\pushbutton.h" Name="VCCustomBuildTool" Outputs="debug\moc_pushbutton.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\pushbutton.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\pushbutton.h -o release\moc_pushbutton.cpp" Description="MOC src\pushbutton.h" Name="VCCustomBuildTool" Outputs="release\moc_pushbutton.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\support.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\support.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\support.h -o debug\moc_support.cpp" Description="MOC src\support.h" Name="VCCustomBuildTool" Outputs="debug\moc_support.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\support.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\support.h -o release\moc_support.cpp" Description="MOC src\support.h" Name="VCCustomBuildTool" Outputs="release\moc_support.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\tools.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\tools.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\tools.h -o debug\moc_tools.cpp" Description="MOC src\tools.h" Name="VCCustomBuildTool" Outputs="debug\moc_tools.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\tools.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\tools.h -o release\moc_tools.cpp" Description="MOC src\tools.h" Name="VCCustomBuildTool" Outputs="release\moc_tools.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\traceroute.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\traceroute.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\traceroute.h -o debug\moc_traceroute.cpp" Description="MOC src\traceroute.h" Name="VCCustomBuildTool" Outputs="debug\moc_traceroute.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\traceroute.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\traceroute.h -o release\moc_traceroute.cpp" Description="MOC src\traceroute.h" Name="VCCustomBuildTool" Outputs="release\moc_traceroute.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="src\twidget.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\twidget.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\twidget.h -o debug\moc_twidget.cpp" Description="MOC src\twidget.h" Name="VCCustomBuildTool" Outputs="debug\moc_twidget.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe;src\twidget.h" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_PLUGIN -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;.&quot; -I&quot;src&quot; -I&quot;..\..\..\..\trunk\src\genie2_interface&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 src\twidget.h -o release\moc_twidget.cpp" Description="MOC src\twidget.h" Name="VCCustomBuildTool" Outputs="release\moc_twidget.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter Filter="cpp;c;cxx;moc;h;def;odl;idl;res;" Name="Generated Files" UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File RelativePath="debug\moc_GeniePluginTest.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_GeniePluginTest.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QGenieIface2ShareObject.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QGenieIface2ShareObject.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_QProgressIndicator.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_QProgressIndicator.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_dnslookup.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_dnslookup.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_dragonnettool.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_dragonnettool.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_flex.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_flex.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_label.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_label.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_line.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_line.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_mainwindow.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_mainwindow.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_ping.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_ping.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_profile.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_profile.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_pushbutton.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_pushbutton.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_support.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_support.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_tools.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_tools.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_traceroute.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_traceroute.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_twidget.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_twidget.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\qrc_Images.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\qrc_Images.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+		</Filter>
+		<Filter Filter="qrc;*" Name="Resource Files" ParseFiles="false" UniqueIdentifier="{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}">
+			<File RelativePath="Images.qrc">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\rcc.exe;Images.qrc;Images\an1.png;Images\an2.png;Images\an3.png;Images\datu.png;Images\xt1.png;Images\xt2.png;Images\xt3.png;Images\xt4.png;Images\xt5.png" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\rcc.exe -name Images Images.qrc -o debug\qrc_Images.cpp" Description="RCC Images.qrc" Name="VCCustomBuildTool" Outputs="debug\qrc_Images.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\rcc.exe;Images.qrc;Images\an1.png;Images\an2.png;Images\an3.png;Images\datu.png;Images\xt1.png;Images\xt2.png;Images\xt3.png;Images\xt4.png;Images\xt5.png" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\rcc.exe -name Images Images.qrc -o release\qrc_Images.cpp" Description="RCC Images.qrc" Name="VCCustomBuildTool" Outputs="release\qrc_Images.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="Images\an1.png" />
+			<File RelativePath="Images\an2.png" />
+			<File RelativePath="Images\an3.png" />
+			<File RelativePath="Images\datu.png" />
+			<File RelativePath="Images\xt1.png" />
+			<File RelativePath="Images\xt2.png" />
+			<File RelativePath="Images\xt3.png" />
+			<File RelativePath="Images\xt4.png" />
+			<File RelativePath="Images\xt5.png" />
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

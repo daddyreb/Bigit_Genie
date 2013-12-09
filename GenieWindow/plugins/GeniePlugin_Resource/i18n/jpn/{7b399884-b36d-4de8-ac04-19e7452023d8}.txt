@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="キャンセル"
+L_MAIN_TRAY_AUTOSTART="自動起動を有効にする"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="ネットワーク接続の変更を表示"
+L_MAIN_TITLE_ABOUT="バージョン情報"
+L_MAIN_CHECKFORUPDATES="アップデートの確認"

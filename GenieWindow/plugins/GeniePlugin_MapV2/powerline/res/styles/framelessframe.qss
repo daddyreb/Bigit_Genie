@@ -1,0 +1,228 @@
+QFrame#iframe
+{
+/*QDialog > QFrame*/
+   border-image: url(:/PowerLineImage/bg_dialog.png);
+    border-width: 44px 16px 6px 59px;
+	padding-top: -44px;
+	padding-right: -16px;
+	padding-bottom: -6px;
+	padding-left: -59px;
+	
+    border-radius: 0px;
+
+}
+
+QPushButton
+{   
+	border-style:solid;
+	border-width:1px;
+	border-radius: 4px;
+	height:21px;
+	min-width:65px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 148, 144, 221), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:hover
+{  
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(  240, 240,251), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255); 
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:disabled
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 230, 230,230), stop:1 rgb( 140, 140, 140));
+	color:rgb(140,140,140); 
+	border-color:rgb( 140, 140, 140);
+}
+
+QPushButton:pressed
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 116, 113, 190), stop:1 rgb( 211, 209, 240));
+	color:rgb(255,255,255); 
+	border-color:rgb( 140, 140, 140);
+}
+
+
+QPushButton:focus
+{  
+		outline:none;
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 88, 80, 186), stop:1 rgb( 68, 65, 137));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:focus:hover
+{  
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 240, 240,251), stop:1 rgb( 68, 65, 137));
+}
+
+
+
+/*about dialog label title*/
+QLabel#label_title
+{  
+/*	color: rgb(255, 255, 255);
+	font: 75 16px "Arial";
+	font-weight:bold;
+	*/
+	color: rgb(255, 255, 255);
+	font: bold 14px "Arial";
+}
+
+QGroupBox
+{
+    border: 1px solid lightGray;
+    border-radius: 5px;
+	margin-top: 8px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top left; /* position at the top center */
+	left: 30px;
+
+}
+ 
+QTableWidget
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:rgb(203, 197, 235);
+	gridline-color:rgb(203, 197, 235);
+
+}
+/*QCheckBox::indicator
+{
+	width: 12px;
+	height: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-color:rgb(203, 197, 235);
+}*/
+
+/***横向****/
+
+QScrollBar:vertical
+{
+	border: 1px solid lightGray;
+	border-image: url(:/PowerLineImage/scrollbar_bg_portrait.png);
+
+	weidth: 17px;
+	
+	margin: 20px 0px 20px 0px;
+}
+
+/***横向****/
+QScrollBar:horizontal
+{
+/***整个滚动条*******/
+	border: 1px solid lightGray;
+	border-image: url(:/PowerLineImage/scrollbar_bg.png);
+	height: 17px;
+
+	margin: 0px 20px 0 20px;
+}
+QScrollBar::handle:horizontal
+{
+/****中间的按钮*****/
+	border-image: url(:/PowerLineImage/scrollbar.png);
+	min-width: 20px;
+	max-width: 38px;
+}
+QScrollBar::handle:vertical
+{
+	border-image: url(:/PowerLineImage/scrollbar_portrait.png);
+	min-height: 20px;
+	max-height: 38px;
+}
+QScrollBar::add-line:horizontal
+{
+/***右边按钮*******/
+	border-width: 0px;
+	width: 20px;
+	subcontrol-position: right;
+	subcontrol-origin: margin;
+	border-image: url(:/PowerLineImage/scrollbar_bg.png);
+}
+QScrollBar::add-line:vertical
+{
+	border-width: 0px;
+	height: 20px;
+	subcontrol-position: bottom;
+	subcontrol-origin: margin;
+	border-image: url(:/PowerLineImage/scrollbar_bg_portrait.png);
+}
+QScrollBar::sub-line:horizontal
+{
+	/****左边按钮*******/
+	border-width: 0px;
+	width: 20px;
+	subcontrol-position: left;
+	subcontrol-origin: margin;
+	border-image: url(:/PowerLineImage/scrollbar_bg.png);
+}
+QScrollBar::sub-line:vertical
+{
+	border-width: 0px;
+	height: 20px;
+	subcontrol-position: top;
+	subcontrol-origin: margin;
+	border-image: url(:/PowerLineImage/scrollbar_bg_portrait.png);
+}
+QScrollBar::left-arrow:horizontal
+{
+/***左箭头图标********/
+	border-image: url(:/PowerLineImage/scrollbar_left.png);
+}
+QScrollBar::up-arrow:vertical
+{
+	border-image: url(:/PowerLineImage/but_scroll_up.png);
+}
+QScrollBar::right-arrow:horizontal
+{
+/****右箭头图标*******/
+    border-image: url(:/PowerLineImage/scrollbar_right.png);
+ }
+QScrollBar::down-arrow:vertical
+{
+	border-image: url(:/PowerLineImage/but_scroll_down.png);
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    /***滚动时的背景*****/
+	border-image: url(:/PowerLineImage/scrollbar_bg.png);
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical
+{
+	border-image: url(:/PowerLineImage/scrollbar_bg_portrait.png);
+}
+
+
+QLabel[Label_PIC="1"]
+{
+	border-image: url(:/PowerLineImage/tag.png);
+}
+QProgressBar#lab_refresh
+{
+	border: 1px solid rgb(111, 105, 189);
+	border-radius: 3px;
+	background-color: white;
+}
+QProgressBar#lab_refresh::chunk
+{
+	/*不行就改用label标签加动画做*/
+	background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb( 106, 100,188),stop:0.4 rgb(147, 143, 202), stop:1 rgb( 255, 255, 255));
+}
+QLabel[LAB_TITLE="1"]
+{
+	font: bold;
+	font-size: 14px;
+}
+/********分割线***********/
+QFrame[split_line="1"]{
+	border:1px solid #D4D4D3;
+}

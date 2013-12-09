@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Odhadovaný zbývající čas"
+L_UPGRADE_UPDATE_CANCEL="Storno"
+L_UPGRADE_UPDATE_PAGE_FINISH="Stahování dokončeno.\nKlepnutím na tlačítko "Dokončit" proveďte aktualizaci."
+L_UPGRADE_UPDATE_TITLE="Aktualizace NETGEAR genie"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Aktuální verze je nejnovější."
+L_UPGRADE_UPDATE_PAGE_WRONG="Omlouváme se za dočasný problém. Zkuste stáhnout novou verzi později."
+L_UPGRADE_UPDATE_DOWNLOAD="Stažení"
+L_UPGRADE_UPDATE_FINISH="Dokončit"
+L_UPGRADE_UPDATE_CHECK_DESP="Získávání popisného souboru..."
+L_UPGRADE_UPDATE_DOWN_FILE="Získávání instalačního souboru..."
+L_UPGRADE_UPDATE_LINK="Novou verzi můžete stáhnout také klepnutím na tento odkaz"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Problém síťového připojení"

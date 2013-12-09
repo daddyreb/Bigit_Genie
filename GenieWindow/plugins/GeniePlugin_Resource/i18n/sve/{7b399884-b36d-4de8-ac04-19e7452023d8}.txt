@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Avbryt"
+L_MAIN_TRAY_AUTOSTART="Aktivera autostart"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Visa ändring av nätverksanslutning"
+L_MAIN_TITLE_ABOUT="Om"
+L_MAIN_CHECKFORUPDATES="Sök efter uppdateringar"

@@ -1,0 +1,14 @@
+﻿##1950##
+
+L_UPGRADE_DOWNLOAD_LEAVETIME="Geschatte resterende tijd"
+L_UPGRADE_UPDATE_CANCEL="Annuleren"
+L_UPGRADE_UPDATE_PAGE_FINISH="Downloaden voltooid.\nKlik op Voltooien om te upgraden."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie upgrade"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="De huidige versie is de meest recente versie."
+L_UPGRADE_UPDATE_PAGE_WRONG="We ondervinden een tijdelijk probleem. Probeer de nieuwe versie later opnieuw te downloaden."
+L_UPGRADE_UPDATE_DOWNLOAD="Downloaden"
+L_UPGRADE_UPDATE_FINISH="Voltooien"
+L_UPGRADE_UPDATE_CHECK_DESP="Beschrijvingsbestand wordt opgehaald..."
+L_UPGRADE_UPDATE_DOWN_FILE="Bestand installatieprogramma wordt opgehaald..."
+L_UPGRADE_UPDATE_LINK="U kunt de nieuwe versie ook downloaden door op deze koppeling te klikken"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Probleem met netwerkverbinding"

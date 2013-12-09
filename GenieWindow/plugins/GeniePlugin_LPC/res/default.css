@@ -1,0 +1,131 @@
+LPCMainFrame 
+{
+    padding: 7 7 7 7;
+}
+
+QLabel
+{
+	qproperty-wordWrap: true;
+}
+
+QLabel[LPCTags~=SingleLine] 
+{
+	qproperty-wordWrap: false;
+}
+
+QLabel#title
+{
+	font: bold 16pt;
+}
+
+QWidget#scrollArea
+{
+    background-color: rgba(0,0,0,0);
+}
+
+QWidget#scrollAreaWidgetContents 
+{
+    background-color: rgba(0,0,0,0);
+}
+
+QFrame[LPCTags~=BGFrame]
+{
+	background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #ffffff, stop: 1 #D6D6D6);
+    border:1px solid #cccccc;
+	border-radius: 5px;
+	padding: 10 10 10 10;
+	margin-top: 20;
+}
+
+LPCPopupFrame
+{
+    border-image: url(:/images/bg_dlg_mid.png);
+    border-width: 50px 12px 12px 60px;
+    padding-top: -40px;
+    padding-left: -48px;
+    border-radius: 0px;
+    margin: 0 0 0 0;
+}
+
+QLabel#lpcPopupFrameTitle
+{
+    color: White;
+    min-height: 30px;
+    padding-left: 56px;
+    padding-right: 10px;
+    font: bold 14px;
+}
+
+LPCNavPopup
+{
+    margin: 0 0 0 0;
+}
+
+QPushButton
+{   
+	border-style:solid;
+	border-width:1px;
+	border-radius: 4px;
+	height:21px;
+	min-width:65px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 148, 144, 221), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton[LPCWide="1"]
+{   
+	border-style:solid;
+	border-width:1px;
+	border-radius: 4px;
+	height:21px;
+	min-width:-1px;
+	padding-left:4px;
+	padding-right:4px;
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 148, 144, 221), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:hover
+{  
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(  240, 240,251), stop:1 rgb( 116, 113, 190));
+	color:rgb(255,255,255); 
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:disabled
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 230, 230,230), stop:1 rgb( 140, 140, 140));
+	color:rgb(140,140,140); 
+	border-color:rgb( 140, 140, 140);
+}
+
+QPushButton:pressed
+{   
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 116, 113, 190), stop:1 rgb( 211, 209, 240));
+	color:rgb(255,255,255); 
+	border-color:rgb( 140, 140, 140);
+}
+
+QPushButton:focus
+{  
+		outline:none;
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 88, 80, 186), stop:1 rgb( 68, 65, 137));
+	color:rgb(255,255,255);
+	border-color:rgb( 116, 113, 190);
+}
+
+QPushButton:focus:hover
+{  
+       background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb( 240, 240,251), stop:1 rgb( 68, 65, 137));
+}
+
+
+QDialogButtonBox
+{
+    button-layout: 0;
+}

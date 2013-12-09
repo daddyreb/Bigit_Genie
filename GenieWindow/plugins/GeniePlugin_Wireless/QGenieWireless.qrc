@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/W_Signal_5.png</file>
+        <file>image/A_WNetwork.png</file>
+        <file>image/I_WNetwork.png</file>
+        <file>image/Sec_Enabled.png</file>
+        <file>image/W_Signal_0.png</file>
+        <file>image/W_Signal_1.png</file>
+        <file>image/W_Signal_2.png</file>
+        <file>image/W_Signal_3.png</file>
+        <file>image/W_Signal_4.png</file>
+        <file>image/pwd_invalid.png</file>
+        <file>image/RBtSelect.png</file>
+        <file>image/LBt.png</file>
+        <file>image/LBtDisable.png</file>
+        <file>image/LBtSelect.png</file>
+        <file>image/RBt.png</file>
+        <file>image/RBtDisable.png</file>
+        <file>css/default.css</file>
+    </qresource>
+</RCC>

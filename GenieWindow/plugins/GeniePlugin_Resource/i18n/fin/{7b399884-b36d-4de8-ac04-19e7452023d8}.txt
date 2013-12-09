@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Peruuta"
+L_MAIN_TRAY_AUTOSTART="Ota automaattinen käynnistys käyttöön"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Näytä verkkoyhteyden muutokset"
+L_MAIN_TITLE_ABOUT="Tietoja"
+L_MAIN_CHECKFORUPDATES="Etsi päivityksiä"

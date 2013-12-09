@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>gai1.png</file>
+        <file>Refresh.png</file>
+        <file>RefreshSelected.png</file>
+        <file>bjtu.png</file>
+        <file>gai2.png</file>
+    </qresource>
+</RCC>

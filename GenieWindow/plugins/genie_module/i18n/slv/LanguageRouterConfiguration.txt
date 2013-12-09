@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="Nast. usmerjeval."
+L_RTCF_BIGBT_CLICKHERE="Kliknite tukaj"
+
+L_RTCF_LOGIN_TITLE="Prijavno ime za usmerjevalnik"
+L_RTCF_LOGIN_USER="Uporabniško ime:"
+L_RTCF_PASSWORD="Geslo:"
+L_RTCF_LOGIN_REMEMBER="Zapomni si geslo"
+L_RTCF_LOGIN_BUT_LEFT="Prijava"
+L_RTCF_CANCEL="Prekliči"
+
+
+L_RTCF_SETTING_SSID="Ime brezžičnega omrežja (SSID):"
+L_RTCF_SETTING_CHANNEL="Izbira kanala:"
+L_RTCF_SETTING_MODE="Način:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(8–63 znakov ali 64 šestnajstiških številk)"
+L_RTCF_SETTING_APPLY="Uporabi"
+
+L_RTCF_IMSGBOX_OK="V redu"
+
+
+L_RTCF_INFO_CHANNEL="Izbira kanala:"
+L_RTCF_INFO_CHOICE="Informacije o brezžičnem omrežju"
+L_RTCF_INFO_PASSWOED="Omrežni ključ (geslo):"
+L_RTCF_INFO_REFRESH="Osveži"
+L_RTCF_INFO_MODIFY="Spremeni"
+L_RTCF_INFO_LOGINOUT="Odjava"
+L_RTCF_INFO_EXPORT="Izvozi"
+
+L_RTCF_TAB_TITLE="Brezžične nastavitve"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="Spreminjanje nastavitev lahko onemogoči aktivni promet v brezžičnem omrežju. Ali želite nadaljevati?"
+L_RTCF_MSG_NOTNETGEAR="Prijava ni uspela! Preverite, ali je računalnik povezan z usmerjevalnikom NETGEAR."
+L_RTCF_MSG_PWDWRONG="Prijava ni uspela. Preverite geslo."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="Prijava ni uspela. Časovna omejitev usmerjevalnika je potekla."
+L_RTCT_MSG_PLEASEWAIT="Osveževanje. Počakajte ..."
+L_RTCT_MSG_COMMITWAIT="Prejemam odzivne informacije usmerjevalnika. Počakajte %1 sekundo."
+L_RTCT_MSG_GACC="Dostop gostom je v uporabi. Če dostop onemogočite, lahko prekinete aktivni promet v brezžičnem omrežju. Ali želite nadaljevati?"
+L_RTCT_MSG_SOAPERROR="Usmerjevalnik ne podpira te funkcije."
+L_RTCT_MSG_SOAPERROR_LOGIN="Usmerjevalnik ne podpira te funkcije. Nadgradite vdelano programsko opremo usmerjevalnika."
+L_RTCT_MSG_GACC_NOTSUPPORTED="Usmerjevalnik ne podpira dostopa gostom."
+L_RTCF_MSG_TIMEOUT="Časovna omejitev za operacijo je potekla."
+
+
+
+L_GACC_BIGBT="Dostop gostom"
+L_GACC_ENABLEGUEST="Omogoči dostop gostom"
+L_GACC_DISABLEGUEST="Onemogoči dostop gostom"
+L_GACC_ENABLE_TITLE="Trenutna nastavitev:"
+L_GACC_ENABLED="Omogočeno"
+L_GACC_NOTENABLED="onemogočen"
+
+L_GACC_GUESTWIRELESS_SSID="Dostop gostom (SSID):"
+L_GACC_WORKTIME="Časovno obdobje:"
+
+L_RTCF_DEFAULT="(privzeto je "password")"
+L_RTCF_LIST_TITLE="Za upravljanje teh nastavitev usmerjevalnika morate biti prijavljeni:"
+
+L_RTCF_TRAFFICMETTER="Merilnik prometa"
+L_RTCF_FUPDATE="Nadgradnja usmerjevalnika"
+
+L_RTCF_ROUTETYPE="Model usmerjevalnika"
+L_RTCF_FIRMWARE_VERSION="Različica vdelane programske opreme"
+
+L_RTCF_LOGIN_LIST=".Brezžične nastavitve\n.ReadySHARE\n.Dostop gostom\n.Merilnik prometa\n.Posodobitev usmerjevalnika"
+
+L_GACC_ALWAYS="Vedno"
+L_GACC_1HOUR="1 ura"
+L_GACC_5HOUR="5 ur"
+L_GACC_10HOUR="10 ur"
+L_GACC_1DAY="1 dan"
+L_GACC_1WEEK="1 teden"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="Osnovna"
+L_READY_SHARE_FUN_TWO="Omogoča vam dostop do pomnilnika ReadySHARE z vsakega mesta"
+L_READY_SHARE_FUN_THREE="Tiskanje ReadySHARE"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="Nazaj"
+L_READY_SHARE_CONTINUE="Nadaljuj"
+L_READY_SHARE_NOT_SUPPORT="Usmerjevalnik ne podpira te funkcije."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE Način"
+L_READY_SHARE_NETWORK_NAME="Ime omrežja ali naprave:"
+L_READY_SHARE_REGISTER="Registracija"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="Storitev ReadySHARE Cloud vam omogoča internetni oddaljeni dostop do pomnilnika USB, ki je vključen v vrata USB usmerjevalnika."
+L_READY_SHARE_REMOTE_HOW_WORKS="Nastavitev storitve ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="1. korak: potrebujete račun ReadySHARE Cloud. Če ga nimate,<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>kliknite tukaj</a>, da ga ustvarite."
+L_READY_SHARE_REMOTE_STEPS_TWO="2 korak: na tej strani vnesite uporabniško ime in geslo za ReadySHARE Cloud, da z računom registrirate usmerjevalnik in povezano napravo USB."
+L_READY_SHARE_REMOTE_STEPS_THREE="3. korak: z računom se ponovno prijavite na strani <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a>. Videti morate napravo USB, ki je povezana z usmerjevalnikom."
+L_READY_SHARE_REMOTE_STEPS_FOUR="4. korak: prvič morate prenesti odjemalec Windows, ki se uporablja za vzpostavitev varne povezave med računalnikom in napravo USB usmerjevalnika. Prijavite se v odjemalec, da boste lahko z vsakega mesta dostopali do naprave USB."
+L_READY_SHARE_REMOTE_START_NOW="Zdaj omogočite račun ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="Uporabniško ime:"
+L_READY_SHARE_REMOTE_PASSWORD="Geslo:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="Če nimate računa ReadySHARE Cloud, kliknite tukaj, da ga ustvarite"
+L_READY_SHARE_PRINTING="Tiskanje ReadySHARE"
+L_READY_SHARE_PRINTING_DESC="Skupna raba tiskanja za računalnike Windows in Mac s tiskalnikom USB"
+L_READY_SHARE_PRINTING_HOW_WORKS="Kako deluje?"
+L_READY_SHARE_PRINTING_STEPS_ONE="1. korak: tiskalnik USB s kablom USB vključite v vrata USB usmerjevalnika."
+L_READY_SHARE_PRINTING_STEPS_TWO="2. korak: v vse računalnike, s katerimi boste uporabljali ta tiskalnik, namestite programsko opremo z gonilniki za tiskalnik USB."
+L_READY_SHARE_PRINTING_STEPS_THREE="3. korak: v vse računalnike, s katerimi boste uporabljali ta tiskalnik, prenesete pripomoček NETGEAR USB Control Center s spletne strani <a href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="Sledite navodilom pripomočka, da tiskalnik povežete z računalnikom in začnete tiskati."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>Opomba:</b> brez odjemalca lahko brskate po vsebini naprave USB, ne morete pa odpirati ali spreminjati datotek."
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>Opomba:</b> internetna povezava bo vzpostavljena, dokler ne prekličete registracije."
+L_READY_SHARE_REMOTE_REGESTER_USER="ReadySHARE Cloud je registriran z uporabnikom:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="Za dostop do pomnilnika z vsake lokacije sledite korakom 2–4"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="Kliknite <B>Prekliči registracijo</B>, da račun ReadySHARE Cloud registrirate z drugim uporabnikom"
+L_READY_SHARE_UNREGISTER="Prekliči registracijo"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Becsült hátralévő idő"
+L_UPGRADE_UPDATE_CANCEL="Mégse"
+L_UPGRADE_UPDATE_PAGE_FINISH="Letöltés kész.\nA frissítéshez kattintson a "Befejezés" elemre."
+L_UPGRADE_UPDATE_TITLE="NETGEAR genie frissítés"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="A jelenlegi verzió a legfrissebb."
+L_UPGRADE_UPDATE_PAGE_WRONG="Ideiglenes probléma. Próbálja meg később letölteni az új verziót."
+L_UPGRADE_UPDATE_DOWNLOAD="Letöltés"
+L_UPGRADE_UPDATE_FINISH="Befejezés"
+L_UPGRADE_UPDATE_CHECK_DESP="Leíró fájl lekérése..."
+L_UPGRADE_UPDATE_DOWN_FILE="Telepítőfájl lekérése..."
+L_UPGRADE_UPDATE_LINK="Az új verzió erre a hivatkozásra kattintva is letölthető"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Hálózati csatlakozási probléma"

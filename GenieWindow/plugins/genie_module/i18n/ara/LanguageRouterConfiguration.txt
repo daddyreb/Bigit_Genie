@@ -1,0 +1,118 @@
+﻿##1500##
+L_RTCF_BIGBT="إعدادات الموجه"
+L_RTCF_BIGBT_CLICKHERE="انقر هنا"
+
+L_RTCF_LOGIN_TITLE="تسجيل دخول الموجه"
+L_RTCF_LOGIN_USER="اسم المستخدم:"
+L_RTCF_PASSWORD="كلمة المرور:"
+L_RTCF_LOGIN_REMEMBER="تذكر كلمة المرور"
+L_RTCF_LOGIN_BUT_LEFT="تسجيل الدخول"
+L_RTCF_CANCEL="إلغاء"
+
+
+L_RTCF_SETTING_SSID="الاسم اللاسلكي (SSID):"
+L_RTCF_SETTING_CHANNEL="تحديد القناة:"
+L_RTCF_SETTING_MODE="الوضع:"
+L_RTCF_SETTING_SECURITY="Security Options:"
+
+L_RTCF_SETTING_NOTE="(من 8 إلى 63 حرفًا أو 64 رقمًا سداسيًا عشريًا)"
+L_RTCF_SETTING_APPLY="تطبيق"
+
+L_RTCF_IMSGBOX_OK="موافق"
+
+
+L_RTCF_INFO_CHANNEL="تحديد القناة:"
+L_RTCF_INFO_CHOICE="المعلومات اللاسلكية"
+L_RTCF_INFO_PASSWOED="مفتاح الشبكة (كلمة المرور):"
+L_RTCF_INFO_REFRESH="تحديث"
+L_RTCF_INFO_MODIFY="تعديل"
+L_RTCF_INFO_LOGINOUT="تسجل الخروج"
+L_RTCF_INFO_EXPORT="تصدير"
+
+L_RTCF_TAB_TITLE="الإعدادات اللاسلكية"
+
+
+
+L_RTCF_MSG_NOTIFYCUT="يمكن أن يؤدي تغيير الإعدادات إلى تعطيل حركة المرور النشطة على الشبكة اللاسلكية. هل تريد المتابعة؟"
+L_RTCF_MSG_NOTNETGEAR="فشل تسجيل الدخول! يرجى التحقق لمعرفة ما إذا كان هذا الكمبيوتر متصلاً بموجه NETGEAR."
+L_RTCF_MSG_PWDWRONG="فشل تسجيل الدخول، يرجى التحقق من كلمة المرور."
+
+
+L_RTCF_MSG_LOGINTIMEOUT="فشل تسجيل الدخول. انتهت مهلة استجابة الموجه."
+L_RTCT_MSG_PLEASEWAIT="يتم التحديث، يرجى الانتظار..."
+L_RTCT_MSG_COMMITWAIT="استلام معلومات استجابة الموجه، يرجى الانتظار %1 ثانية."
+L_RTCT_MSG_GACC="ميزة وصول الضيوف قيد الاستخدام. ويمكن أن يؤدي تعطيلها إلى تعطيل حركة المرور النشطة على الشبكة اللاسلكية. هل تريد المتابعة؟"
+L_RTCT_MSG_SOAPERROR="لا يدعم الموجه هذه الوظيفة."
+L_RTCT_MSG_SOAPERROR_LOGIN="لا يدعم الموجه هذه الوظيفة، يرجى ترقية برنامج الموجه الثابت."
+L_RTCT_MSG_GACC_NOTSUPPORTED="لا يدعم الموجه وظيفة وصول الضيوف."
+L_RTCF_MSG_TIMEOUT="انتهت مهلة العملية."
+
+
+
+L_GACC_BIGBT="وصول الضيوف"
+L_GACC_ENABLEGUEST="تمكين وصول الضيوف"
+L_GACC_DISABLEGUEST="تعطيل وصول الضيوف"
+L_GACC_ENABLE_TITLE="الإعداد الحالي:"
+L_GACC_ENABLED="ممكّن"
+L_GACC_NOTENABLED="معطَّل"
+
+L_GACC_GUESTWIRELESS_SSID="وصول الضيوف (SSID):"
+L_GACC_WORKTIME="الفترة الزمنية:"
+
+L_RTCF_DEFAULT="(الإعداد الافتراضي هو "password" (كلمة المرور)"
+L_RTCF_LIST_TITLE="تسجيل الدخول مطلوب لإدارة إعدادات الموجه هذه:"
+
+L_RTCF_TRAFFICMETTER="مقياس حركة المرور"
+L_RTCF_FUPDATE="ترقية الموجه"
+
+L_RTCF_ROUTETYPE="طراز الموجه"
+L_RTCF_FIRMWARE_VERSION="إصدار البرنامج الثابت"
+
+L_RTCF_LOGIN_LIST=".إعدادات لاسلكية\n.ReadySHARE\n.وصول الضيف\n.مؤشر حركة المرور\n.تحديث الموجه"
+
+L_GACC_ALWAYS="دائمًا"
+L_GACC_1HOUR="ساعة واحدة"
+L_GACC_5HOUR="5 ساعات"
+L_GACC_10HOUR="10 ساعات"
+L_GACC_1DAY="يوم واحد"
+L_GACC_1WEEK="أسبوع واحد"
+
+L_READY_SHARE_BIGBT="ReadySHARE"
+L_READY_SHARE_DESC="ReadySHARE"
+L_READY_SHARE_FUN_ONE="أساسي"
+L_READY_SHARE_FUN_TWO="تسمح لك الوصول إلى تخزين ReadySHARE أينما كنت"
+L_READY_SHARE_FUN_THREE="طباعة ReadySHARE"
+L_READY_SHARE_LIVE="ReadySHARE"
+L_READY_SHARE_BACK="السابق"
+L_READY_SHARE_CONTINUE="متابعة"
+L_READY_SHARE_NOT_SUPPORT="لا يدعم الموجه هذه الوظيفة."
+L_READY_SHARE_SWITCH_TYPE="ReadySHARE الوضع"
+L_READY_SHARE_NETWORK_NAME="اسم الشبكة/الجهاز:"
+L_READY_SHARE_REGISTER="تسجيل"
+L_READY_SHARE_REMOTE="ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_DESC="تمنحك ميزة ReadySHARE Cloud إمكانية الوصول عن بعد عبر الإنترنت إلى جهاز تخزين USB متصل بمنفذ USB خاص بموجهك."
+L_READY_SHARE_REMOTE_HOW_WORKS="كيفية إعداد ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_STEPS_ONE="الخطوة 1: تحتاج إلى حساب ReadySHARE Cloud. إذا كنت لا تملك حساباً،<a  href='https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>انقر هنا</a> للحصول على واحد."
+L_READY_SHARE_REMOTE_STEPS_TWO="الخطوة 2: في هذه الصفحة، أدخل اسم مستخدم وكلمة مرور ReadySHARE Cloud الخاصين بك لتسجيل موجهك وجهاز USB المتصل به بواسطة حسابك."
+L_READY_SHARE_REMOTE_STEPS_THREE="الخطوة 3: أعد تسجيل الدخول إلى موقع ويب <a  href='http://readyshare.netgear.com/'>http://readyshare.netgear.com/</a> بواسطة حسابك. يجب أن ترى جهاز USB المتصل بموجهك."
+L_READY_SHARE_REMOTE_STEPS_FOUR="الخطوة 4: سيُطلب منك في المرة الأولى تنزيل عميل Windows الذي يتم استخدامه لإجراء اتصال آمن من جهاز الكمبيوتر الخاص بك بجهاز USB الخاص بالموجه. سجّل الدخول إلى هذا العميل ويمكنك الوصول إلى جهاز USB أينما كنت."
+L_READY_SHARE_REMOTE_START_NOW="ابدأ الآن لتمكين ReadySHARE Cloud"
+L_READY_SHARE_REMOTE_USERNAME="اسم المستخدم:"
+L_READY_SHARE_REMOTE_PASSWORD="كلمة المرور:"
+L_READY_SHARE_REMOTE_GET_ACCOUNT="إذا كنت لا تملك حساب ReadySHARE Cloud، انقر هنا للحصول على واحد"
+L_READY_SHARE_PRINTING="طباعة ReadySHARE"
+L_READY_SHARE_PRINTING_DESC="مشاركة الطباعة لأجهزة الكمبيوتر التي تعمل بنظام التشغيل Windows وأجهزة الكمبيوتر التي تعمل بنظام التشغيل Mac مع طابعة USB"
+L_READY_SHARE_PRINTING_HOW_WORKS="كيف يعمل؟"
+L_READY_SHARE_PRINTING_STEPS_ONE="الخطوة 1: وصّل طابعة USB بمنفذ USB الموجود على الموجّه بواسطة كبل طابعة USB."
+L_READY_SHARE_PRINTING_STEPS_TWO="الخطوة 2: ثبّت برنامج تشغيل طابعة USB على كل كمبيوتر سيتشارك في الطابعة."
+L_READY_SHARE_PRINTING_STEPS_THREE="الخطوة 3: على كل كمبيوتر سيتشارك في الطابعة، قم بتنزيل أداة المساعدة الخاصة بـ NETGEAR USB Control Center‏ من <a  href='http://www.netgear.com/readyshare'>http://www.netgear.com/readyshare</a>. "
+L_READY_SHARE_PRINTING_STEPS_FOUR="اتبع الإرشادات في الأداة المساعدة للاتصال بالطابعة من الكمبيوتر والطباعة."
+L_READY_SHARE_REMOTE_STEPS_NOTE="<b>ملاحظة:</b> بدون هذا العميل، يمكنك استعراض محتويات جهاز USB ولكنك لا تستطيع فتح الملفات أو إجراء تغييرات عليها"
+L_READY_SHARE_REMOTE_START_NOW_DESC="If you don't have a ReadySHARE Remote account <a href = 'https://readyshare.netgear.com/site/index.jsp?pid=4&src=device'>click here</a> to get one."
+L_READY_SHARE_REMOTE_REGESTER_NOTE="<b>ملاحظة:</b> سيتم إبقاء الإنترنت نشطة حتى إلغاء التسجيل."
+L_READY_SHARE_REMOTE_REGESTER_USER="تم تسجيل ReadySHARE Cloud مع المستخدم:"
+L_READY_SHARE_REMOTE_REGESTER_ANYWAY="يمكنك اتباع الخطوات 2~4 أعلاه للوصول إلى التخزين من أي مكان"
+L_READY_SHARE_REMOTE_REGESTER_DIFFERENT="انقر فوق <B>إلغاء تسجيل</B> لتسجيل ReadySHARE Cloud مع مستخدم مختلف"
+L_READY_SHARE_UNREGISTER="إلغاء التسحيل"
+L_READY_SHARE_TIMEOUT="Http Request Timeout."
+L_READY_SHARE_INVALID_USER="Invalid User Name or Password."

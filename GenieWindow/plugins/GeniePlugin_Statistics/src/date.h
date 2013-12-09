@@ -1,0 +1,4 @@
+
+#define VERSTION_STR_DATE "2011-09-30"
+#define VERSTION_STR_TIME "14:36:53"
+#define REPO_VERSION "888"

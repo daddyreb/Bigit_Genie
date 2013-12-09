@@ -1,0 +1,23 @@
+LIBRARY	"NetcardApi"
+EXPORTS
+enable_longtime_operation_interruptable @1
+disble_longtime_operation_interruptable @2
+FreeStrListBuffer						@3
+EnumInterfaces							@4
+GetInterfaceDnsserver					@5
+GetInterfaceGateway						@6
+IsNicGatewaysOk							@7
+IsNicDnsServersOk						@8
+IsNicCablePluggedin						@9
+IsNicDisabled							@10
+NetCardStateChange						@11
+IsDhcpEnabled							@12
+EnableDhcp								@13
+EnableDnsFromDhcp						@14
+SetInterfaceDnses						@15
+FreeNicListBuffer						@16
+RepairGatewayorDnsOk					@17
+ConfigDNSManually						@18
+IpRenewInterface						@19
+IsHostReachble							@20
+IsThisPhysicalNic						@21

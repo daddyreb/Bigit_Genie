@@ -1,0 +1,13 @@
+﻿##1950##
+L_UPGRADE_DOWNLOAD_LEAVETIME="Odhad zostávajúceho času"
+L_UPGRADE_UPDATE_CANCEL="Zrušiť"
+L_UPGRADE_UPDATE_PAGE_FINISH="Preberanie sa dokončilo.\nNadstavbu vykonajte kliknutím na položku „Dokončiť“."
+L_UPGRADE_UPDATE_TITLE="Nadstavba aplikácie NETGEAR genie"
+L_UPGRADE_UPDATE_ALREADY_NEWEST="Súčasná verzia je aktuálna."
+L_UPGRADE_UPDATE_PAGE_WRONG="Vyskytol sa u nás dočasný problém. Pokúste sa prevziať novú verziu neskôr."
+L_UPGRADE_UPDATE_DOWNLOAD="Prevziať"
+L_UPGRADE_UPDATE_FINISH="Dokončiť"
+L_UPGRADE_UPDATE_CHECK_DESP="Preberá sa súbor s popisom..."
+L_UPGRADE_UPDATE_DOWN_FILE="Preberá sa súbor inštalátora..."
+L_UPGRADE_UPDATE_LINK="Taktiež máte možnosť prevziať novú verziu kliknutím na toto prepojenie"
+L_UPGRADE_UPDATE_NETWORK_ERROR="Problém s internetovým pripojením"

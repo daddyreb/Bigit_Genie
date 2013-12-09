@@ -1,0 +1,12 @@
+﻿##1300##
+L_PARENTAL_CONTROL_BIGBT="Rodičovské zámky"
+L_PARENTAL_CONTROL_DESC="Rodičovské zámky NETGEAR Live zajišťované funkcí OpenDNS představují routerové řešení filtrování webových stránek dostupné na bezdrátových routerech NETGEAR Wireless-N a v produktech využívajících bránu."
+L_PARENTAL_CONTROL_MANAGER="Spravovat"
+L_PARENTAL_CONTROL_INSTALL="Instalovat"
+L_PARENTAL_CONTROL_ENABLE="Instalováno"
+L_PARENTAL_CONTROL_NOT_ENABLE="Neinstalováno"
+L_PARENTAL_CONTROL_FUN_ONE=">Blokuje až 50 kategorií obsahu Internetu"
+L_PARENTAL_CONTROL_FUN_TWO=">Zajišťuje ochranu před zcizením osobních údajů a scammingem"
+L_PARENTAL_CONTROL_FUN_THREE=">ZDARMA pro zákazníky společnosti NETGEAR!"
+L_PARENTAL_CONTROL_LIVE="Rodičovské zámky"
+L_PARENTAL_CONTROL_CLICKHERE="Klepněte sem"

@@ -1,0 +1,11 @@
+SUBDIRS										=	$(MDNSRESPONDER_LIB_SUBDIRS)
+DIST_SUBDIRS								=	Posix Win32
+sources_h									=	DNSServices.h mDNSClientAPI.h mDNSDebug.h mDNSPlatformFunctions.h mDNSPlatform.h mDNSServant.h
+sources_c									=	DNSServices.c mDNS.c mDNSPlatform.c mDNSServant.c
+INCLUDES										=	-I$(top_srcdir)/include/ -I$(top_srcdir)/src/lib/howl
+lib_LTLIBRARIES							=	libmDNSResponder.la
+libmDNSResponder_la_SOURCES			=	$(sources_h) $(sources_c)
+libmDNSResponder_la_LDFLAGS			=	-version-info $(MDNSRESPONDER_LIBRARY_VERSION)
+EXTRA_libmDNSResponder_la_SOURCES	=	Posix/posix_mdns.c
+libmDNSResponder_la_LIBADD				=	@MDNSRESPONDER_LIB_OBJECTS@
+libmDNSResponder_la_DEPENDENCIES		=	@MDNSRESPONDER_LIB_OBJECTS@

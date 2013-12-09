@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvtNetworkTool", "SvtNetworkTool.vcxproj", "{85C6EE39-F959-3529-B233-5D61001B8726}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvtNetworkTool_old", "SvtNetworkTool_old.vcxproj", "{1F80B3F1-69BC-3846-9B9E-07110CC74297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85C6EE39-F959-3529-B233-5D61001B8726}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85C6EE39-F959-3529-B233-5D61001B8726}.Debug|Win32.Build.0 = Debug|Win32
+		{85C6EE39-F959-3529-B233-5D61001B8726}.Release|Win32.ActiveCfg = Release|Win32
+		{85C6EE39-F959-3529-B233-5D61001B8726}.Release|Win32.Build.0 = Release|Win32
+		{1F80B3F1-69BC-3846-9B9E-07110CC74297}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F80B3F1-69BC-3846-9B9E-07110CC74297}.Debug|Win32.Build.0 = Debug|Win32
+		{1F80B3F1-69BC-3846-9B9E-07110CC74297}.Release|Win32.ActiveCfg = Release|Win32
+		{1F80B3F1-69BC-3846-9B9E-07110CC74297}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

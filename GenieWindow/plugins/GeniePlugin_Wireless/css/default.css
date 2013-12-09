@@ -1,0 +1,26 @@
+#frame_container
+{
+    border-image: url(:/image/SmallDlgBkg.png);
+    border-width: 50px 12px 12px 60px;
+    padding-top: -50px;
+    padding-left: -48px;
+    border-radius: 0px;
+    margin: 0 0 0 0;
+}
+
+#frame_container_macx
+{
+    border-image: url(:/image/Mac_SmallDlgBkg.png);
+    border-width: 50px 12px 12px 60px;
+    padding-top: -50px;
+    padding-left: -48px;
+    border-radius: 0px;
+    margin: 0 0 0 0;
+}
+
+#dlg_title_lb
+{
+    color:rgb(255,255,255);
+    font-size:12px;
+    font-weight:bold;
+}

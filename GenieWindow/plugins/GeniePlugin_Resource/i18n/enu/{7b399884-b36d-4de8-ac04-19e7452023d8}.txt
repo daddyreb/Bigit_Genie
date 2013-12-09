@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Cancel"
+L_MAIN_TRAY_AUTOSTART="Enable Autostart"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Show Network Connectivity Change"
+L_MAIN_TITLE_ABOUT="About"
+L_MAIN_CHECKFORUPDATES="Check for updates"

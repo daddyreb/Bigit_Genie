@@ -1,0 +1,7 @@
+﻿##300##
+L_MAIN_OK="OK"
+L_MAIN_CANCEL="Отмена"
+L_MAIN_TRAY_AUTOSTART="Включить функцию автозапуска"
+L_MAIN_TRAY_NETCONNECTION_CHANGE="Показывать изменение сетевого подключения"
+L_MAIN_TITLE_ABOUT="Информация"
+L_MAIN_CHECKFORUPDATES="Обновить"

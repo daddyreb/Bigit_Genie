@@ -1,0 +1,12 @@
+/*#i_frame
+{
+    border-image: url(:/map/others/DetailViewFrameBkg.png);
+    border-width: 50px 12px 12px 60px;
+    padding-top: -50px;
+    padding-left: -48px;
+    border-radius: 0px;
+    margin: 0 0 0 0;
+}*/
+ /*login dialog*/
+
+

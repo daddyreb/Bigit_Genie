@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioProject Keyword="Qt4VSv1.0" Name="Topology" ProjectGUID="{BA26B2B9-214D-3AE1-9FB9-B2DBEA45A9A3}" ProjectType="Visual C++" Version="9,00">
+	<Platforms>
+		<Platform Name="Win32" />
+	</Platforms>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="4" IntermediateDirectory="debug\" Name="Debug|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;..\..\Tools\SVTWin32Utils&quot;,&quot;..\..\inc&quot;,&quot;..\..\src&quot;,&quot;..\..\src\soap&quot;,&quot;..\..\src\SvtNetworkTool&quot;,&quot;..\..\src\SvtNetworkTool\libs\msvc&quot;,&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;debug&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="debug\" BufferSecurityCheck="false" DebugInformationFormat="3" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="debug\" Optimization="4" PreprocessorDefinitions="UNICODE,WIN32,QT_LARGEFILE_SUPPORT,TEST_VALIDATE,QT_NO_DEBUG_OUTPUT,NOTIFY_ADDED_DEVICE,REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED,RETRY_BEFORE_OFFLINE,USE_NETSCAN_HELPER_THREAD,BLOCK_DEVICE,USE_RDP,USE_PUTTY,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" ProgramDataBaseFileName=".\" RuntimeLibrary="3" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCLibrarianTool" OutputFile=".\Topologyd.lib" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="UNICODE,WIN32,QT_LARGEFILE_SUPPORT,TEST_VALIDATE,QT_NO_DEBUG_OUTPUT,NOTIFY_ADDED_DEVICE,REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED,RETRY_BEFORE_OFFLINE,USE_NETSCAN_HELPER_THREAD,BLOCK_DEVICE,USE_RDP,USE_PUTTY,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,_DEBUG" ResourceOutputFileName="/$(InputName).res" />
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" ConfigurationType="4" IntermediateDirectory="release\" Name="Release|Win32" OutputDirectory="." UseOfMfc="0">
+			<Tool AdditionalIncludeDirectories="&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot;,&quot;..\..\Tools\SVTWin32Utils&quot;,&quot;..\..\inc&quot;,&quot;..\..\src&quot;,&quot;..\..\src\soap&quot;,&quot;..\..\src\SvtNetworkTool&quot;,&quot;..\..\src\SvtNetworkTool\libs\msvc&quot;,&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot;,&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot;,&quot;release&quot;,c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default" AdditionalOptions="-Zm200 -w34100 -w34189" AssemblerListingLocation="release\" BufferSecurityCheck="false" DebugInformationFormat="0" ExceptionHandling="1" GeneratePreprocessedFile="0" Name="VCCLCompilerTool" ObjectFile="release\" Optimization="2" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,TEST_VALIDATE,QT_NO_DEBUG_OUTPUT,NOTIFY_ADDED_DEVICE,REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED,RETRY_BEFORE_OFFLINE,USE_NETSCAN_HELPER_THREAD,BLOCK_DEVICE,USE_RDP,USE_PUTTY,QT_NO_DEBUG,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT,NDEBUG" ProgramDataBaseFileName=".\" RuntimeLibrary="2" RuntimeTypeInfo="true" SuppressStartupBanner="true" TreatWChar_tAsBuiltInType="false" WarningLevel="3" />
+			<Tool Name="VCCustomBuildTool" />
+			<Tool Name="VCLibrarianTool" OutputFile=".\Topology.lib" SuppressStartupBanner="true" />
+			<Tool DefaultCharType="0" EnableErrorChecks="1" Name="VCMIDLTool" WarningLevel="0" />
+			<Tool CommandLine="&quot;c:\Windows\system32\xcopy&quot; $(TargetPath) $(SolutionDir)$(ConfigurationName)\ /y /s" Name="VCPostBuildEventTool" />
+			<Tool Name="VCPreBuildEventTool" />
+			<Tool Name="VCPreLinkEventTool" />
+			<Tool Name="VCResourceCompilerTool" PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,TEST_VALIDATE,QT_NO_DEBUG_OUTPUT,NOTIFY_ADDED_DEVICE,REFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED,RETRY_BEFORE_OFFLINE,USE_NETSCAN_HELPER_THREAD,BLOCK_DEVICE,USE_RDP,USE_PUTTY,QT_NO_DEBUG,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,QT_HAVE_MMX,QT_HAVE_3DNOW,QT_HAVE_SSE,QT_HAVE_MMXEXT,QT_HAVE_SSE2,QT_THREAD_SUPPORT" ResourceOutputFileName="/$(InputName).res" />
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx" Name="Source Files" UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File RelativePath="..\..\src\SvtAfpMethod.cpp" />
+			<File RelativePath="..\..\src\SvtControlProxy.cpp" />
+			<File RelativePath="..\..\src\SvtCore.cpp" />
+			<File RelativePath="..\..\src\SvtNetbiosMethod.cpp" />
+			<File RelativePath="..\..\src\netgear_info\SvtNetgearInfo.cpp" />
+			<File RelativePath="..\..\src\SvtNetgearSpecificHelper.cpp" />
+			<File RelativePath="..\..\src\SvtNetgearSpecificMethod.cpp" />
+			<File RelativePath="..\..\src\SvtNetscanMethod.cpp" />
+			<File RelativePath="..\..\src\SvtProgardThread.cpp" />
+			<File RelativePath="..\..\src\SvtPuttyMethod.cpp" />
+			<File RelativePath="..\..\src\SvtQtUtils.cpp" />
+			<File RelativePath="..\..\src\SvtRdpMethod.cpp" />
+			<File RelativePath="..\..\src\SvtRunnables.cpp" />
+			<File RelativePath="..\..\src\SvtSeedFactory.cpp" />
+			<File RelativePath="..\..\src\SvtThreadMother.cpp" />
+			<File RelativePath="..\..\src\SvtUpnpHelper.cpp" />
+			<File RelativePath="..\..\src\SvtUpnpMethod.cpp" />
+		</Filter>
+		<Filter Filter="h;hpp;hxx;hm;inl;inc;xsd" Name="Header Files" UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File RelativePath="..\..\src\SvtAfpMethod.h" />
+			<File RelativePath="..\..\src\SvtAvlTree.h" />
+			<File RelativePath="..\..\src\SvtControlProxy.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\..\src\SvtControlProxy.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\SvtControlProxy.h -o debug\moc_SvtControlProxy.cpp" Description="MOC ..\..\src\SvtControlProxy.h" Name="VCCustomBuildTool" Outputs="debug\moc_SvtControlProxy.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\..\src\SvtControlProxy.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\SvtControlProxy.h -o release\moc_SvtControlProxy.cpp" Description="MOC ..\..\src\SvtControlProxy.h" Name="VCCustomBuildTool" Outputs="release\moc_SvtControlProxy.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\src\SvtCore.h" />
+			<File RelativePath="..\..\src\SvtList.h" />
+			<File RelativePath="..\..\src\SvtNetbiosMethod.h" />
+			<File RelativePath="..\..\src\netgear_info\SvtNetgearInfo.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\..\src\netgear_info\SvtNetgearInfo.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\netgear_info\SvtNetgearInfo.h -o debug\moc_SvtNetgearInfo.cpp" Description="MOC ..\..\src\netgear_info\SvtNetgearInfo.h" Name="VCCustomBuildTool" Outputs="debug\moc_SvtNetgearInfo.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\..\src\netgear_info\SvtNetgearInfo.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\netgear_info\SvtNetgearInfo.h -o release\moc_SvtNetgearInfo.cpp" Description="MOC ..\..\src\netgear_info\SvtNetgearInfo.h" Name="VCCustomBuildTool" Outputs="release\moc_SvtNetgearInfo.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\src\SvtNetgearSpecificHelper.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\..\src\SvtNetgearSpecificHelper.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\SvtNetgearSpecificHelper.h -o debug\moc_SvtNetgearSpecificHelper.cpp" Description="MOC ..\..\src\SvtNetgearSpecificHelper.h" Name="VCCustomBuildTool" Outputs="debug\moc_SvtNetgearSpecificHelper.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\..\src\SvtNetgearSpecificHelper.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\SvtNetgearSpecificHelper.h -o release\moc_SvtNetgearSpecificHelper.cpp" Description="MOC ..\..\src\SvtNetgearSpecificHelper.h" Name="VCCustomBuildTool" Outputs="release\moc_SvtNetgearSpecificHelper.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\src\SvtNetgearSpecificMethod.h" />
+			<File RelativePath="..\..\src\SvtNetscanMethod.h" />
+			<File RelativePath="..\..\src\SvtNetworkTool\SvtNetworkTool.h" />
+			<File RelativePath="..\..\src\SvtProgardThread.h" />
+			<File RelativePath="..\..\src\SvtPuttyMethod.h" />
+			<File RelativePath="..\..\src\SvtQtUtils.h" />
+			<File RelativePath="..\..\src\SvtRdpMethod.h" />
+			<File RelativePath="..\..\src\SvtReferences.h" />
+			<File RelativePath="..\..\src\SvtRunnables.h" />
+			<File RelativePath="..\..\src\SvtSeedFactory.h" />
+			<File RelativePath="..\..\src\SvtThreadMother.h" />
+			<File RelativePath="..\..\src\SvtUpnpHelper.h">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalDependencies="..\..\src\SvtUpnpHelper.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;debug&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\SvtUpnpHelper.h -o debug\moc_SvtUpnpHelper.cpp" Description="MOC ..\..\src\SvtUpnpHelper.h" Name="VCCustomBuildTool" Outputs="debug\moc_SvtUpnpHelper.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalDependencies="..\..\src\SvtUpnpHelper.h;C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe" CommandLine="C:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DTEST_VALIDATE -DQT_NO_DEBUG_OUTPUT -DNOTIFY_ADDED_DEVICE -DREFRESH_ATTACHDEVICE_WHEN_NEW_DEV_DETECTED -DRETRY_BEFORE_OFFLINE -DUSE_NETSCAN_HELPER_THREAD -DBLOCK_DEVICE -DUSE_RDP -DUSE_PUTTY -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_HAVE_MMX -DQT_HAVE_3DNOW -DQT_HAVE_SSE -DQT_HAVE_MMXEXT -DQT_HAVE_SSE2 -DQT_THREAD_SUPPORT -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtCore&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtNetwork&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtGui&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\QtXml&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include&quot; -I&quot;..\..\Tools\SVTWin32Utils&quot; -I&quot;..\..\inc&quot; -I&quot;..\..\src&quot; -I&quot;..\..\src\soap&quot; -I&quot;..\..\src\SvtNetworkTool&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc&quot; -I&quot;..\..\src\SvtNetworkTool\libs\msvc\openssl&quot; -I&quot;c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\include\ActiveQt&quot; -I&quot;release&quot; -Ic:\QtSDK\Desktop\Qt\4.7.4\msvc2008\mkspecs\default -D_MSC_VER=1500 -DWIN32 ..\..\src\SvtUpnpHelper.h -o release\moc_SvtUpnpHelper.cpp" Description="MOC ..\..\src\SvtUpnpHelper.h" Name="VCCustomBuildTool" Outputs="release\moc_SvtUpnpHelper.cpp" Path="c:\QtSDK\Desktop\Qt\4.7.4\msvc2008\bin" />
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\src\SvtUpnpMethod.h" />
+			<File RelativePath="..\..\src\defines.h" />
+			<File RelativePath="..\..\inc\topology.h" />
+		</Filter>
+		<Filter Filter="cpp;c;cxx;moc;h;def;odl;idl;res;" Name="Generated Files" UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File RelativePath="debug\moc_SvtControlProxy.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_SvtControlProxy.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_SvtNetgearInfo.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_SvtNetgearInfo.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_SvtNetgearSpecificHelper.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_SvtNetgearSpecificHelper.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+			<File RelativePath="debug\moc_SvtUpnpHelper.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Release|Win32" />
+			</File>
+			<File RelativePath="release\moc_SvtUpnpHelper.cpp">
+				<FileConfiguration ExcludedFromBuild="true" Name="Debug|Win32" />
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

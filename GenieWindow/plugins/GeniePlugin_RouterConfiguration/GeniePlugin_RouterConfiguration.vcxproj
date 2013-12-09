@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E56D31B-1106-3870-8F97-5FAC0D919473}</ProjectGuid>
+    <RootNamespace>GeniePlugin_RouterConfiguration</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>GeniePlugin_RouterConfiguration</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>..\..\bin\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>GeniePlugin_RouterConfiguration</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GeniePlugin_RouterConfiguration</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GeniePlugin_RouterConfiguration</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\include\genie2_interface";"..\..\include\genie2_netgear";"..\..\include\genie2_routeranim";"..\genie2_qrcode";"ReadyShare";"TrafficMeter";".";"src";"TrafficMeter";"D:\QT5.0\5.0.2\msvc2010\include";"D:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport";"D:\QT5.0\5.0.2\msvc2010\include\QtWidgets";"D:\QT5.0\5.0.2\msvc2010\include\QtUiTools";"D:\QT5.0\5.0.2\msvc2010\include\QtNetwork";"D:\QT5.0\5.0.2\msvc2010\include\QtXml";"D:\QT5.0\5.0.2\msvc2010\include\QtGui";"D:\QT5.0\5.0.2\msvc2010\include\QtCore";"release";D:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;USE_READYSHARE;USE_SUBPLUGINS;USE_TRAFFICMETER;USE_5GFUNC;USE_WIRELESS_PARENT_UI;GENIE2_TRAY;QT_NO_DEBUG;QT_PLUGIN;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;QT_UITOOLS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../../bin\QRCode.lib;../../bin\qrcode.lib;$(QTDIR)\lib\Qt5PrintSupport.lib;$(QTDIR)\lib\Qt5Widgets.lib;$(QTDIR)\lib\Qt5UiTools.lib;D:\QT5.0\5.0.2\msvc2010/lib\Qt5Widgets.lib;D:\QT5.0\5.0.2\msvc2010/lib\Qt5Gui.lib;D:\QT5.0\5.0.2\msvc2010/lib\Qt5Core.lib;$(QTDIR)\lib\Qt5Network.lib;$(QTDIR)\lib\Qt5Xml.lib;$(QTDIR)\lib\Qt5Gui.lib;$(QTDIR)\lib\Qt5Core.lib;libEGL.lib;libGLESv2.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../bin;D:\QT5.0\5.0.2\msvc2010\lib;D:\QT5.0\5.0.2\msvc2010/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\GeniePlugin_RouterConfiguration.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;USE_READYSHARE;USE_SUBPLUGINS;USE_TRAFFICMETER;USE_5GFUNC;USE_WIRELESS_PARENT_UI;GENIE2_TRAY;QT_NO_DEBUG;QT_PLUGIN;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;QT_UITOOLS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>"..\..\include\genie2_interface";"..\..\include\genie2_netgear";"..\..\include\genie2_routeranim";"..\genie2_qrcode";"ReadyShare";"TrafficMeter";".";"src";"TrafficMeter";"D:\QT5.0\5.0.2\msvc2010\include";"D:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport";"D:\QT5.0\5.0.2\msvc2010\include\QtWidgets";"D:\QT5.0\5.0.2\msvc2010\include\QtUiTools";"D:\QT5.0\5.0.2\msvc2010\include\QtNetwork";"D:\QT5.0\5.0.2\msvc2010\include\QtXml";"D:\QT5.0\5.0.2\msvc2010\include\QtGui";"D:\QT5.0\5.0.2\msvc2010\include\QtCore";"debug";D:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;USE_READYSHARE;USE_SUBPLUGINS;USE_TRAFFICMETER;USE_5GFUNC;USE_WIRELESS_PARENT_UI;GENIE2_TRAY;QT_PLUGIN;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;QT_UITOOLS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>../../bin\QRCode.lib;../../bin\qrcode.lib;$(QTDIR)\lib\Qt5PrintSupportd.lib;$(QTDIR)\lib\Qt5Widgetsd.lib;$(QTDIR)\lib\Qt5UiToolsd.lib;D:\QT5.0\5.0.2\msvc2010/lib\Qt5Widgetsd.lib;D:\QT5.0\5.0.2\msvc2010/lib\Qt5Guid.lib;D:\QT5.0\5.0.2\msvc2010/lib\Qt5Cored.lib;$(QTDIR)\lib\Qt5Networkd.lib;$(QTDIR)\lib\Qt5Xmld.lib;$(QTDIR)\lib\Qt5Guid.lib;$(QTDIR)\lib\Qt5Cored.lib;libEGLd.lib;libGLESv2d.lib;gdi32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;../../bin;D:\QT5.0\5.0.2\msvc2010\lib;D:\QT5.0\5.0.2\msvc2010/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\GeniePlugin_RouterConfiguration.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;USE_READYSHARE;USE_SUBPLUGINS;USE_TRAFFICMETER;USE_5GFUNC;USE_WIRELESS_PARENT_UI;GENIE2_TRAY;QT_PLUGIN;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;QT_UITOOLS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_ES_2;QT_OPENGL_ES_2_ANGLE;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Debug\moc_chart.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GenieHttp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_GeniePlugin_RouterConfiguration.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_INetgearInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_pcpform.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieFupdateObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieGaccObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieIface2ShareObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieQRCodeManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRCLackDataGetter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRCTopologyObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRCWirelessObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRSBasic.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRSManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRSPrint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieRSRemote.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieTimelineLocker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QGenieTrafficMeterObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QPiObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_QProgressIndicator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ReadyShare\GenieHttp.cpp" />
+    <ClCompile Include="GeniePlugin_RouterConfiguration.cpp" />
+    <ClCompile Include="..\..\include\genie2_netgear\INetgearInterface.cpp" />
+    <ClCompile Include="Release\moc_chart.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GenieHttp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_GeniePlugin_RouterConfiguration.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_INetgearInterface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_pcpform.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieFupdateObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieGaccObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieIface2ShareObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieQRCodeManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRCLackDataGetter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRCTopologyObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRCWirelessObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRSBasic.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRSManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRSPrint.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieRSRemote.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieTimelineLocker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QGenieTrafficMeterObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QPiObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Release\moc_QProgressIndicator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\QGenieDelayProcessLogic.cpp" />
+    <ClCompile Include="src\QGenieFupdateObject.cpp" />
+    <ClCompile Include="src\QGenieGaccObject.cpp" />
+    <ClCompile Include="..\..\include\genie2_interface\QGenieIface2ShareObject.cpp" />
+    <ClCompile Include="src\QGenieQRCodeManager.cpp" />
+    <ClCompile Include="src\QGenieRCLackDataGetter.cpp" />
+    <ClCompile Include="src\QGenieRCTopologyObject.cpp" />
+    <ClCompile Include="src\QGenieRCWirelessObject.cpp" />
+    <ClCompile Include="ReadyShare\QGenieRSBasic.cpp" />
+    <ClCompile Include="ReadyShare\QGenieRSManager.cpp" />
+    <ClCompile Include="ReadyShare\QGenieRSPrint.cpp" />
+    <ClCompile Include="ReadyShare\QGenieRSRemote.cpp" />
+    <ClCompile Include="src\QGenieTimeGenerator.cpp" />
+    <ClCompile Include="src\QGenieTimelineLocker.cpp" />
+    <ClCompile Include="src\QGenieTopoItems.cpp" />
+    <ClCompile Include="..\..\include\genie2_routeranim\QGenieTopoNodePaintStrategy.cpp" />
+    <ClCompile Include="TrafficMeter\QGenieTrafficMeterObject.cpp" />
+    <ClCompile Include="src\QPiObject.cpp" />
+    <ClCompile Include="src\QProgressIndicator.cpp" />
+    <ClCompile Include="src\QSetTextHelper.cpp" />
+    <ClCompile Include="TrafficMeter\chart.cpp" />
+    <ClCompile Include="ReadyShare\pcpform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ReadyShare\GenieHttp.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing GenieHttp.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing GenieHttp.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="GeniePlugin_RouterConfiguration.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing GeniePlugin_RouterConfiguration.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing GeniePlugin_RouterConfiguration.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IHandlerInf.h" />
+    <CustomBuild Include="..\..\include\genie2_netgear\INetgearInterface.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing INetgearInterface.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing INetgearInterface.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\IPluginInf2.h" />
+    <ClInclude Include="src\QGenieDelayProcessLogic.h" />
+    <CustomBuild Include="src\QGenieFupdateObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieFupdateObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieFupdateObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QGenieGaccObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieGaccObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieGaccObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\genie2_interface\QGenieIface2ShareObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieIface2ShareObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieIface2ShareObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\genie2_qrcode\QGenieQRCode.h" />
+    <CustomBuild Include="src\QGenieQRCodeManager.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieQRCodeManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieQRCodeManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QGenieRCLackDataGetter.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRCLackDataGetter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRCLackDataGetter.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QGenieRCTopologyObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRCTopologyObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRCTopologyObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QGenieRCWirelessObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRCWirelessObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRCWirelessObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="ReadyShare\QGenieRSBasic.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRSBasic.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRSBasic.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="ReadyShare\QGenieRSManager.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRSManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRSManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="ReadyShare\QGenieRSPrint.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRSPrint.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRSPrint.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="ReadyShare\QGenieRSRemote.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieRSRemote.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieRSRemote.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="src\QGenieTimeGenerator.h" />
+    <CustomBuild Include="src\QGenieTimelineLocker.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieTimelineLocker.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieTimelineLocker.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="src\QGenieTopoItems.h" />
+    <ClInclude Include="..\..\include\genie2_routeranim\QGenieTopoNodePaintStrategy.h" />
+    <CustomBuild Include="TrafficMeter\QGenieTrafficMeterObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QGenieTrafficMeterObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QGenieTrafficMeterObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QPiObject.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QPiObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QPiObject.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="src\QProgressIndicator.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing QProgressIndicator.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing QProgressIndicator.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="src\QSetTextHelper.h" />
+    <CustomBuild Include="TrafficMeter\chart.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing chart.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing chart.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\include\genie2_interface\genie2_interface.h" />
+    <ClInclude Include="..\..\include\genie2_interface\genie2_plugincommunication.h" />
+    <ClInclude Include="..\genie2_qrcode\genie2_qrcode.h" />
+    <ClInclude Include="..\..\include\genie2_interface\inner_macros.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_cmds.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_macros.h" />
+    <ClInclude Include="..\..\include\genie2_interface\interface2_settings.h" />
+    <CustomBuild Include="ReadyShare\pcpform.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_NO_DEBUG -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -DNDEBUG -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\release" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing pcpform.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o "$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DUSE_READYSHARE -DUSE_SUBPLUGINS -DUSE_TRAFFICMETER -DUSE_5GFUNC -DUSE_WIRELESS_PARENT_UI -DGENIE2_TRAY -DQT_PLUGIN -DQT_PRINTSUPPORT_LIB -DQT_WIDGETS_LIB -DQT_UITOOLS_LIB -DQT_NETWORK_LIB -DQT_XML_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_OPENGL_ES_2 -DQT_OPENGL_ES_2_ANGLE -D_WINDLL "-I.\..\..\include\genie2_interface" "-I.\..\..\include\genie2_netgear" "-I.\..\..\include\genie2_routeranim" "-I.\..\genie2_qrcode" "-I.\ReadyShare" "-I.\TrafficMeter" "-I." "-I.\src" "-ID:\QT5.0\5.0.2\msvc2010\include" "-ID:\QT5.0\5.0.2\msvc2010\include\QtPrintSupport" "-ID:\QT5.0\5.0.2\msvc2010\include\QtWidgets" "-ID:\QT5.0\5.0.2\msvc2010\include\QtUiTools" "-ID:\QT5.0\5.0.2\msvc2010\include\QtNetwork" "-ID:\QT5.0\5.0.2\msvc2010\include\QtXml" "-ID:\QT5.0\5.0.2\msvc2010\include\QtGui" "-ID:\QT5.0\5.0.2\msvc2010\include\QtCore" "-I.\debug" "-ID:\QT5.0\5.0.2\msvc2010\mkspecs\win32-msvc2010"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing pcpform.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ConfigurationName)\moc_%(Filename).cpp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Qt5Version_x0020_Win32="5.0.2" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

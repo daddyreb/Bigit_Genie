@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/i18n">
+	
+		<file>ara/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>chs/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>csy/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>dan/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>deu/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>ell/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>enu/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>esp/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>fin/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>fra/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>hun/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>ita/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>kor/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>nld/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>nor/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>plk/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>ptb/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>rom/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>rus/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>sky/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>slv/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>sve/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>
+		<file>jpn/{7b399884-b36d-4de8-ac04-19e7452023d8}.txt</file>		
+    </qresource>
+</RCC>
